@@ -24,147 +24,168 @@
    "name": "หอนาฬิกาเฉลิมพระเกียรติฯ เชียงราย",
    "cat": "sights",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/chiang-rai-clock-tower-crcuratedclocktower.html"
   },
   {
    "id": "cr-osm-node-2121910374",
    "name": "น้ำพุร้อนแม่ขะจาน",
    "cat": "sights",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/hot-springs-mae-khachan-2121910374.html"
   },
   {
    "id": "cr-osm-node-2138298548",
    "name": "วัดห้วยส้ม",
    "cat": "wat",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/wat-huai-som-2138298548.html"
   },
   {
    "id": "cr-osm-node-2138306718",
    "name": "วัดป่าตึงงาม",
    "cat": "wat",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/wat-pa-tueng-ngam-2138306718.html"
   },
   {
    "id": "cr-osm-node-2326555960",
    "name": "วัดมุงเมือง",
    "cat": "sights/wat",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/mung-mang-temple-ruin-2326555960.html"
   },
   {
    "id": "cr-osm-node-8946977368",
    "name": "พาเวอร์บาย",
    "cat": "repair",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/power-buy-8946977368.html"
   },
   {
    "id": "cr-osm-way-1110659333",
    "name": "เซ็นทรัล เชียงราย",
    "cat": "shopping",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/central-chiang-rai-1110659333.html"
   },
   {
    "id": "cr-osm-way-387050901",
    "name": "ตลาดสดเทศบาล ๑",
    "cat": "market",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/municipal-market-1-387050901.html"
   },
   {
    "id": "cr-osm-way-387050904",
    "name": "วัดมิ่งเมือง",
    "cat": "wat",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/wat-ming-mueang-387050904.html"
   },
   {
    "id": "cr-osm-way-959733189",
    "name": "Knifeshift",
    "cat": "food",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/knifeshift-959733189.html"
   },
   {
    "id": "cr-osm-way-960935005",
    "name": "ข้าวมันไก่จักรพรรดิ",
    "cat": "food",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/chakrapad-chicken-rice-960935005.html"
   },
   {
    "id": "cr-osm-way-961802267",
    "name": "Nari Cafe",
    "cat": "food",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/nari-cafe-961802267.html"
   },
   {
    "id": "cr-osm-way-963169294",
    "name": "Fika",
    "cat": "food",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/fika-963169294.html"
   },
   {
    "id": "cr-ovt-280972ac-dd2d-4502-8d44-32a66ade7496",
    "name": "วัดศรีมิ่งแก้ว",
    "cat": "wat",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/2809722450284432667496.html"
   },
   {
    "id": "cr-ovt-2efa3b17-1cd3-4e3d-8cd1-a75b739d75d2",
    "name": "OWNDAYS Central Chiangrai",
    "cat": "repair",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/owndays-central-chiangrai-231713438175739752.html"
   },
   {
    "id": "cr-ovt-41497dbf-9092-4edf-afd0-d4c50cfb170b",
    "name": "วัดเหมืองลึก",
    "cat": "community",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/41497909240450170.html"
   },
   {
    "id": "cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7",
    "name": "วัดแสงแก้วโพธิญาณ",
    "cat": "wat",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/54830287404375987716339417.html"
   },
   {
    "id": "cr-ovt-61844bd4-68dd-46eb-b591-df0ef460e215",
    "name": "Oriental Jewelry & Gold",
    "cat": "shopping",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/oriental-jewelry-gold-61844468465910460215.html"
   },
   {
    "id": "cr-ovt-79d9e14e-cb34-42a2-a007-15578dc4f05b",
    "name": "Antiques Cafe",
    "cat": "food",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/antiques-cafe-799143442200715578405.html"
   },
   {
    "id": "cr-ovt-bb0d8000-ffa3-49d4-a1dc-9cad9b2212d0",
    "name": "รัตนาสังฆภัณฑ์",
    "cat": "business",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/08000349419922120.html"
   },
   {
    "id": "cr-ovt-f01f1079-a2bb-466d-9a87-a54f7897f545",
    "name": "ร้านศิริวัฒนา",
    "cat": "shopping",
    "read": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/0110792466987547897545.html"
   }
  ],
  "new": [
@@ -182,7 +203,8 @@
    "lat": 19.9093,
    "lng": 99.8292,
    "phone": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/crcuratedphriao.html"
   },
   {
    "id": "cr-curated-ran-phronni-kaisot",
@@ -197,7 +219,8 @@
    "lat": 19.9093,
    "lng": 99.8292,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/crcuratedranphronnikaisot.html"
   },
   {
    "id": "cr-curated-wai-wan-yunipom",
@@ -212,7 +235,8 @@
    "lat": 19.9093,
    "lng": 99.8292,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/crcuratedwaiwanyunipom.html"
   },
   {
    "id": "cr-curated-ran-suea-suai",
@@ -227,7 +251,8 @@
    "lat": 19.9093,
    "lng": 99.8292,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/crcuratedransueasuai.html"
   },
   {
    "id": "cr-curated-trairat-thantaphaet",
@@ -242,7 +267,8 @@
    "lat": 19.9093,
    "lng": 99.8292,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/crcuratedtrairatthantaphaet.html"
   },
   {
    "id": "cr-curated-clinic-thantakrarom-urai-wan-thantaphaet",
@@ -257,7 +283,8 @@
    "lat": 19.9093,
    "lng": 99.8292,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/crcuratedclinicthantakraromuraiwanthantaphaet.html"
   },
   {
    "id": "cr-curated-faechan-faep-rik",
@@ -272,7 +299,8 @@
    "lat": 19.9093,
    "lng": 99.8292,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/crcuratedfaechanfaeprik.html"
   },
   {
    "id": "cr-curated-laksami",
@@ -287,7 +315,8 @@
    "lat": 19.9093,
    "lng": 99.8292,
    "phone": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/crcuratedlaksami.html"
   },
   {
    "id": "cr-curated-hangthong-yaowarat-khatnga",
@@ -302,7 +331,8 @@
    "lat": 19.9093,
    "lng": 99.8292,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/crcuratedhangthongyaowaratkhatnga.html"
   },
   {
    "id": "cr-curated-hot-spring-halal-food",
@@ -317,7 +347,8 @@
    "lat": 19.115,
    "lng": 99.462,
    "phone": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/hot-spring-halal-food-crcuratedhotspringhalalfood.html"
   },
   {
    "id": "cr-curated-ku-phai-saeng-kaew-phothiyan",
@@ -332,7 +363,8 @@
    "lat": 19.6028470993042,
    "lng": 99.52671813964844,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/crcuratedkuphaisaengkaewphothiyan.html"
   },
   {
    "id": "cr-curated-moshi-moshi-central-chiangrai",
@@ -347,7 +379,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/moshi-moshi-crcuratedmoshimoshicentralchiangrai.html"
   },
   {
    "id": "cr-curated-amaze-central-chiangrai",
@@ -362,7 +395,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/amaze-crcuratedamazecentralchiangrai.html"
   },
   {
    "id": "cr-curated-supersports-central-chiangrai",
@@ -377,7 +411,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/supersports-crcuratedsupersportscentralchiangrai.html"
   },
   {
    "id": "cr-curated-skechers-central-chiangrai",
@@ -392,7 +427,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/skechers-crcuratedskecherscentralchiangrai.html"
   },
   {
    "id": "cr-curated-fotobooth-central-chiangrai",
@@ -407,7 +443,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/fotobooth-crcuratedfotoboothcentralchiangrai.html"
   },
   {
    "id": "cr-curated-crocs-central-chiangrai",
@@ -422,7 +459,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/crocs-crcuratedcrocscentralchiangrai.html"
   },
   {
    "id": "cr-curated-chob-cha-central-chiangrai",
@@ -437,7 +475,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/chob-cha-crcuratedchobchacentralchiangrai.html"
   },
   {
    "id": "cr-curated-verra-central-chiangrai",
@@ -452,7 +491,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/verra-crcuratedverracentralchiangrai.html"
   },
   {
    "id": "cr-curated-daiso-central-chiangrai",
@@ -467,7 +507,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/daiso-crcurateddaisocentralchiangrai.html"
   },
   {
    "id": "cr-curated-mister-donut-central-chiangrai",
@@ -482,7 +523,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/mister-donut-crcuratedmisterdonutcentralchiangrai.html"
   },
   {
    "id": "cr-curated-auntie-annes-central-chiangrai",
@@ -497,7 +539,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/auntie-anne-s-crcuratedauntieannescentralchiangrai.html"
   },
   {
    "id": "cr-curated-sabina-central-chiangrai",
@@ -512,7 +555,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/sabina-crcuratedsabinacentralchiangrai.html"
   },
   {
    "id": "cr-curated-giordano-central-chiangrai",
@@ -527,7 +571,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/giordano-crcuratedgiordanocentralchiangrai.html"
   },
   {
    "id": "cr-curated-de-beers-forevermark-central-chiangrai",
@@ -542,7 +587,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/de-beers-forevermark-crcurateddebeersforevermarkcentralchiangrai.html"
   },
   {
    "id": "cr-curated-dilavie-central-chiangrai",
@@ -557,7 +603,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/dilavie-crcurateddilaviecentralchiangrai.html"
   },
   {
    "id": "cr-curated-anello-central-chiangrai",
@@ -572,7 +619,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/anello-crcuratedanellocentralchiangrai.html"
   },
   {
    "id": "cr-curated-istudio-central-chiangrai",
@@ -587,7 +635,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/istudio-crcuratedistudiocentralchiangrai.html"
   },
   {
    "id": "cr-curated-it-city-central-chiangrai",
@@ -602,7 +651,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/it-city-crcurateditcitycentralchiangrai.html"
   },
   {
    "id": "cr-curated-lemony-central-chiangrai",
@@ -617,7 +667,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/lemony-crcuratedlemonycentralchiangrai.html"
   },
   {
    "id": "cr-curated-officemate-central-chiangrai",
@@ -632,7 +683,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/officemate-crcuratedofficematecentralchiangrai.html"
   },
   {
    "id": "cr-curated-tokuyo-central-chiangrai",
@@ -647,7 +699,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/tokuyo-crcuratedtokuyocentralchiangrai.html"
   },
   {
    "id": "cr-curated-honor-central-chiangrai",
@@ -662,7 +715,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/honor-crcuratedhonorcentralchiangrai.html"
   },
   {
    "id": "cr-curated-talia-central-chiangrai",
@@ -677,7 +731,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": true
+   "photo": true,
+   "url": "cr/p/talia-crcuratedtaliacentralchiangrai.html"
   },
   {
    "id": "cr-curated-urthe-central-chiangrai",
@@ -692,7 +747,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/urthe-crcuratedurthecentralchiangrai.html"
   },
   {
    "id": "cr-curated-the-face-shop-central-chiangrai",
@@ -707,7 +763,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/the-face-shop-crcuratedthefaceshopcentralchiangrai.html"
   },
   {
    "id": "cr-curated-cute-press-central-chiangrai",
@@ -722,7 +779,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/cute-press-crcuratedcutepresscentralchiangrai.html"
   },
   {
    "id": "cr-curated-dtac-hall-central-chiangrai",
@@ -737,7 +795,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/dtac-hall-crcurateddtachallcentralchiangrai.html"
   },
   {
    "id": "cr-curated-bonchon-central-chiangrai",
@@ -752,7 +811,8 @@
    "lat": 19.886284,
    "lng": 99.8330265,
    "phone": "",
-   "photo": false
+   "photo": false,
+   "url": "cr/p/bonchon-crcuratedbonchoncentralchiangrai.html"
   }
  ],
  "photos": [
@@ -775,7 +835,8 @@
    "height": 825,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-curated-clock-tower.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-curated-clock-tower.jpg",
+   "url": "cr/p/chiang-rai-clock-tower-crcuratedclocktower.html"
   },
   {
    "slug": "field-20260918-gs010199-t0056-v-45",
@@ -797,7 +858,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gs010199-t0056-v-45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gs010199-t0056-v-45.jpg",
+   "url": "cr/p/chiang-rai-clock-tower-crcuratedclocktower.html"
   },
   {
    "slug": "field-20260918-gs010199-t0046-v-135",
@@ -818,7 +880,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gs010199-t0046-v-135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gs010199-t0046-v-135.jpg",
+   "url": "cr/p/chiang-rai-clock-tower-crcuratedclocktower.html"
   },
   {
    "slug": "field-20260918-gs010199-t0008-v-45",
@@ -839,7 +902,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gs010199-t0008-v-45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gs010199-t0008-v-45.jpg",
+   "url": "cr/p/chiang-rai-clock-tower-crcuratedclocktower.html"
   },
   {
    "slug": "field-20260918-gs010199-t0080-v135",
@@ -859,7 +923,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gs010199-t0080-v135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gs010199-t0080-v135.jpg",
+   "url": "cr/p/chiang-rai-clock-tower-crcuratedclocktower.html"
   },
   {
    "slug": "field-20260918-cr-osm-node-2326555960",
@@ -880,7 +945,8 @@
    "height": 825,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-osm-node-2326555960.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-osm-node-2326555960.jpg",
+   "url": "cr/p/mung-mang-temple-ruin-2326555960.html"
   },
   {
    "slug": "field-20260918-gs010460-t0110-v-45",
@@ -901,7 +967,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gs010460-t0110-v-45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gs010460-t0110-v-45.jpg",
+   "url": "cr/p/mung-mang-temple-ruin-2326555960.html"
   },
   {
    "slug": "field-20260918-gs010460-t0026-v45",
@@ -923,7 +990,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gs010460-t0026-v45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gs010460-t0026-v45.jpg",
+   "url": "cr/p/mung-mang-temple-ruin-2326555960.html"
   },
   {
    "slug": "field-20260918-cr-osm-way-387050901",
@@ -945,7 +1013,8 @@
    "height": 825,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-osm-way-387050901.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-osm-way-387050901.jpg",
+   "url": "cr/p/municipal-market-1-387050901.html"
   },
   {
    "slug": "field-20260918-gsaj0581-034-v-135",
@@ -966,7 +1035,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsaj0581-034-v-135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsaj0581-034-v-135.jpg",
+   "url": "cr/p/municipal-market-1-387050901.html"
   },
   {
    "slug": "field-20260918-gsaj0581-082-v135",
@@ -987,7 +1057,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsaj0581-082-v135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsaj0581-082-v135.jpg",
+   "url": "cr/p/municipal-market-1-387050901.html"
   },
   {
    "slug": "field-20260918-gsaj0581-088-v-135",
@@ -1009,7 +1080,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsaj0581-088-v-135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsaj0581-088-v-135.jpg",
+   "url": "cr/p/municipal-market-1-387050901.html"
   },
   {
    "slug": "field-20260918-gsaj0581-106-v45",
@@ -1030,7 +1102,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsaj0581-106-v45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsaj0581-106-v45.jpg",
+   "url": "cr/p/municipal-market-1-387050901.html"
   },
   {
    "slug": "field-20260918-gsak0740-040-v135",
@@ -1053,7 +1126,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsak0740-040-v135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsak0740-040-v135.jpg",
+   "url": "cr/p/wat-ming-mueang-387050904.html"
   },
   {
    "slug": "field-20260918-gsak0740-052-v-45",
@@ -1076,7 +1150,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsak0740-052-v-45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsak0740-052-v-45.jpg",
+   "url": "cr/p/wat-ming-mueang-387050904.html"
   },
   {
    "slug": "field-20260918-cr-ovt-280972ac-dd2d-4502-8d44-32a66ade7496",
@@ -1098,7 +1173,8 @@
    "height": 825,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-ovt-280972ac-dd2d-4502-8d44-32a66ade7496.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-ovt-280972ac-dd2d-4502-8d44-32a66ade7496.jpg",
+   "url": "cr/p/2809722450284432667496.html"
   },
   {
    "slug": "field-20260918-gsal0840-028-v-135",
@@ -1120,7 +1196,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsal0840-028-v-135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsal0840-028-v-135.jpg",
+   "url": "cr/p/2809722450284432667496.html"
   },
   {
    "slug": "field-20260918-gsal0840-031-v-135",
@@ -1142,7 +1219,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsal0840-031-v-135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsal0840-031-v-135.jpg",
+   "url": "cr/p/2809722450284432667496.html"
   },
   {
    "slug": "field-20260918-cr-ovt-41497dbf-9092-4edf-afd0-d4c50cfb170b",
@@ -1164,7 +1242,8 @@
    "height": 825,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-ovt-41497dbf-9092-4edf-afd0-d4c50cfb170b.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-ovt-41497dbf-9092-4edf-afd0-d4c50cfb170b.jpg",
+   "url": "cr/p/41497909240450170.html"
   },
   {
    "slug": "field-20260918-gsam0929-061-v-135",
@@ -1186,7 +1265,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsam0929-061-v-135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsam0929-061-v-135.jpg",
+   "url": "cr/p/41497909240450170.html"
   },
   {
    "slug": "field-20260918-gsam0929-064-v-135",
@@ -1207,7 +1287,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsam0929-064-v-135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsam0929-064-v-135.jpg",
+   "url": "cr/p/41497909240450170.html"
   },
   {
    "slug": "field-20260918-cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7",
@@ -1229,7 +1310,8 @@
    "height": 825,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7.jpg",
+   "url": "cr/p/54830287404375987716339417.html"
   },
   {
    "slug": "field-20260918-gsan1070-352-v-45",
@@ -1251,7 +1333,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsan1070-352-v-45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsan1070-352-v-45.jpg",
+   "url": "cr/p/54830287404375987716339417.html"
   },
   {
    "slug": "field-20260918-gsan1070-412-v45",
@@ -1272,7 +1355,8 @@
    "height": 925,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsan1070-412-v45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsan1070-412-v45.jpg",
+   "url": "cr/p/54830287404375987716339417.html"
   },
   {
    "slug": "field-20260918-gsan1070-466-v-45",
@@ -1294,7 +1378,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsan1070-466-v-45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsan1070-466-v-45.jpg",
+   "url": "cr/p/54830287404375987716339417.html"
   },
   {
    "slug": "field-20260918-gsap1668-097-v45",
@@ -1316,7 +1401,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsap1668-097-v45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsap1668-097-v45.jpg",
+   "url": "cr/p/54830287404375987716339417.html"
   },
   {
    "slug": "field-20260918-gsap1668-007-v-135",
@@ -1338,7 +1424,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsap1668-007-v-135.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsap1668-007-v-135.jpg",
+   "url": "cr/p/54830287404375987716339417.html"
   },
   {
    "slug": "field-20260918-cr-osm-node-2138306718",
@@ -1360,7 +1447,8 @@
    "height": 825,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-osm-node-2138306718.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-osm-node-2138306718.jpg",
+   "url": "cr/p/wat-pa-tueng-ngam-2138306718.html"
   },
   {
    "slug": "field-20260918-gsaq1783-014-v45",
@@ -1381,7 +1469,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsaq1783-014-v45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsaq1783-014-v45.jpg",
+   "url": "cr/p/wat-pa-tueng-ngam-2138306718.html"
   },
   {
    "slug": "field-20260918-gsaq1783-090-v-45",
@@ -1402,7 +1491,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsaq1783-090-v-45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsaq1783-090-v-45.jpg",
+   "url": "cr/p/wat-pa-tueng-ngam-2138306718.html"
   },
   {
    "slug": "field-20260918-cr-osm-node-2138298548",
@@ -1423,7 +1513,8 @@
    "height": 825,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-osm-node-2138298548.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-osm-node-2138298548.jpg",
+   "url": "cr/p/wat-huai-som-2138298548.html"
   },
   {
    "slug": "field-20260918-gsar1884-025-v-45",
@@ -1445,7 +1536,8 @@
    "height": 942,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-gsar1884-025-v-45.jpg"
+   "file": "photos/2026-09-18/field-20260918-gsar1884-025-v-45.jpg",
+   "url": "cr/p/wat-huai-som-2138298548.html"
   },
   {
    "slug": "field-20260917-cr-osm-node-2121910374",
@@ -1467,7 +1559,8 @@
    "height": 825,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-osm-node-2121910374.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-osm-node-2121910374.jpg",
+   "url": "cr/p/hot-springs-mae-khachan-2121910374.html"
   },
   {
    "slug": "field-20260917-gs010006-t0032-v135",
@@ -1489,7 +1582,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-gs010006-t0032-v135.jpg"
+   "file": "photos/2026-09-18/field-20260917-gs010006-t0032-v135.jpg",
+   "url": "cr/p/hot-springs-mae-khachan-2121910374.html"
   },
   {
    "slug": "field-20260917-gs010006-t0034-v135",
@@ -1511,7 +1605,8 @@
    "height": 962,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-gs010006-t0034-v135.jpg"
+   "file": "photos/2026-09-18/field-20260917-gs010006-t0034-v135.jpg",
+   "url": "cr/p/hot-springs-mae-khachan-2121910374.html"
   },
   {
    "slug": "field-20260917-gs010009-t0088-v135",
@@ -1634,7 +1729,8 @@
    "height": 1002,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-osm-way-1110659333.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-osm-way-1110659333.jpg",
+   "url": "cr/p/central-chiang-rai-1110659333.html"
   },
   {
    "slug": "field-20260917-gs010011-t0024-s0f1",
@@ -1654,7 +1750,8 @@
    "height": 960,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-gs010011-t0024-s0f1.jpg"
+   "file": "photos/2026-09-18/field-20260917-gs010011-t0024-s0f1.jpg",
+   "url": "cr/p/central-chiang-rai-1110659333.html"
   },
   {
    "slug": "field-20260917-gs010010-t0124-s0f1",
@@ -1674,7 +1771,8 @@
    "height": 897,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-gs010010-t0124-s0f1.jpg"
+   "file": "photos/2026-09-18/field-20260917-gs010010-t0124-s0f1.jpg",
+   "url": "cr/p/central-chiang-rai-1110659333.html"
   },
   {
    "slug": "field-20260918-cr-osm-way-961802267",
@@ -1694,7 +1792,8 @@
    "height": 1100,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-osm-way-961802267.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-osm-way-961802267.jpg",
+   "url": "cr/p/nari-cafe-961802267.html"
   },
   {
    "slug": "field-20260918-cr-osm-way-960935005",
@@ -1714,7 +1813,8 @@
    "height": 1100,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-osm-way-960935005.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-osm-way-960935005.jpg",
+   "url": "cr/p/chakrapad-chicken-rice-960935005.html"
   },
   {
    "slug": "field-20260918-cr-osm-way-959733189",
@@ -1734,7 +1834,8 @@
    "height": 1100,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-osm-way-959733189.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-osm-way-959733189.jpg",
+   "url": "cr/p/knifeshift-959733189.html"
   },
   {
    "slug": "field-20260918-cr-osm-way-963169294",
@@ -1754,7 +1855,8 @@
    "height": 1100,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-osm-way-963169294.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-osm-way-963169294.jpg",
+   "url": "cr/p/fika-963169294.html"
   },
   {
    "slug": "field-20260918-cr-ovt-f01f1079-a2bb-466d-9a87-a54f7897f545",
@@ -1774,7 +1876,8 @@
    "height": 980,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-ovt-f01f1079-a2bb-466d-9a87-a54f7897f545.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-ovt-f01f1079-a2bb-466d-9a87-a54f7897f545.jpg",
+   "url": "cr/p/0110792466987547897545.html"
   },
   {
    "slug": "field-20260918-cr-ovt-bb0d8000-ffa3-49d4-a1dc-9cad9b2212d0",
@@ -1794,7 +1897,8 @@
    "height": 1026,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-ovt-bb0d8000-ffa3-49d4-a1dc-9cad9b2212d0.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-ovt-bb0d8000-ffa3-49d4-a1dc-9cad9b2212d0.jpg",
+   "url": "cr/p/08000349419922120.html"
   },
   {
    "slug": "field-20260917-cr-ovt-79d9e14e-cb34-42a2-a007-15578dc4f05b",
@@ -1814,7 +1918,8 @@
    "height": 1100,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-ovt-79d9e14e-cb34-42a2-a007-15578dc4f05b.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-ovt-79d9e14e-cb34-42a2-a007-15578dc4f05b.jpg",
+   "url": "cr/p/antiques-cafe-799143442200715578405.html"
   },
   {
    "slug": "field-20260917-cr-ovt-61844bd4-68dd-46eb-b591-df0ef460e215",
@@ -1834,7 +1939,8 @@
    "height": 960,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-ovt-61844bd4-68dd-46eb-b591-df0ef460e215.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-ovt-61844bd4-68dd-46eb-b591-df0ef460e215.jpg",
+   "url": "cr/p/oriental-jewelry-gold-61844468465910460215.html"
   },
   {
    "slug": "field-20260917-cr-ovt-2efa3b17-1cd3-4e3d-8cd1-a75b739d75d2",
@@ -1854,7 +1960,8 @@
    "height": 960,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-ovt-2efa3b17-1cd3-4e3d-8cd1-a75b739d75d2.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-ovt-2efa3b17-1cd3-4e3d-8cd1-a75b739d75d2.jpg",
+   "url": "cr/p/owndays-central-chiangrai-231713438175739752.html"
   },
   {
    "slug": "field-20260917-cr-osm-node-8946977368",
@@ -1874,7 +1981,8 @@
    "height": 876,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-osm-node-8946977368.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-osm-node-8946977368.jpg",
+   "url": "cr/p/power-buy-8946977368.html"
   },
   {
    "slug": "field-20260918-cr-curated-phriao",
@@ -1894,7 +2002,8 @@
    "height": 1100,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-curated-phriao.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-curated-phriao.jpg",
+   "url": "cr/p/crcuratedphriao.html"
   },
   {
    "slug": "field-20260918-cr-curated-laksami",
@@ -1914,7 +2023,8 @@
    "height": 1007,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-cr-curated-laksami.jpg"
+   "file": "photos/2026-09-18/field-20260918-cr-curated-laksami.jpg",
+   "url": "cr/p/crcuratedlaksami.html"
   },
   {
    "slug": "field-20260917-cr-curated-hot-spring-halal-food",
@@ -1934,7 +2044,8 @@
    "height": 1100,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-curated-hot-spring-halal-food.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-curated-hot-spring-halal-food.jpg",
+   "url": "cr/p/hot-spring-halal-food-crcuratedhotspringhalalfood.html"
   },
   {
    "slug": "field-20260917-cr-curated-amaze-central-chiangrai",
@@ -1954,7 +2065,8 @@
    "height": 888,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-curated-amaze-central-chiangrai.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-curated-amaze-central-chiangrai.jpg",
+   "url": "cr/p/amaze-crcuratedamazecentralchiangrai.html"
   },
   {
    "slug": "field-20260917-cr-curated-skechers-central-chiangrai",
@@ -1974,7 +2086,8 @@
    "height": 897,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-curated-skechers-central-chiangrai.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-curated-skechers-central-chiangrai.jpg",
+   "url": "cr/p/skechers-crcuratedskecherscentralchiangrai.html"
   },
   {
    "slug": "field-20260917-cr-curated-chob-cha-central-chiangrai",
@@ -1994,7 +2107,8 @@
    "height": 960,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-curated-chob-cha-central-chiangrai.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-curated-chob-cha-central-chiangrai.jpg",
+   "url": "cr/p/chob-cha-crcuratedchobchacentralchiangrai.html"
   },
   {
    "slug": "field-20260917-cr-curated-auntie-annes-central-chiangrai",
@@ -2014,7 +2128,8 @@
    "height": 960,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-curated-auntie-annes-central-chiangrai.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-curated-auntie-annes-central-chiangrai.jpg",
+   "url": "cr/p/auntie-anne-s-crcuratedauntieannescentralchiangrai.html"
   },
   {
    "slug": "field-20260917-cr-curated-lemony-central-chiangrai",
@@ -2034,7 +2149,8 @@
    "height": 926,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-curated-lemony-central-chiangrai.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-curated-lemony-central-chiangrai.jpg",
+   "url": "cr/p/lemony-crcuratedlemonycentralchiangrai.html"
   },
   {
    "slug": "field-20260917-cr-curated-officemate-central-chiangrai",
@@ -2054,7 +2170,8 @@
    "height": 960,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-curated-officemate-central-chiangrai.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-curated-officemate-central-chiangrai.jpg",
+   "url": "cr/p/officemate-crcuratedofficematecentralchiangrai.html"
   },
   {
    "slug": "field-20260917-cr-curated-talia-central-chiangrai",
@@ -2074,7 +2191,8 @@
    "height": 870,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260917-cr-curated-talia-central-chiangrai.jpg"
+   "file": "photos/2026-09-18/field-20260917-cr-curated-talia-central-chiangrai.jpg",
+   "url": "cr/p/talia-crcuratedtaliacentralchiangrai.html"
   },
   {
    "slug": "field-20260918-market-10",
@@ -2095,7 +2213,8 @@
    "height": 1100,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-market-10.jpg"
+   "file": "photos/2026-09-18/field-20260918-market-10.jpg",
+   "url": "cr/p/municipal-market-1-387050901.html"
   },
   {
    "slug": "field-20260918-market-12",
@@ -2116,7 +2235,8 @@
    "height": 1029,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-market-12.jpg"
+   "file": "photos/2026-09-18/field-20260918-market-12.jpg",
+   "url": "cr/p/municipal-market-1-387050901.html"
   },
   {
    "slug": "field-20260918-market-13",
@@ -2137,7 +2257,8 @@
    "height": 1100,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-market-13.jpg"
+   "file": "photos/2026-09-18/field-20260918-market-13.jpg",
+   "url": "cr/p/municipal-market-1-387050901.html"
   },
   {
    "slug": "field-20260918-market-16",
@@ -2158,7 +2279,8 @@
    "height": 1019,
    "licence": "CC BY 4.0",
    "artist": "NaN Peacock",
-   "file": "photos/2026-09-18/field-20260918-market-16.jpg"
+   "file": "photos/2026-09-18/field-20260918-market-16.jpg",
+   "url": "cr/p/municipal-market-1-387050901.html"
   }
  ],
  "track": null,

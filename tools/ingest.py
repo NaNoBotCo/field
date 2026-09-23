@@ -11,7 +11,8 @@ Writes data/sessions/<date>.json, data/tracks/<date>.geojson and copies the sess
 published photographs into photos/<date>/. The two ends of a track are trimmed because a
 ride starts and ends somewhere personal.
 """
-import argparse, csv, json, math, os, shutil
+import argparse, csv, json, math, os, shutil, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -95,6 +96,13 @@ def main():
         prev = json.loads(old.read_text())
         for k in ("title", "title_th", "line", "line_th", "hero", "example", "pin_fixes", "where", "where_th"):
             if k in prev: sess[k] = prev[k]
+    import motdang_urls  # each place's page, by Mot Dang's own slug rule
+    m = motdang_urls.urls(MOTDANG, [r["id"] for r in sess["new"] + sess["confirmed"]]
+                          + [p["placeId"] for p in sess["photos"] if p.get("placeId")]
+                          + [x["id"] for x in sess.get("pin_fixes", [])])
+    for r in sess["new"] + sess["confirmed"] + sess.get("pin_fixes", []): r["url"] = m.get(r["id"])
+    for p in sess["photos"]:
+        if p.get("placeId"): p["url"] = m.get(p["placeId"])
     old.write_text(json.dumps(sess, ensure_ascii=False, indent=1) + "\n")
     print(a.date, sess["counts"])
 
