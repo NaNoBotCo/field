@@ -56,8 +56,9 @@ def n(x) -> str:
     return f"{x:,}" if isinstance(x, int) else str(x)
 
 
-def place_url(pid: str) -> str:
-    return f"{MOTDANG}/{pid.split('-', 1)[0]}/p/{pid}.html"
+def place_url(url: str | None) -> str:
+    """A place's page on Mot Dang, as stored by tools/motdang_urls.py (its own slug rule)."""
+    return f"{MOTDANG}/{url}" if url else f"{MOTDANG}/"
 
 
 def fmt_date(d: str, lang: str) -> str:
@@ -179,7 +180,7 @@ def route_svg(sess: dict, up: str) -> str:
     dots = []
     for i, (lo, la, r) in enumerate(new):
         x, y = P(lo, la)
-        dots.append(f'<a href="{e(place_url(r["id"]))}"><circle class="dot new" cx="{x:.1f}" cy="{y:.1f}" r="6" style="--i:{i}">'
+        dots.append(f'<a href="{e(place_url(r.get("url")))}"><circle class="dot new" cx="{x:.1f}" cy="{y:.1f}" r="6" style="--i:{i}">'
                     f'<title>{e(r["name"])} — {e(r["kind"])}</title></circle></a>')
     mx, my = P(*LAND["centre"][::-1])
     # a 1 km bar
@@ -223,10 +224,10 @@ def example(sess: dict, up: str) -> str:
          "Cut again into 16 tiles a frame so the reader sees signs at full resolution — the red box is where it found text"),
         (x["crop"], "fit", f'เครื่องอ่านได้ <span class="read">{e(x["read"])}</span> ไม่ตรงกับร้านไหนในมดแดง คนอ่านซ้ำจากภาพ',
          f'The machine read <span class="read">{e(x["read"])}</span>, matched nothing in Mot Dang, and a person read the crop again'),
-        (x["photo"], "", f'<a href="{e(place_url(x["id"]))}">{e(x["name"])}</a> อยู่ในมดแดงแล้ว พร้อมหมุดและรูปนี้ — '
-                         f'ร้าน<a href="{e(place_url(x["also_id"]))}">{e(x["also"])}</a> ข้าง ๆ ก็มาจากเฟรมเดียวกัน',
-         f'<a href="{e(place_url(x["id"]))}">{e(x["name"])}</a> is on Mot Dang now, with a pin and this photo — and '
-         f'<a href="{e(place_url(x["also_id"]))}">{e(x["also"])}</a>, the coffin shop next door, came from the same frame'),
+        (x["photo"], "", f'<a href="{e(place_url(x.get("url")))}">{e(x["name"])}</a> อยู่ในมดแดงแล้ว พร้อมหมุดและรูปนี้ — '
+                         f'ร้าน<a href="{e(place_url(x.get("also_url")))}">{e(x["also"])}</a> ข้าง ๆ ก็มาจากเฟรมเดียวกัน',
+         f'<a href="{e(place_url(x.get("url")))}">{e(x["name"])}</a> is on Mot Dang now, with a pin and this photo — and '
+         f'<a href="{e(place_url(x.get("also_url")))}">{e(x["also"])}</a>, the coffin shop next door, came from the same frame'),
     ]
     cards = []
     for i, (img, cls, th, en) in enumerate(steps, 1):
@@ -245,12 +246,12 @@ def new_places(sess: dict, up: str) -> str:
     for r in sorted(sess["new"], key=lambda r: (r["id"] not in pic, r["name"])):
         img = f"{up}{pic[r['id']]}" if r["id"] in pic else ""
         sub = t(e(r.get("kindTh") or r["kind"]), e(r["kind"]))
-        cards.append(shot(place_url(r["id"]), img, e(r["name"]), sub, credit=False))
+        cards.append(shot(place_url(r.get("url")), img, e(r["name"]), sub, credit=False))
     return f'<div class="cards">{"".join(cards)}</div>'
 
 
 def confirmed(sess: dict) -> str:
-    chips = [f'<a class="{"has" if r["photo"] else ""}" href="{e(place_url(r["id"]))}" title="{e(r["read"])}">{e(r["name"])}</a>'
+    chips = [f'<a class="{"has" if r["photo"] else ""}" href="{e(place_url(r.get("url")))}" title="{e(r["read"])}">{e(r["name"])}</a>'
              for r in sorted(sess["confirmed"], key=lambda r: r["name"])]
     return f'<div class="chips">{"".join(chips)}</div>'
 
@@ -277,7 +278,7 @@ def session_body(sess: dict, up: str, hero_h: str, with_hero: bool = True) -> st
     fixes = ""
     for f in sess.get("pin_fixes", []):
         m = n(f["moved_m"])
-        fixes += (f'<p class="fix"><a href="{e(place_url(f["id"]))}">{e(f["name"])}</a> — '
+        fixes += (f'<p class="fix"><a href="{e(place_url(f.get("url")))}">{e(f["name"])}</a> — '
                   + t(e(f["why_th"]) + " (" + m + " ม.)", e(f["why"]) + " (" + m + " m)") + "</p>")
     band2 = [p for p in sess["photos"] if "wat" in (p.get("topic") or []) and not p.get("placeId")]
     band3 = [p for p in sess["photos"] if "transport" in (p.get("topic") or []) and not p.get("placeId")]
@@ -361,7 +362,7 @@ def build_photos() -> str:
     figs = []
     for s in SESSIONS:
         for p in s["photos"]:
-            href = place_url(p["placeId"]) if p.get("placeId") else f"{up}{p['file']}"
+            href = place_url(p.get("url")) if p.get("url") else f"{up}{p['file']}"
             cap = t(e(p.get("description_th") or p["title"]), e(p.get("description") or p["title"]))
             figs.append(f'<figure data-rise><a href="{e(href)}"><img src="{up}{e(p["file"])}" alt="{e(p.get("description") or p["title"])}" '
                         f'width="{p.get("width") or 1200}" height="{p.get("height") or 800}" loading="lazy"></a>'
@@ -399,9 +400,9 @@ def main():
             w = csv.writer(fh)
             w.writerow(["status", "id", "name", "kind", "lat", "lng", "motdang_url"])
             for r in s["new"]:
-                w.writerow(["added", r["id"], r["name"], r["kind"], r["lat"], r["lng"], place_url(r["id"])])
+                w.writerow(["added", r["id"], r["name"], r["kind"], r["lat"], r["lng"], place_url(r.get("url"))])
             for r in s["confirmed"]:
-                w.writerow(["confirmed", r["id"], r["name"], r["cat"], "", "", place_url(r["id"])])
+                w.writerow(["confirmed", r["id"], r["name"], r["cat"], "", "", place_url(r.get("url"))])
         allphotos += [p | {"session": s["date"], "url": f"{SITE_URL}/{p['file']}"} for p in s["photos"]]
     (OUT / "data/photos.json").write_text(json.dumps({"licence": "CC BY 4.0", "credit": "NaN Peacock", "photos": allphotos}, ensure_ascii=False, indent=1))
 
