@@ -248,6 +248,7 @@ def page(path: str, title_th: str, title_en: str, body: str, desc: str, image: s
 <a href="{BASE}sessions/">{t("รอบ", "Sessions")}</a>
 <a href="{BASE}photos/">{t("ภาพ", "Photos")}</a>
 <a href="{BASE}how/">{t("วิธีทำ", "How")}</a>
+<a href="{BASE}about/">{t("แผน · ต้นทุน", "Plan · costs")}</a>
 </nav>
 <div class="langs" role="group" aria-label="language"><button data-l="th">ไทย</button><button data-l="en">EN</button><button data-l="both">ทั้งคู่</button></div>
 </div></header>
@@ -578,6 +579,66 @@ def build_data() -> str:
     return page("data/index.html", "ข้อมูล", "Data", body, "Field's data under CC BY 4.0.")
 
 
+def build_about() -> str:
+    """Planning, method and money, all of it counted from the files where it can be."""
+    C = json.loads((ROOT / "data/costs.json").read_text())
+    T = totals()
+    seen = T["added"] + T["confirmed"]
+    total_md = sum(TOTAL.values())
+    cap = next((x["usd"] for x in C["parts"] if x["key"] == "capture"), 0)
+    per = lambda usd, k: f"${usd / k:,.2f}" if k else "—"  # noqa: E731
+    rows = "".join(f'<tr><td>{t(e(x["th"]), e(x["en"]))}</td><td class="mono">{"≈ " if x.get("approx") else ""}${x["usd"]:,}</td></tr>'
+                   for x in C["parts"])
+    unit = "".join(f'<tr><td>{t(th, en)}</td><td class="mono">{n(k)}</td><td class="mono">{per(cap, k)}</td></tr>' for th, en, k in (
+        ("ร้านที่ป้ายยืนยันหรือเพิ่มจากป้าย", "places confirmed or added from a sign", seen),
+        ("ร้านที่เพิ่มใหม่", "places added", T["added"]),
+        ("ภาพที่ใช้ได้", "photographs in use", T["photos"]),
+        ("เฟรม 360°", "360° frames", T["frames"])))
+    body = f"""<section class="block"><div class="wrap">
+<span class="kick">{t("แผน · วิธี · ต้นทุน", "Plan · method · cost")}</span>
+<h1>{t("ทำอย่างไร ใช้เงินเท่าไร", "How it is done, and what it has cost")}</h1>
+{pair(f"มดแดงเปิดใช้งานและสร้างไปพร้อมกันมาราว {C['months_live']} เดือน มีคนทำเต็มเวลา {C['people_full_time']} คน คือ NaN Peacock ภาคสนามคือส่วนที่ออกไปดูของจริง",
+      f"Mot Dang has been live and under construction at the same time for about {C['months_live']} months, with {C['people_full_time']} person on it full-time: NaN Peacock. Field is the part that goes and looks.", cls="lede")}
+
+<h2 id="plan">{t("แผน", "The plan")}</h2>
+{pair(f"มดแดงถือหมุด {n(total_md)} แห่งในเชียงใหม่และเชียงราย ส่วนใหญ่มาจากแผนที่เปิด ทะเบียนราชการ และแหล่งอื่นที่ไม่มีใครไปยืนหน้าร้าน แผนคือออกภาคสนามไม่กี่ร้อยรอบในสองสามเดือนข้างหน้า จนของส่วนใหญ่ถูกเห็นกับตา ตอนนี้เห็นแล้ว {n(seen)} แห่ง",
+      f"Mot Dang holds {n(total_md)} pinned places in Chiang Mai and Chiang Rai, most from open maps, government registers and other sources nobody stood in front of. The plan, as of {C['as_of']}, is a few hundred sessions over the next couple of months, until most of it has been seen. So far: {n(seen)}.")}
+<ul>
+<li>{t("วัดความคืบหน้าเป็นรายอำเภอและตำบล: เห็นแล้วกี่แห่ง จากที่มดแดงถือ — หน้า", "Progress is measured by district and tambon: places seen against places held — the")} <a href="{BASE}areas/">{t("พื้นที่", "Areas")}</a> {t("", "page")}</li>
+<li>{t("ขี่เป็นวงตามถนนสายหลักก่อน แล้วเดินในตลาด ห้าง และวัด ที่กล้องบนรถเข้าไม่ถึง", "Ride the main roads first, then walk the markets, malls and wats a bike camera cannot enter.")}</li>
+<li>{t("ภาพที่ได้ใช้สามทาง: เป็นภาพของร้านนั้น ใช้ประกอบหน้าอื่นในเว็บ และใช้ในส่วนที่ตอบว่า 'แถวนี้มีอะไร' ตามตำแหน่งของผู้อ่าน", "Each photograph works three ways: as the place's own picture, as a picture for other pages, and in the parts of the site that answer 'what is around me' from where the reader stands.")}</li>
+<li>{t("ที่เดียวอาจได้หลายภาพจากหลายรอบ ภาพที่ดีกว่าแทนภาพเก่าได้", "A place can collect several photographs over many sessions, and a better one can replace the first.")}</li>
+</ul>
+
+<h2 id="method">{t("วิธี", "The method")}</h2>
+<table class="t"><tbody>
+<tr><th>{t("กล้อง", "Camera")}</th><td>{t("GoPro Max 2 ภาพ 360° ถ่ายต่อเนื่องทุก 2–3 วินาที ติดหน้ารถมอเตอร์ไซค์หรือถือเดิน", "GoPro Max 2, 360° bursts every 2–3 seconds, on the front of a motorbike or carried on foot")}</td></tr>
+<tr><th>{t("ต้นฉบับ", "Source")}</th><td>{t("ภาพ equirectangular 7680×3840 ต่อเฟรม ส่วนใหญ่มี GPS ใน EXIF วิดีโอมีแทร็ก GPX แยก", "7680×3840 equirectangular frames, most with a GPS fix in EXIF; videos carry a separate GPX track")}</td></tr>
+<tr><th>{t("ดึงไฟล์", "Fetch")}</th><td>{t("จากคลาวด์ของ GoPro ทีละเฟรม ตัด อ่าน แล้วลบต้นฉบับบนเครื่อง คลาวด์ยังเก็บต้นฉบับไว้", "From GoPro's cloud one frame at a time — cut, read, then the local original is deleted; the cloud keeps it")}</td></tr>
+<tr><th>{t("ตัดภาพ", "Cut")}</th><td>{t("16 ช่องต่อเฟรม (8 ทิศ × 2 ระดับ) ช่องละ 50°×30° ที่ราว 21 พิกเซลต่อองศา และภาพกว้าง 4 ทิศไว้เลือกภาพ", "16 tiles a frame (8 bearings × 2 heights), 50°×30° each at about 21 px per degree, plus four wide views for choosing photographs")}</td></tr>
+<tr><th>{t("อ่าน", "Read")}</th><td>{t("Apple Vision อ่านไทยและอังกฤษบนเครื่องเอง พร้อมหาใบหน้าและคน", "Apple Vision reads Thai and English on the Mac itself, and finds faces and people")}</td></tr>
+<tr><th>{t("จับคู่", "Match")}</th><td>{t("เทียบกับชื่อในมดแดงระยะ 120 ม. โดยไม่นับวรรณยุกต์และสระบนล่าง ยืนยันเมื่อตรงกันในระยะ 50 ม.", "Against Mot Dang names within 120 m, ignoring tone marks and vowels above and below; a match within 50 m confirms the place")}</td></tr>
+<tr><th>{t("คนตรวจ", "People")}</th><td>{t("ข้อความที่ไม่ตรงกับอะไรถูกตัดเป็นภาพ แล้วคนอ่านซ้ำ ป้ายบนหน้าร้านที่บอกทั้งชื่อและประเภทกลายเป็นรายการใหม่ ตั้งชื่อหน้าตามชื่อบนป้าย", "Text that matches nothing is cropped and read again by a person; a sign on the premises naming both the place and its trade becomes a new listing, named as painted")}</td></tr>
+<tr><th>{t("ภาพ", "Photographs")}</th><td>{t("ปรับให้ตรงตามเส้นตั้ง ไม่เกิน 12° เบลอใบหน้าและศีรษะของคนที่ตรวจพบ ไม่ใช้เฟรมที่มีผู้ถ่ายหรือเพื่อนร่วมทาง ตัดหัวท้ายเส้นทาง 1.5 กม. และ 0.4 กม.", "Straightened by their verticals up to 12°; faces and the heads of detected people blurred; frames showing the photographer or companions are not used; each route's first 1.5 km and last 0.4 km are trimmed")}</td></tr>
+<tr><th>{t("ตำแหน่ง", "Position")}</th><td>{t("เฟรมที่มี GPS ให้หมุดภายในราว 30 ม. เฟรมที่ไม่มี GPS วางตามอาคารหรือตลาดที่ป้ายบอก และบอกไว้ในรายการว่าวางอย่างไร", "A frame with GPS pins a place to within about 30 m; one without is placed by the building or market its sign names, and the listing says how it was placed")}</td></tr>
+<tr><th>{t("เครื่อง", "Machine")}</th><td>{t("ประมวลผลบน MacBook เครื่องเดียว เฟรมราว 800 เฟรมใช้เวลาเครื่องไม่ถึงชั่วโมง", "All of it runs on one MacBook; about 800 frames take under an hour of machine time")}</td></tr>
+</tbody></table>
+<p><a href="{BASE}how/">{t("ดูป้ายเดียวตั้งแต่ต้นจนจบ →", "One sign, start to finish →")}</a> · <a href="{REPO}">{t("โค้ด →", "The code →")}</a></p>
+
+<h2 id="cost">{t("ต้นทุน", "The cost")}</h2>
+{pair(f"ใช้ไปทั้งหมดกับมดแดงราว ${C['total']:,} (ณ {C['as_of']}) ไม่รวมเวลาทำงานของคน", f"Spent on Mot Dang so far: about ${C['total']:,} (as of {C['as_of']}), not counting anyone's time.", cls="lede")}
+<table class="t"><thead><tr><th>{t("รายการ", "Item")}</th><th>USD</th></tr></thead><tbody>{rows}
+<tr><th>{t("รวม", "Total")}</th><th class="mono">${C['total']:,}</th></tr>
+<tr><td>{t("ต่อเดือน", "Per month")}</td><td class="mono">${C['total'] / C['months_live']:,.0f}</td></tr>
+<tr><td>{t(f"ต่อหมุดที่มดแดงถือ ({n(total_md)} แห่ง)", f"Per pinned place Mot Dang holds ({n(total_md)})")}</td><td class="mono">${C['total'] / total_md:,.3f}</td></tr></tbody></table>
+<h3>{t("อุปกรณ์เก็บภาพ หารด้วยสิ่งที่ได้จนถึงวันนี้", "The capture kit, divided by what it has produced so far")}</h3>
+<table class="t"><thead><tr><th></th><th>{t("จำนวน", "Count")}</th><th>{t("ต่อหน่วย", "Per unit")}</th></tr></thead><tbody>{unit}</tbody></table>
+{pair("อุปกรณ์ซื้อครั้งเดียว ยิ่งออกภาคสนามมาก ตัวเลขต่อหน่วยยิ่งลด ตารางนี้คำนวณใหม่ทุกครั้งที่สร้างเว็บ", "The kit is bought once, so every session lowers these figures; the table is recalculated on every build.", cls="small")}
+</div></section>"""
+    return page("about/index.html", "แผน · วิธี · ต้นทุน", "Plan, method, cost", body,
+                f"How Field works and what Mot Dang has cost: about ${C['total']:,} over {C['months_live']} months, one person full-time.")
+
+
 def write(path: str, text: str):
     p = OUT / path
     p.parent.mkdir(parents=True, exist_ok=True)
@@ -625,8 +686,9 @@ def main():
     npages = build_photos()
     write("how/index.html", build_how())
     write("data/index.html", build_data())
+    write("about/index.html", build_about())
 
-    urls = (["", "areas/", "sessions/", "photos/", "how/", "data/"]
+    urls = (["", "areas/", "sessions/", "photos/", "how/", "data/", "about/"]
             + [f"areas/{area_key(pv, am)}/" for pv, am in AREAS]
             + [f"sessions/{s['id']}/" for s in SESSIONS] + [f"photos/{k}/" for k in range(2, npages + 1)])
     today = date.today().isoformat()
