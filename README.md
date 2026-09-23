@@ -8,15 +8,12 @@ and then by a person, and goes onto the map.
 
 Made by [hongdam.net](https://hongdam.net/), a bilingual web studio in Chiang Rai.
 
-## So far
+## What it holds
 
-| session | km | frames | places added | places confirmed | photographs |
-|---|---|---|---|---|---|
-| 2026-09-18 (Chiang Rai, on foot) | — | 1,109 | 39 | 21 | 67 |
-| 2026-09-23 | 13.5 | 818 | 29 | 60 | 84 |
-
-*Places added* had no Mot Dang record; their own signboard named them. *Confirmed* already
-had one, and the sign agreed with its name within 50 m.
+Everything is counted at build time from `data/sessions/`: the home page gives the totals
+across every session, `/areas/` gives each district's coverage (places seen against the
+places Mot Dang holds there), and `/sessions/` is the log. A place seen on many outings
+is one row; its name, district and page are read from Mot Dang, not copied here.
 
 ## How a frame becomes a pin
 
