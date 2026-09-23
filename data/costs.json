@@ -1,0 +1,12 @@
+{
+ "_note": "Edited by hand. Figures NaN gave on 2026-09-23; the site divides them by what data/sessions/ counts.",
+ "as_of": "2026-09-23",
+ "currency": "USD",
+ "total": 1300,
+ "parts": [
+  {"key": "tokens", "th": "โทเค็นโมเดล AI (สร้างเว็บ อ่านป้าย เขียนโค้ด)", "en": "AI model tokens (building the site, reading signs, writing the code)", "usd": 650, "approx": true},
+  {"key": "capture", "th": "อุปกรณ์เก็บภาพ: กล้อง GoPro Max 2 ขาจับ การ์ด SD", "en": "Capture kit: GoPro Max 2 camera, mount, SD cards", "usd": 650, "approx": true}
+ ],
+ "months_live": 2,
+ "people_full_time": 1
+}
