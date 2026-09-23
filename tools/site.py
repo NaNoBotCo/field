@@ -57,7 +57,7 @@ def n(x) -> str:
 
 
 def place_url(pid: str) -> str:
-    return f"{MOTDANG}/cm/p/{pid}.html"
+    return f"{MOTDANG}/{pid.split('-', 1)[0]}/p/{pid}.html"
 
 
 def fmt_date(d: str, lang: str) -> str:
@@ -202,7 +202,8 @@ def stats(c: dict) -> str:
         ("hot", c["new"], "ร้านที่ยังไม่มีในมดแดง เพิ่มจากป้ายหน้าร้าน", "places Mot Dang did not have, added from their own signs"),
         ("leaf", c["confirmed"], "ร้านในมดแดงที่ป้ายหน้าร้านยืนยันชื่อ", "Mot Dang places confirmed by name on their own sign"),
         ("", c["photos"], "ภาพที่ใช้ได้ทั้งเว็บ", "photographs, usable anywhere on the site"),
-        ("", c["km"], "กิโลเมตรที่ขี่", "kilometres ridden"),
+        ("", c["km"], "กิโลเมตรที่ขี่", "kilometres ridden") if c.get("km") else
+        ("", c["place_photos"], "ภาพที่ขึ้นหน้าร้านในมดแดง", "photos now on their Mot Dang listing"),
         ("", c["frames"], "เฟรม 360°", "360° frames"),
         ("", c["text_lines"], "บรรทัดข้อความที่เครื่องอ่านได้", "lines of text the machine read"),
     ]
@@ -258,7 +259,7 @@ def downloads(sess: dict, up: str) -> str:
     d = sess["date"]
     items = [
         (f"data/sessions/{d}.json", "Session", "ทั้งหมดของรอบนี้", "JSON"),
-        (f"data/tracks/{d}.geojson", "Track", "เส้นทาง", "GeoJSON"),
+        *([(f"data/tracks/{d}.geojson", "Track", "เส้นทาง", "GeoJSON")] if sess.get("track") else []),
         (f"data/places-{d}.csv", "Places", "ร้านที่เพิ่มและยืนยัน", "CSV"),
         ("data/photos.json", "Photographs", "ภาพทั้งหมด พร้อมพิกัดและเครดิต", "JSON"),
     ]
@@ -287,13 +288,15 @@ def session_body(sess: dict, up: str, hero_h: str, with_hero: bool = True) -> st
               f'<a class="btn" href="{up}photos/">{t("ดูทั้งหมด", "See them all")}</a>') if band3 else ""
     if not with_hero:
         hero = ""
+    route_block = ""
+    if sess.get("track"):
+        route_block = ('<section class="block" id="route"><div class="wrap">'
+                       f'<span class="kick">{t("เส้นทาง", "The route")}</span>'
+                       '<h2>' + t(f"{c['km']} กม. ในครั้งเดียว", f"{c['km']} km in one go") + '</h2>'
+                       f'{route_svg(sess, up)}</div></section>')
     return f"""{hero}
 {stats(c)}
-<section class="block" id="route"><div class="wrap">
-<span class="kick">{t("เส้นทาง", "The route")}</span>
-<h2>{t(f"{c['km']} กม. ในครั้งเดียว", f"{c['km']} km in one go")}</h2>
-{route_svg(sess, up)}
-</div></section>
+{route_block}
 {example(sess, up)}
 {b2}
 <section class="block" id="new"><div class="wrap">
@@ -319,7 +322,9 @@ def sessions_list(up: str) -> str:
     cards = []
     for s in SESSIONS:
         c = s["counts"]
-        sub = t(f"{fmt_date(s['date'], 'th')} · {c['km']} กม. · +{c['new']} ร้าน", f"{fmt_date(s['date'], 'en')} · {c['km']} km · +{c['new']} places")
+        km_th = f" · {c['km']} กม." if c.get("km") else ""
+        km_en = f" · {c['km']} km" if c.get("km") else ""
+        sub = t(f"{fmt_date(s['date'], 'th')}{km_th} · +{c['new']} ร้าน", f"{fmt_date(s['date'], 'en')}{km_en} · +{c['new']} places")
         cards.append(shot(f"{up}sessions/{s['date']}/", f"{up}{s['hero']}", t(e(s.get('title_th', s['date'])), e(s.get('title', s['date']))), sub))
     return f"""<section class="block" id="sessions"><div class="wrap">
 <span class="kick">{t("ทุกรอบ", "Every session")}</span>
@@ -334,8 +339,8 @@ def build_index() -> str:
     h1 = f'<h1>ภาคสนาม<br><span lang="en" style="font-size:.45em;display:block">Field</span></h1>'
     lead = band(f"{s['hero']}", f"""<span class="kicker">{t("มดแดง · เชียงใหม่", "Mot Dang · Chiang Mai")}</span>
 {h1}
-{pair("กล้อง 360° ติดมอเตอร์ไซค์ ถ่ายทุกป้ายที่ผ่าน เครื่องอ่าน คนตรวจ แล้วเติมลงแผนที่มดแดง",
-      "A 360° camera on a motorbike photographs every sign it passes. A machine reads them, a person checks them, and they go onto Mot Dang's map.")}""",
+{pair("กล้อง 360° บนมอเตอร์ไซค์หรือในมือ ถ่ายทุกป้ายที่ผ่าน เครื่องอ่าน คนตรวจ แล้วเติมลงแผนที่มดแดง",
+      "A 360° camera, on a motorbike or in hand, photographs every sign it passes. A machine reads them, a person checks them, and they go onto Mot Dang's map.")}""",
                 "hero tall")
     body = session_body(s, "", "", with_hero=False)  # the index leads with its own band
     return page("index.html", "ภาคสนาม", "Field", lead + body + sessions_list(""),
@@ -412,7 +417,7 @@ def main():
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")
     latest = SESSIONS[0]["counts"]
     write("llms.txt", f"# ภาคสนาม · Field\n\n> Street-level capture feeding Mot Dang, the Thai-first directory of Chiang Mai "
-          f"and Chiang Rai. A 360° camera on a motorbike; each frame is cut into tiles, the signs are read by Apple Vision "
+          f"and Chiang Rai. A 360° camera on a motorbike or in hand; each frame is cut into tiles, the signs are read by Apple Vision "
           f"(Thai + English) and checked by a person; names that match a Mot Dang record confirm it, names that match nothing "
           f"become new records with a pin.\n\n- Sessions: {len(SESSIONS)}\n- Latest: {SESSIONS[0]['date']}, {latest['km']} km, "
           f"{latest['new']} places added, {latest['confirmed']} confirmed, {latest['photos']} photographs\n"
