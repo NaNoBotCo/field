@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://nanobotco.github.io/field/sitemap.xml
+Sitemap: https://motdang.net/field/sitemap.xml
 
 # — roster of sibling sites, generated from data/fleet.json —
 Sitemap: https://motdang.net/sitemap.xml

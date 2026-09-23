@@ -25,6 +25,8 @@ def metres(a, b):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("session"); ap.add_argument("date")
+    ap.add_argument("--id", help="session id; defaults to the date, add a suffix for a second outing that day")
+    ap.add_argument("--province", default="cm")
     ap.add_argument("--trim-start-m", type=float, default=1500)
     ap.add_argument("--trim-end-m", type=float, default=400)
     ap.add_argument("--kind", default="ride")
@@ -52,7 +54,7 @@ def main():
                             "note": "ends trimmed"},
              "geometry": {"type": "LineString", "coordinates": [[round(lo, 6), round(la, 6)] for la, lo in line]}}]}
     (ROOT / "data/tracks").mkdir(parents=True, exist_ok=True)
-    (ROOT / f"data/tracks/{a.date}.geojson").write_text(json.dumps(track))
+    (ROOT / f"data/tracks/{a.id or a.date}.geojson").write_text(json.dumps(track))
 
     def inside(la, lo):  # keep only what falls along the shown line
         return any(metres((la, lo), p) < 60 for p in line[::3])
@@ -84,14 +86,15 @@ def main():
                     "photo": (MOTDANG / f"assets/photos/{r['id']}.jpg").exists()})
     reads = sum(1 for line_ in open(S / "ocr.jsonl"))
     text_lines = sum(len(json.loads(l).get("text", [])) for l in open(S / "ocr.jsonl"))
-    sess = {"date": a.date, "kind": a.kind, "camera": a.camera,
+    sid = a.id or a.date
+    sess = {"id": sid, "date": a.date, "kind": a.kind, "camera": a.camera, "province": a.province,
             "counts": {"frames": len(frames), "frames_with_fix": len(fixes), "km": round(dist / 1000, 1),
                        "tiles_read": reads, "text_lines": text_lines, "confirmed": len(confirmed),
                        "new": len(new), "photos": len(pics),
                        "place_photos": sum(1 for p in pics if p.get("placeId"))},
             "confirmed": confirmed, "new": new, "photos": pics,
-            "track": f"data/tracks/{a.date}.geojson"}
-    old = ROOT / f"data/sessions/{a.date}.json"
+            "track": f"data/tracks/{sid}.geojson"}
+    old = ROOT / f"data/sessions/{sid}.json"
     if old.exists():  # hand-written keys survive a re-ingest
         prev = json.loads(old.read_text())
         for k in ("title", "title_th", "line", "line_th", "hero", "example", "pin_fixes", "where", "where_th"):
