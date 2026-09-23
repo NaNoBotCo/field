@@ -1,0 +1,2166 @@
+{
+ "date": "2026-09-18",
+ "kind": "walk",
+ "camera": "GoPro Max 2",
+ "title_th": "เชียงราย หอนาฬิกา ตลาด วัด ห้าง น้ำพุร้อน",
+ "title": "Chiang Rai: clock tower, market, wats, mall, hot spring",
+ "where_th": "หอนาฬิกา ตลาดสดเทศบาล ๑ วัดมุงเมือง วัดพระแก้ว วัดนอกเมืองอีกหก เซ็นทรัล เชียงราย และน้ำพุร้อนแม่ขะจาน (17–18 ก.ย.)",
+ "where": "The clock tower, Municipal Market 1, Wat Mung Mueang, Wat Phra Kaew, six wats out of town, Central Chiang Rai and Mae Khachan hot spring (17–18 Sep)",
+ "hero": "photos/2026-09-18/field-20260918-cr-curated-clock-tower.jpg",
+ "counts": {
+  "frames": 1109,
+  "frames_with_fix": 0,
+  "km": null,
+  "tiles_read": 1109,
+  "text_lines": 6899,
+  "confirmed": 21,
+  "new": 39,
+  "photos": 67,
+  "place_photos": 62
+ },
+ "confirmed": [
+  {
+   "id": "cr-curated-clock-tower",
+   "name": "หอนาฬิกาเฉลิมพระเกียรติฯ เชียงราย",
+   "cat": "sights",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-node-2121910374",
+   "name": "น้ำพุร้อนแม่ขะจาน",
+   "cat": "sights",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-node-2138298548",
+   "name": "วัดห้วยส้ม",
+   "cat": "wat",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-node-2138306718",
+   "name": "วัดป่าตึงงาม",
+   "cat": "wat",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-node-2326555960",
+   "name": "วัดมุงเมือง",
+   "cat": "sights/wat",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-node-8946977368",
+   "name": "พาเวอร์บาย",
+   "cat": "repair",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-way-1110659333",
+   "name": "เซ็นทรัล เชียงราย",
+   "cat": "shopping",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-way-387050901",
+   "name": "ตลาดสดเทศบาล ๑",
+   "cat": "market",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-way-387050904",
+   "name": "วัดมิ่งเมือง",
+   "cat": "wat",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-way-959733189",
+   "name": "Knifeshift",
+   "cat": "food",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-way-960935005",
+   "name": "ข้าวมันไก่จักรพรรดิ",
+   "cat": "food",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-way-961802267",
+   "name": "Nari Cafe",
+   "cat": "food",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-osm-way-963169294",
+   "name": "Fika",
+   "cat": "food",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-ovt-280972ac-dd2d-4502-8d44-32a66ade7496",
+   "name": "วัดศรีมิ่งแก้ว",
+   "cat": "wat",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-ovt-2efa3b17-1cd3-4e3d-8cd1-a75b739d75d2",
+   "name": "OWNDAYS Central Chiangrai",
+   "cat": "repair",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-ovt-41497dbf-9092-4edf-afd0-d4c50cfb170b",
+   "name": "วัดเหมืองลึก",
+   "cat": "community",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7",
+   "name": "วัดแสงแก้วโพธิญาณ",
+   "cat": "wat",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-ovt-61844bd4-68dd-46eb-b591-df0ef460e215",
+   "name": "Oriental Jewelry & Gold",
+   "cat": "shopping",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-ovt-79d9e14e-cb34-42a2-a007-15578dc4f05b",
+   "name": "Antiques Cafe",
+   "cat": "food",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-ovt-bb0d8000-ffa3-49d4-a1dc-9cad9b2212d0",
+   "name": "รัตนาสังฆภัณฑ์",
+   "cat": "business",
+   "read": "",
+   "photo": true
+  },
+  {
+   "id": "cr-ovt-f01f1079-a2bb-466d-9a87-a54f7897f545",
+   "name": "ร้านศิริวัฒนา",
+   "cat": "shopping",
+   "read": "",
+   "photo": true
+  }
+ ],
+ "new": [
+  {
+   "id": "cr-curated-phriao",
+   "name": "เพรียว",
+   "nameTh": "เพรียว",
+   "nameEn": null,
+   "kind": "pharmacy",
+   "kindTh": "ร้านขายยา",
+   "cat": [
+    "essentials",
+    "medical"
+   ],
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cr-curated-ran-phronni-kaisot",
+   "name": "ร้าน พรรณีไก่สด",
+   "nameTh": "ร้าน พรรณีไก่สด",
+   "nameEn": null,
+   "kind": "fresh chicken stall",
+   "kindTh": "ร้านไก่สด ในตลาด",
+   "cat": [
+    "food"
+   ],
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-wai-wan-yunipom",
+   "name": "วัยหวาน ยูนิฟอร์ม",
+   "nameTh": "วัยหวาน ยูนิฟอร์ม",
+   "nameEn": null,
+   "kind": "uniform shop",
+   "kindTh": "ร้านชุดยูนิฟอร์ม",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-ran-suea-suai",
+   "name": "ร้าน เสื้อสวย",
+   "nameTh": "ร้าน เสื้อสวย",
+   "nameEn": null,
+   "kind": "clothes shop",
+   "kindTh": "ร้านเสื้อผ้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-trairat-thantaphaet",
+   "name": "ไตรรัตน์ทันตแพทย์",
+   "nameTh": "ไตรรัตน์ทันตแพทย์",
+   "nameEn": null,
+   "kind": "dental clinic",
+   "kindTh": "คลินิกทันตกรรม",
+   "cat": [
+    "medical"
+   ],
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-clinic-thantakrarom-urai-wan-thantaphaet",
+   "name": "คลินิกทันตกรรม อุไรวรรณทันตแพทย์",
+   "nameTh": "คลินิกทันตกรรม อุไรวรรณทันตแพทย์",
+   "nameEn": null,
+   "kind": "dental clinic",
+   "kindTh": "คลินิกทันตกรรม",
+   "cat": [
+    "medical"
+   ],
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-faechan-faep-rik",
+   "name": "แฟชั่นแฟบริค",
+   "nameTh": "แฟชั่นแฟบริค",
+   "nameEn": null,
+   "kind": "fabric shop",
+   "kindTh": "ร้านผ้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-laksami",
+   "name": "ลักษมี",
+   "nameTh": "ลักษมี",
+   "nameEn": null,
+   "kind": "fabric shop",
+   "kindTh": "ร้านผ้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cr-curated-hangthong-yaowarat-khatnga",
+   "name": "ห้างทองเยาวราชค้าส่ง",
+   "nameTh": "ห้างทองเยาวราชค้าส่ง",
+   "nameEn": null,
+   "kind": "gold shop (wholesale)",
+   "kindTh": "ห้างทอง ค้าส่ง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-hot-spring-halal-food",
+   "name": "HOT SPRING HALAL FOOD",
+   "nameTh": "อาหารอิสลาม",
+   "nameEn": "HOT SPRING HALAL FOOD",
+   "kind": "restaurant",
+   "kindTh": "อาหารอิสลาม ฮาลาล",
+   "cat": [
+    "food"
+   ],
+   "lat": 19.115,
+   "lng": 99.462,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cr-curated-ku-phai-saeng-kaew-phothiyan",
+   "name": "กู้ภัยแสงแก้วโพธิญาณ",
+   "nameTh": "กู้ภัยแสงแก้วโพธิญาณ (ในอุปถัมภ์ครูบาอริยชาติ อริยจิตฺโต)",
+   "nameEn": "Sangkaew…",
+   "kind": "rescue unit post",
+   "kindTh": "มูลนิธิกู้ภัย",
+   "cat": [
+    "community"
+   ],
+   "lat": 19.6028470993042,
+   "lng": 99.52671813964844,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-moshi-moshi-central-chiangrai",
+   "name": "Moshi Moshi",
+   "nameTh": null,
+   "nameEn": "Moshi Moshi",
+   "kind": "gifts and household goods (full sign seen in view GS010010_t0056_s0f0)",
+   "kindTh": "ของขวัญและของใช้",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-amaze-central-chiangrai",
+   "name": "AMAZE",
+   "nameTh": null,
+   "nameEn": "AMAZE",
+   "kind": "women's fashion store; facade lists Guy Laroche, GSP, LOF-FI-CIEL, Jousse",
+   "kindTh": "เสื้อผ้าผู้หญิง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cr-curated-supersports-central-chiangrai",
+   "name": "SUPERSPORTS",
+   "nameTh": null,
+   "nameEn": "SUPERSPORTS",
+   "kind": "sports store",
+   "kindTh": "อุปกรณ์กีฬา",
+   "cat": [
+    "sport"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-skechers-central-chiangrai",
+   "name": "SKECHERS",
+   "nameTh": null,
+   "nameEn": "SKECHERS",
+   "kind": "shoe store",
+   "kindTh": "รองเท้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cr-curated-fotobooth-central-chiangrai",
+   "name": "FOTOBOOTH",
+   "nameTh": null,
+   "nameEn": "FOTOBOOTH",
+   "kind": "photo booth; FOTOYA banner beside it",
+   "kindTh": "ตู้ถ่ายรูป",
+   "cat": [
+    "business"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-crocs-central-chiangrai",
+   "name": "crocs",
+   "nameTh": null,
+   "nameEn": "crocs",
+   "kind": "shoe store",
+   "kindTh": "รองเท้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-chob-cha-central-chiangrai",
+   "name": "CHOB CHA",
+   "nameTh": null,
+   "nameEn": "CHOB CHA",
+   "kind": "shop sign seen across the Thai-crafts concourse",
+   "kindTh": "เสื้อผ้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cr-curated-verra-central-chiangrai",
+   "name": "Verra",
+   "nameTh": null,
+   "nameEn": "Verra",
+   "kind": "bedding and pillow shop",
+   "kindTh": "เครื่องนอนและหมอน",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-daiso-central-chiangrai",
+   "name": "DAISO",
+   "nameTh": null,
+   "nameEn": "DAISO",
+   "kind": "Japanese variety store",
+   "kindTh": "ของใช้ราคาเดียว",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-mister-donut-central-chiangrai",
+   "name": "Mister Donut",
+   "nameTh": null,
+   "nameEn": "Mister Donut",
+   "kind": "doughnut shop",
+   "kindTh": "โดนัท",
+   "cat": [
+    "food"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-auntie-annes-central-chiangrai",
+   "name": "Auntie Anne's",
+   "nameTh": null,
+   "nameEn": "Auntie Anne's",
+   "kind": "pretzel shop",
+   "kindTh": "เพรทเซล",
+   "cat": [
+    "food"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cr-curated-sabina-central-chiangrai",
+   "name": "SABINA",
+   "nameTh": null,
+   "nameEn": "SABINA",
+   "kind": "lingerie shop",
+   "kindTh": "ชุดชั้นใน",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-giordano-central-chiangrai",
+   "name": "GIORDANO",
+   "nameTh": null,
+   "nameEn": "GIORDANO",
+   "kind": "fashion store",
+   "kindTh": "เสื้อผ้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-de-beers-forevermark-central-chiangrai",
+   "name": "DE BEERS FOREVERMARK",
+   "nameTh": null,
+   "nameEn": "DE BEERS FOREVERMARK",
+   "kind": "diamond jewellery shop",
+   "kindTh": "เครื่องประดับเพชร",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-dilavie-central-chiangrai",
+   "name": "dilavie",
+   "nameTh": null,
+   "nameEn": "dilavie",
+   "kind": "jewellery shop",
+   "kindTh": "เครื่องประดับ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-anello-central-chiangrai",
+   "name": "anello",
+   "nameTh": null,
+   "nameEn": "anello EST. 2006",
+   "kind": "bag shop",
+   "kindTh": "กระเป๋า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-istudio-central-chiangrai",
+   "name": "iStudio",
+   "nameTh": null,
+   "nameEn": "iStudio",
+   "kind": "Apple products reseller",
+   "kindTh": "สินค้า Apple",
+   "cat": [
+    "repair"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-it-city-central-chiangrai",
+   "name": "IT CITY",
+   "nameTh": null,
+   "nameEn": "IT CITY",
+   "kind": "computer and electronics store",
+   "kindTh": "คอมพิวเตอร์และไอที",
+   "cat": [
+    "repair"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-lemony-central-chiangrai",
+   "name": "LEMONY",
+   "nameTh": null,
+   "nameEn": "LEMONY",
+   "kind": "gift and lifestyle shop",
+   "kindTh": "ของขวัญ ไลฟ์สไตล์",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cr-curated-officemate-central-chiangrai",
+   "name": "OfficeMate",
+   "nameTh": null,
+   "nameEn": "OfficeMate",
+   "kind": "office supplies store (cell shows Office M…; full sign in view GS010011_t0024_s0f1)",
+   "kindTh": "เครื่องเขียน อุปกรณ์สำนักงาน",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cr-curated-tokuyo-central-chiangrai",
+   "name": "tokuyo",
+   "nameTh": null,
+   "nameEn": "tokuyo",
+   "kind": "massage chair shop",
+   "kindTh": "เก้าอี้นวด",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-honor-central-chiangrai",
+   "name": "HONOR",
+   "nameTh": null,
+   "nameEn": "HONOR",
+   "kind": "phone brand shop",
+   "kindTh": "โทรศัพท์มือถือ",
+   "cat": [
+    "repair"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-talia-central-chiangrai",
+   "name": "TALIA",
+   "nameTh": null,
+   "nameEn": "TALIA",
+   "kind": "fashion store",
+   "kindTh": "เสื้อผ้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cr-curated-urthe-central-chiangrai",
+   "name": "URTHE",
+   "nameTh": null,
+   "nameEn": "URTHE",
+   "kind": "fashion store",
+   "kindTh": "เสื้อผ้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-the-face-shop-central-chiangrai",
+   "name": "THE FACE SHOP",
+   "nameTh": null,
+   "nameEn": "THE FACE SHOP",
+   "kind": "cosmetics shop",
+   "kindTh": "เครื่องสำอาง",
+   "cat": [
+    "beauty"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-cute-press-central-chiangrai",
+   "name": "cute press",
+   "nameTh": null,
+   "nameEn": "cute press",
+   "kind": "cosmetics shop",
+   "kindTh": "เครื่องสำอาง",
+   "cat": [
+    "beauty"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-dtac-hall-central-chiangrai",
+   "name": "dtac hall",
+   "nameTh": null,
+   "nameEn": "dtac hall",
+   "kind": "mobile network service shop",
+   "kindTh": "ศูนย์บริการมือถือ",
+   "cat": [
+    "repair"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cr-curated-bonchon-central-chiangrai",
+   "name": "Bonchon",
+   "nameTh": null,
+   "nameEn": "Bonchon",
+   "kind": "Korean fried chicken restaurant",
+   "kindTh": "ไก่ทอดเกาหลี",
+   "cat": [
+    "food"
+   ],
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "phone": "",
+   "photo": false
+  }
+ ],
+ "photos": [
+  {
+   "slug": "field-20260918-cr-curated-clock-tower",
+   "title": "หอนาฬิกาเฉลิมพระเกียรติฯ เชียงราย",
+   "description": "The golden clock tower on its roundabout, shophouses and the Fika cafe behind",
+   "description_th": "หอนาฬิกาเชียงรายสีทองกลางวงเวียน ร้านค้าเรียงรายด้านหลัง",
+   "lat": 19.9074,
+   "lng": 99.8309,
+   "placeId": "cr-curated-clock-tower",
+   "topic": [
+    "city",
+    "landmark"
+   ],
+   "mood": [
+    "landmark"
+   ],
+   "width": 1200,
+   "height": 825,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-curated-clock-tower.jpg"
+  },
+  {
+   "slug": "field-20260918-gs010199-t0056-v-45",
+   "title": "หอนาฬิกาเฉลิมพระเกียรติฯ เชียงราย",
+   "description": "The clock tower from the approach road, with roadworks barriers and morning traffic",
+   "description_th": "หอนาฬิกาเชียงรายมองจากถนน มีแนวแบริเออร์งานถนนและรถยามเช้า",
+   "lat": 19.9074,
+   "lng": 99.8309,
+   "placeId": "cr-curated-clock-tower",
+   "topic": [
+    "city",
+    "landmark"
+   ],
+   "mood": [
+    "landmark",
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gs010199-t0056-v-45.jpg"
+  },
+  {
+   "slug": "field-20260918-gs010199-t0046-v-135",
+   "title": "หอนาฬิกาเฉลิมพระเกียรติฯ เชียงราย",
+   "description": "Corner building facing the roundabout, gilded kerb and golden lamp posts",
+   "description_th": "อาคารหัวมุมริมวงเวียนหอนาฬิกา ขอบทางสีทองและเสาไฟลายทอง",
+   "lat": 19.9074,
+   "lng": 99.8309,
+   "placeId": "cr-curated-clock-tower",
+   "topic": [
+    "city",
+    "landmark"
+   ],
+   "mood": [
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gs010199-t0046-v-135.jpg"
+  },
+  {
+   "slug": "field-20260918-gs010199-t0008-v-45",
+   "title": "หอนาฬิกาเฉลิมพระเกียรติฯ เชียงราย",
+   "description": "Old painted shophouses and the golden median of the road leading from the clock tower",
+   "description_th": "ห้องแถวเก่าสีสดและเกาะกลางถนนสีทอง ถนนที่ออกจากวงเวียนหอนาฬิกา",
+   "lat": 19.9074,
+   "lng": 99.8309,
+   "placeId": "cr-curated-clock-tower",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife",
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gs010199-t0008-v-45.jpg"
+  },
+  {
+   "slug": "field-20260918-gs010199-t0080-v135",
+   "title": "หอนาฬิกาเฉลิมพระเกียรติฯ เชียงราย",
+   "description": "Avenue of golden Lanna-style lamp posts and shops leading from the roundabout",
+   "description_th": "ถนนเรียงรายด้วยเสาไฟลายล้านนาสีทองและร้านค้า จากวงเวียนหอนาฬิกา",
+   "lat": 19.9074,
+   "lng": 99.8309,
+   "placeId": "cr-curated-clock-tower",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gs010199-t0080-v135.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-osm-node-2326555960",
+   "title": "วัดมุงเมือง",
+   "description": "Golden ubosot front with naga stairs and golden standing figures under parasols",
+   "description_th": "หน้าอุโบสถสีทอง บันไดนาค และรูปปั้นสีทองถือฉัตร",
+   "lat": 20.2742556,
+   "lng": 100.0822309,
+   "placeId": "cr-osm-node-2326555960",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred"
+   ],
+   "width": 1200,
+   "height": 825,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-osm-node-2326555960.jpg"
+  },
+  {
+   "slug": "field-20260918-gs010460-t0110-v-45",
+   "title": "วัดมุงเมือง",
+   "description": "The ubosot and naga stairs seen across the temple yard",
+   "description_th": "อุโบสถและบันไดนาคมองจากลานวัด",
+   "lat": 20.2742556,
+   "lng": 100.0822309,
+   "placeId": "cr-osm-node-2326555960",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gs010460-t0110-v-45.jpg"
+  },
+  {
+   "slug": "field-20260918-gs010460-t0026-v45",
+   "title": "วัดมุงเมือง",
+   "description": "Red-roofed temple hall, golden chedi and naga behind the car park trees",
+   "description_th": "วิหารหลังคาแดง เจดีย์สีทอง และนาค หลังแนวต้นไม้ลานจอดรถ",
+   "lat": 20.2742556,
+   "lng": 100.0822309,
+   "placeId": "cr-osm-node-2326555960",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gs010460-t0026-v45.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-osm-way-387050901",
+   "title": "ตลาดสดเทศบาล ๑",
+   "description": "Bolts of cloth under an old awning on the corner of Temee Road, with colonial-era shophouses opposite",
+   "description_th": "ม้วนผ้าใต้กันสาดเก่าหัวมุมถนนเตมีย์ ตรงข้ามเป็นตึกแถวเก่า",
+   "lat": 19.9094565,
+   "lng": 99.829871,
+   "placeId": "cr-osm-way-387050901",
+   "topic": [
+    "history",
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 825,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-osm-way-387050901.jpg"
+  },
+  {
+   "slug": "field-20260918-gsaj0581-034-v-135",
+   "title": "ตลาดสดเทศบาล ๑",
+   "description": "Haberdashery and fabric shopfronts along the market street",
+   "description_th": "ร้านอุปกรณ์ตัดเย็บและร้านผ้าเรียงรายริมถนนย่านตลาด",
+   "lat": 19.9094565,
+   "lng": 99.829871,
+   "placeId": "cr-osm-way-387050901",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsaj0581-034-v-135.jpg"
+  },
+  {
+   "slug": "field-20260918-gsaj0581-082-v135",
+   "title": "ตลาดสดเทศบาล ๑",
+   "description": "Street stall of ribbons and craft goods under the monks'-supplies shop sign",
+   "description_th": "แผงริบบิ้นและของประดิษฐ์ใต้ป้ายร้านสังฆภัณฑ์",
+   "lat": 19.9094565,
+   "lng": 99.829871,
+   "placeId": "cr-osm-way-387050901",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsaj0581-082-v135.jpg"
+  },
+  {
+   "slug": "field-20260918-gsaj0581-088-v-135",
+   "title": "ตลาดสดเทศบาล ๑",
+   "description": "Monks' offering sets, candles and paper parasols stacked at a shop front",
+   "description_th": "ชุดสังฆทาน เทียน และร่มกระดาษวางหน้าร้านสังฆภัณฑ์",
+   "lat": 19.9094565,
+   "lng": 99.829871,
+   "placeId": "cr-osm-way-387050901",
+   "topic": [
+    "faith",
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "sacred"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsaj0581-088-v-135.jpg"
+  },
+  {
+   "slug": "field-20260918-gsaj0581-106-v45",
+   "title": "ตลาดสดเทศบาล ๑",
+   "description": "Arcade of shops with parked motorbikes, the street market beyond",
+   "description_th": "ทางเดินหน้าร้านค้ามีรถมอเตอร์ไซค์จอดเรียง ตลาดอยู่ปลายทาง",
+   "lat": 19.9094565,
+   "lng": 99.829871,
+   "placeId": "cr-osm-way-387050901",
+   "topic": [
+    "city",
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsaj0581-106-v45.jpg"
+  },
+  {
+   "slug": "field-20260918-gsak0740-040-v135",
+   "title": "วัดมิ่งเมือง",
+   "description": "White stucco viharn with green tiered roof, naga stair and a chedi",
+   "description_th": "วิหารปูนปั้นสีขาว หลังคาเขียวซ้อนชั้น บันไดนาค และเจดีย์",
+   "lat": 19.9073445,
+   "lng": 99.8283359,
+   "placeId": "cr-osm-way-387050904",
+   "topic": [
+    "faith",
+    "history",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsak0740-040-v135.jpg"
+  },
+  {
+   "slug": "field-20260918-gsak0740-052-v-45",
+   "title": "วัดมิ่งเมือง",
+   "description": "Stucco porch with praying deva and naga-tail balustrade",
+   "description_th": "ซุ้มประตูปูนปั้น เทวดาพนมมือ และราวบันไดหางนาค",
+   "lat": 19.9073445,
+   "lng": 99.8283359,
+   "placeId": "cr-osm-way-387050904",
+   "topic": [
+    "faith",
+    "history",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsak0740-052-v-45.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-ovt-280972ac-dd2d-4502-8d44-32a66ade7496",
+   "title": "วัดศรีมิ่งแก้ว",
+   "description": "Tall gilded gate arch and bell tower",
+   "description_th": "ซุ้มประตูโขงสูงลายทอง และหอระฆัง",
+   "lat": 19.88093852996826,
+   "lng": 99.79591369628906,
+   "placeId": "cr-ovt-280972ac-dd2d-4502-8d44-32a66ade7496",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "landmark",
+    "calm"
+   ],
+   "width": 1200,
+   "height": 825,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-ovt-280972ac-dd2d-4502-8d44-32a66ade7496.jpg"
+  },
+  {
+   "slug": "field-20260918-gsal0840-028-v-135",
+   "title": "วัดศรีมิ่งแก้ว",
+   "description": "White chedi ringed by standing deva figures on coloured pedestals",
+   "description_th": "เจดีย์สีขาว ล้อมด้วยรูปเทวดายืนบนฐานหลากสี",
+   "lat": 19.88093852996826,
+   "lng": 99.79591369628906,
+   "placeId": "cr-ovt-280972ac-dd2d-4502-8d44-32a66ade7496",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsal0840-028-v-135.jpg"
+  },
+  {
+   "slug": "field-20260918-gsal0840-031-v-135",
+   "title": "วัดศรีมิ่งแก้ว",
+   "description": "Gilded doorway and steps of the ubosot with lotus bowls and flags",
+   "description_th": "ประตูลายทองและบันไดโบสถ์ อ่างบัว และธงทิว",
+   "lat": 19.88093852996826,
+   "lng": 99.79591369628906,
+   "placeId": "cr-ovt-280972ac-dd2d-4502-8d44-32a66ade7496",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsal0840-031-v-135.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-ovt-41497dbf-9092-4edf-afd0-d4c50cfb170b",
+   "title": "วัดเหมืองลึก",
+   "description": "White-and-gold chedi with Buddha niches behind the viharn wall",
+   "description_th": "เจดีย์ขาวทองมีซุ้มพระ หลังกำแพงวิหาร",
+   "lat": 19.774470329284668,
+   "lng": 99.65767669677734,
+   "placeId": "cr-ovt-41497dbf-9092-4edf-afd0-d4c50cfb170b",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "landmark"
+   ],
+   "width": 1200,
+   "height": 825,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-ovt-41497dbf-9092-4edf-afd0-d4c50cfb170b.jpg"
+  },
+  {
+   "slug": "field-20260918-gsam0929-061-v-135",
+   "title": "วัดเหมืองลึก",
+   "description": "Carved wooden bell tower on the lawn",
+   "description_th": "หอระฆังไม้แกะสลักบนสนามหญ้า",
+   "lat": 19.774470329284668,
+   "lng": 99.65767669677734,
+   "placeId": "cr-ovt-41497dbf-9092-4edf-afd0-d4c50cfb170b",
+   "topic": [
+    "faith",
+    "history",
+    "wat"
+   ],
+   "mood": [
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsam0929-061-v-135.jpg"
+  },
+  {
+   "slug": "field-20260918-gsam0929-064-v-135",
+   "title": "วัดเหมืองลึก",
+   "description": "Viharn side with gilded window and a new gate under scaffolding",
+   "description_th": "ข้างวิหาร หน้าต่างลายทอง และซุ้มประตูใหม่ระหว่างก่อสร้าง",
+   "lat": 19.774470329284668,
+   "lng": 99.65767669677734,
+   "placeId": "cr-ovt-41497dbf-9092-4edf-afd0-d4c50cfb170b",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsam0929-064-v-135.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7",
+   "title": "วัดแสงแก้วโพธิญาณ",
+   "description": "Gilded Lanna gate with elephant-naga (hatsadiling) and guardian",
+   "description_th": "ซุ้มประตูล้านนาลายทอง รูปหัสดีลิงค์ และทวารบาล",
+   "lat": 19.6028470993042,
+   "lng": 99.52671813964844,
+   "placeId": "cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "landmark"
+   ],
+   "width": 1200,
+   "height": 825,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7.jpg"
+  },
+  {
+   "slug": "field-20260918-gsan1070-352-v-45",
+   "title": "วัดแสงแก้วโพธิญาณ",
+   "description": "Fountain court with Phra Upakut statue, Brahma and zodiac figures",
+   "description_th": "ลานน้ำพุ รูปพระอุปคุต พระพรหม และรูปนักษัตร",
+   "lat": 19.6028470993042,
+   "lng": 99.52671813964844,
+   "placeId": "cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsan1070-352-v-45.jpg"
+  },
+  {
+   "slug": "field-20260918-gsan1070-412-v45",
+   "title": "วัดแสงแก้วโพธิญาณ",
+   "description": "Stairs to the maroon-and-gold hall beneath the skywalk",
+   "description_th": "บันไดขึ้นสู่อาคารแดงทองใต้สกายวอล์ค",
+   "lat": 19.6028470993042,
+   "lng": 99.52671813964844,
+   "placeId": "cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "landmark"
+   ],
+   "width": 1346,
+   "height": 925,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsan1070-412-v45.jpg"
+  },
+  {
+   "slug": "field-20260918-gsan1070-466-v-45",
+   "title": "วัดแสงแก้วโพธิญาณ",
+   "description": "Pink deity on the naga balustrade, multi-armed statue and tiered roofs",
+   "description_th": "เทพสีชมพูบนราวนาค รูปพันกร และหลังคาซ้อนชั้น",
+   "lat": 19.6028470993042,
+   "lng": 99.52671813964844,
+   "placeId": "cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsan1070-466-v-45.jpg"
+  },
+  {
+   "slug": "field-20260918-gsap1668-097-v45",
+   "title": "วัดแสงแก้วโพธิญาณ",
+   "description": "Naga stair with bells and a guardian lion (singha)",
+   "description_th": "บันไดนาคแขวนระฆัง และสิงห์ทวารบาล",
+   "lat": 19.6028470993042,
+   "lng": 99.52671813964844,
+   "placeId": "cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsap1668-097-v45.jpg"
+  },
+  {
+   "slug": "field-20260918-gsap1668-007-v-135",
+   "title": "วัดแสงแก้วโพธิญาณ",
+   "description": "Gilded viharn seen through the Himmapan forest garden",
+   "description_th": "วิหารลายทองมองผ่านสวนป่าหิมพานต์",
+   "lat": 19.6028470993042,
+   "lng": 99.52671813964844,
+   "placeId": "cr-ovt-548302ef-8740-4375-98a7-7c1633941bb7",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "calm",
+    "sacred"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsap1668-007-v-135.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-osm-node-2138306718",
+   "title": "วัดป่าตึงงาม",
+   "description": "Grey stucco viharn with gilded windows, small white chedi and lotus pots",
+   "description_th": "วิหารปูนเทา หน้าต่างลายทอง เจดีย์ขาวองค์เล็ก และกระถางบัว",
+   "lat": 19.607535,
+   "lng": 99.5079309,
+   "placeId": "cr-osm-node-2138306718",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "calm",
+    "sacred"
+   ],
+   "width": 1200,
+   "height": 825,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-osm-node-2138306718.jpg"
+  },
+  {
+   "slug": "field-20260918-gsaq1783-014-v45",
+   "title": "วัดป่าตึงงาม",
+   "description": "Temple courtyard: monk statue under umbrella, sala and viharn",
+   "description_th": "ลานวัด รูปหล่อพระสงฆ์ใต้ฉัตร ศาลา และวิหาร",
+   "lat": 19.607535,
+   "lng": 99.5079309,
+   "placeId": "cr-osm-node-2138306718",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsaq1783-014-v45.jpg"
+  },
+  {
+   "slug": "field-20260918-gsaq1783-090-v-45",
+   "title": "วัดป่าตึงงาม",
+   "description": "Gilded gate arch and roadside name board",
+   "description_th": "ซุ้มประตูลายทอง และป้ายชื่อวัดริมถนน",
+   "lat": 19.607535,
+   "lng": 99.5079309,
+   "placeId": "cr-osm-node-2138306718",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsaq1783-090-v-45.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-osm-node-2138298548",
+   "title": "วัดห้วยส้ม",
+   "description": "Green-and-gold gate arch beside the name board",
+   "description_th": "ซุ้มประตูเขียวทอง ข้างป้ายชื่อวัด",
+   "lat": 19.5881388,
+   "lng": 99.4951571,
+   "placeId": "cr-osm-node-2138298548",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "landmark"
+   ],
+   "width": 1200,
+   "height": 825,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-osm-node-2138298548.jpg"
+  },
+  {
+   "slug": "field-20260918-gsar1884-025-v-45",
+   "title": "วัดห้วยส้ม",
+   "description": "Gate arch from the road with old shade trees",
+   "description_th": "ซุ้มประตูมองจากถนน กับต้นไม้ใหญ่",
+   "lat": 19.5881388,
+   "lng": 99.4951571,
+   "placeId": "cr-osm-node-2138298548",
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "calm",
+    "landmark"
+   ],
+   "width": 1370,
+   "height": 942,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-gsar1884-025-v-45.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-osm-node-2121910374",
+   "title": "น้ำพุร้อนแม่ขะจาน",
+   "description": "The geyser at Mae Khachan hot spring",
+   "description_th": "บ่อน้ำพุร้อนแม่ขะจาน",
+   "lat": 19.1147871,
+   "lng": 99.4621539,
+   "placeId": "cr-osm-node-2121910374",
+   "topic": [
+    "nature",
+    "wellness"
+   ],
+   "mood": [
+    "landmark",
+    "calm"
+   ],
+   "width": 1200,
+   "height": 825,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-osm-node-2121910374.jpg"
+  },
+  {
+   "slug": "field-20260917-gs010006-t0032-v135",
+   "title": "น้ำพุร้อนแม่ขะจาน",
+   "description": "Hot-water warning beside the geyser",
+   "description_th": "ป้ายระวังน้ำร้อนข้างบ่อน้ำพุร้อน",
+   "lat": 19.1147871,
+   "lng": 99.4621539,
+   "placeId": "cr-osm-node-2121910374",
+   "topic": [
+    "nature",
+    "wellness"
+   ],
+   "mood": [
+    "landmark",
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-gs010006-t0032-v135.jpg"
+  },
+  {
+   "slug": "field-20260917-gs010006-t0034-v135",
+   "title": "น้ำพุร้อนแม่ขะจาน",
+   "description": "The hot pool and its jet",
+   "description_th": "บ่อน้ำพุร้อนกับสายน้ำพุ",
+   "lat": 19.1147871,
+   "lng": 99.4621539,
+   "placeId": "cr-osm-node-2121910374",
+   "topic": [
+    "nature",
+    "wellness"
+   ],
+   "mood": [
+    "landmark",
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-gs010006-t0034-v135.jpg"
+  },
+  {
+   "slug": "field-20260917-gs010009-t0088-v135",
+   "title": "shaded foot-soak channel under trees, forested hill, steam from the geyser in the distance",
+   "description": "The free foot-soak channel",
+   "description_th": "รางแช่เท้าฟรี",
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "nature",
+    "wellness"
+   ],
+   "mood": [
+    "calm",
+    "green"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-gs010009-t0088-v135.jpg"
+  },
+  {
+   "slug": "field-20260917-gs010008-t0010-v-135",
+   "title": "wide car park, geyser steaming mid-frame, shop row behind, Coconut stall in the foreground",
+   "description": "Car park, geyser and the Coconut stall",
+   "description_th": "ลานจอดรถ บ่อน้ำพุร้อน และร้านมะพร้าว",
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "food",
+    "nature"
+   ],
+   "mood": [
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-gs010008-t0010-v-135.jpg"
+  },
+  {
+   "slug": "field-20260917-gs010009-t0034-v45",
+   "title": "HOT SPRING HALAL FOOD and the clothes stalls under the blue-roofed row, visitors small",
+   "description": "The shop row with the halal restaurant",
+   "description_th": "แถวร้านค้า ร้านอาหารอิสลาม",
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "food"
+   ],
+   "mood": [
+    "green"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-gs010009-t0034-v45.jpg"
+  },
+  {
+   "slug": "field-20260917-gs010009-t0076-v45",
+   "title": "Bird Nest, Fresh Coffee and Halal Food signs over the shop row, parked cars",
+   "description": "Bird Nest, Fresh Coffee and the shop row",
+   "description_th": "ร้านรังนก กาแฟสด และแถวร้านค้า",
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "food"
+   ],
+   "mood": [
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-gs010009-t0076-v45.jpg"
+  },
+  {
+   "slug": "field-20260917-gs010009-t0014-v-135",
+   "title": "the long blue-roofed Lanna-gabled shop row across the car park",
+   "description": "The shop row across the car park",
+   "description_th": "แถวร้านค้าริมลานจอดรถ",
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "food"
+   ],
+   "mood": [
+    "calm"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-gs010009-t0014-v-135.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-osm-way-1110659333",
+   "title": "เซ็นทรัล เชียงราย",
+   "description": "Atrium void seen from an upper floor: escalators drop to the skylit ground floor, a cosmetics shop and hanging plants alongside.",
+   "description_th": "ช่องโถงกลางห้างมองจากชั้นบน บันไดเลื่อนลงสู่ชั้นล่างใต้หลังคาโปร่งแสง ข้างร้านเครื่องสำอางและกระถางต้นไม้แขวน",
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "placeId": "cr-osm-way-1110659333",
+   "topic": [
+    "shop"
+   ],
+   "mood": [
+    "calm"
+   ],
+   "width": 960,
+   "height": 1002,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-osm-way-1110659333.jpg"
+  },
+  {
+   "slug": "field-20260917-gs010011-t0024-s0f1",
+   "title": "เซ็นทรัล เชียงราย",
+   "description": "OfficeMate shopfront under a neon sign, stationery aisles and a promotion stand at the entrance.",
+   "description_th": "หน้าร้าน OfficeMate ป้ายไฟนีออน ชั้นเครื่องเขียนและบูธโปรโมชั่นหน้าร้าน",
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "placeId": "cr-osm-way-1110659333",
+   "topic": [
+    "shop"
+   ],
+   "mood": [
+    "neon"
+   ],
+   "width": 1002,
+   "height": 960,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-gs010011-t0024-s0f1.jpg"
+  },
+  {
+   "slug": "field-20260917-gs010010-t0124-s0f1",
+   "title": "เซ็นทรัล เชียงราย",
+   "description": "A Yaowarat-style gold shop: red and gold counters, lit gold displays, staff seated at the back.",
+   "description_th": "ร้านทองคำ เยาวราช เคาน์เตอร์แดงทอง ตู้โชว์ทองเปิดไฟ พนักงานนั่งอยู่ด้านใน",
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "placeId": "cr-osm-way-1110659333",
+   "topic": [
+    "shop"
+   ],
+   "mood": [
+    "calm"
+   ],
+   "width": 937,
+   "height": 897,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-gs010010-t0124-s0f1.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-osm-way-961802267",
+   "title": "Nari Cafe",
+   "description": "Nari Cafe, from the street",
+   "description_th": "Nari Cafe มองจากถนน",
+   "lat": 19.9073255,
+   "lng": 99.8310869,
+   "placeId": "cr-osm-way-961802267",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 941,
+   "height": 1100,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-osm-way-961802267.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-osm-way-960935005",
+   "title": "ข้าวมันไก่จักรพรรดิ",
+   "description": "Chakrapad Chicken Rice, from the street",
+   "description_th": "ข้าวมันไก่จักรพรรดิ มองจากถนน",
+   "lat": 19.9073043,
+   "lng": 99.8307717,
+   "placeId": "cr-osm-way-960935005",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 941,
+   "height": 1100,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-osm-way-960935005.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-osm-way-959733189",
+   "title": "Knifeshift",
+   "description": "Knifeshift, from the street",
+   "description_th": "Knifeshift มองจากถนน",
+   "lat": 19.9073351,
+   "lng": 99.8308501,
+   "placeId": "cr-osm-way-959733189",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 941,
+   "height": 1100,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-osm-way-959733189.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-osm-way-963169294",
+   "title": "Fika",
+   "description": "Fika, from the street",
+   "description_th": "Fika มองจากถนน",
+   "lat": 19.9068551,
+   "lng": 99.8309037,
+   "placeId": "cr-osm-way-963169294",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 941,
+   "height": 1100,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-osm-way-963169294.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-ovt-f01f1079-a2bb-466d-9a87-a54f7897f545",
+   "title": "ร้านศิริวัฒนา",
+   "description": "ร้านศิริวัฒนา, from the street",
+   "description_th": "ร้านศิริวัฒนา มองจากถนน",
+   "lat": 19.908745765686035,
+   "lng": 99.82858276367188,
+   "placeId": "cr-ovt-f01f1079-a2bb-466d-9a87-a54f7897f545",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 838,
+   "height": 980,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-ovt-f01f1079-a2bb-466d-9a87-a54f7897f545.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-ovt-bb0d8000-ffa3-49d4-a1dc-9cad9b2212d0",
+   "title": "รัตนาสังฆภัณฑ์",
+   "description": "รัตนาสังฆภัณฑ์, from the street",
+   "description_th": "รัตนาสังฆภัณฑ์ มองจากถนน",
+   "lat": 19.909586906433105,
+   "lng": 99.8283920288086,
+   "placeId": "cr-ovt-bb0d8000-ffa3-49d4-a1dc-9cad9b2212d0",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 876,
+   "height": 1026,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-ovt-bb0d8000-ffa3-49d4-a1dc-9cad9b2212d0.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-ovt-79d9e14e-cb34-42a2-a007-15578dc4f05b",
+   "title": "Antiques Cafe",
+   "description": "Antiques Cafe, from the street",
+   "description_th": "Antiques Cafe มองจากถนน",
+   "lat": 19.1149320602417,
+   "lng": 99.4623794555664,
+   "placeId": "cr-ovt-79d9e14e-cb34-42a2-a007-15578dc4f05b",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 941,
+   "height": 1100,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-ovt-79d9e14e-cb34-42a2-a007-15578dc4f05b.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-ovt-61844bd4-68dd-46eb-b591-df0ef460e215",
+   "title": "Oriental Jewelry & Gold",
+   "description": "Oriental Jewelry & Gold, from the street",
+   "description_th": "Oriental Jewelry & Gold มองจากถนน",
+   "lat": 19.8866548538208,
+   "lng": 99.8346939086914,
+   "placeId": "cr-ovt-61844bd4-68dd-46eb-b591-df0ef460e215",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1002,
+   "height": 960,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-ovt-61844bd4-68dd-46eb-b591-df0ef460e215.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-ovt-2efa3b17-1cd3-4e3d-8cd1-a75b739d75d2",
+   "title": "OWNDAYS Central Chiangrai",
+   "description": "OWNDAYS Central Chiangrai, from the street",
+   "description_th": "OWNDAYS Central Chiangrai มองจากถนน",
+   "lat": 19.886483192443848,
+   "lng": 99.83299255371094,
+   "placeId": "cr-ovt-2efa3b17-1cd3-4e3d-8cd1-a75b739d75d2",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1002,
+   "height": 960,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-ovt-2efa3b17-1cd3-4e3d-8cd1-a75b739d75d2.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-osm-node-8946977368",
+   "title": "พาเวอร์บาย",
+   "description": "Power Buy, from the street",
+   "description_th": "พาเวอร์บาย มองจากถนน",
+   "lat": 19.8869989,
+   "lng": 99.8346746,
+   "placeId": "cr-osm-node-8946977368",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 914,
+   "height": 876,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-osm-node-8946977368.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-curated-phriao",
+   "title": "เพรียว",
+   "description": "เพรียว, pharmacy",
+   "description_th": "เพรียว ร้านขายยา",
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "placeId": "cr-curated-phriao",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 941,
+   "height": 1100,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-curated-phriao.jpg"
+  },
+  {
+   "slug": "field-20260918-cr-curated-laksami",
+   "title": "ลักษมี",
+   "description": "ลักษมี, fabric shop",
+   "description_th": "ลักษมี ร้านผ้า",
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "placeId": "cr-curated-laksami",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 861,
+   "height": 1007,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-cr-curated-laksami.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-curated-hot-spring-halal-food",
+   "title": "อาหารอิสลาม",
+   "description": "HOT SPRING HALAL FOOD, restaurant",
+   "description_th": "อาหารอิสลาม อาหารอิสลาม ฮาลาล",
+   "lat": 19.115,
+   "lng": 99.462,
+   "placeId": "cr-curated-hot-spring-halal-food",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 941,
+   "height": 1100,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-curated-hot-spring-halal-food.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-curated-amaze-central-chiangrai",
+   "title": "AMAZE",
+   "description": "AMAZE, women's fashion store; facade lists Guy Laroche, GSP, LOF-FI-CIEL, Jousse",
+   "description_th": "AMAZE เสื้อผ้าผู้หญิง",
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "placeId": "cr-curated-amaze-central-chiangrai",
+   "topic": [
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 926,
+   "height": 888,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-curated-amaze-central-chiangrai.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-curated-skechers-central-chiangrai",
+   "title": "SKECHERS",
+   "description": "SKECHERS, shoe store",
+   "description_th": "SKECHERS รองเท้า",
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "placeId": "cr-curated-skechers-central-chiangrai",
+   "topic": [
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 936,
+   "height": 897,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-curated-skechers-central-chiangrai.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-curated-chob-cha-central-chiangrai",
+   "title": "CHOB CHA",
+   "description": "CHOB CHA, shop sign seen across the Thai-crafts concourse",
+   "description_th": "CHOB CHA เสื้อผ้า",
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "placeId": "cr-curated-chob-cha-central-chiangrai",
+   "topic": [
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1002,
+   "height": 960,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-curated-chob-cha-central-chiangrai.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-curated-auntie-annes-central-chiangrai",
+   "title": "Auntie Anne's",
+   "description": "Auntie Anne's, pretzel shop",
+   "description_th": "Auntie Anne's เพรทเซล",
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "placeId": "cr-curated-auntie-annes-central-chiangrai",
+   "topic": [
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1002,
+   "height": 960,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-curated-auntie-annes-central-chiangrai.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-curated-lemony-central-chiangrai",
+   "title": "LEMONY",
+   "description": "LEMONY, gift and lifestyle shop",
+   "description_th": "LEMONY ของขวัญ ไลฟ์สไตล์",
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "placeId": "cr-curated-lemony-central-chiangrai",
+   "topic": [
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 967,
+   "height": 926,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-curated-lemony-central-chiangrai.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-curated-officemate-central-chiangrai",
+   "title": "OfficeMate",
+   "description": "OfficeMate, office supplies store (cell shows Office M…; full sign in view GS010011_t0024_s0f1)",
+   "description_th": "OfficeMate เครื่องเขียน อุปกรณ์สำนักงาน",
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "placeId": "cr-curated-officemate-central-chiangrai",
+   "topic": [
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1002,
+   "height": 960,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-curated-officemate-central-chiangrai.jpg"
+  },
+  {
+   "slug": "field-20260917-cr-curated-talia-central-chiangrai",
+   "title": "TALIA",
+   "description": "TALIA, fashion store",
+   "description_th": "TALIA เสื้อผ้า",
+   "lat": 19.886284,
+   "lng": 99.8330265,
+   "placeId": "cr-curated-talia-central-chiangrai",
+   "topic": [
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 908,
+   "height": 870,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260917-cr-curated-talia-central-chiangrai.jpg"
+  },
+  {
+   "slug": "field-20260918-market-10",
+   "title": "ตลาดสดเทศบาล ๑",
+   "description": "Covered hall of Chiang Rai Municipal Market 1: cooked-food counters",
+   "description_th": "โถงตลาดสดเทศบาล ๑ เชียงราย ร้านอาหารปรุงสุก",
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "placeId": "cr-osm-way-387050901",
+   "topic": [
+    "market",
+    "food"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 940,
+   "height": 1100,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-market-10.jpg"
+  },
+  {
+   "slug": "field-20260918-market-12",
+   "title": "ตลาดสดเทศบาล ๑",
+   "description": "A clothes stall inside Chiang Rai Municipal Market 1",
+   "description_th": "แผงเสื้อผ้าในตลาดสดเทศบาล ๑ เชียงราย",
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "placeId": "cr-osm-way-387050901",
+   "topic": [
+    "market",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 880,
+   "height": 1029,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-market-12.jpg"
+  },
+  {
+   "slug": "field-20260918-market-13",
+   "title": "ตลาดสดเทศบาล ๑",
+   "description": "Shoe and household stalls in Chiang Rai Municipal Market 1",
+   "description_th": "แผงรองเท้าและของใช้ในตลาดสดเทศบาล ๑ เชียงราย",
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "placeId": "cr-osm-way-387050901",
+   "topic": [
+    "market",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 941,
+   "height": 1100,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-market-13.jpg"
+  },
+  {
+   "slug": "field-20260918-market-16",
+   "title": "ตลาดสดเทศบาล ๑",
+   "description": "Fresh vegetables and a scale in Chiang Rai Municipal Market 1",
+   "description_th": "ผักสดกับตาชั่งในตลาดสดเทศบาล ๑ เชียงราย",
+   "lat": 19.9093,
+   "lng": 99.8292,
+   "placeId": "cr-osm-way-387050901",
+   "topic": [
+    "market",
+    "food"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 872,
+   "height": 1019,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "file": "photos/2026-09-18/field-20260918-market-16.jpg"
+  }
+ ],
+ "track": null,
+ "province": "cr"
+}

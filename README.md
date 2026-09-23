@@ -1,7 +1,7 @@
 # ภาคสนาม · Field
 
 Street-level capture for [Mot Dang](https://motdang.net/), the Thai-first directory of Chiang Mai
-and Chiang Rai. A 360° camera rides on a motorbike; every sign it passes is read, by machine
+and Chiang Rai. A 360° camera rides on a motorbike or goes in hand through markets, malls and wats; every sign it passes is read, by machine
 and then by a person, and goes onto the map.
 
 **Live:** https://motdang.net/field/ · https://nanobotco.github.io/field/
@@ -12,6 +12,7 @@ Made by [hongdam.net](https://hongdam.net/), a bilingual web studio in Chiang Ra
 
 | session | km | frames | places added | places confirmed | photographs |
 |---|---|---|---|---|---|
+| 2026-09-18 (Chiang Rai, on foot) | — | 1,109 | 39 | 21 | 67 |
 | 2026-09-23 | 13.5 | 818 | 29 | 60 | 84 |
 
 *Places added* had no Mot Dang record; their own signboard named them. *Confirmed* already

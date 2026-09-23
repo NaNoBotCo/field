@@ -1,8 +1,8 @@
 # ภาคสนาม · Field
 
-> Street-level capture feeding Mot Dang, the Thai-first directory of Chiang Mai and Chiang Rai. A 360° camera on a motorbike; each frame is cut into tiles, the signs are read by Apple Vision (Thai + English) and checked by a person; names that match a Mot Dang record confirm it, names that match nothing become new records with a pin.
+> Street-level capture feeding Mot Dang, the Thai-first directory of Chiang Mai and Chiang Rai. A 360° camera on a motorbike or in hand; each frame is cut into tiles, the signs are read by Apple Vision (Thai + English) and checked by a person; names that match a Mot Dang record confirm it, names that match nothing become new records with a pin.
 
-- Sessions: 1
+- Sessions: 2
 - Latest: 2026-09-23, 13.5 km, 29 places added, 60 confirmed, 84 photographs
 - Data: https://nanobotco.github.io/field/data/photos.json and https://nanobotco.github.io/field/data/sessions/
 - Licence: data and photographs CC BY 4.0 (credit NaN Peacock); code MIT
