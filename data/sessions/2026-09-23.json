@@ -1,0 +1,2734 @@
+{
+ "date": "2026-09-23",
+ "kind": "ride",
+ "camera": "GoPro Max 2",
+ "counts": {
+  "frames": 818,
+  "frames_with_fix": 552,
+  "km": 13.5,
+  "tiles_read": 11104,
+  "text_lines": 7945,
+  "confirmed": 60,
+  "new": 29,
+  "photos": 84,
+  "place_photos": 48
+ },
+ "confirmed": [
+  {
+   "id": "cm-osm-node-6138692197",
+   "name": "De Charme Hotel",
+   "cat": "hotel",
+   "read": "DE CHARME",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-way-537852249",
+   "name": "บางจาก",
+   "cat": "transport",
+   "read": "pangchak",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-node-2469653312",
+   "name": "ปลาเผาผักสด",
+   "cat": "food",
+   "read": "ปลาเผา ผักสด",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-node-2466325290",
+   "name": "7-Eleven",
+   "cat": "essentials",
+   "read": "ELEVEN",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-node-6538035004",
+   "name": "คู่อร่อย",
+   "cat": "food",
+   "read": "คู่อร่อย",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-way-242929434",
+   "name": "วัดผาบ่อง",
+   "cat": "wat",
+   "read": "วัดผาบ่อง (มังคลาราม)",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-node-9784520720",
+   "name": "barber",
+   "cat": "beauty",
+   "read": "BARBER",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-paper-5487",
+   "name": "เจ.พี. โฆษณา",
+   "cat": "essentials",
+   "read": "แจ.พี.โฆษณา",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-222d5b22-f86a-4c2b-b5af-5408072e331e",
+   "name": "เค พาร์ค",
+   "cat": "hotel",
+   "read": "เค พาร์ค",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-11081868-03a2-47d3-ba3d-e3e92f29a335",
+   "name": "Mass Coffee",
+   "cat": "food",
+   "read": "COFFEE",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-way-208674913",
+   "name": "บางจาก",
+   "cat": "transport",
+   "read": "pangchak",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-95158348-0989-4bbe-8df7-4312ca9d87ca",
+   "name": "ข้าวหมูทอด ตั้ง ตัว ฮะ",
+   "cat": "food",
+   "read": "ข้าวหมูทอด ตั้งตัวฮะ",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-way-283054964",
+   "name": "Caltex",
+   "cat": "transport",
+   "read": "CALTE",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-8de02d4a-e9a4-4c36-90d3-f37ac8a80d79",
+   "name": "โรงเรียนอภัยอริยศึกษา",
+   "cat": "school",
+   "read": "โรงเรียนอภัยอริยศึกษา วัดดับภัย",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-a994bd50-cf13-4313-9dda-33a95a4c36ff",
+   "name": "Chiangmai Muay Thai Gym",
+   "cat": "sport",
+   "read": "www.chiangmaimuaythaigym.com",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-0d2df384-9fed-4487-a500-7412c1fa96e0",
+   "name": "พีจีเอแบตเตอรี่",
+   "cat": "business",
+   "read": "แบ็ตเตอรี่",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-ce360a66-30b9-498e-8712-30205f774809",
+   "name": "เชียงใหม่โลหะภัณฑ์",
+   "cat": "repair",
+   "read": "ชียงใหม่โลหะภัณฑ์",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-way-623152998",
+   "name": "บ้านอารักษ์",
+   "cat": "realestate",
+   "read": "บ้านอารักษ์",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-node-3385510725",
+   "name": "นุชนรี",
+   "cat": "beauty",
+   "read": "นุชนรี",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-node-11515426705",
+   "name": "Warp Tattoo",
+   "cat": "tattoo",
+   "read": "WARP TATTOO",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-4418bba0-5f7a-487c-8981-ea43fe90f442",
+   "name": "สหกรณ์การเกษตรเมืองเชียงใหม่ จำกัด",
+   "cat": "business",
+   "read": "ย์การเกษตรเมืองเชียงใหม่ จำเ",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-2d810a2f-ef43-4ad3-9347-3dba8f0ad47b",
+   "name": "Best Look Optic",
+   "cat": "medical",
+   "read": "BEST LOOK OPTIC",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-15a17430-8f50-4f4f-8fb0-18692b9885ff",
+   "name": "ระเบียบพานิช",
+   "cat": "repair",
+   "read": "ระเบียนพานิช",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-node-10801495606",
+   "name": "GYMkruoor",
+   "cat": "sport",
+   "read": "GYM.KRU.OOR",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-8735b55d-9edd-4a24-bae7-3aa1c7ae3a57",
+   "name": "ครูพายุ สอนว่ายน้ำ",
+   "cat": "parks",
+   "read": "สอนว่ายน้ำ",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-beccea3a-4257-423b-a52a-0cf4646a8ded",
+   "name": "Ping Audio Shop",
+   "cat": "repair",
+   "read": "PING AUDIO SHOP",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-101e85b2-9b8c-4be3-8119-c3621efa8541",
+   "name": "บ้านเอื้ออาทร",
+   "cat": "sights",
+   "read": "\"อื้ออาทร",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-way-544114219",
+   "name": "7-Eleven",
+   "cat": "essentials",
+   "read": "ELEVERN",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-26c7594c-c0e7-46e5-85af-8c5d26b86627",
+   "name": "Lanna Lab",
+   "cat": "medical",
+   "read": "LANSA LAB",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-81a0b56e-e346-4cf7-8d56-1285ce6ee8c2",
+   "name": "Toyota Sure Chiang Mai",
+   "cat": "repair",
+   "read": "TOYOTA CHIANG MAI",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-node-7027943486",
+   "name": "Hug Smoothie",
+   "cat": "food",
+   "read": "SMOOTHIES",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-5043732e-f0c1-4068-8a4d-b7017519ff9a",
+   "name": "K-Perfect Nails & Spa - Singharat",
+   "cat": "beauty",
+   "read": "K-per fect Nails & Spa",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-vet-14792",
+   "name": "การุณ สัตวแพทย์",
+   "cat": "pets",
+   "read": "กรุงเสิตวแพทย์",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-662af26f-073d-4107-b58a-ffc206f5a8b8",
+   "name": "เจเจ.ออโต้ไทร์",
+   "cat": "repair",
+   "read": "เจ เจ ออได้ไทร์",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-47aa87b0-2159-4686-94f7-686bd683fb9a",
+   "name": "ไพบูลย์ ดอกไม้แห้ง",
+   "cat": "shopping",
+   "read": "ไพบูลย์ดอกไม้ผ้า",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-f921a92a-8eaf-48cd-9faa-ecb7b0ab59ca",
+   "name": "มาลี ก๋วยเตี๋ยวต้มยำสุโขทัย",
+   "cat": "food",
+   "read": "มาลี ก๋วยเตี๋ยวต้มยำสุโขทั",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-professional-26928",
+   "name": "สิทธิทนายความ",
+   "cat": "business",
+   "read": "สิทธิ์ทนายคว",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-node-6597502156",
+   "name": "อ้อมเมือง เภสัช",
+   "cat": "essentials/medical",
+   "read": "ออมเมืองเภส",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-way-585950762",
+   "name": "แก๊สรถยนต์",
+   "cat": "transport",
+   "read": "แก้ฟรถยนต์ ง",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-way-249376159",
+   "name": "GranDent Dental Clinic",
+   "cat": "medical",
+   "read": "GandDent Dentel Clinie",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-way-301655694",
+   "name": "เจียง ลูกชิ้นปลา",
+   "cat": "food",
+   "read": "ลูกชิ้นปลา",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-0453959d-4a5b-4195-89c3-ed4316b9be07",
+   "name": "ชัชวาลย์อีเลคทรอนิคส์ เชียงใหม่",
+   "cat": "repair",
+   "read": "ชัชวาลย์อีเลคทรอนิคส์",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-d750a232-0c69-475c-9990-341b5c8a3473",
+   "name": "Greather Coffee",
+   "cat": "food",
+   "read": "REATHER COFFEE",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-node-5859346225",
+   "name": "เสริมสวย อารีย์",
+   "cat": "beauty",
+   "read": "เสริมสวย",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-node-11227905206",
+   "name": "Bed in Town",
+   "cat": "hotel",
+   "read": "BED IN TOW",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-a86be3f0-3a59-4ae7-83c9-b1b19a2a32d2",
+   "name": "สิงหราช เภสัช",
+   "cat": "essentials",
+   "read": "สิงหราชเภสัช",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-node-7027943294",
+   "name": "Women’s massage",
+   "cat": "massage",
+   "read": "Women's Massage Cent",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-7979a4d0-5ed4-46bf-84a0-7dae22b30f1d",
+   "name": "Siri Lanna Massage1",
+   "cat": "massage",
+   "read": "SIRI LANNA MASSAGE BRA",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-c21fc7cf-6d2f-4a38-8b22-e6d4eb0e5019",
+   "name": "Risa Thai Massage",
+   "cat": "massage",
+   "read": "RISA MASSAGE",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-node-2342018523",
+   "name": "7-Eleven",
+   "cat": "essentials",
+   "read": "ELEVEN",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-node-8690712209",
+   "name": "สี่ พี่น้อง",
+   "cat": "essentials/medical",
+   "read": "เยวสี่พี่น้อง",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-home-16567",
+   "name": "ส.อลูมิเนียม",
+   "cat": "repair",
+   "read": "ส.อลูมิเนียม",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-d0537261-825d-4947-ae3f-c7b023152430",
+   "name": "Block and Play Cafe",
+   "cat": "food",
+   "read": "BtocK IPLAY CAFE",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-node-3067759753",
+   "name": "แดงกลอนประตู",
+   "cat": "repair",
+   "read": "แดงกลอน",
+   "photo": false
+  },
+  {
+   "id": "cm-ovt-9950505e-cb51-466f-89df-eae255112d80",
+   "name": "Finnix Film",
+   "cat": "repair",
+   "read": "FINNIX > FILM",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-a7f179b0-ce4e-4b7d-9b7c-838e40c4bed6",
+   "name": "The Spacebar",
+   "cat": "food",
+   "read": "The Spacel",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-1264ee99-0a43-4b15-81a0-e8ca85f87759",
+   "name": "อภิรักษ์การแพทย์",
+   "cat": "medical",
+   "read": "อุภิรักน์การแพทย์",
+   "photo": true
+  },
+  {
+   "id": "cm-ovt-32ca7d8b-1ff4-4c5c-b881-0e2df6db1496",
+   "name": "C.I Tower",
+   "cat": "business",
+   "read": "CITOWER",
+   "photo": true
+  },
+  {
+   "id": "cm-osm-node-1618122063",
+   "name": "7-Eleven",
+   "cat": "essentials",
+   "read": "ELEVEN",
+   "photo": false
+  },
+  {
+   "id": "cm-osm-way-406992974",
+   "name": "วัดดับภัย",
+   "cat": "wat",
+   "read": "วัดดับภัย จย",
+   "photo": true
+  }
+ ],
+ "new": [
+  {
+   "id": "cm-curated-ride0923-p-p-car-care",
+   "name": "พี.พี. คาร์แคร์",
+   "nameTh": "พี.พี. คาร์แคร์",
+   "nameEn": "P.P. Car Care",
+   "kind": "car and motorbike wash",
+   "kindTh": "ล้างรถยนต์ ล้างมอเตอร์ไซค์",
+   "cat": [
+    "repair"
+   ],
+   "lat": 18.790219,
+   "lng": 98.982358,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-bake-a-seat",
+   "name": "Bake A Seat",
+   "nameTh": null,
+   "nameEn": "Bake A Seat",
+   "kind": "bakery and cafe",
+   "kindTh": "เบเกอรี่และคาเฟ่",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.791052,
+   "lng": 98.978349,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-th094b8db0",
+   "name": "ถึงแล้ว",
+   "nameTh": "ถึงแล้ว",
+   "nameEn": null,
+   "kind": "restaurant: Wichian Buri grilled chicken, nam tok pork, tom saep, som tam",
+   "kindTh": "ร้านอาหาร ไก่ย่างวิเชียรบุรี หมูน้ำตก ต้มแซ่บ ส้มตำ",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.769746,
+   "lng": 99.040721,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-ride0923-heng-leasing",
+   "name": "เฮงลิสซิ่ง",
+   "nameTh": "เฮงลิสซิ่ง",
+   "nameEn": "Heng Leasing",
+   "kind": "vehicle and land title loans, car insurance, tax renewal",
+   "kindTh": "สินเชื่อทะเบียนรถ ที่ดิน ประกันรถยนต์ ต่อภาษี",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.759056,
+   "lng": 98.998569,
+   "phone": "1361",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-bankhru-samunprai-suan-dok-branch",
+   "name": "บ้านครูสมุนไพร สาขาสวนดอก",
+   "nameTh": "บ้านครูสมุนไพร สาขาสวนดอก",
+   "nameEn": "Bankhru Samunprai, Suan Dok branch",
+   "kind": "cannabis and Thai herbal products",
+   "kindTh": "ร้านจำหน่ายสมุนไพรไทยและผลิตภัณฑ์กัญชา",
+   "cat": [
+    "cannabis"
+   ],
+   "lat": 18.789668,
+   "lng": 98.978805,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-silkspan",
+   "name": "Silkspan",
+   "nameTh": null,
+   "nameEn": "Silkspan",
+   "kind": "insurance broker office",
+   "kindTh": "สำนักงานนายหน้าประกันภัย",
+   "cat": [
+    "business"
+   ],
+   "lat": 18.76091,
+   "lng": 98.996331,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-ride0923-th3bb764f8",
+   "name": "สยามชัย",
+   "nameTh": "สยามชัย",
+   "nameEn": null,
+   "kind": "electrical appliances and mobile phones",
+   "kindTh": "เครื่องใช้ไฟฟ้าและโทรศัพท์มือถือ",
+   "cat": [
+    "repair"
+   ],
+   "lat": 18.777501,
+   "lng": 98.976806,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-top-property",
+   "name": "Top Property",
+   "nameTh": null,
+   "nameEn": "Top Property",
+   "kind": "real-estate agency office",
+   "kindTh": "สำนักงานนายหน้าอสังหาริมทรัพย์",
+   "cat": [
+    "realestate"
+   ],
+   "lat": 18.789589,
+   "lng": 98.98007,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-th2592c0e5",
+   "name": "ณรงค์หีบศพ",
+   "nameTh": "ณรงค์หีบศพ",
+   "nameEn": null,
+   "kind": "coffin shop",
+   "kindTh": "ร้านหีบศพ",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.791052,
+   "lng": 98.978349,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-ride0923-sweet-taro",
+   "name": "หวานเผือก",
+   "nameTh": "หวานเผือก",
+   "nameEn": "Sweet Taro",
+   "kind": "dessert shop",
+   "kindTh": "ร้านขนมหวาน",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.789675,
+   "lng": 98.978684,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-th7b08dec5",
+   "name": "กะหรี่พัฟ เจ้าเก่า",
+   "nameTh": "กะหรี่พัฟ เจ้าเก่า",
+   "nameEn": null,
+   "kind": "curry puffs, chicken or sweet bean",
+   "kindTh": "กะหรี่พัฟ ไส้ไก่ ไส้ถั่วหวาน",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.789675,
+   "lng": 98.978684,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-ayutthaya-thai-kitchen",
+   "name": "ครัวอยุธยา",
+   "nameTh": "ครัวอยุธยา",
+   "nameEn": "Ayutthaya Thai Kitchen",
+   "kind": "Thai restaurant",
+   "kindTh": "ร้านอาหารไทย",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.791408,
+   "lng": 98.982174,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-ride0923-thb2e2af10",
+   "name": "เชียงใหม่ลามิเนต",
+   "nameTh": "เชียงใหม่ลามิเนต",
+   "nameEn": null,
+   "kind": "laminate flooring shop",
+   "kindTh": "ร้านพื้นลามิเนต",
+   "cat": [
+    "repair"
+   ],
+   "lat": 18.777045,
+   "lng": 99.042415,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-ride0923-srisawad-buak-khrok-luang-branch",
+   "name": "ศรีสวัสดิ์ สาขาบวกครกหลวง",
+   "nameTh": "ศรีสวัสดิ์ สาขาบวกครกหลวง",
+   "nameEn": "Srisawad, Buak Khrok Luang branch",
+   "kind": "vehicle title loans and insurance",
+   "kindTh": "สินเชื่อทะเบียนรถและประกันภัย",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.775818,
+   "lng": 99.04233,
+   "phone": "065-940-0786",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-ride0923-srisawad",
+   "name": "ศรีสวัสดิ์",
+   "nameTh": "ศรีสวัสดิ์",
+   "nameEn": "Srisawad",
+   "kind": "vehicle title loans and insurance",
+   "kindTh": "สินเชื่อทะเบียนรถและประกันภัย",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.762873,
+   "lng": 98.993926,
+   "phone": "062-601-1076",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-jackie-fitness",
+   "name": "บริษัท แจ๊กกี้ ฟิทเนส จำกัด",
+   "nameTh": "บริษัท แจ๊กกี้ ฟิทเนส จำกัด",
+   "nameEn": "Jackie Fitness",
+   "kind": "exercise equipment: sales, rental, repair",
+   "kindTh": "จำหน่าย ให้เช่า ซ่อมเครื่องออกกำลังกาย",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.759215,
+   "lng": 99.014415,
+   "phone": "081-628 5873, 062-0244630",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-linda-eye-clinic",
+   "name": "Linda Eye Clinic",
+   "nameTh": null,
+   "nameEn": "Linda Eye Clinic",
+   "kind": "eye clinic: surgery, laser, retinal scan, glasses",
+   "kindTh": "คลินิกตา ผ่าตัด เลเซอร์ สแกนจอตา ประกอบแว่น",
+   "cat": [
+    "medical"
+   ],
+   "lat": 18.779369,
+   "lng": 98.977109,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-ride0923-thf0c433f8",
+   "name": "แจ่วฮ้อน พะเยา",
+   "nameTh": "แจ่วฮ้อน พะเยา",
+   "nameEn": null,
+   "kind": "jaew hon hotpot restaurant",
+   "kindTh": "ร้านแจ่วฮ้อน",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.771778,
+   "lng": 99.04127,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-ride0923-cotto-life",
+   "name": "COTTO Life",
+   "nameTh": null,
+   "nameEn": "COTTO Life",
+   "kind": "tile and bathroom showroom",
+   "kindTh": "โชว์รูมกระเบื้องและสุขภัณฑ์",
+   "cat": [
+    "repair"
+   ],
+   "lat": 18.774681,
+   "lng": 98.976408,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-ride0923-yuri-thai-massage",
+   "name": "Yuri Thai Massage",
+   "nameTh": null,
+   "nameEn": "Yuri Thai Massage",
+   "kind": "Thai massage",
+   "kindTh": "นวดแผนไทย",
+   "cat": [
+    "massage"
+   ],
+   "lat": 18.789654,
+   "lng": 98.97904,
+   "phone": "",
+   "photo": false
+  },
+  {
+   "id": "cm-curated-ride0923-jeune-hostel-at-phra-singh",
+   "name": "Jeune Hostel at Phra Singh",
+   "nameTh": null,
+   "nameEn": "Jeune Hostel at Phra Singh",
+   "kind": "hostel",
+   "kindTh": "โฮสเทล",
+   "cat": [
+    "hotel"
+   ],
+   "lat": 18.789638,
+   "lng": 98.979343,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-kumuang-properties",
+   "name": "บริษัท คูเมือง พร็อพเพอร์ตี้ส์ จำกัด",
+   "nameTh": "บริษัท คูเมือง พร็อพเพอร์ตี้ส์ จำกัด",
+   "nameEn": "Kumuang Properties",
+   "kind": "real-estate company office",
+   "kindTh": "สำนักงานบริษัทอสังหาริมทรัพย์",
+   "cat": [
+    "realestate"
+   ],
+   "lat": 18.789598,
+   "lng": 98.979973,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-tha14e82a8",
+   "name": "คลังสินค้าเลิศวสิน",
+   "nameTh": "คลังสินค้าเลิศวสิน",
+   "nameEn": null,
+   "kind": "building-materials warehouse",
+   "kindTh": "คลังสินค้าวัสดุก่อสร้าง",
+   "cat": [
+    "repair"
+   ],
+   "lat": 18.786085,
+   "lng": 99.041549,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-matrix-honda-automobile",
+   "name": "บริษัท แมทริกซ์ ฮอนด้า ออโตโมบิล จำกัด",
+   "nameTh": "บริษัท แมทริกซ์ ฮอนด้า ออโตโมบิล จำกัด",
+   "nameEn": "Matrix Honda Automobile",
+   "kind": "Honda car showroom and service centre",
+   "kindTh": "โชว์รูมและศูนย์บริการรถยนต์ฮอนด้า",
+   "cat": [
+    "repair"
+   ],
+   "lat": 18.784218,
+   "lng": 99.041899,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-sv-pharmacy",
+   "name": "SV Pharmacy",
+   "nameTh": null,
+   "nameEn": "SV Pharmacy",
+   "kind": "pharmacy; free blood-pressure check",
+   "kindTh": "ร้านขายยา วัดความดันฟรี",
+   "cat": [
+    "essentials",
+    "medical"
+   ],
+   "lat": 18.790617,
+   "lng": 98.978363,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-thfdc82a28",
+   "name": "ไปรษณีย์ สามแยกสวนปรุง",
+   "nameTh": "ไปรษณีย์ สามแยกสวนปรุง",
+   "nameEn": null,
+   "kind": "post office",
+   "kindTh": "ที่ทำการไปรษณีย์",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.78005,
+   "lng": 98.97721,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-ricoh-services-thailand",
+   "name": "บริษัท ริโก้ เซอร์วิสเซส (ประเทศไทย) จำกัด",
+   "nameTh": "บริษัท ริโก้ เซอร์วิสเซส (ประเทศไทย) จำกัด",
+   "nameEn": "Ricoh Services (Thailand)",
+   "kind": "office equipment: copiers and printers",
+   "kindTh": "เครื่องใช้สำนักงาน เครื่องถ่ายเอกสาร",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.767813,
+   "lng": 98.981901,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-regional-postal-bureau-5",
+   "name": "สำนักงานไปรษณีย์เขต 5",
+   "nameTh": "สำนักงานไปรษณีย์เขต 5",
+   "nameEn": "Regional Postal Bureau 5",
+   "kind": "regional postal bureau office",
+   "kindTh": "สำนักงานไปรษณีย์เขต",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.78005,
+   "lng": 98.97721,
+   "phone": "",
+   "photo": true
+  },
+  {
+   "id": "cm-curated-ride0923-121-coffee",
+   "name": "121 Coffee",
+   "nameTh": null,
+   "nameEn": "121 Coffee",
+   "kind": "cafe",
+   "kindTh": "ร้านกาแฟ",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.78997,
+   "lng": 98.978349,
+   "phone": "",
+   "photo": true
+  }
+ ],
+ "photos": [
+  {
+   "slug": "ride-20260923-aa1911-097-l",
+   "title": "White two-storey building with a red roof beside the highway",
+   "description": "White two-storey building with a red roof beside the highway",
+   "description_th": "อาคารสีขาวหลังคาแดงริมทางหลวง",
+   "lat": 18.781941,
+   "lng": 99.042072,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1287,
+   "height": 885,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-097-l.jpg"
+  },
+  {
+   "slug": "ride-20260923-aa1911-098-f",
+   "title": "Riding into an underpass, painted barrier walls",
+   "description": "Riding into an underpass, painted barrier walls",
+   "description_th": "ทางลอดใต้สะพาน",
+   "lat": 18.781444,
+   "lng": 99.042108,
+   "placeId": null,
+   "topic": [
+    "transport"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-098-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-aa1911-110-l",
+   "title": "Tyre shop with a red front on the highway",
+   "description": "Tyre shop with a red front on the highway",
+   "description_th": "ร้านยางหน้าร้านสีแดงริมทางหลวง",
+   "lat": 18.776215,
+   "lng": 99.042383,
+   "placeId": null,
+   "topic": [
+    "city",
+    "repair",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-110-l.jpg"
+  },
+  {
+   "slug": "ride-20260923-aa1911-116-f",
+   "title": "Wat gate beside the highway",
+   "description": "Wat gate beside the highway",
+   "description_th": "ซุ้มประตูวัดริมทางหลวง",
+   "lat": 18.773859,
+   "lng": 99.041842,
+   "placeId": null,
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "landmark",
+    "sacred"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-116-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-aa1911-118-l",
+   "title": "Roadside shrine in front of a row of shops",
+   "description": "Roadside shrine in front of a row of shops",
+   "description_th": "ศาลริมทางหน้าห้องแถว",
+   "lat": 18.773051,
+   "lng": 99.041619,
+   "placeId": null,
+   "topic": [
+    "city",
+    "faith",
+    "shop"
+   ],
+   "mood": [
+    "sacred",
+    "streetlife"
+   ],
+   "width": 1307,
+   "height": 899,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-118-l.jpg"
+  },
+  {
+   "slug": "ride-20260923-aa1911-120-l",
+   "title": "Roof-tile and building-material shop with stacked stock",
+   "description": "Roof-tile and building-material shop with stacked stock",
+   "description_th": "ร้านกระเบื้องและวัสดุก่อสร้าง",
+   "lat": 18.772218,
+   "lng": 99.041385,
+   "placeId": null,
+   "topic": [
+    "city",
+    "repair",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ล้านนากระเบื้อง",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-120-l.jpg"
+  },
+  {
+   "slug": "ride-20260923-aa1911-123-l",
+   "title": "White clinic or hospital building by the road",
+   "description": "White clinic or hospital building by the road",
+   "description_th": "อาคารโรงพยาบาลสีขาวริมถนน",
+   "lat": 18.77092,
+   "lng": 99.041043,
+   "placeId": null,
+   "topic": [
+    "health",
+    "wellness"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-123-l.jpg"
+  },
+  {
+   "slug": "ride-20260923-aa1911-126-l",
+   "title": "Roadside restaurant with a spirit house at the corner",
+   "description": "Roadside restaurant with a spirit house at the corner",
+   "description_th": "ร้านอาหารริมทางกับศาลพระภูมิ",
+   "lat": 18.769746,
+   "lng": 99.040721,
+   "placeId": null,
+   "topic": [
+    "food"
+   ],
+   "mood": [
+    "appetite",
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-126-l.jpg"
+  },
+  {
+   "slug": "ride-20260923-aa1911-129-f",
+   "title": "Highway junction with signs to Mae On, Chiang Mai and Lamphun",
+   "description": "Highway junction with signs to Mae On, Chiang Mai and Lamphun",
+   "description_th": "ทางแยกป้ายบอกทางแม่ออน เชียงใหม่ ลำพูน",
+   "lat": 18.76856,
+   "lng": 99.040393,
+   "placeId": null,
+   "topic": [
+    "transport"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-129-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-aa1911-130-l",
+   "title": "7-Eleven shop in a row of shophouses on a suburban road, with motorbikes parked outside",
+   "description": "7-Eleven shop in a row of shophouses on a suburban road, with motorbikes parked outside",
+   "description_th": "ร้านเซเว่นอีเลฟเว่นในแถวตึกแถวริมถนนชานเมือง มีรถมอเตอร์ไซค์จอดหน้าร้าน",
+   "lat": 18.768193,
+   "lng": 99.040298,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "7-Eleven",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-130-l.jpg"
+  },
+  {
+   "slug": "ride-20260923-aa1911-145-f",
+   "title": "Overhead direction signs over the road to Mae On, Hang Dong and Chiang Mai, with a U-turn lane",
+   "description": "Overhead direction signs over the road to Mae On, Hang Dong and Chiang Mai, with a U-turn lane",
+   "description_th": "ป้ายบอกทางคร่อมถนน ไปอำเภอแม่ออน หางดง และเชียงใหม่ พร้อมช่องกลับรถ",
+   "lat": 18.764042,
+   "lng": 99.039247,
+   "placeId": null,
+   "topic": [
+    "city",
+    "transport"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-aa1911-145-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-050-r",
+   "title": "Old three-storey building with a wholesale pharmacy in a green-framed shopfront",
+   "description": "Old three-storey building with a wholesale pharmacy in a green-framed shopfront",
+   "description_th": "อาคารเก่าสามชั้นมีร้านขายยาส่ง หน้าร้านกรอบสีเขียว",
+   "lat": 18.763715,
+   "lng": 99.026942,
+   "placeId": null,
+   "topic": [
+    "city",
+    "health",
+    "shop",
+    "wellness"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1341,
+   "height": 921,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "โกดังยา / ร้านยา ขายส่ง",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-050-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-053-f",
+   "title": "Roadside shop selling spirit houses and white shrines, looking up a highway lined with shops",
+   "description": "Roadside shop selling spirit houses and white shrines, looking up a highway lined with shops",
+   "description_th": "ร้านขายศาลพระภูมิและเจดีย์ปูนสีขาวริมถนน มองไปตามถนนใหญ่ที่มีร้านค้าเรียงราย",
+   "lat": 18.763163,
+   "lng": 99.025471,
+   "placeId": null,
+   "topic": [
+    "city",
+    "faith",
+    "shop"
+   ],
+   "mood": [
+    "sacred",
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-053-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-056-f",
+   "title": "Airport and Chiang Mai direction sign on a footbridge over the highway, with a Shell station beside it",
+   "description": "Airport and Chiang Mai direction sign on a footbridge over the highway, with a Shell station beside it",
+   "description_th": "ป้ายบอกทางไปสนามบินและเชียงใหม่บนสะพานลอยข้ามถนนใหญ่ ข้างปั๊มเชลล์",
+   "lat": 18.762793,
+   "lng": 99.024382,
+   "placeId": null,
+   "topic": [
+    "city",
+    "transport"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "Shell",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-056-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-061-f",
+   "title": "Bangchak petrol station with an Inthanin coffee sign on a busy highway",
+   "description": "Bangchak petrol station with an Inthanin coffee sign on a busy highway",
+   "description_th": "ปั๊มน้ำมันบางจากมีป้ายกาแฟอินทนิลริมถนนใหญ่ที่รถพลุกพล่าน",
+   "lat": 18.762122,
+   "lng": 99.022531,
+   "placeId": null,
+   "topic": [
+    "food",
+    "transport"
+   ],
+   "mood": [
+    "appetite",
+    "streetlife"
+   ],
+   "width": 1250,
+   "height": 859,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "Bangchak / Inthanin",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-061-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-066-r",
+   "title": "Row of colourful old arched shophouses along the highway, with a Nippon Paint shop at the end",
+   "description": "Row of colourful old arched shophouses along the highway, with a Nippon Paint shop at the end",
+   "description_th": "ตึกแถวเก่าหน้าโค้งหลากสีเรียงริมถนนใหญ่ ท้ายแถวเป็นร้านสีนิปปอน",
+   "lat": 18.761465,
+   "lng": 99.020724,
+   "placeId": null,
+   "topic": [
+    "city",
+    "history",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "Nippon Paint",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-066-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-125-r",
+   "title": "Gate of Provincial Police Region 5, with a red brick wall, a Thai flag and a royal portrait",
+   "description": "Gate of Provincial Police Region 5, with a red brick wall, a Thai flag and a royal portrait",
+   "description_th": "ประตูตำรวจภูธรภาค 5 กำแพงอิฐแดง ธงชาติ และซุ้มพระบรมฉายาลักษณ์",
+   "lat": 18.759275,
+   "lng": 98.998319,
+   "placeId": null,
+   "topic": [
+    "city",
+    "history"
+   ],
+   "mood": [
+    "calm",
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ตำรวจภูธรภาค 5 / Provincial Police Region 5",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-125-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-124-r",
+   "title": "Heng Leasing branch office with a large green sign on the main road",
+   "description": "Heng Leasing branch office with a large green sign on the main road",
+   "description_th": "สาขาเฮงลิสซิ่ง ป้ายเขียวขนาดใหญ่ริมถนนใหญ่",
+   "lat": 18.759029,
+   "lng": 98.9986,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "calm",
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "เฮงลิสซิ่ง",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-124-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-134-r",
+   "title": "Row of shophouses with a 7-Eleven, a pharmacy and a supply shop along the main road",
+   "description": "Row of shophouses with a 7-Eleven, a pharmacy and a supply shop along the main road",
+   "description_th": "แถวตึกแถวริมถนนใหญ่ มีเซเว่นอีเลฟเว่น ร้านขายยา และร้านค้า",
+   "lat": 18.761357,
+   "lng": 98.995781,
+   "placeId": null,
+   "topic": [
+    "city",
+    "health",
+    "shop",
+    "wellness"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1330,
+   "height": 914,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "7-Eleven; ฟาร์มาเมด; มิ่งเมือง",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-134-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-122-f",
+   "title": "Main road ahead with shopfronts on the left and hills in the distance",
+   "description": "Main road ahead with shopfronts on the left and hills in the distance",
+   "description_th": "ถนนใหญ่ข้างหน้า มีร้านค้าทางซ้ายและภูเขาไกล ๆ",
+   "lat": 18.758566,
+   "lng": 98.999109,
+   "placeId": null,
+   "topic": [
+    "city",
+    "transport"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-122-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-183-f",
+   "title": "Junction with overhead signs: left to Hang Dong, straight to Chiang Mai and the airport",
+   "description": "Junction with overhead signs: left to Hang Dong, straight to Chiang Mai and the airport",
+   "description_th": "ทางแยก ป้ายบอกทาง: ซ้ายไปอำเภอหางดง ตรงไปเชียงใหม่และสนามบิน",
+   "lat": 18.767854,
+   "lng": 98.981604,
+   "placeId": null,
+   "topic": [
+    "city",
+    "transport"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "อ. หางดง Hang Dong / เชียงใหม่ Chiang Mai / สนามบิน Airport",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-183-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-195-f",
+   "title": "Flyover past Central Chiangmai Airport mall, with Doi Suthep behind",
+   "description": "Flyover past Central Chiangmai Airport mall, with Doi Suthep behind",
+   "description_th": "สะพานข้ามแยกผ่านเซ็นทรัล เชียงใหม่ แอร์พอร์ต มีดอยสุเทพเป็นฉากหลัง",
+   "lat": 18.76877,
+   "lng": 98.977683,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop",
+    "transport"
+   ],
+   "mood": [
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "Central Chiangmai Airport",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-195-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-211-r",
+   "title": "BYD car showroom and service centre on the main road",
+   "description": "BYD car showroom and service centre on the main road",
+   "description_th": "โชว์รูมและศูนย์บริการรถยนต์ BYD ริมถนนใหญ่",
+   "lat": 18.772695,
+   "lng": 98.976161,
+   "placeId": null,
+   "topic": [
+    "city",
+    "repair",
+    "shop",
+    "transport"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "BYD บีวายดี มอเตอร์ สตาร์ เชียงใหม่; Sure",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-211-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-216-r",
+   "title": "Green road sign pointing to the airport and Hang Dong, beside a multi-lane road",
+   "description": "Green road sign pointing to the airport and Hang Dong, beside a multi-lane road",
+   "description_th": "ป้ายบอกทางสีเขียวไปสนามบินและอำเภอหางดง ริมถนนหลายเลน",
+   "lat": 18.774344,
+   "lng": 98.976367,
+   "placeId": null,
+   "topic": [
+    "city",
+    "transport"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1287,
+   "height": 885,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "สนามบิน / อ.หางดง Hang Dong",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-216-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-225-f",
+   "title": "Bangchak petrol station on a wide suburban road",
+   "description": "Bangchak petrol station on a wide suburban road",
+   "description_th": "ปั๊มน้ำมันบางจากริมถนนใหญ่ชานเมือง",
+   "lat": 18.777011,
+   "lng": 98.976735,
+   "placeId": null,
+   "topic": [
+    "city",
+    "transport"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "bangchak",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-225-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-232-f",
+   "title": "Road ahead passing under a Lanna-style roofed footbridge",
+   "description": "Road ahead passing under a Lanna-style roofed footbridge",
+   "description_th": "ถนนลอดสะพานลอยคนข้ามหลังคาทรงล้านนา",
+   "lat": 18.779369,
+   "lng": 98.977109,
+   "placeId": null,
+   "topic": [
+    "city",
+    "transport"
+   ],
+   "mood": [
+    "landmark",
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-232-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-249-f",
+   "title": "Moat road with a banner arch over it and shade trees",
+   "description": "Moat road with a banner arch over it and shade trees",
+   "description_th": "ถนนเลียบคูเมืองมีซุ้มป้ายข้ามถนนและต้นไม้ร่มรื่น",
+   "lat": 18.784553,
+   "lng": 98.977689,
+   "placeId": null,
+   "topic": [
+    "city",
+    "history"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-249-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-249-r",
+   "title": "Chiang Mai moat lined with big shade trees",
+   "description": "Chiang Mai moat lined with big shade trees",
+   "description_th": "คูเมืองเชียงใหม่ ริมฝั่งมีต้นไม้ใหญ่",
+   "lat": 18.784553,
+   "lng": 98.977689,
+   "placeId": null,
+   "topic": [
+    "city",
+    "history",
+    "nature"
+   ],
+   "mood": [
+    "calm",
+    "green",
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 963,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-249-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-256-r",
+   "title": "Moat water reflecting trees, shophouses across the water",
+   "description": "Moat water reflecting trees, shophouses across the water",
+   "description_th": "น้ำในคูเมืองสะท้อนต้นไม้ มีตึกแถวอีกฝั่ง",
+   "lat": 18.786164,
+   "lng": 98.977758,
+   "placeId": null,
+   "topic": [
+    "history",
+    "nature"
+   ],
+   "mood": [
+    "calm",
+    "green"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-256-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-266-r",
+   "title": "Old city wall corner bastion with a lawn and a lamp post",
+   "description": "Old city wall corner bastion with a lawn and a lamp post",
+   "description_th": "ป้อมมุมกำแพงเมืองเก่า มีสนามหญ้าและเสาไฟ",
+   "lat": 18.788724,
+   "lng": 98.977875,
+   "placeId": null,
+   "topic": [
+    "city",
+    "history"
+   ],
+   "mood": [
+    "calm",
+    "landmark"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-266-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-274-r",
+   "title": "Moat with red flowering plants along the far bank",
+   "description": "Moat with red flowering plants along the far bank",
+   "description_th": "คูเมืองมีไม้ดอกสีแดงริมฝั่ง",
+   "lat": 18.790501,
+   "lng": 98.977959,
+   "placeId": null,
+   "topic": [
+    "history",
+    "nature"
+   ],
+   "mood": [
+    "calm",
+    "green"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-274-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-295-f",
+   "title": "Old-city street corner with a 7-Eleven and parked motorbikes",
+   "description": "Old-city street corner with a 7-Eleven and parked motorbikes",
+   "description_th": "หัวมุมถนนในเมืองเก่า มีร้านเซเว่นอีเลฟเว่นและมอเตอร์ไซค์จอดเรียง",
+   "lat": 18.789848,
+   "lng": 98.978342,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "7-ELEVEn",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-295-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-321-f",
+   "title": "Old-city lane beside an old brick wall, with a wat building ahead",
+   "description": "Old-city lane beside an old brick wall, with a wat building ahead",
+   "description_th": "ถนนในเมืองเก่าเลียบกำแพงอิฐเก่า มีอาคารวัดข้างหน้า",
+   "lat": 18.789528,
+   "lng": 98.981101,
+   "placeId": null,
+   "topic": [
+    "city",
+    "history",
+    "wat"
+   ],
+   "mood": [
+    "sacred",
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-321-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-355-f",
+   "title": "Shophouse street with a food cart and monks on the pavement",
+   "description": "Shophouse street with a food cart and monks on the pavement",
+   "description_th": "ถนนตึกแถวมีรถเข็นขายอาหารและพระสงฆ์เดินริมทาง",
+   "lat": 18.792137,
+   "lng": 98.982041,
+   "placeId": null,
+   "topic": [
+    "city",
+    "faith",
+    "food"
+   ],
+   "mood": [
+    "appetite",
+    "sacred",
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-355-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-357-r",
+   "title": "Red songthaew shared taxi passing a row of two-storey shophouses",
+   "description": "Red songthaew shared taxi passing a row of two-storey shophouses",
+   "description_th": "รถแดงสองแถววิ่งผ่านตึกแถวสองชั้น",
+   "lat": 18.792379,
+   "lng": 98.982004,
+   "placeId": null,
+   "topic": [
+    "city",
+    "transport"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "สิงห์ราช",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-357-r.jpg"
+  },
+  {
+   "slug": "ride-20260923-ab2131-362-f",
+   "title": "Street with an ornate Lanna wat gate and roof on the left",
+   "description": "Street with an ornate Lanna wat gate and roof on the left",
+   "description_th": "ถนนมีซุ้มประตูและหลังคาวัดแบบล้านนาทางซ้าย",
+   "lat": 18.792983,
+   "lng": 98.98193,
+   "placeId": null,
+   "topic": [
+    "city",
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "calm",
+    "landmark",
+    "sacred"
+   ],
+   "width": 1400,
+   "height": 962,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-ab2131-362-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-osm-way-537852249",
+   "title": "บางจาก",
+   "description": "Bangchak, seen from the road",
+   "description_th": "บางจาก มองจากถนน",
+   "lat": 18.762122,
+   "lng": 99.022531,
+   "placeId": "cm-osm-way-537852249",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "pangchak",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-osm-way-537852249.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-osm-node-9784520720",
+   "title": "barber",
+   "description": "barber, seen from the road",
+   "description_th": "barber มองจากถนน",
+   "lat": 18.791558,
+   "lng": 98.982139,
+   "placeId": "cm-osm-node-9784520720",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "BARBER",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-osm-node-9784520720.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-osm-way-208674913",
+   "title": "บางจาก",
+   "description": "Bangchak, seen from the road",
+   "description_th": "บางจาก มองจากถนน",
+   "lat": 18.777011,
+   "lng": 98.976735,
+   "placeId": "cm-osm-way-208674913",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "pangchak",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-osm-way-208674913.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-a994bd50-cf13-4313-9dda-33a95a4c36ff",
+   "title": "Chiangmai Muay Thai Gym",
+   "description": "Chiangmai Muay Thai Gym, seen from the road",
+   "description_th": "Chiangmai Muay Thai Gym มองจากถนน",
+   "lat": 18.793134,
+   "lng": 98.982434,
+   "placeId": "cm-ovt-a994bd50-cf13-4313-9dda-33a95a4c36ff",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "www.chiangmaimuaythaigym.com",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-a994bd50-cf13-4313-9dda-33a95a4c36ff.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-0d2df384-9fed-4487-a500-7412c1fa96e0",
+   "title": "พีจีเอแบตเตอรี่",
+   "description": "พีจีเอแบตเตอรี่, seen from the road",
+   "description_th": "พีจีเอแบตเตอรี่ มองจากถนน",
+   "lat": 18.775038,
+   "lng": 99.042175,
+   "placeId": "cm-ovt-0d2df384-9fed-4487-a500-7412c1fa96e0",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "แบ็ตเตอรี่",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-0d2df384-9fed-4487-a500-7412c1fa96e0.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-ce360a66-30b9-498e-8712-30205f774809",
+   "title": "เชียงใหม่โลหะภัณฑ์",
+   "description": "เชียงใหม่โลหะภัณฑ์, seen from the road",
+   "description_th": "เชียงใหม่โลหะภัณฑ์ มองจากถนน",
+   "lat": 18.761562,
+   "lng": 98.995532,
+   "placeId": "cm-ovt-ce360a66-30b9-498e-8712-30205f774809",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ชียงใหม่โลหะภัณฑ์",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-ce360a66-30b9-498e-8712-30205f774809.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-osm-node-11515426705",
+   "title": "Warp Tattoo",
+   "description": "Warp Tattoo, seen from the road",
+   "description_th": "Warp Tattoo มองจากถนน",
+   "lat": 18.792379,
+   "lng": 98.982004,
+   "placeId": "cm-osm-node-11515426705",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "WARP TATTOO",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-osm-node-11515426705.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-4418bba0-5f7a-487c-8981-ea43fe90f442",
+   "title": "สหกรณ์การเกษตรเมืองเชียงใหม่ จำกัด",
+   "description": "สหกรณ์การเกษตรเมืองเชียงใหม่ จำกัด, seen from the road",
+   "description_th": "สหกรณ์การเกษตรเมืองเชียงใหม่ จำกัด มองจากถนน",
+   "lat": 18.776408,
+   "lng": 98.976662,
+   "placeId": "cm-ovt-4418bba0-5f7a-487c-8981-ea43fe90f442",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ย์การเกษตรเมืองเชียงใหม่ จำเ",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-4418bba0-5f7a-487c-8981-ea43fe90f442.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-81a0b56e-e346-4cf7-8d56-1285ce6ee8c2",
+   "title": "Toyota Sure Chiang Mai",
+   "description": "Toyota Sure Chiang Mai, seen from the road",
+   "description_th": "Toyota Sure Chiang Mai มองจากถนน",
+   "lat": 18.773402,
+   "lng": 98.976261,
+   "placeId": "cm-ovt-81a0b56e-e346-4cf7-8d56-1285ce6ee8c2",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "TOYOTA CHIANG MAI",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-81a0b56e-e346-4cf7-8d56-1285ce6ee8c2.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-5043732e-f0c1-4068-8a4d-b7017519ff9a",
+   "title": "K-Perfect Nails & Spa - Singharat",
+   "description": "K-Perfect Nails & Spa - Singharat, seen from the road",
+   "description_th": "K-Perfect Nails & Spa - Singharat มองจากถนน",
+   "lat": 18.791868,
+   "lng": 98.982086,
+   "placeId": "cm-ovt-5043732e-f0c1-4068-8a4d-b7017519ff9a",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "K-per fect Nails & Spa",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-5043732e-f0c1-4068-8a4d-b7017519ff9a.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-47aa87b0-2159-4686-94f7-686bd683fb9a",
+   "title": "ไพบูลย์ ดอกไม้แห้ง",
+   "description": "ไพบูลย์ ดอกไม้แห้ง, seen from the road",
+   "description_th": "ไพบูลย์ ดอกไม้แห้ง มองจากถนน",
+   "lat": 18.77264,
+   "lng": 99.041503,
+   "placeId": "cm-ovt-47aa87b0-2159-4686-94f7-686bd683fb9a",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ไพบูลย์ดอกไม้ผ้า",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-47aa87b0-2159-4686-94f7-686bd683fb9a.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-professional-26928",
+   "title": "สิทธิทนายความ",
+   "description": "สิทธิทนายความ, seen from the road",
+   "description_th": "สิทธิทนายความ มองจากถนน",
+   "lat": 18.766951,
+   "lng": 99.039979,
+   "placeId": "cm-curated-professional-26928",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "สิทธิ์ทนายคว",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-professional-26928.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-osm-node-6597502156",
+   "title": "อ้อมเมือง เภสัช",
+   "description": "Om Mueang Pharmacy, seen from the road",
+   "description_th": "อ้อมเมือง เภสัช มองจากถนน",
+   "lat": 18.763522,
+   "lng": 99.026424,
+   "placeId": "cm-osm-node-6597502156",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ออมเมืองเภส",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-osm-node-6597502156.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-osm-way-585950762",
+   "title": "แก๊สรถยนต์",
+   "description": "Kaet Rotyon, seen from the road",
+   "description_th": "แก๊สรถยนต์ มองจากถนน",
+   "lat": 18.758566,
+   "lng": 98.999109,
+   "placeId": "cm-osm-way-585950762",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "แก้ฟรถยนต์ ง",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-osm-way-585950762.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-osm-way-249376159",
+   "title": "GranDent Dental Clinic",
+   "description": "GranDent Dental Clinic, seen from the road",
+   "description_th": "GranDent Dental Clinic มองจากถนน",
+   "lat": 18.773729,
+   "lng": 98.976307,
+   "placeId": "cm-osm-way-249376159",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "GandDent Dentel Clinie",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-osm-way-249376159.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-0453959d-4a5b-4195-89c3-ed4316b9be07",
+   "title": "ชัชวาลย์อีเลคทรอนิคส์ เชียงใหม่",
+   "description": "ชัชวาลย์อีเลคทรอนิคส์ เชียงใหม่, seen from the road",
+   "description_th": "ชัชวาลย์อีเลคทรอนิคส์ เชียงใหม่ มองจากถนน",
+   "lat": 18.789654,
+   "lng": 98.97904,
+   "placeId": "cm-ovt-0453959d-4a5b-4195-89c3-ed4316b9be07",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ชัชวาลย์อีเลคทรอนิคส์",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-0453959d-4a5b-4195-89c3-ed4316b9be07.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-d750a232-0c69-475c-9990-341b5c8a3473",
+   "title": "Greather Coffee",
+   "description": "Greather Coffee, seen from the road",
+   "description_th": "Greather Coffee มองจากถนน",
+   "lat": 18.789634,
+   "lng": 98.979431,
+   "placeId": "cm-ovt-d750a232-0c69-475c-9990-341b5c8a3473",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 811,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "REATHER COFFEE",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-d750a232-0c69-475c-9990-341b5c8a3473.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-osm-node-11227905206",
+   "title": "Bed in Town",
+   "description": "Bed in Town, seen from the road",
+   "description_th": "Bed in Town มองจากถนน",
+   "lat": 18.789584,
+   "lng": 98.980176,
+   "placeId": "cm-osm-node-11227905206",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "BED IN TOW",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-osm-node-11227905206.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-a86be3f0-3a59-4ae7-83c9-b1b19a2a32d2",
+   "title": "สิงหราช เภสัช",
+   "description": "สิงหราช เภสัช, seen from the road",
+   "description_th": "สิงหราช เภสัช มองจากถนน",
+   "lat": 18.790858,
+   "lng": 98.982277,
+   "placeId": "cm-ovt-a86be3f0-3a59-4ae7-83c9-b1b19a2a32d2",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "สิงหราชเภสัช",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-a86be3f0-3a59-4ae7-83c9-b1b19a2a32d2.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-osm-node-7027943294",
+   "title": "Women’s massage",
+   "description": "Women’s massage, seen from the road",
+   "description_th": "Women’s massage มองจากถนน",
+   "lat": 18.790948,
+   "lng": 98.98226,
+   "placeId": "cm-osm-node-7027943294",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "Women's Massage Cent",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-osm-node-7027943294.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-7979a4d0-5ed4-46bf-84a0-7dae22b30f1d",
+   "title": "Siri Lanna Massage1",
+   "description": "Siri Lanna Massage1, seen from the road",
+   "description_th": "Siri Lanna Massage1 มองจากถนน",
+   "lat": 18.791558,
+   "lng": 98.982139,
+   "placeId": "cm-ovt-7979a4d0-5ed4-46bf-84a0-7dae22b30f1d",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "SIRI LANNA MASSAGE BRA",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-7979a4d0-5ed4-46bf-84a0-7dae22b30f1d.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-c21fc7cf-6d2f-4a38-8b22-e6d4eb0e5019",
+   "title": "Risa Thai Massage",
+   "description": "Risa Thai Massage, seen from the road",
+   "description_th": "Risa Thai Massage มองจากถนน",
+   "lat": 18.792983,
+   "lng": 98.98193,
+   "placeId": "cm-ovt-c21fc7cf-6d2f-4a38-8b22-e6d4eb0e5019",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "RISA MASSAGE",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-c21fc7cf-6d2f-4a38-8b22-e6d4eb0e5019.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-osm-node-2342018523",
+   "title": "7-Eleven",
+   "description": "7-Eleven, seen from the road",
+   "description_th": "7-Eleven มองจากถนน",
+   "lat": 18.768193,
+   "lng": 99.040298,
+   "placeId": "cm-osm-node-2342018523",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ELEVEN",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-osm-node-2342018523.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-home-16567",
+   "title": "ส.อลูมิเนียม",
+   "description": "ส.อลูมิเนียม, seen from the road",
+   "description_th": "ส.อลูมิเนียม มองจากถนน",
+   "lat": 18.765323,
+   "lng": 99.039578,
+   "placeId": "cm-curated-home-16567",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ส.อลูมิเนียม",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-home-16567.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-d0537261-825d-4947-ae3f-c7b023152430",
+   "title": "Block and Play Cafe",
+   "description": "Block and Play Cafe, seen from the road",
+   "description_th": "Block and Play Cafe มองจากถนน",
+   "lat": 18.763163,
+   "lng": 99.025471,
+   "placeId": "cm-ovt-d0537261-825d-4947-ae3f-c7b023152430",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "BtocK IPLAY CAFE",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-d0537261-825d-4947-ae3f-c7b023152430.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-9950505e-cb51-466f-89df-eae255112d80",
+   "title": "Finnix Film",
+   "description": "Finnix Film, seen from the road",
+   "description_th": "Finnix Film มองจากถนน",
+   "lat": 18.768011,
+   "lng": 98.980399,
+   "placeId": "cm-ovt-9950505e-cb51-466f-89df-eae255112d80",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "FINNIX > FILM",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-9950505e-cb51-466f-89df-eae255112d80.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-a7f179b0-ce4e-4b7d-9b7c-838e40c4bed6",
+   "title": "The Spacebar",
+   "description": "The Spacebar, seen from the road",
+   "description_th": "The Spacebar มองจากถนน",
+   "lat": 18.775859,
+   "lng": 98.976583,
+   "placeId": "cm-ovt-a7f179b0-ce4e-4b7d-9b7c-838e40c4bed6",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 809,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "The Spacel",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-a7f179b0-ce4e-4b7d-9b7c-838e40c4bed6.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-1264ee99-0a43-4b15-81a0-e8ca85f87759",
+   "title": "อภิรักษ์การแพทย์",
+   "description": "อภิรักษ์การแพทย์, seen from the road",
+   "description_th": "อภิรักษ์การแพทย์ มองจากถนน",
+   "lat": 18.779369,
+   "lng": 98.977109,
+   "placeId": "cm-ovt-1264ee99-0a43-4b15-81a0-e8ca85f87759",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "อุภิรักน์การแพทย์",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-1264ee99-0a43-4b15-81a0-e8ca85f87759.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-ovt-32ca7d8b-1ff4-4c5c-b881-0e2df6db1496",
+   "title": "C.I Tower",
+   "description": "C.I Tower, seen from the road",
+   "description_th": "C.I Tower มองจากถนน",
+   "lat": 18.781032,
+   "lng": 98.977365,
+   "placeId": "cm-ovt-32ca7d8b-1ff4-4c5c-b881-0e2df6db1496",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "CITOWER",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-ovt-32ca7d8b-1ff4-4c5c-b881-0e2df6db1496.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-p-p-car-care",
+   "title": "พี.พี. คาร์แคร์",
+   "description": "P.P. Car Care, car and motorbike wash, seen from the road",
+   "description_th": "พี.พี. คาร์แคร์ ล้างรถยนต์ ล้างมอเตอร์ไซค์ มองจากถนน",
+   "lat": 18.790219,
+   "lng": 98.982358,
+   "placeId": "cm-curated-ride0923-p-p-car-care",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "พี.พี. คาร์แคร์",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-p-p-car-care.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-bake-a-seat",
+   "title": "Bake A Seat",
+   "description": "Bake A Seat, bakery and cafe, seen from the road",
+   "description_th": "Bake A Seat เบเกอรี่และคาเฟ่ มองจากถนน",
+   "lat": 18.791052,
+   "lng": 98.978349,
+   "placeId": "cm-curated-ride0923-bake-a-seat",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "Bake A Seat",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-bake-a-seat.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-heng-leasing",
+   "title": "เฮงลิสซิ่ง",
+   "description": "Heng Leasing, vehicle and land title loans, car insurance, tax renewal, seen from the road",
+   "description_th": "เฮงลิสซิ่ง สินเชื่อทะเบียนรถ ที่ดิน ประกันรถยนต์ ต่อภาษี มองจากถนน",
+   "lat": 18.759056,
+   "lng": 98.998569,
+   "placeId": "cm-curated-ride0923-heng-leasing",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "เฮงลิสซิ่ง",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-heng-leasing.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-bankhru-samunprai-suan-dok-branch",
+   "title": "บ้านครูสมุนไพร สาขาสวนดอก",
+   "description": "Bankhru Samunprai, Suan Dok branch, cannabis and Thai herbal products, seen from the road",
+   "description_th": "บ้านครูสมุนไพร สาขาสวนดอก ร้านจำหน่ายสมุนไพรไทยและผลิตภัณฑ์กัญชา มองจากถนน",
+   "lat": 18.789668,
+   "lng": 98.978805,
+   "placeId": "cm-curated-ride0923-bankhru-samunprai-suan-dok-branch",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "บ้านครูสมุนไพร สาขาสวนดอก",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-bankhru-samunprai-suan-dok-branch.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-th3bb764f8",
+   "title": "สยามชัย",
+   "description": "สยามชัย, electrical appliances and mobile phones, seen from the road",
+   "description_th": "สยามชัย เครื่องใช้ไฟฟ้าและโทรศัพท์มือถือ มองจากถนน",
+   "lat": 18.777501,
+   "lng": 98.976806,
+   "placeId": "cm-curated-ride0923-th3bb764f8",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "สยามชัย",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-th3bb764f8.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-top-property",
+   "title": "Top Property",
+   "description": "Top Property, real-estate agency office, seen from the road",
+   "description_th": "Top Property สำนักงานนายหน้าอสังหาริมทรัพย์ มองจากถนน",
+   "lat": 18.789589,
+   "lng": 98.98007,
+   "placeId": "cm-curated-ride0923-top-property",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "Top Property",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-top-property.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-sweet-taro",
+   "title": "หวานเผือก",
+   "description": "Sweet Taro, dessert shop, seen from the road",
+   "description_th": "หวานเผือก ร้านขนมหวาน มองจากถนน",
+   "lat": 18.789675,
+   "lng": 98.978684,
+   "placeId": "cm-curated-ride0923-sweet-taro",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "หวานเผือก",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-sweet-taro.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-th7b08dec5",
+   "title": "กะหรี่พัฟ เจ้าเก่า",
+   "description": "กะหรี่พัฟ เจ้าเก่า, curry puffs, chicken or sweet bean, seen from the road",
+   "description_th": "กะหรี่พัฟ เจ้าเก่า กะหรี่พัฟ ไส้ไก่ ไส้ถั่วหวาน มองจากถนน",
+   "lat": 18.789675,
+   "lng": 98.978684,
+   "placeId": "cm-curated-ride0923-th7b08dec5",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "กะหรี่พัฟ เจ้าเก่า",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-th7b08dec5.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-srisawad",
+   "title": "ศรีสวัสดิ์",
+   "description": "Srisawad, vehicle title loans and insurance, seen from the road",
+   "description_th": "ศรีสวัสดิ์ สินเชื่อทะเบียนรถและประกันภัย มองจากถนน",
+   "lat": 18.762873,
+   "lng": 98.993926,
+   "placeId": "cm-curated-ride0923-srisawad",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ศรีสวัสดิ์",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-srisawad.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-jackie-fitness",
+   "title": "บริษัท แจ๊กกี้ ฟิทเนส จำกัด",
+   "description": "Jackie Fitness, exercise equipment: sales, rental, repair, seen from the road",
+   "description_th": "บริษัท แจ๊กกี้ ฟิทเนส จำกัด จำหน่าย ให้เช่า ซ่อมเครื่องออกกำลังกาย มองจากถนน",
+   "lat": 18.759215,
+   "lng": 99.014415,
+   "placeId": "cm-curated-ride0923-jackie-fitness",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "บริษัท แจ๊กกี้ ฟิทเนส จำกัด",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-jackie-fitness.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-jeune-hostel-at-phra-singh",
+   "title": "Jeune Hostel at Phra Singh",
+   "description": "Jeune Hostel at Phra Singh, hostel, seen from the road",
+   "description_th": "Jeune Hostel at Phra Singh โฮสเทล มองจากถนน",
+   "lat": 18.789638,
+   "lng": 98.979343,
+   "placeId": "cm-curated-ride0923-jeune-hostel-at-phra-singh",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "Jeune Hostel at Phra Singh",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-jeune-hostel-at-phra-singh.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-kumuang-properties",
+   "title": "บริษัท คูเมือง พร็อพเพอร์ตี้ส์ จำกัด",
+   "description": "Kumuang Properties, real-estate company office, seen from the road",
+   "description_th": "บริษัท คูเมือง พร็อพเพอร์ตี้ส์ จำกัด สำนักงานบริษัทอสังหาริมทรัพย์ มองจากถนน",
+   "lat": 18.789598,
+   "lng": 98.979973,
+   "placeId": "cm-curated-ride0923-kumuang-properties",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "บริษัท คูเมือง พร็อพเพอร์ตี้ส์ จำกัด",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-kumuang-properties.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-tha14e82a8",
+   "title": "คลังสินค้าเลิศวสิน",
+   "description": "คลังสินค้าเลิศวสิน, building-materials warehouse, seen from the road",
+   "description_th": "คลังสินค้าเลิศวสิน คลังสินค้าวัสดุก่อสร้าง มองจากถนน",
+   "lat": 18.786085,
+   "lng": 99.041549,
+   "placeId": "cm-curated-ride0923-tha14e82a8",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "คลังสินค้าเลิศวสิน",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-tha14e82a8.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-matrix-honda-automobile",
+   "title": "บริษัท แมทริกซ์ ฮอนด้า ออโตโมบิล จำกัด",
+   "description": "Matrix Honda Automobile, Honda car showroom and service centre, seen from the road",
+   "description_th": "บริษัท แมทริกซ์ ฮอนด้า ออโตโมบิล จำกัด โชว์รูมและศูนย์บริการรถยนต์ฮอนด้า มองจากถนน",
+   "lat": 18.784218,
+   "lng": 99.041899,
+   "placeId": "cm-curated-ride0923-matrix-honda-automobile",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "บริษัท แมทริกซ์ ฮอนด้า ออโตโมบิล จำกัด",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-matrix-honda-automobile.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-sv-pharmacy",
+   "title": "SV Pharmacy",
+   "description": "SV Pharmacy, pharmacy; free blood-pressure check, seen from the road",
+   "description_th": "SV Pharmacy ร้านขายยา วัดความดันฟรี มองจากถนน",
+   "lat": 18.790617,
+   "lng": 98.978363,
+   "placeId": "cm-curated-ride0923-sv-pharmacy",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "SV Pharmacy",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-sv-pharmacy.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-thfdc82a28",
+   "title": "ไปรษณีย์ สามแยกสวนปรุง",
+   "description": "ไปรษณีย์ สามแยกสวนปรุง, post office, seen from the road",
+   "description_th": "ไปรษณีย์ สามแยกสวนปรุง ที่ทำการไปรษณีย์ มองจากถนน",
+   "lat": 18.78005,
+   "lng": 98.97721,
+   "placeId": "cm-curated-ride0923-thfdc82a28",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "ไปรษณีย์ สามแยกสวนปรุง",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-thfdc82a28.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-ricoh-services-thailand",
+   "title": "บริษัท ริโก้ เซอร์วิสเซส (ประเทศไทย) จำกัด",
+   "description": "Ricoh Services (Thailand), office equipment: copiers and printers, seen from the road",
+   "description_th": "บริษัท ริโก้ เซอร์วิสเซส (ประเทศไทย) จำกัด เครื่องใช้สำนักงาน เครื่องถ่ายเอกสาร มองจากถนน",
+   "lat": 18.767813,
+   "lng": 98.981901,
+   "placeId": "cm-curated-ride0923-ricoh-services-thailand",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "บริษัท ริโก้ เซอร์วิสเซส (ประเทศไทย) จำกัด",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-ricoh-services-thailand.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-regional-postal-bureau-5",
+   "title": "สำนักงานไปรษณีย์เขต 5",
+   "description": "Regional Postal Bureau 5, regional postal bureau office, seen from the road",
+   "description_th": "สำนักงานไปรษณีย์เขต 5 สำนักงานไปรษณีย์เขต มองจากถนน",
+   "lat": 18.78005,
+   "lng": 98.97721,
+   "placeId": "cm-curated-ride0923-regional-postal-bureau-5",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "สำนักงานไปรษณีย์เขต 5",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-regional-postal-bureau-5.jpg"
+  },
+  {
+   "slug": "ride-20260923-place-cm-curated-ride0923-121-coffee",
+   "title": "121 Coffee",
+   "description": "121 Coffee, cafe, seen from the road",
+   "description_th": "121 Coffee ร้านกาแฟ มองจากถนน",
+   "lat": 18.78997,
+   "lng": 98.978349,
+   "placeId": "cm-curated-ride0923-121-coffee",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 810,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "121 Coffee",
+   "file": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-121-coffee.jpg"
+  }
+ ],
+ "track": "data/tracks/2026-09-23.geojson",
+ "title": "East side to the moat",
+ "title_th": "ขี่รอบเมือง ฝั่งตะวันออกถึงคูเมือง",
+ "hero": "photos/2026-09-23/ride-20260923-ab2131-256-r.jpg",
+ "example": {
+  "view": "assets/example/1-view.jpg",
+  "tile": "assets/example/2-tile.jpg",
+  "crop": "assets/example/3-crop.jpg",
+  "read": "BAKE A SEATE",
+  "id": "cm-curated-ride0923-bake-a-seat",
+  "name": "Bake A Seat",
+  "photo": "photos/2026-09-23/ride-20260923-place-cm-curated-ride0923-bake-a-seat.jpg",
+  "also_id": "cm-curated-ride0923-th2592c0e5",
+  "also": "ณรงค์หีบศพ"
+ },
+ "pin_fixes": [
+  {
+   "id": "cm-onab-03500101031",
+   "name": "วัดพระครู (เฉลิมพระเกียรติ)",
+   "moved_m": 1335,
+   "why_th": "หมุดเดิมอยู่กลางตำบล ย้ายมาที่ป้ายหน้าประตูวัด",
+   "why": "The old pin sat at the middle of the sub-district; it now sits at the gate sign"
+  }
+ ],
+ "where": "The ring road, past the airport, up the west moat and into the old city",
+ "where_th": "ถนนเลี่ยงเมือง สนามบิน คูเมืองฝั่งตะวันตก และในเวียง"
+}

@@ -1,0 +1,35 @@
+Photographs, riding and direction: NaN Peacock
+Studio: hongdam.net — Chiang Rai
+
+# — roster of sibling sites, generated from data/fleet.json —
+/* STUDIO */
+Made by Hongdam (https://hongdam.net/), a bilingual web studio in Chiang Rai.
+
+/* ELSEWHERE */
+Everything this publisher holds, counted: https://nanobotco.github.io/index/
+The roster, as JSON: https://nanobotco.github.io/index/fleet.json
+Mot Dang — https://motdang.net/
+The Mae Hong Son Loop — https://nanobotco.github.io/mae-hong-son-loop/
+Muay Thai — https://motdang.net/muay-thai/
+Roads of Chiang Mai — https://motdang.net/roads/
+wichaa — https://wichaa.net/
+Hand Poke — https://nanobotco.github.io/hand-poke/
+Black Holes, Drawn — https://nanobotco.github.io/black-holes/
+Quantum Computing, plainly — https://nanobotco.github.io/quantum-computing/
+Goin' Fast — https://nanobotco.github.io/goin-fast/
+The Three-Body Problem — https://nanobotco.github.io/three-body/
+Exceptional Magic — https://nanobotco.github.io/exceptional-magic/
+Big Numbers, Split — https://nanobotco.github.io/factoring/
+Amulet Atlas — https://nanobotco.github.io/amulet-atlas/
+Carolina Barbecue — https://nanobotco.github.io/carolina-barbecue/
+Wing Country — https://nanobotco.github.io/buffalo-wings/
+Pink Box — https://nanobotco.github.io/pink-box/
+Basque Tables — https://nanobotco.github.io/basque-tables/
+Pinot Country — https://nanobotco.github.io/pinot-noir/
+Care Abroad — https://nanobotco.github.io/care-abroad/
+Thai Roots — https://nanobotco.github.io/thairoots/
+The index — https://nanobotco.github.io/index/
+Uptake — https://nanobotco.github.io/uptake/
+NaNoBotCo — https://nanobotco.github.io/
+ฮักฝรั่ง — https://hakfarang.net/
+Offrampt — https://offrampt.net/

@@ -1,0 +1,11 @@
+The code in this repository is MIT (see LICENSE).
+
+The photographs in photos/ and assets/example/, and the data in data/sessions/ and
+data/tracks/, are by NaN Peacock and licensed CC BY 4.0:
+https://creativecommons.org/licenses/by/4.0/
+Credit: NaN Peacock, ภาคสนาม · Field (https://motdang.net/field/)
+
+Fonts in assets/fonts/ (Prompt, Sarabun, JetBrains Mono) are SIL Open Font License 1.1;
+each licence sits beside its files. data/fleet.json and tools/fleet.py are copied from
+https://github.com/NaNoBotCo/index. tools/bands.css and tools/bands.py are from the shared
+site-kit.

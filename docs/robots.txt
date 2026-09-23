@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Sitemap: https://nanobotco.github.io/field/sitemap.xml
+
+# — roster of sibling sites, generated from data/fleet.json —
+Sitemap: https://motdang.net/sitemap.xml
+Sitemap: https://nanobotco.github.io/mae-hong-son-loop/sitemap.xml
+Sitemap: https://motdang.net/muay-thai/sitemap.xml
+Sitemap: https://motdang.net/roads/sitemap.xml
+Sitemap: https://wichaa.net/sitemap.xml
+Sitemap: https://nanobotco.github.io/hand-poke/sitemap.xml
+Sitemap: https://nanobotco.github.io/black-holes/sitemap.xml
+Sitemap: https://nanobotco.github.io/quantum-computing/sitemap.xml
+Sitemap: https://nanobotco.github.io/goin-fast/sitemap.xml
+Sitemap: https://nanobotco.github.io/three-body/sitemap.xml
+Sitemap: https://nanobotco.github.io/exceptional-magic/sitemap.xml
+Sitemap: https://nanobotco.github.io/factoring/sitemap.xml
+Sitemap: https://nanobotco.github.io/amulet-atlas/sitemap.xml
+Sitemap: https://nanobotco.github.io/carolina-barbecue/sitemap.xml
+Sitemap: https://nanobotco.github.io/buffalo-wings/sitemap.xml
+Sitemap: https://nanobotco.github.io/pink-box/sitemap.xml
+Sitemap: https://nanobotco.github.io/basque-tables/sitemap.xml
+Sitemap: https://nanobotco.github.io/pinot-noir/sitemap.xml
+Sitemap: https://nanobotco.github.io/care-abroad/sitemap.xml
+Sitemap: https://nanobotco.github.io/thairoots/sitemap.xml
+Sitemap: https://nanobotco.github.io/index/sitemap.xml
+Sitemap: https://nanobotco.github.io/uptake/sitemap.xml
+Sitemap: https://nanobotco.github.io/sitemap.xml
