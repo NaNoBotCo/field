@@ -3,7 +3,7 @@
 > Street-level capture feeding Mot Dang, the Thai-first directory of Chiang Mai and Chiang Rai. A 360° camera on a motorbike or in hand; each frame is cut into tiles, the signs are read by Apple Vision (Thai + English) and checked by a person; names that match a Mot Dang record confirm it, names that match nothing become new records with a pin.
 
 - Sessions: 2
-- Places added: 68 · confirmed: 282 · districts reached: 5
+- Places added: 173 · confirmed: 282 · districts reached: 5
 - Photographs: 352
 - Data: https://motdang.net/field/data/places.csv, https://motdang.net/field/data/photos.json, https://motdang.net/field/data/tracks.geojson
 - Licence: data and photographs CC BY 4.0 (credit NaN Peacock); code MIT
