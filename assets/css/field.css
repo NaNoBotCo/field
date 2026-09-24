@@ -173,3 +173,18 @@ footer .fleet a{margin-right:.6em}
   .stat{padding:16px}
   .steps{grid-auto-columns:86%}
 }
+
+/* nearest first: the line above a list, the 📍 button, the distance on a card */
+.nearbar{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;margin:.2rem 0 .8rem}
+.locate{font:600 .9rem/1 var(--body);color:var(--ink);background:var(--paper2);border:1px solid var(--line);
+  border-radius:999px;padding:.55rem .9rem;cursor:pointer;min-height:44px}
+.locate:hover{border-color:var(--accent);color:var(--accent)}
+.locate[disabled]{opacity:.6;cursor:progress}
+.card .dist:empty{display:none}
+.card .dist{font-family:var(--mono);font-size:.82em;white-space:nowrap}
+.map .route.faint{opacity:.35}
+.card.pt .shot .tx small{display:block}
+
+.cards + h2,.nearbar + .cards + h2{margin-top:2.4rem}
+.map .dot{stroke:var(--paper);stroke-width:2}
+.card .dist:not(:empty)::before{content:" · "}

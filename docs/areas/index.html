@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="th">
+<html lang="th" translate="no" class="notranslate">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -21,6 +21,9 @@ if(v!=='both')r.setAttribute('data-lang',v);
 window.fieldLang=function(x){if(x==='both')r.removeAttribute('data-lang');else r.setAttribute('data-lang',x);
 try{localStorage.setItem(k,x)}catch(_){}document.querySelectorAll('.langs button').forEach(function(b){
 b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
+<meta name="google" content="notranslate">
+<meta name="robots" content="notranslate">
+<script>if(/[.]translate[.]goog$/.test(location.hostname))location.replace("https://"+location.hostname.slice(0,-15).replace(/--/g,"~").replace(/-/g,".").replace(/~/g,"-")+location.pathname+location.search.replace(/([?&])_x_tr_[^&]*/g,"$1").replace(/[?&]+$/,"").replace(/[?]&+/,"?")+location.hash)</script>
 </head>
 <body>
 <header class="bar"><div class="wrap">
@@ -29,6 +32,8 @@ b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
 <a href="/field/areas/"><span lang="th">พื้นที่</span><span lang="en">Areas</span></a>
 <a href="/field/sessions/"><span lang="th">รอบ</span><span lang="en">Sessions</span></a>
 <a href="/field/photos/"><span lang="th">ภาพ</span><span lang="en">Photos</span></a>
+<a href="/field/san/"><span lang="th">ศาล · ต้นไม้</span><span lang="en">Shrines · trees</span></a>
+<a href="/field/scenes/"><span lang="th">ตลาด · ภาพเมือง</span><span lang="en">Markets · scenes</span></a>
 <a href="/field/how/"><span lang="th">วิธีทำ</span><span lang="en">How</span></a>
 <a href="/field/about/"><span lang="th">แผน · ต้นทุน</span><span lang="en">Plan · costs</span></a>
 </nav>
@@ -40,7 +45,7 @@ b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
 <h1><span lang="th">กล้องไปถึงไหนแล้ว</span><span lang="en">How much the camera has seen</span></h1>
 <div class="pair lede"><p lang="th">เห็นแล้ว = ร้านที่ป้ายยืนยันหรือเพิ่มจากป้าย · ในมดแดง = ร้านที่มีหมุดในอำเภอนั้น</p><p lang="en">Seen = places confirmed or added from their signs · In Mot Dang = places with a pin in that district</p></div>
 <table class="t"><thead><tr><th><span lang="th">อำเภอ</span><span lang="en">District</span></th><th><span lang="th">จังหวัด</span><span lang="en">Province</span></th><th><span lang="th">เห็นแล้ว</span><span lang="en">Seen</span></th><th><span lang="th">มีภาพ</span><span lang="en">With photo</span></th><th><span lang="th">ในมดแดง</span><span lang="en">In Mot Dang</span></th><th>%</th></tr></thead>
-<tbody><tr><td><a href="/field/areas/cm-mueang-chiang-mai/"><span lang="th">เมืองเชียงใหม่</span><span lang="en">Mueang Chiang Mai</span></a></td><td><span lang="th">เชียงใหม่</span><span lang="en">Chiang Mai</span></td><td class="mono">88</td><td class="mono">47</td><td class="mono">27,255</td><td class="mono">0.3%</td></tr><tr><td><a href="/field/areas/cr-mueang-chiang-rai/"><span lang="th">เมืองเชียงราย</span><span lang="en">Mueang Chiang Rai</span></a></td><td><span lang="th">เชียงราย</span><span lang="en">Chiang Rai</span></td><td class="mono">52</td><td class="mono">24</td><td class="mono">11,270</td><td class="mono">0.5%</td></tr><tr><td><a href="/field/areas/cr-mae-suai/"><span lang="th">แม่สรวย</span><span lang="en">Mae Suai</span></a></td><td><span lang="th">เชียงราย</span><span lang="en">Chiang Rai</span></td><td class="mono">4</td><td class="mono">3</td><td class="mono">997</td><td class="mono">0.4%</td></tr><tr><td><a href="/field/areas/cr-wiang-pa-pao/"><span lang="th">เวียงป่าเป้า</span><span lang="en">Wiang Pa Pao</span></a></td><td><span lang="th">เชียงราย</span><span lang="en">Chiang Rai</span></td><td class="mono">3</td><td class="mono">3</td><td class="mono">1,041</td><td class="mono">0.3%</td></tr><tr><td><a href="/field/areas/cr-mae-lao/"><span lang="th">แม่ลาว</span><span lang="en">Mae Lao</span></a></td><td><span lang="th">เชียงราย</span><span lang="en">Chiang Rai</span></td><td class="mono">1</td><td class="mono">1</td><td class="mono">541</td><td class="mono">0.2%</td></tr></tbody></table>
+<tbody><tr><td><a href="/field/areas/cm-mueang-chiang-mai/"><span lang="th">เมืองเชียงใหม่</span><span lang="en">Mueang Chiang Mai</span></a></td><td><span lang="th">เชียงใหม่</span><span lang="en">Chiang Mai</span></td><td class="mono">291</td><td class="mono">165</td><td class="mono">27,226</td><td class="mono">1.1%</td></tr><tr><td><a href="/field/areas/cr-mueang-chiang-rai/"><span lang="th">เมืองเชียงราย</span><span lang="en">Mueang Chiang Rai</span></a></td><td><span lang="th">เชียงราย</span><span lang="en">Chiang Rai</span></td><td class="mono">51</td><td class="mono">23</td><td class="mono">11,265</td><td class="mono">0.5%</td></tr><tr><td><a href="/field/areas/cr-mae-suai/"><span lang="th">แม่สรวย</span><span lang="en">Mae Suai</span></a></td><td><span lang="th">เชียงราย</span><span lang="en">Chiang Rai</span></td><td class="mono">4</td><td class="mono">3</td><td class="mono">997</td><td class="mono">0.4%</td></tr><tr><td><a href="/field/areas/cr-wiang-pa-pao/"><span lang="th">เวียงป่าเป้า</span><span lang="en">Wiang Pa Pao</span></a></td><td><span lang="th">เชียงราย</span><span lang="en">Chiang Rai</span></td><td class="mono">3</td><td class="mono">3</td><td class="mono">1,041</td><td class="mono">0.3%</td></tr><tr><td><a href="/field/areas/cr-mae-lao/"><span lang="th">แม่ลาว</span><span lang="en">Mae Lao</span></a></td><td><span lang="th">เชียงราย</span><span lang="en">Chiang Rai</span></td><td class="mono">1</td><td class="mono">1</td><td class="mono">541</td><td class="mono">0.2%</td></tr></tbody></table>
 </div></section>
 </main>
 <footer><div class="wrap">
@@ -59,6 +64,22 @@ var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isInter
 document.querySelectorAll('[data-rise]').forEach(function(el){el.classList.add('rise');io.observe(el)});
 setTimeout(function(){document.querySelectorAll('.rise').forEach(function(el){el.classList.add('in')})},4000);
 document.querySelectorAll('svg .route').forEach(function(p){p.style.setProperty('--len',Math.ceil(p.getTotalLength()))});
+})();</script>
+<script>(function(){
+/* nearest first: motdang.net's edge writes the reader's city into meta md-where; the 📍 button asks for an exact fix */
+var lists=document.querySelectorAll('[data-near]');if(!lists.length)return;
+function km(a,b,c,d){var r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2);
+return 12742*Math.asin(Math.sqrt(x*x+Math.cos(a*r)*Math.cos(c*r)*y*y))}
+function lab(k){return k<1?Math.round(k*1000/10)*10+' m':(k<10?k.toFixed(1):Math.round(k))+' km'}
+function near(la,lo,th,en){lists.forEach(function(l){var it=[].slice.call(l.children).filter(function(c){return c.dataset.lat});
+it.forEach(function(c){c._k=km(la,lo,+c.dataset.lat,+c.dataset.lng);var s=c.querySelector('.dist');if(s)s.textContent=lab(c._k)});
+it.sort(function(a,b){return a._k-b._k}).forEach(function(c){l.appendChild(c)})});
+document.querySelectorAll('.near-note').forEach(function(n){n.innerHTML='<span lang="th">ใกล้'+th+'ก่อน</span><span lang="en">Nearest to '+en+' first</span>'})}
+var m=document.querySelector('meta[name=md-where]');
+if(m){var p=(m.content||'').split('|');if(p.length>2&&!isNaN(+p[1])&&!isNaN(+p[2])&&km(+p[1],+p[2],18.79,98.99)<300){var c=p[0]||'';near(+p[1],+p[2],c?' '+c+' ':'คุณ',c||'you')}}
+document.querySelectorAll('.locate').forEach(function(b){if(!navigator.geolocation){b.hidden=true;return}
+b.addEventListener('click',function(){b.disabled=true;navigator.geolocation.getCurrentPosition(function(q){b.disabled=false;
+near(q.coords.latitude,q.coords.longitude,'คุณ','you')},function(){b.disabled=false},{enableHighAccuracy:true,timeout:10000})})});
 })();</script>
 </body>
 </html>

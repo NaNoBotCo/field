@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="th">
+<html lang="th" translate="no" class="notranslate">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -21,6 +21,9 @@ if(v!=='both')r.setAttribute('data-lang',v);
 window.fieldLang=function(x){if(x==='both')r.removeAttribute('data-lang');else r.setAttribute('data-lang',x);
 try{localStorage.setItem(k,x)}catch(_){}document.querySelectorAll('.langs button').forEach(function(b){
 b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
+<meta name="google" content="notranslate">
+<meta name="robots" content="notranslate">
+<script>if(/[.]translate[.]goog$/.test(location.hostname))location.replace("https://"+location.hostname.slice(0,-15).replace(/--/g,"~").replace(/-/g,".").replace(/~/g,"-")+location.pathname+location.search.replace(/([?&])_x_tr_[^&]*/g,"$1").replace(/[?&]+$/,"").replace(/[?]&+/,"?")+location.hash)</script>
 </head>
 <body>
 <header class="bar"><div class="wrap">
@@ -29,6 +32,8 @@ b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
 <a href="/field/areas/"><span lang="th">พื้นที่</span><span lang="en">Areas</span></a>
 <a href="/field/sessions/"><span lang="th">รอบ</span><span lang="en">Sessions</span></a>
 <a href="/field/photos/"><span lang="th">ภาพ</span><span lang="en">Photos</span></a>
+<a href="/field/san/"><span lang="th">ศาล · ต้นไม้</span><span lang="en">Shrines · trees</span></a>
+<a href="/field/scenes/"><span lang="th">ตลาด · ภาพเมือง</span><span lang="en">Markets · scenes</span></a>
 <a href="/field/how/"><span lang="th">วิธีทำ</span><span lang="en">How</span></a>
 <a href="/field/about/"><span lang="th">แผน · ต้นทุน</span><span lang="en">Plan · costs</span></a>
 </nav>
@@ -38,13 +43,13 @@ b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
 <section class="block"><div class="wrap">
 <span class="kick"><span lang="th">วิธีทำ</span><span lang="en">How</span></span>
 <h1><span lang="th">จากเฟรมสู่หมุดบนแผนที่</span><span lang="en">From a frame to a pin</span></h1>
-<div class="steps" tabindex="0"><article class="step"><figure class=""><img src="/field/assets/example/1-view.jpg" alt="" loading="lazy"></figure><div class="t"><span class="n">01</span><div class="pair"><p lang="th">เฟรม 360° ถูกตัดเป็นภาพแบน มองออกข้างทาง</p><p lang="en">The 360° frame, cut flat, looking at the roadside</p></div></div></article><article class="step"><figure class="fit"><img src="/field/assets/example/2-tile.jpg" alt="" loading="lazy"></figure><div class="t"><span class="n">02</span><div class="pair"><p lang="th">ตัดเป็นช่องเล็ก 16 ช่องต่อเฟรม ให้เครื่องอ่านป้ายที่ความละเอียดเต็ม — กรอบแดงคือที่มันเจอข้อความ</p><p lang="en">Cut again into 16 tiles a frame so the reader sees signs at full resolution — the red box is where it found text</p></div></div></article><article class="step"><figure class="fit"><img src="/field/assets/example/3-crop.jpg" alt="" loading="lazy"></figure><div class="t"><span class="n">03</span><div class="pair"><p lang="th">เครื่องอ่านได้ <span class="read">BAKE A SEATE</span> ไม่ตรงกับร้านไหนในมดแดง คนอ่านซ้ำจากภาพ</p><p lang="en">The machine read <span class="read">BAKE A SEATE</span>, matched nothing in Mot Dang, and a person read the crop again</p></div></div></article><article class="step"><figure class=""><img src="/field/photos/2026-09-23/ride-20260923-place-cm-curated-bake-a-seat.jpg" alt="" loading="lazy"></figure><div class="t"><span class="n">04</span><div class="pair"><p lang="th"><a href="https://motdang.net/map.html#17/18.79105/98.97835">Bake A Seat</a> อยู่ในมดแดงแล้ว พร้อมหมุดและรูป</p><p lang="en"><a href="https://motdang.net/map.html#17/18.79105/98.97835">Bake A Seat</a> is on Mot Dang now, with a pin and this photograph</p></div></div></article></div>
+<div class="steps" tabindex="0"><article class="step"><figure class=""><img src="/field/assets/example/1-view.jpg" alt="" loading="lazy"></figure><div class="t"><span class="n">01</span><div class="pair"><p lang="th">เฟรม 360° ถูกตัดเป็นภาพแบน มองออกข้างทาง</p><p lang="en">The 360° frame, cut flat, looking at the roadside</p></div></div></article><article class="step"><figure class="fit"><img src="/field/assets/example/2-tile.jpg" alt="" loading="lazy"></figure><div class="t"><span class="n">02</span><div class="pair"><p lang="th">ตัดเป็นช่องเล็ก 16 ช่องต่อเฟรม ให้เครื่องอ่านป้ายที่ความละเอียดเต็ม — กรอบแดงคือที่มันเจอข้อความ</p><p lang="en">Cut again into 16 tiles a frame so the reader sees signs at full resolution — the red box is where it found text</p></div></div></article><article class="step"><figure class="fit"><img src="/field/assets/example/3-crop.jpg" alt="" loading="lazy"></figure><div class="t"><span class="n">03</span><div class="pair"><p lang="th">เครื่องอ่านได้ <span class="read">BAKE A SEATE</span> ไม่ตรงกับร้านไหนในมดแดง คนอ่านซ้ำจากภาพ</p><p lang="en">The machine read <span class="read">BAKE A SEATE</span>, matched nothing in Mot Dang, and a person read the crop again</p></div></div></article><article class="step"><figure class=""><img src="/field/photos/2026-09-23/ride-20260923-place-cm-curated-bake-a-seat.jpg" alt="" loading="lazy"></figure><div class="t"><span class="n">04</span><div class="pair"><p lang="th"><a href="https://motdang.net/cm/p/bake-a-seat-cmcuratedbakeaseat.html">Bake A Seat</a> อยู่ในมดแดงแล้ว พร้อมหมุดและรูป</p><p lang="en"><a href="https://motdang.net/cm/p/bake-a-seat-cmcuratedbakeaseat.html">Bake A Seat</a> is on Mot Dang now, with a pin and this photograph</p></div></div></article></div>
 <ol class="lede">
 <li><span lang="th">กล้องอัปโหลดขึ้นคลาวด์ของ GoPro เฟรมเป็นภาพ 360° ขนาด 7680×3840 ส่วนใหญ่มีพิกัด GPS</span><span lang="en">The camera uploads to GoPro's cloud; each frame is a 7680×3840 360° image, most with a GPS fix.</span></li>
 <li><span lang="th">แต่ละเฟรมถูกตัดเป็น 16 ช่องแบน ให้ Apple Vision อ่านข้อความไทยและอังกฤษ</span><span lang="en">Each frame is cut into 16 flat tiles and Apple Vision reads the Thai and English on them.</span></li>
 <li><span lang="th">ข้อความที่ตรงกับชื่อในมดแดงระยะ 120 ม. ยืนยันร้านนั้น</span><span lang="en">A line that matches a Mot Dang name within 120 m confirms that place.</span></li>
 <li><span lang="th">ที่ไม่ตรงกับอะไร คนอ่านจากภาพ ป้ายที่มีชื่อและประเภทบนหน้าร้านเองกลายเป็นรายการใหม่</span><span lang="en">What matches nothing is read again by a person; a name and a trade on the premises' own sign become a new listing.</span></li>
-<li><span lang="th">ภาพถูกปรับให้ตรง เบลอหน้าคน แล้วขึ้นหน้าร้านและคลังภาพของมดแดง</span><span lang="en">Photographs are straightened, faces blurred, and they go onto the place's page and Mot Dang's picture pool.</span></li>
+<li><span lang="th">ภาพที่เผยแพร่ถูกตัดใหม่จากทรงกลม 360° หันไปที่สิ่งที่ถ่าย เบลอหน้าคน แล้วขึ้นหน้าร้าน คลังภาพของมดแดง และหน้าศาลกับภาพเมืองของภาคสนาม</span><span lang="en">A published photograph is re-cut from the 360° sphere, aimed at its subject, with faces blurred; it goes onto the place's page, Mot Dang's picture pool, and Field's shrine and scene pages.</span></li>
 </ol>
 <p><a href="https://github.com/NaNoBotCo/field"><span lang="th">โค้ดทั้งหมดบน GitHub →</span><span lang="en">All the code on GitHub →</span></a></p>
 </div></section>
@@ -65,6 +70,22 @@ var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isInter
 document.querySelectorAll('[data-rise]').forEach(function(el){el.classList.add('rise');io.observe(el)});
 setTimeout(function(){document.querySelectorAll('.rise').forEach(function(el){el.classList.add('in')})},4000);
 document.querySelectorAll('svg .route').forEach(function(p){p.style.setProperty('--len',Math.ceil(p.getTotalLength()))});
+})();</script>
+<script>(function(){
+/* nearest first: motdang.net's edge writes the reader's city into meta md-where; the 📍 button asks for an exact fix */
+var lists=document.querySelectorAll('[data-near]');if(!lists.length)return;
+function km(a,b,c,d){var r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2);
+return 12742*Math.asin(Math.sqrt(x*x+Math.cos(a*r)*Math.cos(c*r)*y*y))}
+function lab(k){return k<1?Math.round(k*1000/10)*10+' m':(k<10?k.toFixed(1):Math.round(k))+' km'}
+function near(la,lo,th,en){lists.forEach(function(l){var it=[].slice.call(l.children).filter(function(c){return c.dataset.lat});
+it.forEach(function(c){c._k=km(la,lo,+c.dataset.lat,+c.dataset.lng);var s=c.querySelector('.dist');if(s)s.textContent=lab(c._k)});
+it.sort(function(a,b){return a._k-b._k}).forEach(function(c){l.appendChild(c)})});
+document.querySelectorAll('.near-note').forEach(function(n){n.innerHTML='<span lang="th">ใกล้'+th+'ก่อน</span><span lang="en">Nearest to '+en+' first</span>'})}
+var m=document.querySelector('meta[name=md-where]');
+if(m){var p=(m.content||'').split('|');if(p.length>2&&!isNaN(+p[1])&&!isNaN(+p[2])&&km(+p[1],+p[2],18.79,98.99)<300){var c=p[0]||'';near(+p[1],+p[2],c?' '+c+' ':'คุณ',c||'you')}}
+document.querySelectorAll('.locate').forEach(function(b){if(!navigator.geolocation){b.hidden=true;return}
+b.addEventListener('click',function(){b.disabled=true;navigator.geolocation.getCurrentPosition(function(q){b.disabled=false;
+near(q.coords.latitude,q.coords.longitude,'คุณ','you')},function(){b.disabled=false},{enableHighAccuracy:true,timeout:10000})})});
 })();</script>
 </body>
 </html>

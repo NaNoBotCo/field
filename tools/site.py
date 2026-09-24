@@ -148,6 +148,14 @@ for pl in PLACES.values():
     pl["nameEn"] = r.get("nameEn") or ""
 
 PHOTOS = [dict(p, session=s["id"], date=s["date"]) for s in SESSIONS for p in s["photos"]]
+# spirit houses, shrines and cloth-wrapped trees: points with a picture, not directory listings
+POINTS = [dict(p, session=s["id"], date=s["date"]) for s in SESSIONS for p in s.get("points", [])]
+POINT_KINDS = {  # key: (Thai, English, plural Thai, plural English, colour)
+    "spirit-house": ("ศาลพระภูมิ ศาลเจ้าที่", "Spirit house", "ศาลพระภูมิ ศาลเจ้าที่", "Spirit houses", "var(--accent2)"),
+    "ribbon-tree": ("ต้นไม้ผูกผ้า", "Cloth-wrapped tree", "ต้นไม้ผูกผ้า", "Cloth-wrapped trees", "var(--leaf)"),
+    "shrine": ("ศาล", "Shrine", "ศาลอื่น ๆ", "Other shrines", "var(--sky)")}
+# markets and pictures kept for how they look
+SCENES = [p for p in PHOTOS if p.get("subject") in ("market", "aesthetic")]
 
 # the directory's own totals per district: the denominator of coverage
 TOTAL = Counter(); TOTAL_TB = Counter()
@@ -189,7 +197,9 @@ def totals():
             "frames": sum(s["counts"]["frames"] for s in SESSIONS),
             "added": sum(1 for p in PLACES.values() if p["status"] == "added"),
             "confirmed": sum(1 for p in PLACES.values() if p["status"] == "confirmed"),
-            "photos": len(PHOTOS), "areas": len(AREAS)}
+            "photos": len(PHOTOS), "areas": len(AREAS), "points": len(POINTS), "scenes": len(SCENES),
+            "spirit": sum(1 for p in POINTS if p["kind"] == "spirit-house"),
+            "trees": sum(1 for p in POINTS if p["kind"] == "ribbon-tree")}
 
 
 # ------------------------------------------------------------------ the shell
@@ -209,6 +219,22 @@ var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isInter
 document.querySelectorAll('[data-rise]').forEach(function(el){el.classList.add('rise');io.observe(el)});
 setTimeout(function(){document.querySelectorAll('.rise').forEach(function(el){el.classList.add('in')})},4000);
 document.querySelectorAll('svg .route').forEach(function(p){p.style.setProperty('--len',Math.ceil(p.getTotalLength()))});
+})();</script>
+<script>(function(){
+/* nearest first: motdang.net's edge writes the reader's city into meta md-where; the 📍 button asks for an exact fix */
+var lists=document.querySelectorAll('[data-near]');if(!lists.length)return;
+function km(a,b,c,d){var r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2);
+return 12742*Math.asin(Math.sqrt(x*x+Math.cos(a*r)*Math.cos(c*r)*y*y))}
+function lab(k){return k<1?Math.round(k*1000/10)*10+' m':(k<10?k.toFixed(1):Math.round(k))+' km'}
+function near(la,lo,th,en){lists.forEach(function(l){var it=[].slice.call(l.children).filter(function(c){return c.dataset.lat});
+it.forEach(function(c){c._k=km(la,lo,+c.dataset.lat,+c.dataset.lng);var s=c.querySelector('.dist');if(s)s.textContent=lab(c._k)});
+it.sort(function(a,b){return a._k-b._k}).forEach(function(c){l.appendChild(c)})});
+document.querySelectorAll('.near-note').forEach(function(n){n.innerHTML='<span lang="th">ใกล้'+th+'ก่อน</span><span lang="en">Nearest to '+en+' first</span>'})}
+var m=document.querySelector('meta[name=md-where]');
+if(m){var p=(m.content||'').split('|');if(p.length>2&&!isNaN(+p[1])&&!isNaN(+p[2])&&km(+p[1],+p[2],18.79,98.99)<300){var c=p[0]||'';near(+p[1],+p[2],c?' '+c+' ':'คุณ',c||'you')}}
+document.querySelectorAll('.locate').forEach(function(b){if(!navigator.geolocation){b.hidden=true;return}
+b.addEventListener('click',function(){b.disabled=true;navigator.geolocation.getCurrentPosition(function(q){b.disabled=false;
+near(q.coords.latitude,q.coords.longitude,'คุณ','you')},function(){b.disabled=false},{enableHighAccuracy:true,timeout:10000})})});
 })();</script>"""
 
 
@@ -223,7 +249,7 @@ def page(path: str, title_th: str, title_en: str, body: str, desc: str, image: s
     og = (f'<meta property="og:image" content="{e(img)}"><meta name="twitter:card" content="summary_large_image">'
           if img else "")
     return f"""<!doctype html>
-<html lang="th">
+<html lang="th" translate="no" class="notranslate">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -239,6 +265,9 @@ def page(path: str, title_th: str, title_en: str, body: str, desc: str, image: s
 <link rel="stylesheet" href="{BASE}assets/css/field.css">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {LANG_JS}
+<meta name="google" content="notranslate">
+<meta name="robots" content="notranslate">
+<script>if(/[.]translate[.]goog$/.test(location.hostname))location.replace("https://"+location.hostname.slice(0,-15).replace(/--/g,"~").replace(/-/g,".").replace(/~/g,"-")+location.pathname+location.search.replace(/([?&])_x_tr_[^&]*/g,"$1").replace(/[?&]+$/,"").replace(/[?]&+/,"?")+location.hash)</script>
 </head>
 <body>
 <header class="bar"><div class="wrap">
@@ -247,6 +276,8 @@ def page(path: str, title_th: str, title_en: str, body: str, desc: str, image: s
 <a href="{BASE}areas/">{t("พื้นที่", "Areas")}</a>
 <a href="{BASE}sessions/">{t("รอบ", "Sessions")}</a>
 <a href="{BASE}photos/">{t("ภาพ", "Photos")}</a>
+<a href="{BASE}san/">{t("ศาล · ต้นไม้", "Shrines · trees")}</a>
+<a href="{BASE}scenes/">{t("ตลาด · ภาพเมือง", "Markets · scenes")}</a>
 <a href="{BASE}how/">{t("วิธีทำ", "How")}</a>
 <a href="{BASE}about/">{t("แผน · ต้นทุน", "Plan · costs")}</a>
 </nav>
@@ -283,6 +314,7 @@ def shot(href: str, img: str, title: str, sub: str = "") -> str:
 
 
 def stat_cells(cells) -> str:
+    cells = [c for c in cells if c[1]]          # a kind the camera has not met yet is left off, not shown as 0
     return '<div class="stats wrap">' + "".join(
         f'<div class="stat {cls}" data-rise><b>{n(v)}</b>{t(th, en)}</div>' for cls, v, th, en in cells) + "</div>"
 
@@ -311,6 +343,116 @@ def wall(photos, rise=True) -> str:
                    f'<figcaption>{t(e(p.get("description_th") or p.get("title")), e(p.get("description") or p.get("title")))}'
                    f' · {fmt_date(p["date"], "en")}</figcaption></figure>')
     return '<div class="wall">' + "".join(out) + "</div>"
+
+
+def near_bar() -> str:
+    """The line above a nearest-first list, and the button that asks for an exact fix."""
+    return (f'<div class="nearbar"><span class="near-note small"></span>'
+            f'<button class="locate" type="button">📍 {t("เรียงจากที่ฉันอยู่", "Sort from where I am")}</button></div>')
+
+
+def point_card(p) -> str:
+    """A spirit house, shrine or tree: the picture is the link, its kind and distance lie on it."""
+    th, en = POINT_KINDS.get(p["kind"], ("", "", "", "", ""))[:2]
+    href = f"{MOTDANG}/map.html#18/{p['lat']:.5f}/{p['lng']:.5f}" if p.get("lat") is not None else f"{BASE}{p['file']}"
+    ll = f' data-lat="{p["lat"]:.6f}" data-lng="{p["lng"]:.6f}"' if p.get("lat") is not None else ""
+    return (f'<figure class="card pt" id="{e(p["slug"])}"{ll} data-rise><a class="shot" href="{e(href)}">'
+            f'<span class="bg" style="background-image:url({BASE}{e(p["file"])})"></span><span class="scrim"></span>'
+            f'<span class="sp"></span><span class="tx">{t(e(p.get("title_th") or th), e(p.get("title") or en))}'
+            f'<small>{t(th, en)}<span class="dist"></span></small></span></a></figure>')
+
+
+def scene_card(p) -> str:
+    ll = f' data-lat="{p["lat"]:.6f}" data-lng="{p["lng"]:.6f}"' if p.get("lat") is not None else ""
+    k = {"market": ("ตลาด", "Market"), "aesthetic": ("ภาพเมือง", "Scene")}.get(p.get("subject"), ("", ""))
+    return (f'<figure class="card"{ll} data-rise><a class="shot" href="{BASE}{e(p["file"])}">'
+            f'<span class="bg" style="background-image:url({BASE}{e(p["file"])})"></span><span class="scrim"></span>'
+            f'<span class="sp"></span><span class="tx">{t(e(p.get("description_th") or p.get("title")), e(p.get("description") or p.get("title")))}'
+            f'<small>{t(*k)}<span class="dist"></span></small></span></a></figure>')
+
+
+def points_svg(points, tracks, h_max=620) -> str:
+    """Every point on one drawn map, coloured by kind, over the routes that found them."""
+    pts = [(p["lng"], p["lat"]) for p in points if p.get("lat") is not None]
+    if not pts:
+        return ""
+    allp = pts + [q for tr in tracks for q in tr]
+    xs = [x for x, _ in allp]; ys = [y for _, y in allp]
+    x0, x1, y0, y1 = min(xs), max(xs), min(ys), max(ys)
+    k = math.cos(math.radians((y0 + y1) / 2))
+    W, pad = 1000, 30
+    sc = min((W - 2 * pad) / max((x1 - x0) * k, 2e-3), (h_max - 2 * pad) / max(y1 - y0, 2e-3))
+    H = int(max(y1 - y0, 2e-3) * sc + 2 * pad)
+    P = lambda lo, la: (pad + (lo - x0) * k * sc, H - pad - (la - y0) * sc)  # noqa: E731
+    lines = []
+    for tr in tracks:
+        step = max(1, len(tr) // 250)
+        d = "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in (P(*q) for q in tr[::step]))
+        lines.append(f'<path class="glow" d="{d}"/><path class="route faint" d="{d}"/>')
+    dots = []
+    for i, p in enumerate(points):
+        if p.get("lat") is None:
+            continue
+        x, y = P(p["lng"], p["lat"])
+        col = POINT_KINDS.get(p["kind"], ("", "", "", "", "var(--accent)"))[4]
+        dots.append(f'<a href="#{e(p["slug"])}"><circle class="dot" cx="{x:.1f}" cy="{y:.1f}" r="6" style="fill:{col};--i:{i % 60}">'
+                    f'<title>{e(p.get("title") or p["kind"])}</title></circle></a>')
+    kinds = sorted({p["kind"] for p in points}, key=list(POINT_KINDS).index)
+    legend = "".join(f'<span><i style="background:{POINT_KINDS[k][4]}"></i>{t(POINT_KINDS[k][2], POINT_KINDS[k][3])}</span>'
+                     for k in kinds if k in POINT_KINDS)
+    return (f'<figure class="map" data-rise><svg viewBox="0 0 {W} {H}" role="img" aria-label="points">'
+            + "".join(lines) + "".join(dots) + f'</svg><figcaption class="legend">{legend}</figcaption></figure>')
+
+
+def build_san() -> str:
+    pts = sorted(POINTS, key=lambda p: (-(p.get("quality") or 0), p["slug"]))
+    T = totals()
+    hero = next((p["file"] for p in pts if p["kind"] == "spirit-house"), pts[0]["file"] if pts else "")
+    head = band(f"{BASE}{hero}", f"""<span class="kicker">{t("ภาคสนาม", "Field")}</span>
+<h1>{t("ศาล ต้นไม้ผูกผ้า", "Spirit houses, shrines, cloth-wrapped trees")}</h1>
+{pair("ศาลและต้นไม้ผูกผ้าที่เห็นจากถนน ปักหมุดตรงที่ถ่าย", "Spirit houses, shrines and cloth-wrapped trees seen from the road, each pinned where it was photographed")}""",
+                "hero") if hero else ""
+    cells = [("hot", T["spirit"], "ศาลพระภูมิ ศาลเจ้าที่", "spirit houses"), ("leaf", T["trees"], "ต้นไม้ผูกผ้า", "cloth-wrapped trees"),
+             ("", T["points"] - T["spirit"] - T["trees"], "ศาลอื่น ๆ", "other shrines")]
+    groups = ""
+    for k, (th, en, pth, pen, _) in POINT_KINDS.items():
+        rows = [p for p in pts if p["kind"] == k]
+        if rows:
+            groups += (f'<h2 id="{k}">{t(pth, pen)} <span class="small">{n(len(rows))}</span></h2>'
+                       f'{near_bar()}<div class="cards" data-near>{"".join(point_card(p) for p in rows)}</div>')
+    body = f"""{head}
+{stat_cells(cells)}
+<section class="block"><div class="wrap">
+{points_svg(pts, tracks_for(SESSIONS, "cm"))}
+{pair("แตะหมุดเพื่อเลื่อนไปที่ภาพ แตะภาพเพื่อเปิดจุดนั้นบนแผนที่มดแดง", "Tap a dot to jump to its picture; tap a picture to open that spot on Mot Dang's map", cls="small")}
+{groups}
+<p class="small"><a href="{BASE}data/points.geojson" download>{t("จุดทั้งหมดในไฟล์เดียว (GeoJSON)", "The points in one file (GeoJSON)")}</a> ·
+<a href="{MOTDANG}/san.html">{t("ศาลหลักของเมืองในมดแดง →", "The city's main shrines on Mot Dang →")}</a></p>
+</div></section>"""
+    return page("san/index.html", "ศาล ต้นไม้ผูกผ้า", "Spirit houses, shrines, trees", body,
+                f"{T['spirit']} spirit houses and {T['trees']} cloth-wrapped trees seen from the road in Chiang Mai, "
+                f"pinned where each was photographed.", hero)
+
+
+def build_scenes() -> str:
+    sc = sorted(SCENES, key=lambda p: (-(p.get("quality") or 0), p["slug"]))
+    hero = sc[0]["file"] if sc else ""
+    head = band(f"{BASE}{hero}", f"""<span class="kicker">{t("ภาคสนาม", "Field")}</span>
+<h1>{t("ตลาด และภาพเมือง", "Markets and scenes")}</h1>
+{pair("ภาพที่เก็บไว้เพราะความงาม ตลาด และชีวิตริมถนน ปักหมุดตรงที่ถ่าย", "Pictures kept for how they look: markets, light, streets, each pinned where it was taken")}""",
+                "hero") if hero else ""
+    groups = ""
+    for k, th, en in (("market", "ตลาด", "Markets"), ("aesthetic", "ภาพเมือง", "Scenes")):
+        rows = [p for p in sc if p.get("subject") == k]
+        if rows:
+            groups += (f'<h2 id="{k}">{t(th, en)} <span class="small">{n(len(rows))}</span></h2>'
+                       f'{near_bar()}<div class="cards" data-near>{"".join(scene_card(p) for p in rows)}</div>')
+    body = f"""{head}
+<section class="block"><div class="wrap">
+{groups}
+</div></section>"""
+    return page("scenes/index.html", "ตลาด ภาพเมือง", "Markets and scenes", body,
+                f"{len(sc)} photographs of markets and streets in Chiang Mai, CC BY 4.0, pinned where each was taken.", hero)
 
 
 # ------------------------------------------------------------------ the coverage map
@@ -389,6 +531,8 @@ def build_home() -> str:
     cells = [("hot", T["added"], "ร้านที่เพิ่มลงมดแดงจากป้ายของร้านเอง", "places added to Mot Dang from their own signs"),
              ("leaf", T["confirmed"], "ร้านในมดแดงที่ป้ายยืนยันชื่อ", "Mot Dang places confirmed by their signs"),
              ("", T["photos"], "ภาพ ใช้ได้ทั้งเว็บ", "photographs, usable across the site"),
+             ("", T["spirit"], "ศาลพระภูมิ ศาลเจ้าที่ ปักหมุดแล้ว", "spirit houses pinned"),
+             ("", T["trees"], "ต้นไม้ผูกผ้า ปักหมุดแล้ว", "cloth-wrapped trees pinned"),
              ("", T["areas"], "อำเภอที่กล้องไปถึง", "districts the camera has reached"),
              ("", T["sessions"], "รอบออกภาคสนาม", "sessions in the field"),
              ("", T["frames"], "เฟรม 360°", "360° frames")]
@@ -424,6 +568,7 @@ def build_home() -> str:
 <div class="cards">{area_cards}</div>
 <p><a href="{BASE}areas/">{t("ทุกอำเภอ →", "Every district →")}</a></p>
 </div></section>
+{home_teasers()}
 <section class="block"><div class="wrap">
 <span class="kick">{t("ภาพ", "Photographs")}</span>
 <h2>{t("ภาพล่าสุด", "The latest photographs")}</h2>
@@ -434,6 +579,27 @@ def build_home() -> str:
     return page("index.html", "ภาคสนาม", "Field", body,
                 f"Street-level capture for Mot Dang: {T['added']} places added from their own signs, "
                 f"{T['confirmed']} confirmed, {T['photos']} photographs under CC BY 4.0.", hero)
+
+
+def home_teasers() -> str:
+    out = ""
+    pts = sorted(POINTS, key=lambda p: -(p.get("quality") or 0))[:8]
+    if pts:
+        out += f"""<section class="block" id="san"><div class="wrap">
+<span class="kick">{t("ศาล · ต้นไม้", "Shrines · trees")}</span>
+<h2>{t("ศาลริมทาง", "Roadside spirit houses")}</h2>
+{near_bar()}<div class="cards" data-near>{"".join(point_card(p) for p in pts)}</div>
+<p><a href="{BASE}san/">{t(f"ทั้ง {n(len(POINTS))} จุด →", f"All {n(len(POINTS))} →")}</a></p>
+</div></section>"""
+    sc = sorted(SCENES, key=lambda p: -(p.get("quality") or 0))[:8]
+    if sc:
+        out += f"""<section class="block" id="scenes"><div class="wrap">
+<span class="kick">{t("ตลาด · ภาพเมือง", "Markets · scenes")}</span>
+<h2>{t("ภาพที่เก็บไว้เพราะความงาม", "Kept for how they look")}</h2>
+{near_bar()}<div class="cards" data-near>{"".join(scene_card(p) for p in sc)}</div>
+<p><a href="{BASE}scenes/">{t(f"ทั้ง {n(len(SCENES))} ภาพ →", f"All {n(len(SCENES))} →")}</a></p>
+</div></section>"""
+    return out
 
 
 def build_areas() -> str:
@@ -507,12 +673,26 @@ def build_session(s) -> str:
 <div class="cards">{''.join(place_card(p) for p in sorted(added, key=lambda p: (not p.get("photo"), p["name"])))}</div>
 <h2>{t("ยืนยันแล้ว", "Confirmed")}</h2>
 {chips([p for p in pls if p["id"] not in new_ids])}
+{session_extras(s)}
 <h2>{t("ภาพ", "Photographs")}</h2>
 {wall([dict(p, date=s["date"]) for p in s["photos"]], rise=False)}
 <p class="small"><a href="{BASE}data/sessions/{e(s["id"])}.json">{t("ข้อมูลรอบนี้ (JSON)", "This session's data (JSON)")}</a></p>
 </div></section>"""
     return page(f"sessions/{s['id']}/index.html", title_th, title_en, body,
                 f"{title_en}: {c['new']} places added, {c['confirmed']} confirmed, {c['photos']} photographs.", hero)
+
+
+def session_extras(s) -> str:
+    pts = [p for p in POINTS if p["session"] == s["id"]]
+    sc = [p for p in SCENES if p["session"] == s["id"]]
+    out = ""
+    if pts:
+        out += (f'<h2>{t("ศาล ต้นไม้ผูกผ้า", "Spirit houses, shrines, trees")} <span class="small">{n(len(pts))}</span></h2>'
+                f'<div class="cards">{"".join(point_card(p) for p in pts)}</div>')
+    if sc:
+        out += (f'<h2>{t("ตลาด ภาพเมือง", "Markets and scenes")} <span class="small">{n(len(sc))}</span></h2>'
+                f'<div class="cards">{"".join(scene_card(p) for p in sc)}</div>')
+    return out
 
 
 def build_photos():
@@ -558,7 +738,7 @@ def build_how() -> str:
 <li>{t("แต่ละเฟรมถูกตัดเป็น 16 ช่องแบน ให้ Apple Vision อ่านข้อความไทยและอังกฤษ", "Each frame is cut into 16 flat tiles and Apple Vision reads the Thai and English on them.")}</li>
 <li>{t("ข้อความที่ตรงกับชื่อในมดแดงระยะ 120 ม. ยืนยันร้านนั้น", "A line that matches a Mot Dang name within 120 m confirms that place.")}</li>
 <li>{t("ที่ไม่ตรงกับอะไร คนอ่านจากภาพ ป้ายที่มีชื่อและประเภทบนหน้าร้านเองกลายเป็นรายการใหม่", "What matches nothing is read again by a person; a name and a trade on the premises' own sign become a new listing.")}</li>
-<li>{t("ภาพถูกปรับให้ตรง เบลอหน้าคน แล้วขึ้นหน้าร้านและคลังภาพของมดแดง", "Photographs are straightened, faces blurred, and they go onto the place's page and Mot Dang's picture pool.")}</li>
+<li>{t("ภาพที่เผยแพร่ถูกตัดใหม่จากทรงกลม 360° หันไปที่สิ่งที่ถ่าย เบลอหน้าคน แล้วขึ้นหน้าร้าน คลังภาพของมดแดง และหน้าศาลกับภาพเมืองของภาคสนาม", "A published photograph is re-cut from the 360° sphere, aimed at its subject, with faces blurred; it goes onto the place's page, Mot Dang's picture pool, and Field's shrine and scene pages.")}</li>
 </ol>
 <p><a href="{REPO}">{t("โค้ดทั้งหมดบน GitHub →", "All the code on GitHub →")}</a></p>
 </div></section>"""
@@ -568,7 +748,8 @@ def build_how() -> str:
 def build_data() -> str:
     items = [("data/places.csv", "ทุกร้านที่เห็น", "Every place seen", "CSV"),
              ("data/photos.json", "ทุกภาพ", "Every photograph", "JSON"),
-             ("data/tracks.geojson", "ทุกเส้นทาง", "Every route", "GeoJSON")]
+             ("data/tracks.geojson", "ทุกเส้นทาง", "Every route", "GeoJSON"),
+             ("data/points.geojson", "ศาล ต้นไม้ผูกผ้า ตลาด ทุกจุด", "Every spirit house, shrine, tree and market", "GeoJSON")]
     lis = "".join(f'<li><a href="{BASE}{p}" download><b>{t(th, en)}</b><span>{f} · {p}</span></a></li>' for p, th, en, f in items)
     body = f"""<section class="block"><div class="wrap">
 <span class="kick">{t("ข้อมูล", "Data")}</span>
@@ -615,11 +796,12 @@ def build_about() -> str:
 <tr><th>{t("กล้อง", "Camera")}</th><td>{t("GoPro Max 2 ภาพ 360° ถ่ายต่อเนื่องทุก 2–3 วินาที ติดหน้ารถมอเตอร์ไซค์หรือถือเดิน", "GoPro Max 2, 360° bursts every 2–3 seconds, on the front of a motorbike or carried on foot")}</td></tr>
 <tr><th>{t("ต้นฉบับ", "Source")}</th><td>{t("ภาพ equirectangular 7680×3840 ต่อเฟรม ส่วนใหญ่มี GPS ใน EXIF วิดีโอมีแทร็ก GPX แยก", "7680×3840 equirectangular frames, most with a GPS fix in EXIF; videos carry a separate GPX track")}</td></tr>
 <tr><th>{t("ดึงไฟล์", "Fetch")}</th><td>{t("จากคลาวด์ของ GoPro ทีละเฟรม ตัด อ่าน แล้วลบต้นฉบับบนเครื่อง คลาวด์ยังเก็บต้นฉบับไว้", "From GoPro's cloud one frame at a time — cut, read, then the local original is deleted; the cloud keeps it")}</td></tr>
-<tr><th>{t("ตัดภาพ", "Cut")}</th><td>{t("16 ช่องต่อเฟรม (8 ทิศ × 2 ระดับ) ช่องละ 50°×30° ที่ราว 21 พิกเซลต่อองศา และภาพกว้าง 4 ทิศไว้เลือกภาพ", "16 tiles a frame (8 bearings × 2 heights), 50°×30° each at about 21 px per degree, plus four wide views for choosing photographs")}</td></tr>
+<tr><th>{t("ตัดภาพ", "Cut")}</th><td>{t("16 ช่องต่อเฟรม (8 ทิศ × 2 ระดับ) ช่องละ 50°×30° ที่ราว 21 พิกเซลต่อองศา และภาพกว้าง 4 ทิศ รวมทิศที่หันหาผู้ขี่ ทุกภาพกว้างถูกอ่าน และซูมเข้าป้ายเล็กทีละช่อง", "16 tiles a frame (8 bearings × 2 heights), 50°×30° each at about 21 px per degree, plus four wide views including the one facing the rider; every wide view is read, zooming into small signs tile by tile")}</td></tr>
 <tr><th>{t("อ่าน", "Read")}</th><td>{t("Apple Vision อ่านไทยและอังกฤษบนเครื่องเอง พร้อมหาใบหน้าและคน", "Apple Vision reads Thai and English on the Mac itself, and finds faces and people")}</td></tr>
 <tr><th>{t("จับคู่", "Match")}</th><td>{t("เทียบกับชื่อในมดแดงระยะ 120 ม. โดยไม่นับวรรณยุกต์และสระบนล่าง ยืนยันเมื่อตรงกันในระยะ 50 ม.", "Against Mot Dang names within 120 m, ignoring tone marks and vowels above and below; a match within 50 m confirms the place")}</td></tr>
 <tr><th>{t("คนตรวจ", "People")}</th><td>{t("ข้อความที่ไม่ตรงกับอะไรถูกตัดเป็นภาพ แล้วคนอ่านซ้ำ ป้ายบนหน้าร้านที่บอกทั้งชื่อและประเภทกลายเป็นรายการใหม่ ตั้งชื่อหน้าตามชื่อบนป้าย", "Text that matches nothing is cropped and read again by a person; a sign on the premises naming both the place and its trade becomes a new listing, named as painted")}</td></tr>
-<tr><th>{t("ภาพ", "Photographs")}</th><td>{t("ปรับให้ตรงตามเส้นตั้ง ไม่เกิน 12° เบลอใบหน้าและศีรษะของคนที่ตรวจพบ ไม่ใช้เฟรมที่มีผู้ถ่ายหรือเพื่อนร่วมทาง ตัดหัวท้ายเส้นทาง 1.5 กม. และ 0.4 กม.", "Straightened by their verticals up to 12°; faces and the heads of detected people blurred; frames showing the photographer or companions are not used; each route's first 1.5 km and last 0.4 km are trimmed")}</td></tr>
+<tr><th>{t("ปรับระดับ", "Level")}</th><td>{t("ทั้งทรงกลม 360° ถูกหมุนให้ตั้งตรงก่อนตัดภาพ ใช้เส้นตั้งของตึกและเสา กับตำแหน่งของท้องฟ้า เอียงเท่าไรก็ปรับได้โดยไม่ต้องครอป เฟรมที่ห่างกันไม่กี่วินาทีช่วยตรวจกันเอง", "The whole 360° sphere is turned upright before any view is cut, from the verticals of buildings and poles and where the sky lies; any tilt is corrected without cropping, and frames a few seconds apart check each other")}</td></tr>
+<tr><th>{t("ภาพ", "Photographs")}</th><td>{t("อ่านทุกเฟรม รวมเฟรมที่มีคนหรือนิ้วบังเลนส์ ภาพที่เผยแพร่ตัดให้พ้นผู้ถ่ายและนิ้ว เบลอใบหน้าและศีรษะของคนที่ตรวจพบ ต้นฉบับเก็บไว้ตามเดิม ตัดหัวท้ายเส้นทาง 1.5 กม. และ 0.4 กม.", "Every frame is read, those with people or a finger over the lens included; a published picture is cut away from the rider and the finger, with faces and the heads of detected people blurred, and the original is kept as shot; each route's first 1.5 km and last 0.4 km are trimmed")}</td></tr>
 <tr><th>{t("ตำแหน่ง", "Position")}</th><td>{t("เฟรมที่มี GPS ให้หมุดภายในราว 30 ม. เฟรมที่ไม่มี GPS วางตามอาคารหรือตลาดที่ป้ายบอก และบอกไว้ในรายการว่าวางอย่างไร", "A frame with GPS pins a place to within about 30 m; one without is placed by the building or market its sign names, and the listing says how it was placed")}</td></tr>
 <tr><th>{t("เครื่อง", "Machine")}</th><td>{t("ประมวลผลบน MacBook เครื่องเดียว เฟรมราว 800 เฟรมใช้เวลาเครื่องไม่ถึงชั่วโมง", "All of it runs on one MacBook; about 800 frames take under an hour of machine time")}</td></tr>
 </tbody></table>
@@ -674,6 +856,12 @@ def main():
             f["properties"]["session"] = s["id"]
             feats.append(f)
     (OUT / "data/tracks.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}))
+    pf = [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [p["lng"], p["lat"]]},
+           "properties": {"kind": p.get("kind") or p.get("subject"), "title": p.get("title") or p.get("description"),
+                          "title_th": p.get("title_th") or p.get("description_th"), "date": p["date"],
+                          "photo": f"{SITE_URL}/{p['file']}", "credit": "NaN Peacock", "licence": "CC BY 4.0"}}
+          for p in POINTS + [x for x in SCENES if x.get("subject") == "market"] if p.get("lat") is not None]
+    (OUT / "data/points.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": pf}, ensure_ascii=False))
 
     write("index.html", build_home())
     write("areas/index.html", build_areas())
@@ -684,11 +872,13 @@ def main():
     for s in SESSIONS:
         write(f"sessions/{s['id']}/index.html", build_session(s))
     npages = build_photos()
+    write("san/index.html", build_san())
+    write("scenes/index.html", build_scenes())
     write("how/index.html", build_how())
     write("data/index.html", build_data())
     write("about/index.html", build_about())
 
-    urls = (["", "areas/", "sessions/", "photos/", "how/", "data/", "about/"]
+    urls = (["", "areas/", "sessions/", "photos/", "san/", "scenes/", "how/", "data/", "about/"]
             + [f"areas/{area_key(pv, am)}/" for pv, am in AREAS]
             + [f"sessions/{s['id']}/" for s in SESSIONS] + [f"photos/{k}/" for k in range(2, npages + 1)])
     today = date.today().isoformat()

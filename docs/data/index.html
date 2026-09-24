@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="th">
+<html lang="th" translate="no" class="notranslate">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -21,6 +21,9 @@ if(v!=='both')r.setAttribute('data-lang',v);
 window.fieldLang=function(x){if(x==='both')r.removeAttribute('data-lang');else r.setAttribute('data-lang',x);
 try{localStorage.setItem(k,x)}catch(_){}document.querySelectorAll('.langs button').forEach(function(b){
 b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
+<meta name="google" content="notranslate">
+<meta name="robots" content="notranslate">
+<script>if(/[.]translate[.]goog$/.test(location.hostname))location.replace("https://"+location.hostname.slice(0,-15).replace(/--/g,"~").replace(/-/g,".").replace(/~/g,"-")+location.pathname+location.search.replace(/([?&])_x_tr_[^&]*/g,"$1").replace(/[?&]+$/,"").replace(/[?]&+/,"?")+location.hash)</script>
 </head>
 <body>
 <header class="bar"><div class="wrap">
@@ -29,6 +32,8 @@ b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
 <a href="/field/areas/"><span lang="th">พื้นที่</span><span lang="en">Areas</span></a>
 <a href="/field/sessions/"><span lang="th">รอบ</span><span lang="en">Sessions</span></a>
 <a href="/field/photos/"><span lang="th">ภาพ</span><span lang="en">Photos</span></a>
+<a href="/field/san/"><span lang="th">ศาล · ต้นไม้</span><span lang="en">Shrines · trees</span></a>
+<a href="/field/scenes/"><span lang="th">ตลาด · ภาพเมือง</span><span lang="en">Markets · scenes</span></a>
 <a href="/field/how/"><span lang="th">วิธีทำ</span><span lang="en">How</span></a>
 <a href="/field/about/"><span lang="th">แผน · ต้นทุน</span><span lang="en">Plan · costs</span></a>
 </nav>
@@ -39,7 +44,7 @@ b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
 <span class="kick"><span lang="th">ข้อมูล</span><span lang="en">Data</span></span>
 <h1><span lang="th">เอาไปใช้ได้</span><span lang="en">Take it</span></h1>
 <div class="pair lede"><p lang="th">ข้อมูลและภาพเผยแพร่แบบ CC BY 4.0 ใส่ชื่อ NaN Peacock เมื่อนำไปใช้</p><p lang="en">Data and photographs are CC BY 4.0: credit NaN Peacock when you use them.</p></div>
-<ul class="dl"><li><a href="/field/data/places.csv" download><b><span lang="th">ทุกร้านที่เห็น</span><span lang="en">Every place seen</span></b><span>CSV · data/places.csv</span></a></li><li><a href="/field/data/photos.json" download><b><span lang="th">ทุกภาพ</span><span lang="en">Every photograph</span></b><span>JSON · data/photos.json</span></a></li><li><a href="/field/data/tracks.geojson" download><b><span lang="th">ทุกเส้นทาง</span><span lang="en">Every route</span></b><span>GeoJSON · data/tracks.geojson</span></a></li><li><a href="https://github.com/NaNoBotCo/field"><b><span lang="th">โค้ดทั้งหมด</span><span lang="en">All the code</span></b><span>GitHub · MIT</span></a></li></ul>
+<ul class="dl"><li><a href="/field/data/places.csv" download><b><span lang="th">ทุกร้านที่เห็น</span><span lang="en">Every place seen</span></b><span>CSV · data/places.csv</span></a></li><li><a href="/field/data/photos.json" download><b><span lang="th">ทุกภาพ</span><span lang="en">Every photograph</span></b><span>JSON · data/photos.json</span></a></li><li><a href="/field/data/tracks.geojson" download><b><span lang="th">ทุกเส้นทาง</span><span lang="en">Every route</span></b><span>GeoJSON · data/tracks.geojson</span></a></li><li><a href="/field/data/points.geojson" download><b><span lang="th">ศาล ต้นไม้ผูกผ้า ตลาด ทุกจุด</span><span lang="en">Every spirit house, shrine, tree and market</span></b><span>GeoJSON · data/points.geojson</span></a></li><li><a href="https://github.com/NaNoBotCo/field"><b><span lang="th">โค้ดทั้งหมด</span><span lang="en">All the code</span></b><span>GitHub · MIT</span></a></li></ul>
 </div></section>
 </main>
 <footer><div class="wrap">
@@ -58,6 +63,22 @@ var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isInter
 document.querySelectorAll('[data-rise]').forEach(function(el){el.classList.add('rise');io.observe(el)});
 setTimeout(function(){document.querySelectorAll('.rise').forEach(function(el){el.classList.add('in')})},4000);
 document.querySelectorAll('svg .route').forEach(function(p){p.style.setProperty('--len',Math.ceil(p.getTotalLength()))});
+})();</script>
+<script>(function(){
+/* nearest first: motdang.net's edge writes the reader's city into meta md-where; the 📍 button asks for an exact fix */
+var lists=document.querySelectorAll('[data-near]');if(!lists.length)return;
+function km(a,b,c,d){var r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2);
+return 12742*Math.asin(Math.sqrt(x*x+Math.cos(a*r)*Math.cos(c*r)*y*y))}
+function lab(k){return k<1?Math.round(k*1000/10)*10+' m':(k<10?k.toFixed(1):Math.round(k))+' km'}
+function near(la,lo,th,en){lists.forEach(function(l){var it=[].slice.call(l.children).filter(function(c){return c.dataset.lat});
+it.forEach(function(c){c._k=km(la,lo,+c.dataset.lat,+c.dataset.lng);var s=c.querySelector('.dist');if(s)s.textContent=lab(c._k)});
+it.sort(function(a,b){return a._k-b._k}).forEach(function(c){l.appendChild(c)})});
+document.querySelectorAll('.near-note').forEach(function(n){n.innerHTML='<span lang="th">ใกล้'+th+'ก่อน</span><span lang="en">Nearest to '+en+' first</span>'})}
+var m=document.querySelector('meta[name=md-where]');
+if(m){var p=(m.content||'').split('|');if(p.length>2&&!isNaN(+p[1])&&!isNaN(+p[2])&&km(+p[1],+p[2],18.79,98.99)<300){var c=p[0]||'';near(+p[1],+p[2],c?' '+c+' ':'คุณ',c||'you')}}
+document.querySelectorAll('.locate').forEach(function(b){if(!navigator.geolocation){b.hidden=true;return}
+b.addEventListener('click',function(){b.disabled=true;navigator.geolocation.getCurrentPosition(function(q){b.disabled=false;
+near(q.coords.latitude,q.coords.longitude,'คุณ','you')},function(){b.disabled=false},{enableHighAccuracy:true,timeout:10000})})});
 })();</script>
 </body>
 </html>
