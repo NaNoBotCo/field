@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="th">
+<html lang="th" translate="no" class="notranslate">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -21,6 +21,9 @@ if(v!=='both')r.setAttribute('data-lang',v);
 window.fieldLang=function(x){if(x==='both')r.removeAttribute('data-lang');else r.setAttribute('data-lang',x);
 try{localStorage.setItem(k,x)}catch(_){}document.querySelectorAll('.langs button').forEach(function(b){
 b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
+<meta name="google" content="notranslate">
+<meta name="robots" content="notranslate">
+<script>if(/[.]translate[.]goog$/.test(location.hostname))location.replace("https://"+location.hostname.slice(0,-15).replace(/--/g,"~").replace(/-/g,".").replace(/~/g,"-")+location.pathname+location.search.replace(/([?&])_x_tr_[^&]*/g,"$1").replace(/[?&]+$/,"").replace(/[?]&+/,"?")+location.hash)</script>
 </head>
 <body>
 <header class="bar"><div class="wrap">
@@ -29,6 +32,8 @@ b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
 <a href="/field/areas/"><span lang="th">พื้นที่</span><span lang="en">Areas</span></a>
 <a href="/field/sessions/"><span lang="th">รอบ</span><span lang="en">Sessions</span></a>
 <a href="/field/photos/"><span lang="th">ภาพ</span><span lang="en">Photos</span></a>
+<a href="/field/san/"><span lang="th">ศาล · ต้นไม้</span><span lang="en">Shrines · trees</span></a>
+<a href="/field/scenes/"><span lang="th">ตลาด · ภาพเมือง</span><span lang="en">Markets · scenes</span></a>
 <a href="/field/how/"><span lang="th">วิธีทำ</span><span lang="en">How</span></a>
 <a href="/field/about/"><span lang="th">แผน · ต้นทุน</span><span lang="en">Plan · costs</span></a>
 </nav>
@@ -41,7 +46,7 @@ b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
 <div class="pair lede"><p lang="th">มดแดงเปิดใช้งานและสร้างไปพร้อมกันมาราว 2 เดือน มีคนทำเต็มเวลา 1 คน คือ NaN Peacock ภาคสนามคือส่วนที่ออกไปดูของจริง</p><p lang="en">Mot Dang has been live and under construction at the same time for about 2 months, with 1 person on it full-time: NaN Peacock. Field is the part that goes and looks.</p></div>
 
 <h2 id="plan"><span lang="th">แผน</span><span lang="en">The plan</span></h2>
-<div class="pair"><p lang="th">มดแดงถือหมุด 84,357 แห่งในเชียงใหม่และเชียงราย ส่วนใหญ่มาจากแผนที่เปิด ทะเบียนราชการ และแหล่งอื่นที่ไม่มีใครไปยืนหน้าร้าน แผนคือออกภาคสนามไม่กี่ร้อยรอบในสองสามเดือนข้างหน้า จนของส่วนใหญ่ถูกเห็นกับตา ตอนนี้เห็นแล้ว 148 แห่ง</p><p lang="en">Mot Dang holds 84,357 pinned places in Chiang Mai and Chiang Rai, most from open maps, government registers and other sources nobody stood in front of. The plan, as of 2026-09-23, is a few hundred sessions over the next couple of months, until most of it has been seen. So far: 148.</p></div>
+<div class="pair"><p lang="th">มดแดงถือหมุด 84,325 แห่งในเชียงใหม่และเชียงราย ส่วนใหญ่มาจากแผนที่เปิด ทะเบียนราชการ และแหล่งอื่นที่ไม่มีใครไปยืนหน้าร้าน แผนคือออกภาคสนามไม่กี่ร้อยรอบในสองสามเดือนข้างหน้า จนของส่วนใหญ่ถูกเห็นกับตา ตอนนี้เห็นแล้ว 350 แห่ง</p><p lang="en">Mot Dang holds 84,325 pinned places in Chiang Mai and Chiang Rai, most from open maps, government registers and other sources nobody stood in front of. The plan, as of 2026-09-23, is a few hundred sessions over the next couple of months, until most of it has been seen. So far: 350.</p></div>
 <ul>
 <li><span lang="th">วัดความคืบหน้าเป็นรายอำเภอและตำบล: เห็นแล้วกี่แห่ง จากที่มดแดงถือ — หน้า</span><span lang="en">Progress is measured by district and tambon: places seen against places held — the</span> <a href="/field/areas/"><span lang="th">พื้นที่</span><span lang="en">Areas</span></a> <span lang="th"></span><span lang="en">page</span></li>
 <li><span lang="th">ขี่เป็นวงตามถนนสายหลักก่อน แล้วเดินในตลาด ห้าง และวัด ที่กล้องบนรถเข้าไม่ถึง</span><span lang="en">Ride the main roads first, then walk the markets, malls and wats a bike camera cannot enter.</span></li>
@@ -54,11 +59,12 @@ b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
 <tr><th><span lang="th">กล้อง</span><span lang="en">Camera</span></th><td><span lang="th">GoPro Max 2 ภาพ 360° ถ่ายต่อเนื่องทุก 2–3 วินาที ติดหน้ารถมอเตอร์ไซค์หรือถือเดิน</span><span lang="en">GoPro Max 2, 360° bursts every 2–3 seconds, on the front of a motorbike or carried on foot</span></td></tr>
 <tr><th><span lang="th">ต้นฉบับ</span><span lang="en">Source</span></th><td><span lang="th">ภาพ equirectangular 7680×3840 ต่อเฟรม ส่วนใหญ่มี GPS ใน EXIF วิดีโอมีแทร็ก GPX แยก</span><span lang="en">7680×3840 equirectangular frames, most with a GPS fix in EXIF; videos carry a separate GPX track</span></td></tr>
 <tr><th><span lang="th">ดึงไฟล์</span><span lang="en">Fetch</span></th><td><span lang="th">จากคลาวด์ของ GoPro ทีละเฟรม ตัด อ่าน แล้วลบต้นฉบับบนเครื่อง คลาวด์ยังเก็บต้นฉบับไว้</span><span lang="en">From GoPro's cloud one frame at a time — cut, read, then the local original is deleted; the cloud keeps it</span></td></tr>
-<tr><th><span lang="th">ตัดภาพ</span><span lang="en">Cut</span></th><td><span lang="th">16 ช่องต่อเฟรม (8 ทิศ × 2 ระดับ) ช่องละ 50°×30° ที่ราว 21 พิกเซลต่อองศา และภาพกว้าง 4 ทิศไว้เลือกภาพ</span><span lang="en">16 tiles a frame (8 bearings × 2 heights), 50°×30° each at about 21 px per degree, plus four wide views for choosing photographs</span></td></tr>
+<tr><th><span lang="th">ตัดภาพ</span><span lang="en">Cut</span></th><td><span lang="th">16 ช่องต่อเฟรม (8 ทิศ × 2 ระดับ) ช่องละ 50°×30° ที่ราว 21 พิกเซลต่อองศา และภาพกว้าง 4 ทิศ รวมทิศที่หันหาผู้ขี่ ทุกภาพกว้างถูกอ่าน และซูมเข้าป้ายเล็กทีละช่อง</span><span lang="en">16 tiles a frame (8 bearings × 2 heights), 50°×30° each at about 21 px per degree, plus four wide views including the one facing the rider; every wide view is read, zooming into small signs tile by tile</span></td></tr>
 <tr><th><span lang="th">อ่าน</span><span lang="en">Read</span></th><td><span lang="th">Apple Vision อ่านไทยและอังกฤษบนเครื่องเอง พร้อมหาใบหน้าและคน</span><span lang="en">Apple Vision reads Thai and English on the Mac itself, and finds faces and people</span></td></tr>
 <tr><th><span lang="th">จับคู่</span><span lang="en">Match</span></th><td><span lang="th">เทียบกับชื่อในมดแดงระยะ 120 ม. โดยไม่นับวรรณยุกต์และสระบนล่าง ยืนยันเมื่อตรงกันในระยะ 50 ม.</span><span lang="en">Against Mot Dang names within 120 m, ignoring tone marks and vowels above and below; a match within 50 m confirms the place</span></td></tr>
 <tr><th><span lang="th">คนตรวจ</span><span lang="en">People</span></th><td><span lang="th">ข้อความที่ไม่ตรงกับอะไรถูกตัดเป็นภาพ แล้วคนอ่านซ้ำ ป้ายบนหน้าร้านที่บอกทั้งชื่อและประเภทกลายเป็นรายการใหม่ ตั้งชื่อหน้าตามชื่อบนป้าย</span><span lang="en">Text that matches nothing is cropped and read again by a person; a sign on the premises naming both the place and its trade becomes a new listing, named as painted</span></td></tr>
-<tr><th><span lang="th">ภาพ</span><span lang="en">Photographs</span></th><td><span lang="th">ปรับให้ตรงตามเส้นตั้ง ไม่เกิน 12° เบลอใบหน้าและศีรษะของคนที่ตรวจพบ ไม่ใช้เฟรมที่มีผู้ถ่ายหรือเพื่อนร่วมทาง ตัดหัวท้ายเส้นทาง 1.5 กม. และ 0.4 กม.</span><span lang="en">Straightened by their verticals up to 12°; faces and the heads of detected people blurred; frames showing the photographer or companions are not used; each route's first 1.5 km and last 0.4 km are trimmed</span></td></tr>
+<tr><th><span lang="th">ปรับระดับ</span><span lang="en">Level</span></th><td><span lang="th">ทั้งทรงกลม 360° ถูกหมุนให้ตั้งตรงก่อนตัดภาพ ใช้เส้นตั้งของตึกและเสา กับตำแหน่งของท้องฟ้า เอียงเท่าไรก็ปรับได้โดยไม่ต้องครอป เฟรมที่ห่างกันไม่กี่วินาทีช่วยตรวจกันเอง</span><span lang="en">The whole 360° sphere is turned upright before any view is cut, from the verticals of buildings and poles and where the sky lies; any tilt is corrected without cropping, and frames a few seconds apart check each other</span></td></tr>
+<tr><th><span lang="th">ภาพ</span><span lang="en">Photographs</span></th><td><span lang="th">อ่านทุกเฟรม รวมเฟรมที่มีคนหรือนิ้วบังเลนส์ ภาพที่เผยแพร่ตัดให้พ้นผู้ถ่ายและนิ้ว เบลอใบหน้าและศีรษะของคนที่ตรวจพบ ต้นฉบับเก็บไว้ตามเดิม ตัดหัวท้ายเส้นทาง 1.5 กม. และ 0.4 กม.</span><span lang="en">Every frame is read, those with people or a finger over the lens included; a published picture is cut away from the rider and the finger, with faces and the heads of detected people blurred, and the original is kept as shot; each route's first 1.5 km and last 0.4 km are trimmed</span></td></tr>
 <tr><th><span lang="th">ตำแหน่ง</span><span lang="en">Position</span></th><td><span lang="th">เฟรมที่มี GPS ให้หมุดภายในราว 30 ม. เฟรมที่ไม่มี GPS วางตามอาคารหรือตลาดที่ป้ายบอก และบอกไว้ในรายการว่าวางอย่างไร</span><span lang="en">A frame with GPS pins a place to within about 30 m; one without is placed by the building or market its sign names, and the listing says how it was placed</span></td></tr>
 <tr><th><span lang="th">เครื่อง</span><span lang="en">Machine</span></th><td><span lang="th">ประมวลผลบน MacBook เครื่องเดียว เฟรมราว 800 เฟรมใช้เวลาเครื่องไม่ถึงชั่วโมง</span><span lang="en">All of it runs on one MacBook; about 800 frames take under an hour of machine time</span></td></tr>
 </tbody></table>
@@ -69,9 +75,9 @@ b.setAttribute('aria-pressed',b.dataset.l===x?'true':'false')})};})();</script>
 <table class="t"><thead><tr><th><span lang="th">รายการ</span><span lang="en">Item</span></th><th>USD</th></tr></thead><tbody><tr><td><span lang="th">โทเค็นโมเดล AI (สร้างเว็บ อ่านป้าย เขียนโค้ด)</span><span lang="en">AI model tokens (building the site, reading signs, writing the code)</span></td><td class="mono">≈ $650</td></tr><tr><td><span lang="th">อุปกรณ์เก็บภาพ: กล้อง GoPro Max 2 ขาจับ การ์ด SD</span><span lang="en">Capture kit: GoPro Max 2 camera, mount, SD cards</span></td><td class="mono">≈ $650</td></tr>
 <tr><th><span lang="th">รวม</span><span lang="en">Total</span></th><th class="mono">$1,300</th></tr>
 <tr><td><span lang="th">ต่อเดือน</span><span lang="en">Per month</span></td><td class="mono">$650</td></tr>
-<tr><td><span lang="th">ต่อหมุดที่มดแดงถือ (84,357 แห่ง)</span><span lang="en">Per pinned place Mot Dang holds (84,357)</span></td><td class="mono">$0.015</td></tr></tbody></table>
+<tr><td><span lang="th">ต่อหมุดที่มดแดงถือ (84,325 แห่ง)</span><span lang="en">Per pinned place Mot Dang holds (84,325)</span></td><td class="mono">$0.015</td></tr></tbody></table>
 <h3><span lang="th">อุปกรณ์เก็บภาพ หารด้วยสิ่งที่ได้จนถึงวันนี้</span><span lang="en">The capture kit, divided by what it has produced so far</span></h3>
-<table class="t"><thead><tr><th></th><th><span lang="th">จำนวน</span><span lang="en">Count</span></th><th><span lang="th">ต่อหน่วย</span><span lang="en">Per unit</span></th></tr></thead><tbody><tr><td><span lang="th">ร้านที่ป้ายยืนยันหรือเพิ่มจากป้าย</span><span lang="en">places confirmed or added from a sign</span></td><td class="mono">148</td><td class="mono">$4.39</td></tr><tr><td><span lang="th">ร้านที่เพิ่มใหม่</span><span lang="en">places added</span></td><td class="mono">68</td><td class="mono">$9.56</td></tr><tr><td><span lang="th">ภาพที่ใช้ได้</span><span lang="en">photographs in use</span></td><td class="mono">151</td><td class="mono">$4.30</td></tr><tr><td><span lang="th">เฟรม 360°</span><span lang="en">360° frames</span></td><td class="mono">1,927</td><td class="mono">$0.34</td></tr></tbody></table>
+<table class="t"><thead><tr><th></th><th><span lang="th">จำนวน</span><span lang="en">Count</span></th><th><span lang="th">ต่อหน่วย</span><span lang="en">Per unit</span></th></tr></thead><tbody><tr><td><span lang="th">ร้านที่ป้ายยืนยันหรือเพิ่มจากป้าย</span><span lang="en">places confirmed or added from a sign</span></td><td class="mono">350</td><td class="mono">$1.86</td></tr><tr><td><span lang="th">ร้านที่เพิ่มใหม่</span><span lang="en">places added</span></td><td class="mono">68</td><td class="mono">$9.56</td></tr><tr><td><span lang="th">ภาพที่ใช้ได้</span><span lang="en">photographs in use</span></td><td class="mono">352</td><td class="mono">$1.85</td></tr><tr><td><span lang="th">เฟรม 360°</span><span lang="en">360° frames</span></td><td class="mono">1,927</td><td class="mono">$0.34</td></tr></tbody></table>
 <div class="pair small"><p lang="th">อุปกรณ์ซื้อครั้งเดียว ยิ่งออกภาคสนามมาก ตัวเลขต่อหน่วยยิ่งลด ตารางนี้คำนวณใหม่ทุกครั้งที่สร้างเว็บ</p><p lang="en">The kit is bought once, so every session lowers these figures; the table is recalculated on every build.</p></div>
 </div></section>
 </main>
@@ -91,6 +97,22 @@ var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isInter
 document.querySelectorAll('[data-rise]').forEach(function(el){el.classList.add('rise');io.observe(el)});
 setTimeout(function(){document.querySelectorAll('.rise').forEach(function(el){el.classList.add('in')})},4000);
 document.querySelectorAll('svg .route').forEach(function(p){p.style.setProperty('--len',Math.ceil(p.getTotalLength()))});
+})();</script>
+<script>(function(){
+/* nearest first: motdang.net's edge writes the reader's city into meta md-where; the 📍 button asks for an exact fix */
+var lists=document.querySelectorAll('[data-near]');if(!lists.length)return;
+function km(a,b,c,d){var r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2);
+return 12742*Math.asin(Math.sqrt(x*x+Math.cos(a*r)*Math.cos(c*r)*y*y))}
+function lab(k){return k<1?Math.round(k*1000/10)*10+' m':(k<10?k.toFixed(1):Math.round(k))+' km'}
+function near(la,lo,th,en){lists.forEach(function(l){var it=[].slice.call(l.children).filter(function(c){return c.dataset.lat});
+it.forEach(function(c){c._k=km(la,lo,+c.dataset.lat,+c.dataset.lng);var s=c.querySelector('.dist');if(s)s.textContent=lab(c._k)});
+it.sort(function(a,b){return a._k-b._k}).forEach(function(c){l.appendChild(c)})});
+document.querySelectorAll('.near-note').forEach(function(n){n.innerHTML='<span lang="th">ใกล้'+th+'ก่อน</span><span lang="en">Nearest to '+en+' first</span>'})}
+var m=document.querySelector('meta[name=md-where]');
+if(m){var p=(m.content||'').split('|');if(p.length>2&&!isNaN(+p[1])&&!isNaN(+p[2])&&km(+p[1],+p[2],18.79,98.99)<300){var c=p[0]||'';near(+p[1],+p[2],c?' '+c+' ':'คุณ',c||'you')}}
+document.querySelectorAll('.locate').forEach(function(b){if(!navigator.geolocation){b.hidden=true;return}
+b.addEventListener('click',function(){b.disabled=true;navigator.geolocation.getCurrentPosition(function(q){b.disabled=false;
+near(q.coords.latitude,q.coords.longitude,'คุณ','you')},function(){b.disabled=false},{enableHighAccuracy:true,timeout:10000})})});
 })();</script>
 </body>
 </html>
