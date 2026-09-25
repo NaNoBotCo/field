@@ -320,7 +320,7 @@ def page(path: str, title_th: str, title_en: str, body: str, desc: str, image: s
 </head>
 <body>
 <header class="bar"><div class="wrap">
-<a class="brand" href="{BASE}"><i></i>ภาคสนาม <span class="small">Field</span></a>
+<div class="brand"><i></i><a class="up" href="{MOTDANG}/">มดแดง<span class="small"> Mot Dang</span></a><span class="crumb">›</span><a class="cur" href="{BASE}">ภาคสนาม<span class="small"> Field</span></a></div>
 <nav aria-label="site">
 <a href="{BASE}areas/">{t("พื้นที่", "Areas")}</a>
 <a href="{BASE}sessions/">{t("รอบ", "Sessions")}</a>
@@ -587,11 +587,17 @@ def build_record(p) -> str:
             am_html = (f'<a href="{BASE}areas/{ak}/">{t(e(am), e(_amph_en.get((prov, am)) or am))}</a>'
                        if (prov, am) in AREAS else t(e(am), e(_amph_en.get((prov, am)) or am)))
             rows.append((("ที่", "Where"), (f"{t('ต.' + e(tb), e(_tamb_en.get((prov, am, tb)) or tb))} · " if tb else "") + am_html + f" · {t(*PROV[prov])}"))
-        beside = sorted(((metres(p, pl["rec"]), pl) for pl in PLACES.values() if pl["rec"].get("lat") is not None),
-                        key=lambda x: x[0])[:1]
-        if beside and beside[0][0] <= 40:
-            m, pl = beside[0]
-            rows.append((("ข้าง ๆ", "Beside"), f'<a href="{e(place_href(pl["id"]))}">{t(e(pl["name"]), e(pl["nameEn"] or pl["name"]))}</a>' + (f" · {n(round(m))} m" if m >= 5 else "")))
+        pid = p.get("placeId") or p.get("matchId")
+        if pid and pid in PLACES:
+            pl = PLACES[pid]
+            rows.append((("ในมดแดง", "On Mot Dang"),
+                         f'<a href="{e(place_href(pid))}">{t(e(pl["name"]), e(pl["nameEn"] or pl["name"]))}</a>'))
+        else:
+            beside = sorted(((metres(p, pl["rec"]), pl) for pl in PLACES.values() if pl["rec"].get("lat") is not None),
+                            key=lambda x: x[0])[:1]
+            if beside and beside[0][0] <= 40:
+                m, pl = beside[0]
+                rows.append((("ข้าง ๆ", "Beside"), f'<a href="{e(place_href(pl["id"]))}">{t(e(pl["name"]), e(pl["nameEn"] or pl["name"]))}</a>' + (f" · {n(round(m))} m" if m >= 5 else "")))
         rows.append((("หมุด", "Pin"), f'<span class="mono">{p["lat"]:.6f}, {p["lng"]:.6f}</span> · '
                      f'<a href="{MOTDANG}/map.html#18/{p["lat"]:.5f}/{p["lng"]:.5f}">{t("เปิดในแผนที่มดแดง", "Open on Mot Dang’s map")}</a>'))
         mapblock = pin_map(p, title_th, title_en, prov)
