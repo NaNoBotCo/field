@@ -8,8 +8,8 @@ new_records.json, …). MOTDANG points at the mot-dang checkout, where the publi
 photographs and listings already live; this reads them, it does not write there.
 
 Writes data/sessions/<date>.json, data/tracks/<date>.geojson and copies the session's
-published photographs into photos/<date>/. The two ends of a track are trimmed because a
-ride starts and ends somewhere personal.
+published photographs into photos/<date>/. The drawn track's two ends are trimmed; places
+and pictures along them stay in (NaN, 2026-09-25).
 """
 import argparse, csv, json, math, os, shutil, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -56,8 +56,8 @@ def main():
     (ROOT / "data/tracks").mkdir(parents=True, exist_ok=True)
     (ROOT / f"data/tracks/{a.id or a.date}.geojson").write_text(json.dumps(track))
 
-    def inside(la, lo):  # keep only what falls along the shown line
-        return any(metres((la, lo), p) < 60 for p in line[::3])
+    def inside(la, lo):  # keep only what falls along the route ridden
+        return any(metres((la, lo), p) < 60 for p in run[::3])
 
     photos_dir = ROOT / "photos" / a.date; photos_dir.mkdir(parents=True, exist_ok=True)
     own = json.load(open(MOTDANG / "data/curated/own_pictures.json"))["picks"]
