@@ -13,6 +13,7 @@ if grep -rlI "/Users/" build/site >/dev/null 2>&1; then echo "REFUSED: host path
 rsync -a --delete build/site/ "$MD/assets/field/"
 rsync -a --delete build/site/ "$MD/docs/field/"
 (cd "$MD" && python3 publish/deploy.py --only field --yes)
+python3 tools/commons.py stage >/dev/null && python3 tools/commons.py upload --if-ready   # Wikimedia Commons, once a login and approval exist
 if [[ "${1:-}" != "--no-push" ]] && [[ -n "$(git status --porcelain -- docs data photos tools)" ]]; then
   git add docs data photos tools
   git commit -q -m "Field: sessions to $(ls data/sessions | sort | tail -1 | sed 's/\.json//')
