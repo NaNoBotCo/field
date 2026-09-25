@@ -1,7 +1,7 @@
 {
  "id": "2026-09-24",
  "date": "2026-09-24",
- "kind": "spirit-house",
+ "kind": "shrine",
  "camera": "GoPro Max 2",
  "province": "cm",
  "title": "Round the moat to the amulet market",
@@ -14,11 +14,11 @@
   "km": 44.1,
   "tiles_read": 15007,
   "text_lines": 17852,
-  "confirmed": 589,
-  "new": 234,
-  "photos": 459,
+  "confirmed": 595,
+  "new": 237,
+  "photos": 462,
   "place_photos": 264,
-  "points": 58
+  "points": 65
  },
  "confirmed": [
   {
@@ -1178,7 +1178,7 @@
    "name": "7-Eleven",
    "cat": "essentials",
    "read": "7-Eleven",
-   "photo": false,
+   "photo": true,
    "url": "cm/p/7-eleven-1616141878.html"
   },
   {
@@ -1412,6 +1412,14 @@
    "read": "",
    "photo": false,
    "url": "cm/p/3283626829.html"
+  },
+  {
+   "id": "cm-osm-node-3298131066",
+   "name": "Valentine Bra",
+   "cat": "shopping",
+   "read": "วาเลนไทน์",
+   "photo": true,
+   "url": "cm/p/valentine-bra-3298131066.html"
   },
   {
    "id": "cm-osm-node-3298145680",
@@ -2174,6 +2182,14 @@
    "url": "cm/p/bangchak-356620508.html"
   },
   {
+   "id": "cm-osm-way-373854689",
+   "name": "ป.ต.ท.",
+   "cat": "transport",
+   "read": "",
+   "photo": false,
+   "url": "cm/p/ptt-373854689.html"
+  },
+  {
    "id": "cm-osm-way-377819719",
    "name": "วัดชัยศรีภูมิ",
    "cat": "wat",
@@ -2606,6 +2622,14 @@
    "url": "cm/p/blind-massage-northern-school-for-the-blind-1465164149834862724.html"
   },
   {
+   "id": "cm-ovt-1c2d2930-d769-4319-a755-db080040ca51",
+   "name": "เขียง บาย ตำมั่ว",
+   "cat": "food",
+   "read": "เขียง",
+   "photo": false,
+   "url": "cm/p/122930769431975508004051.html"
+  },
+  {
    "id": "cm-ovt-1c97cf20-1e92-4568-ac0c-f686079984af",
    "name": "TheOne เฟอร์นิเจอร์ มหิดลเชียงใหม่",
    "cat": "shopping",
@@ -2660,6 +2684,14 @@
    "read": "ศาลพระภูมิ เชียงใหม่ สหธนพล",
    "photo": false,
    "url": "cm/p/20061599407440507384.html"
+  },
+  {
+   "id": "cm-ovt-204ee2e4-5695-4036-9fe4-70eab7a0f0ca",
+   "name": "ไปรษณีย์ไทย",
+   "cat": "essentials",
+   "read": "THAILAND POSTMART",
+   "photo": false,
+   "url": "cm/p/20424569540369470700.html"
   },
   {
    "id": "cm-ovt-206046aa-bc31-42d1-87c6-a7b5b6d05a89",
@@ -3062,6 +3094,14 @@
    "url": "cm/p/kazeya-4692121154138129285080691.html"
   },
   {
+   "id": "cm-ovt-4c7f06d1-bf09-42fe-9281-955ab84efa35",
+   "name": "My House Apartment",
+   "cat": "hotel",
+   "read": "MY HOUSE 2",
+   "photo": false,
+   "url": "cm/p/my-house-apartment-47061094292819558435.html"
+  },
+  {
    "id": "cm-ovt-4ce2e8bc-60ab-473e-a131-438470a838ec",
    "name": "Dang Muay Thai Chiang Mai",
    "cat": "parks",
@@ -3217,7 +3257,7 @@
    "id": "cm-ovt-5c1e9392-fb59-4b6c-95ee-7f087679cc95",
    "name": "Street vespa",
    "cat": "transport",
-   "read": "STREET VESPA",
+   "read": "STREET V...",
    "photo": true,
    "url": "cm/p/street-vespa-519392594695708767995.html"
   },
@@ -3698,7 +3738,7 @@
    "name": "ที่นอนปีนังเชียงใหม่ Teenonpeenang Chiangmai",
    "cat": "shopping",
    "read": "ที่นอนปีนัง",
-   "photo": false,
+   "photo": true,
    "url": "cm/p/teenonpeenang-chiangmai-945010173804954842584583.html"
   },
   {
@@ -4526,6 +4566,14 @@
    "url": "cm/p/4884455480976253.html"
   },
   {
+   "id": "cm-ovt-ee5631f5-a21c-4540-8047-aac99bfb253b",
+   "name": "เค เค เซ็นทรัล ปาร์ค",
+   "cat": "business",
+   "read": "KK Central",
+   "photo": false,
+   "url": "cm/p/56315214540804799253.html"
+  },
+  {
    "id": "cm-ovt-eecb98e0-e317-494e-b4dd-6ca1e8cc144a",
    "name": "ร้านไปรษณีย์ไทย เชียงใหม่ 206 - คาลเท็กซ์ มหิดล",
    "cat": "essentials",
@@ -5022,6 +5070,22 @@
    "phone": "",
    "photo": false,
    "url": "cm/p/cmcuratedopkhwanthian.html"
+  },
+  {
+   "id": "cm-curated-zowall",
+   "name": "ZOWALL",
+   "nameTh": "",
+   "nameEn": "ZOWALL",
+   "kind": "hardware/building-materials shop (dealer signage)",
+   "kindTh": "ร้านตัวแทนจำหน่ายวัสดุก่อสร้าง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.787211,
+   "lng": 99.042419,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/zowall-cmcuratedzowall.html"
   },
   {
    "id": "cm-curated-yokohama-club-network",
@@ -8478,6 +8542,38 @@
    "phone": "",
    "photo": true,
    "url": "cm/p/chiang-mai-teacher-s-thrift-credit-cooperative-ltd-cmcuratedchiangmaiteachersthriftcreditcooperativel.html"
+  },
+  {
+   "id": "cm-curated-sun-phraron-clinic",
+   "name": "สุรพรรณคลินิก",
+   "nameTh": "สุรพรรณคลินิก",
+   "nameEn": "",
+   "kind": "clinic",
+   "kindTh": "คลินิก",
+   "cat": [
+    "medical"
+   ],
+   "lat": 18.779155,
+   "lng": 99.042075,
+   "phone": "053117470",
+   "photo": false,
+   "url": "cm/p/cmcuratedsunphraronclinic.html"
+  },
+  {
+   "id": "cm-curated-biz-point",
+   "name": "Biz Point",
+   "nameTh": "",
+   "nameEn": "Biz Point",
+   "kind": "office building",
+   "kindTh": "อาคารสำนักงาน",
+   "cat": [
+    "business"
+   ],
+   "lat": 18.779948,
+   "lng": 99.042011,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/biz-point-cmcuratedbizpoint.html"
   }
  ],
  "photos": [
@@ -11318,6 +11414,69 @@
    "artist": "NaN Peacock",
    "signText": "",
    "file": "photos/2026-09-24/ride-20260924-aesthetic-ae5727-938.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ae5727-972",
+   "title": "The welcome gate to Ban Buak Khrok Luang",
+   "description": "The welcome gate to Ban Buak Khrok Luang",
+   "description_th": "ซุ้มประตูหมู่บ้านบวกครกหลวง",
+   "subject": "aesthetic",
+   "quality": 3,
+   "lat": 18.77434,
+   "lng": 99.041847,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ae5727-972.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ae5727-975",
+   "title": "A bar built from patchwork reclaimed wood",
+   "description": "A bar built from patchwork reclaimed wood",
+   "description_th": "ร้านบาร์ผนังไม้เก่าปะติดปะต่อ",
+   "subject": "aesthetic",
+   "quality": 3,
+   "lat": 18.775126,
+   "lng": 99.042063,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ae5727-975.jpg"
+  },
+  {
+   "slug": "ride-20260924-street-art-aa2731-216",
+   "title": "small green spray tag on a boundary wall",
+   "description": "small green spray tag on a boundary wall",
+   "description_th": "แท็กสเปรย์สีเขียวเล็กๆ บนกำแพง",
+   "subject": "street-art",
+   "quality": 1,
+   "lat": 18.780554,
+   "lng": 99.041187,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-street-art-aa2731-216.jpg"
   },
   {
    "slug": "ride-20260924-street-art-aa2731-266",
@@ -17862,6 +18021,18 @@
  ],
  "points": [
   {
+   "slug": "ride-20260924-spirit-house-aa2731-097",
+   "kind": "spirit-house",
+   "title": "Two spirit houses in the roadside greenery",
+   "title_th": "ศาลพระภูมิสองหลังในพุ่มไม้ริมทาง",
+   "notes": "A gold-roofed San Phra Phum beside a white multi-tiered ancestor shrine, glimpsed through a hedge with offerings on the pedestals.",
+   "quality": 2,
+   "lat": 18.787274,
+   "lng": 99.043364,
+   "frame": "GSAA2731_097",
+   "file": "photos/2026-09-24/ride-20260924-spirit-house-aa2731-097.jpg"
+  },
+  {
    "slug": "ride-20260924-ribbon-tree-aa2731-240",
    "kind": "ribbon-tree",
    "title": "Rainbow cloth wrapped around a giant roadside tree",
@@ -18556,6 +18727,78 @@
    "lng": 99.025148,
    "frame": "GSAE5727_873",
    "file": "photos/2026-09-24/ride-20260924-spirit-house-ae5727-873.jpg"
+  },
+  {
+   "slug": "ride-20260924-spirit-house-ae5727-955",
+   "kind": "spirit-house",
+   "title": "A small gold spirit house by a building-materials yard",
+   "title_th": "ศาลพระภูมิสีทองขนาดเล็กข้างร้านวัสดุก่อสร้าง",
+   "notes": "Plain small gold spirit house on a pedestal among potted plants, next to a shed with a red pillar.",
+   "quality": 2,
+   "lat": 18.770461,
+   "lng": 99.04076,
+   "frame": "GSAE5727_955",
+   "file": "photos/2026-09-24/ride-20260924-spirit-house-ae5727-955.jpg"
+  },
+  {
+   "slug": "ride-20260924-spirit-house-ae5727-962",
+   "kind": "spirit-house",
+   "title": "A small terracotta spirit house outside a fitness-equipment shop",
+   "title_th": "ศาลพระภูมิดินเผาขนาดเล็กหน้าร้านอุปกรณ์ออกกำลังกาย",
+   "notes": "Small plain terracotta-coloured spirit house on a post, with a model-house shrine next to it, in front of a shopfront.",
+   "quality": 2,
+   "lat": 18.772059,
+   "lng": 99.041205,
+   "frame": "GSAE5727_962",
+   "file": "photos/2026-09-24/ride-20260924-spirit-house-ae5727-962.jpg"
+  },
+  {
+   "slug": "ride-20260924-spirit-house-ae5727-975",
+   "kind": "spirit-house",
+   "title": "A small gold spirit house by a bar entrance",
+   "title_th": "ศาลพระภูมิสีทองเล็กหน้าร้านบาร์",
+   "notes": "Small plain gold-roofed spirit house on a short post next to the patchwork-wood bar's entrance.",
+   "quality": 2,
+   "lat": 18.775126,
+   "lng": 99.042063,
+   "frame": "GSAE5727_975",
+   "file": "photos/2026-09-24/ride-20260924-spirit-house-ae5727-975.jpg"
+  },
+  {
+   "slug": "ride-20260924-shrine-ae5727-978",
+   "kind": "shrine",
+   "title": "A roadside shrine with offerings by a loan-office pole",
+   "title_th": "ศาลเล็กพร้อมเครื่องบูชาข้างเสาไฟหน้าสำนักงานสินเชื่อ",
+   "notes": "Small shrine table with red garlands and potted flowers at the base of a utility pole.",
+   "quality": 2,
+   "lat": 18.775906,
+   "lng": 99.042215,
+   "frame": "GSAE5727_978",
+   "file": "photos/2026-09-24/ride-20260924-shrine-ae5727-978.jpg"
+  },
+  {
+   "slug": "ride-20260924-shrine-ae5727-979",
+   "kind": "shrine",
+   "title": "A small white shrine by a clinic entrance",
+   "title_th": "ศาลสีขาวเล็กหน้าคลินิก",
+   "notes": "Small plain white shrine on a pedestal at the base of the entrance pole.",
+   "quality": 1,
+   "lat": 18.77615,
+   "lng": 99.042244,
+   "frame": "GSAE5727_979",
+   "file": "photos/2026-09-24/ride-20260924-shrine-ae5727-979.jpg"
+  },
+  {
+   "slug": "ride-20260924-shrine-ae5727-982",
+   "kind": "shrine",
+   "title": "A small white shrine by a restaurant's outdoor seating",
+   "title_th": "ศาลสีขาวเล็กข้างที่นั่งกลางแจ้งของร้านอาหาร",
+   "notes": "Small plain white shrine on a pedestal beside the restaurant entrance and outdoor tables.",
+   "quality": 1,
+   "lat": 18.776893,
+   "lng": 99.042289,
+   "frame": "GSAE5727_982",
+   "file": "photos/2026-09-24/ride-20260924-shrine-ae5727-982.jpg"
   }
  ],
  "track": "data/tracks/2026-09-24.geojson",

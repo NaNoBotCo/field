@@ -14,7 +14,7 @@
   "km": null,
   "tiles_read": 16880,
   "text_lines": 31133,
-  "confirmed": 4,
+  "confirmed": 3,
   "new": 28,
   "photos": 173,
   "place_photos": 25,
@@ -36,14 +36,6 @@
    "read": "ตลาดคำเที่ยง",
    "photo": false,
    "url": "cm/p/talat-kam-tieng-224819485.html"
-  },
-  {
-   "id": "cm-ovt-b37ef0be-aefe-466f-a209-c56d3fd2a359",
-   "name": "พลอยจันทร์ เชียงใหม่",
-   "cat": "community",
-   "read": "000 มลอยจันทร์ เชียงใหม่",
-   "photo": false,
-   "url": "cm/p/3704662095632359.html"
   },
   {
    "id": "cm-ovt-d317a69a-4d20-4e3f-ae2e-d8a988d0fbab",
