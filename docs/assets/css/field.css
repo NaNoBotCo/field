@@ -48,6 +48,10 @@ section.block{padding:clamp(40px,7vw,88px) 0}
 .bar .wrap{display:flex;align-items:center;gap:14px;min-height:56px}
 .brand{font:600 1.05rem var(--display);text-decoration:none;display:flex;gap:.5em;align-items:center}
 .brand i{width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 22%,transparent)}
+.brand a{text-decoration:none;white-space:nowrap}
+.brand .up{color:var(--mute)}
+.brand .up:hover{color:var(--accent)}
+.brand .crumb{color:var(--mute);font-weight:400}
 .bar nav{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap}
 .bar nav a,.langs button{font:500 .88rem var(--display);text-decoration:none;padding:6px 12px;border-radius:999px;border:1px solid transparent}
 .bar nav a:hover{border-color:var(--line)}
