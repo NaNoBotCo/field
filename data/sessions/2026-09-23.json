@@ -10,7 +10,7 @@
   "text_lines": 7945,
   "confirmed": 263,
   "new": 134,
-  "photos": 285,
+  "photos": 300,
   "place_photos": 48,
   "points": 8
  },
@@ -10029,6 +10029,336 @@
    "artist": "NaN Peacock",
    "signText": "",
    "file": "photos/2026-09-23/ride-20260923-ab2131-374-f.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-054",
+   "title": "Tag sprayed twice on a fence panel",
+   "description": "Tag sprayed twice on a fence panel",
+   "description_th": "แท็กกราฟฟิตี้ฉีดซ้ำสองครั้งบนแผงรั้ว",
+   "subject": "street-art",
+   "quality": 2,
+   "lat": 18.763029,
+   "lng": 99.025085,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-054.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-131",
+   "title": "Blue-and-white bubble-letter throw-up on a shophouse wall",
+   "description": "Blue-and-white bubble-letter throw-up on a shophouse wall",
+   "description_th": "กราฟฟิตี้ตัวหนังสือฟองสีฟ้าขาวบนกำแพงตึกแถว",
+   "subject": "street-art",
+   "quality": 2,
+   "lat": 18.760686,
+   "lng": 98.996606,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-131.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-131b",
+   "title": "White spray tag on a blank grey billboard face",
+   "description": "White spray tag on a blank grey billboard face",
+   "description_th": "แท็กสีขาวบนป้ายโฆษณาสีเทาว่างเปล่า",
+   "subject": "street-art",
+   "quality": 1,
+   "lat": 18.760686,
+   "lng": 98.996606,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-131b.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-163",
+   "title": "Green bubble-tag piece with a cartoon face beside it",
+   "description": "Green bubble-tag piece with a cartoon face beside it",
+   "description_th": "กราฟฟิตี้ตัวหนังสือสีเขียวพร้อมใบหน้าการ์ตูนข้างกัน",
+   "subject": "street-art",
+   "quality": 3,
+   "lat": 18.76629,
+   "lng": 98.988005,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-163.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-173",
+   "title": "Painted owl-eyes face over a car-repair yard wall",
+   "description": "Painted owl-eyes face over a car-repair yard wall",
+   "description_th": "จิตรกรรมใบหน้านกฮูกดวงตาโตบนกำแพงอู่ซ่อมรถ",
+   "subject": "street-art",
+   "quality": 3,
+   "lat": 18.767295,
+   "lng": 98.984944,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-173.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-224",
+   "title": "White throw-up tag on a rolling shutter",
+   "description": "White throw-up tag on a rolling shutter",
+   "description_th": "แท็กตัวหนังสือสีขาวบนบานเกล็ดเหล็ก",
+   "subject": "street-art",
+   "quality": 2,
+   "lat": 18.776675,
+   "lng": 98.976696,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-224.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-233",
+   "title": "Graffiti tags on an abandoned shophouse",
+   "description": "Graffiti tags on an abandoned shophouse",
+   "description_th": "กราฟฟิตี้บนตึกแถวร้าง",
+   "subject": "street-art",
+   "quality": 2,
+   "lat": 18.779719,
+   "lng": 98.977161,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-233.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-242",
+   "title": "Spray tags along a roadside fence",
+   "description": "Spray tags along a roadside fence",
+   "description_th": "แท็กสเปรย์ตามรั้วริมถนน",
+   "subject": "street-art",
+   "quality": 2,
+   "lat": 18.782644,
+   "lng": 98.977583,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-242.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-243",
+   "title": "Colourful graffiti pieces on an abandoned building",
+   "description": "Colourful graffiti pieces on an abandoned building",
+   "description_th": "กราฟฟิตี้สีสันบนอาคารร้าง",
+   "subject": "street-art",
+   "quality": 2,
+   "lat": 18.782959,
+   "lng": 98.9776,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-243.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-244",
+   "title": "Large bubble-letter piece on a teal wall",
+   "description": "Large bubble-letter piece on a teal wall",
+   "description_th": "งานตัวหนังสือขนาดใหญ่บนกำแพงสีเขียวอมฟ้า",
+   "subject": "street-art",
+   "quality": 3,
+   "lat": 18.783258,
+   "lng": 98.977617,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-244.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-289",
+   "title": "Small tag with a cartoon hand",
+   "description": "Small tag with a cartoon hand",
+   "description_th": "แท็กเล็กพร้อมลายการ์ตูนมือ",
+   "subject": "street-art",
+   "quality": 1,
+   "lat": 18.790763,
+   "lng": 98.978361,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-289.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-291",
+   "title": "Geometric mosaic mural in a side alley",
+   "description": "Geometric mosaic mural in a side alley",
+   "description_th": "ภาพวาดโมเสกเรขาคณิตในซอย",
+   "subject": "street-art",
+   "quality": 2,
+   "lat": 18.790479,
+   "lng": 98.978365,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-291.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-349",
+   "title": "Large tag on a metal fence, partly covered",
+   "description": "Large tag on a metal fence, partly covered",
+   "description_th": "แท็กตัวใหญ่บนรั้วสังกะสี ถูกป้ายบังบางส่วน",
+   "subject": "street-art",
+   "quality": 2,
+   "lat": 18.79127,
+   "lng": 98.982205,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-349.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-368",
+   "title": "Twin bubble-letter tags on shopfront glass",
+   "description": "Twin bubble-letter tags on shopfront glass",
+   "description_th": "แท็กตัวอักษรคู่บนกระจกหน้าร้าน",
+   "subject": "street-art",
+   "quality": 3,
+   "lat": 18.793133,
+   "lng": 98.982295,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-368.jpg"
+  },
+  {
+   "slug": "ride-20260923-street-art-ab2131-368b",
+   "title": "Small tag on an electrical panel",
+   "description": "Small tag on an electrical panel",
+   "description_th": "แท็กเล็กบนตู้ไฟฟ้า",
+   "subject": "street-art",
+   "quality": 1,
+   "lat": 18.793133,
+   "lng": 98.982295,
+   "placeId": null,
+   "topic": [
+    "arts",
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-23/ride-20260923-street-art-ab2131-368b.jpg"
   }
  ],
  "track": "data/tracks/2026-09-23.geojson",
