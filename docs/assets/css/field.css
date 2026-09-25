@@ -188,3 +188,18 @@ footer .fleet a{margin-right:.6em}
 .cards + h2,.nearbar + .cards + h2{margin-top:2.4rem}
 .map .dot{stroke:var(--paper);stroke-width:2}
 .card .dist:not(:empty)::before{content:" · "}
+/* one record's page: the picture, its pin, what stands near it */
+.rec h1{margin:.4rem 0 1rem}
+.recpic{margin:0 0 1rem}
+.recpic img{width:100%;height:auto;max-height:80vh;object-fit:contain;background:#111;border-radius:var(--r)}
+.recpic figcaption{margin-top:6px}
+.recgrid{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:var(--gap);align-items:start;margin:1.4rem 0 2rem}
+.recgrid > table:only-child{grid-column:1/-1}
+@media (max-width:760px){.recgrid{grid-template-columns:1fr}}
+.placemap .placemapbox{border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+.placemap svg{display:block;width:100%;height:auto}
+.placemap .hit{fill:transparent}
+.placemap a:hover text,.placemap a:focus text{fill:#C2401C}
+.facts th{width:30%}
+.mono{font-family:var(--mono);font-size:.9em}
+.rec .cards + h2{margin-top:2.4rem}
