@@ -1,0 +1,4206 @@
+{
+ "id": "2026-09-24-amulets",
+ "date": "2026-09-24",
+ "kind": "walk",
+ "camera": "GoPro Max 2",
+ "province": "cm",
+ "title": "The amulet market beside Jing Jai",
+ "title_th": "ตลาดนัดพระเครื่อง คำเที่ยง ข้างจริงใจ",
+ "where": "The covered amulet and antique market at Kamthieng, beside Lotus's",
+ "where_th": "ตลาดนัดพระเครื่องและของเก่า ตลาดคำเที่ยง ข้างโลตัส",
+ "counts": {
+  "frames": 1055,
+  "frames_with_fix": 941,
+  "km": null,
+  "tiles_read": 16880,
+  "text_lines": 31133,
+  "confirmed": 4,
+  "new": 28,
+  "photos": 173,
+  "place_photos": 25,
+  "points": 0
+ },
+ "confirmed": [
+  {
+   "id": "cm-osm-node-6351675891",
+   "name": "Antique Market",
+   "cat": "shopping",
+   "read": "ตลาดนัดพระเครื่อง",
+   "photo": true,
+   "url": "cm/p/antique-market-6351675891.html"
+  },
+  {
+   "id": "cm-osm-way-224819485",
+   "name": "ไปรษณีย์ ตลาดคำเที่ยง",
+   "cat": "essentials",
+   "read": "ตลาดคำเที่ยง",
+   "photo": false,
+   "url": "cm/p/talat-kam-tieng-224819485.html"
+  },
+  {
+   "id": "cm-ovt-b37ef0be-aefe-466f-a209-c56d3fd2a359",
+   "name": "พลอยจันทร์ เชียงใหม่",
+   "cat": "community",
+   "read": "000 มลอยจันทร์ เชียงใหม่",
+   "photo": false,
+   "url": "cm/p/3704662095632359.html"
+  },
+  {
+   "id": "cm-ovt-d317a69a-4d20-4e3f-ae2e-d8a988d0fbab",
+   "name": "ร้านจตุคาม",
+   "cat": "shopping",
+   "read": "จตุคามฯ 30",
+   "photo": false,
+   "url": "cm/p/3176942043289880.html"
+  }
+ ],
+ "new": [
+  {
+   "id": "cm-curated-678-kafae",
+   "name": "678 กาแฟ",
+   "nameTh": "678 กาแฟ",
+   "nameEn": "",
+   "kind": "coffee and drinks stall",
+   "kindTh": "ร้านกาแฟและเครื่องดื่ม",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/678-678.html"
+  },
+  {
+   "id": "cm-curated-pa-nopkao-silver",
+   "name": "ป.นพเก้า Silver",
+   "nameTh": "ป.นพเก้า Silver",
+   "nameEn": "",
+   "kind": "amulet casing and silver jewellery shop",
+   "kindTh": "ร้านรับเลี่ยมพระ กรอบพระพลาสติกกันน้ำ และเครื่องประดับเงิน",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0647054849",
+   "photo": true,
+   "url": "cm/p/silver-cmcuratedpanopkaosilver.html"
+  },
+  {
+   "id": "cm-curated-yai-san-kamphaeng",
+   "name": "ใหญ่ สันกำแพง",
+   "nameTh": "ใหญ่ สันกำแพง",
+   "nameEn": "",
+   "kind": "amulet shop that buys and rents amulets (Zone A3 053-054)",
+   "kindTh": "ร้านพระเครื่อง รับเช่าพระ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0815301293",
+   "photo": true,
+   "url": "cm/p/cmcuratedyaisankamphaeng.html"
+  },
+  {
+   "id": "cm-curated-tk-amulet-65",
+   "name": "TK-AMULET 65",
+   "nameTh": "",
+   "nameEn": "TK-AMULET 65",
+   "kind": "amulet dealer, old coins and banknotes, auspicious phone-number design, buys winning lottery tickets",
+   "kindTh": "ร้านให้เช่าพระเครื่อง เงินโบราณ แบงก์เก่า ออกแบบเบอร์มงคล รับซื้อสลากถูกรางวัล",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0626396965",
+   "photo": true,
+   "url": "cm/p/tk-amulet-65-65.html"
+  },
+  {
+   "id": "cm-curated-tengnueng-waenta-faechan",
+   "name": "เต็งหนึ่งแว่นตาแฟชั่น",
+   "nameTh": "เต็งหนึ่งแว่นตาแฟชั่น",
+   "nameEn": "",
+   "kind": "fashion eyeglasses shop (shutter closed)",
+   "kindTh": "ร้านแว่นตาแฟชั่น (ปิด)",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0650292614",
+   "photo": true,
+   "url": "cm/p/cmcuratedtengnuengwaentafaechan.html"
+  },
+  {
+   "id": "cm-curated-e-mae-taeng",
+   "name": "เอ๋ แม่แตง",
+   "nameTh": "เอ๋ แม่แตง",
+   "nameEn": "",
+   "kind": "amulet shop that buys amulets",
+   "kindTh": "ร้านพระเครื่อง รับเช่าพระ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0813878088",
+   "photo": true,
+   "url": "cm/p/cmcuratedemaetaeng.html"
+  },
+  {
+   "id": "cm-curated-waterproof-amulet",
+   "name": "หนุ่ม กรอบพระกันน้ำ",
+   "nameTh": "หนุ่ม กรอบพระกันน้ำ",
+   "nameEn": "",
+   "kind": "waterproof amulet frame maker",
+   "kindTh": "ร้านกรอบพระกันน้ำ รับเช่าพระเครื่อง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0811643756",
+   "photo": true,
+   "url": "cm/p/cmcuratedwaterproofamulet.html"
+  },
+  {
+   "id": "cm-curated-titkraem",
+   "name": "ติดแกรม",
+   "nameTh": "ติดแกรม",
+   "nameEn": "",
+   "kind": "phone screen-film and phone accessory stall",
+   "kindTh": "ร้านติดฟิล์มมือถือ อุปกรณ์มือถือ",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/cmcuratedtitkraem.html"
+  },
+  {
+   "id": "cm-curated-ran-maha-mongkhon",
+   "name": "ร้านมหามงคล",
+   "nameTh": "ร้านมหามงคล",
+   "nameEn": "",
+   "kind": "amulet cases and accessories: stainless, micron, 92.5% silver cases and chains; wholesale",
+   "kindTh": "ร้านมหามงคล ตลับพระ สแตนเลส ไมครอน ตลับเงินแท้ สร้อยเงินแท้ อุปกรณ์พระเครื่อง ราคาส่ง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0908936664",
+   "photo": true,
+   "url": "cm/p/cmcuratedranmahamongkhon.html"
+  },
+  {
+   "id": "cm-curated-phra-khrueang-puk",
+   "name": "พระเครื่อง ปุ๊ก",
+   "nameTh": "พระเครื่อง ปุ๊ก",
+   "nameEn": "",
+   "kind": "amulet shop (shutter down)",
+   "kindTh": "ร้านพระเครื่อง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/cmcuratedphrakhrueangpuk.html"
+  },
+  {
+   "id": "cm-curated-u-na-lom-amu-let",
+   "name": "อุณาโลม อมูเลท",
+   "nameTh": "อุณาโลม อมูเลท",
+   "nameEn": "",
+   "kind": "amulet stall and shop (Zone A3)",
+   "kindTh": "แผงพระเครื่อง ร้านอุณาโลม อมูเลท",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/cmcuratedunalomamulet.html"
+  },
+  {
+   "id": "cm-curated-mahaheng",
+   "name": "มหาเฮง",
+   "nameTh": "มหาเฮง",
+   "nameEn": "MAHAHENG 很富有",
+   "kind": "amulet shop unit (empty at the time)",
+   "kindTh": "ร้านพระเครื่อง (ห้องว่างขณะถ่าย)",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/mahaheng-cmcuratedmahaheng.html"
+  },
+  {
+   "id": "cm-curated-sun-ruam-phra-khrueang-phra-bucha-khrueangrang",
+   "name": "ศูนย์รวมพระเครื่อง พระบูชา เครื่องราง",
+   "nameTh": "ศูนย์รวมพระเครื่อง พระบูชา เครื่องราง",
+   "nameEn": "",
+   "kind": "amulets, Buddha images for worship and charms",
+   "kindTh": "ศูนย์รวมพระเครื่อง พระบูชา เครื่องราง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0869141086",
+   "photo": true,
+   "url": "cm/p/cmcuratedsunruamphrakhrueangphrabuchakhrueangrang.html"
+  },
+  {
+   "id": "cm-curated-chatu-kham-30",
+   "name": "จตุคามฯ 30",
+   "nameTh": "จตุคามฯ 30",
+   "nameEn": "",
+   "kind": "amulet case, silver chain and amulet-accessory stall; key cutting",
+   "kindTh": "ร้านตลับพระ สร้อยเงิน อุปกรณ์พระเครื่อง รับทำลูกกุญแจ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/30-30.html"
+  },
+  {
+   "id": "cm-curated-hop",
+   "name": "HOP",
+   "nameTh": "",
+   "nameEn": "HOP",
+   "kind": "drinks kiosk in the Lotus's car park",
+   "kindTh": "ซุ้มเครื่องดื่มในลานจอดรถโลตัส",
+   "cat": [
+    "business"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/hop-cmcuratedhop.html"
+  },
+  {
+   "id": "cm-curated-rapliamphra-kan-nam-mu",
+   "name": "รับเลี่ยมพระกันน้ำ (หมู)",
+   "nameTh": "รับเลี่ยมพระกันน้ำ (หมู)",
+   "nameEn": "",
+   "kind": "waterproof amulet casing",
+   "kindTh": "ร้านรับเลี่ยมพระกันน้ำ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0634516152",
+   "photo": true,
+   "url": "cm/p/cmcuratedrapliamphrakannammu.html"
+  },
+  {
+   "id": "cm-curated-wilai-phra-khrueang",
+   "name": "วิไลพระเครื่อง",
+   "nameTh": "วิไลพระเครื่อง",
+   "nameEn": "",
+   "kind": "Buddha image and amulet stall (bronze images, beads, carved staffs)",
+   "kindTh": "แผงพระบูชาและพระเครื่อง (พระบูชาสำริด ลูกประคำ ไม้เท้า)",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/cmcuratedwilaiphrakhrueang.html"
+  },
+  {
+   "id": "cm-curated-ran-kaengmueang-rotthip",
+   "name": "ร้านแกงเมืองรสทิพย์",
+   "nameTh": "ร้านแกงเมืองรสทิพย์",
+   "nameEn": "",
+   "kind": "food stall: northern curries, healthy and vegetarian food, made-to-order dishes",
+   "kindTh": "ร้านแกงเมือง อาหารเพื่อสุขภาพ อาหารมังสวิรัติ อาหารตามสั่ง",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/cmcuratedrankaengmueangrotthip.html"
+  },
+  {
+   "id": "cm-curated-imaroi-photna",
+   "name": "อิ่มอร่อย โภชนา",
+   "nameTh": "อิ่มอร่อย โภชนา",
+   "nameEn": "",
+   "kind": "food stall: pork noodles, made-to-order dishes, khao kha moo, chicken rice",
+   "kindTh": "ร้านก๋วยเตี๋ยวหมู อาหารตามสั่ง ข้าวขาหมู ข้าวมันไก่",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/cmcuratedimaroiphotna.html"
+  },
+  {
+   "id": "cm-curated-ama",
+   "name": "อาม่า",
+   "nameTh": "อาม่า",
+   "nameEn": "",
+   "kind": "food stall: stewed duck, pork and chicken noodles, boat noodles, chicken rice, made-to-order",
+   "kindTh": "ร้านก๋วยเตี๋ยวเป็ดตุ๋น หมูตุ๋น ไก่ตุ๋น ก๋วยเตี๋ยวน้ำตก ข้าวมันไก่ อาหารตามสั่ง",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/cmcuratedama.html"
+  },
+  {
+   "id": "cm-curated-puk",
+   "name": "PUK",
+   "nameTh": "",
+   "nameEn": "PUK",
+   "kind": "silver and stainless-steel amulet cases and chains, retail and wholesale",
+   "kindTh": "ตลับเงิน สร้อยเงิน ตลับสแตนเลส สร้อยสแตนเลส ปลีก-ส่ง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/puk-cmcuratedpuk.html"
+  },
+  {
+   "id": "cm-curated-amulet-frame",
+   "name": "ต้อม",
+   "nameTh": "ต้อม",
+   "nameEn": "",
+   "kind": "amulet-frame maker",
+   "kindTh": "ร้านรับทำกรอบพระ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0931873727",
+   "photo": true,
+   "url": "cm/p/cmcuratedamuletframe.html"
+  },
+  {
+   "id": "cm-curated-liam-phra-kan-nam",
+   "name": "เลี่ยมพระ กันน้ำ",
+   "nameTh": "เลี่ยมพระ กันน้ำ",
+   "nameEn": "",
+   "kind": "amulet casing (waterproof frames)",
+   "kindTh": "ร้านเลี่ยมพระกันน้ำ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0921855424",
+   "photo": false,
+   "url": "cm/p/cmcuratedliamphrakannam.html"
+  },
+  {
+   "id": "cm-curated-lukchinthot",
+   "name": "ลูกชิ้นทอด",
+   "nameTh": "ลูกชิ้นทอด",
+   "nameEn": "",
+   "kind": "food stall: fried meatballs",
+   "kindTh": "ร้านลูกชิ้นทอด",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/cmcuratedlukchinthot.html"
+  },
+  {
+   "id": "cm-curated-khwan-kamon",
+   "name": "ขวัญ กมล",
+   "nameTh": "ขวัญ กมล",
+   "nameEn": "",
+   "kind": "amulet shop: rents out amulets, Buddha images for worship, antiques",
+   "kindTh": "ร้านให้เช่าพระเครื่อง พระบูชา ของเก่า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0810200286",
+   "photo": true,
+   "url": "cm/p/cmcuratedkhwankamon.html"
+  },
+  {
+   "id": "cm-curated-khwan-kalae",
+   "name": "ขวัญ กาแล",
+   "nameTh": "ขวัญ กาแล",
+   "nameEn": "",
+   "kind": "amulet and Buddha image shop",
+   "kindTh": "ร้านพระเครื่อง พระบูชา",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/cmcuratedkhwankalae.html"
+  },
+  {
+   "id": "cm-curated-fok-phra-khrueang",
+   "name": "โฟล์ค พระเครื่อง",
+   "nameTh": "โฟล์ค พระเครื่อง",
+   "nameEn": "",
+   "kind": "amulet dealer (glass counter)",
+   "kindTh": "ร้านพระเครื่อง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "0927839977",
+   "photo": false,
+   "url": "cm/p/cmcuratedfokphrakhrueang.html"
+  },
+  {
+   "id": "cm-curated-lap-khamthiang",
+   "name": "ลาบคำเที่ยง",
+   "nameTh": "ลาบคำเที่ยง",
+   "nameEn": "",
+   "kind": "food stall: larb (northern minced-meat salad)",
+   "kindTh": "ร้านลาบ",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/cmcuratedlapkhamthiang.html"
+  }
+ ],
+ "photos": [
+  {
+   "slug": "ride-20260924-merch-ab4324-007",
+   "title": "Baskets of boxed and loose amulets",
+   "description": "Baskets of boxed and loose amulets",
+   "description_th": "ตะกร้าพระเครื่องในกล่องและพระคละ",
+   "subject": "merch",
+   "quality": 2,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ab4324-007.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ab4324-019",
+   "title": "An amulet rug stall beside the market shutters",
+   "description": "An amulet rug stall beside the market shutters",
+   "description_th": "แผงพระเครื่องปูเสื่อข้างประตูม้วนตลาด",
+   "subject": "market",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ab4324-019.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ab4324-019",
+   "title": "Trays of boxed amulets and loose tablets",
+   "description": "Trays of boxed amulets and loose tablets",
+   "description_th": "ถาดพระเครื่องในกล่องและพระผงคละ",
+   "subject": "merch",
+   "quality": 2,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ab4324-019.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ab4324-025",
+   "title": "Tins of clay votive tablets on a green table",
+   "description": "Tins of clay votive tablets on a green table",
+   "description_th": "กล่องพระพิมพ์ดินเผาบนโต๊ะสีเขียว",
+   "subject": "merch",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ab4324-025.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ab4324-027",
+   "title": "Inside an amulet shop: glass counters and a รับเช่าพระ card",
+   "description": "Inside an amulet shop: glass counters and a รับเช่าพระ card",
+   "description_th": "ในร้านพระเครื่อง ตู้กระจกและป้ายรับเช่าพระ",
+   "subject": "market",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ab4324-027.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-001",
+   "title": "Amulet tins, yant cloths and bronze Buddha images with price cards",
+   "description": "Amulet tins, yant cloths and bronze Buddha images with price cards",
+   "description_th": "กล่องพระ ผ้ายันต์ และพระบูชาสำริดพร้อมป้ายราคา",
+   "subject": "merch",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-001.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-005",
+   "title": "Amulet frame and bead shop at the market",
+   "description": "Amulet frame and bead shop at the market",
+   "description_th": "ร้านกรอบพระและลูกปัดในตลาด",
+   "subject": "market",
+   "quality": 2,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-005.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-015",
+   "title": "A statue stall under a tiered parasol",
+   "description": "A statue stall under a tiered parasol",
+   "description_th": "แผงรูปปั้นใต้ฉัตร",
+   "subject": "market",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-015.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-023",
+   "title": "Buyers crowd the amulet tables",
+   "description": "Buyers crowd the amulet tables",
+   "description_th": "ผู้ซื้อมุงโต๊ะพระเครื่อง",
+   "subject": "market",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-023.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-023",
+   "title": "A stall of bronze Buddha images",
+   "description": "A stall of bronze Buddha images",
+   "description_th": "แผงพระบูชาสำริด",
+   "subject": "merch",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-023.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-019",
+   "title": "Amulet pendants, beads and cases",
+   "description": "Amulet pendants, beads and cases",
+   "description_th": "จี้พระ ลูกปัด และตลับพระ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-019.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-019",
+   "title": "Dealers under the หนุ่ม casing sign",
+   "description": "Dealers under the หนุ่ม casing sign",
+   "description_th": "เซียนพระใต้ป้ายหนุ่ม กรอบพระกันน้ำ",
+   "subject": "market",
+   "quality": 2,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-019.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-027",
+   "title": "A table covered in clay amulets and small bronzes",
+   "description": "A table covered in clay amulets and small bronzes",
+   "description_th": "โต๊ะพระผงพระดินเผาและรูปหล่อสำริด",
+   "subject": "merch",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-027.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-027",
+   "title": "Amulet casing stalls with a Thai flag",
+   "description": "Amulet casing stalls with a Thai flag",
+   "description_th": "ร้านเลี่ยมพระกับธงชาติ",
+   "subject": "market",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-027.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-039",
+   "title": "A craftsman casing an amulet",
+   "description": "A craftsman casing an amulet",
+   "description_th": "ช่างเลี่ยมพระกำลังทำงาน",
+   "subject": "market",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-039.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-037",
+   "title": "Crowds at the amulet glass counters",
+   "description": "Crowds at the amulet glass counters",
+   "description_th": "ผู้คนที่ตู้กระจกพระเครื่อง",
+   "subject": "market",
+   "quality": 3,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-037.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-043",
+   "title": "Food court inside the amulet market",
+   "description": "Food court inside the amulet market",
+   "description_th": "ศูนย์อาหารในตลาดพระเครื่อง",
+   "subject": "market",
+   "quality": 2,
+   "lat": null,
+   "lng": null,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-043.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-055",
+   "title": "Dealers at their amulet tables",
+   "description": "Dealers at their amulet tables",
+   "description_th": "เซียนพระที่โต๊ะพระเครื่อง",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.809133,
+   "lng": 98.995937,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-055.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-059",
+   "title": "Amulet cords and chains",
+   "description": "Amulet cords and chains",
+   "description_th": "เชือกและสร้อยห้อยพระ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809584,
+   "lng": 98.99586,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-059.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-057",
+   "title": "Dealers with loupes",
+   "description": "Dealers with loupes",
+   "description_th": "เซียนพระส่องพระ",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809216,
+   "lng": 98.99593,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-057.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-069",
+   "title": "Silver and brass bowls",
+   "description": "Silver and brass bowls",
+   "description_th": "ขันเงินและขันทองเหลือง",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809249,
+   "lng": 98.995994,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-069.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-083",
+   "title": "The long aisle of the amulet market",
+   "description": "The long aisle of the amulet market",
+   "description_th": "ทางเดินยาวของตลาดพระเครื่อง",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809152,
+   "lng": 98.996003,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-083.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-091",
+   "title": "Trays of small amulets in plastic packs",
+   "description": "Trays of small amulets in plastic packs",
+   "description_th": "ถาดพระเครื่องเล็กในแพ็คพลาสติก",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809167,
+   "lng": 98.996052,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-091.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-101",
+   "title": "Trays of gold-framed amulets",
+   "description": "Trays of gold-framed amulets",
+   "description_th": "ถาดพระเลี่ยมกรอบทอง",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809219,
+   "lng": 98.99614,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-101.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-115b",
+   "title": "Cased amulets and small monk figures",
+   "description": "Cased amulets and small monk figures",
+   "description_th": "พระเครื่องในตลับและรูปหล่อพระสงฆ์องค์เล็ก",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809168,
+   "lng": 98.996189,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-115b.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-109",
+   "title": "Amulet table beside a khao soi stall",
+   "description": "Amulet table beside a khao soi stall",
+   "description_th": "โต๊ะพระเครื่องข้างร้านข้าวซอย",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809179,
+   "lng": 98.996148,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-109.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-123",
+   "title": "Trays of colourful cased amulets",
+   "description": "Trays of colourful cased amulets",
+   "description_th": "ถาดพระเครื่องในตลับหลากสี",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809162,
+   "lng": 98.996167,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-123.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-127",
+   "title": "A dealer checks an amulet with a loupe",
+   "description": "A dealer checks an amulet with a loupe",
+   "description_th": "เซียนพระส่องพระด้วยกล้องส่อง",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809155,
+   "lng": 98.99616,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-127.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-129",
+   "title": "Boxed amulets and small monk statuettes",
+   "description": "Boxed amulets and small monk statuettes",
+   "description_th": "พระเครื่องในกล่องและรูปหล่อพระเกจิองค์เล็ก",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809151,
+   "lng": 98.996159,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-129.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-139",
+   "title": "Small knives, carved pots and tusk pieces",
+   "description": "Small knives, carved pots and tusk pieces",
+   "description_th": "มีดเล็ก หม้อแกะสลัก และเขี้ยวแกะ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809185,
+   "lng": 98.996145,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-139.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-143",
+   "title": "The long aisle of amulet trays",
+   "description": "The long aisle of amulet trays",
+   "description_th": "ทางเดินยาวของถาดพระ",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.80918,
+   "lng": 98.996127,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-143.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-141",
+   "title": "Trays of gold-rimmed amulets",
+   "description": "Trays of gold-rimmed amulets",
+   "description_th": "ถาดพระเลี่ยมทอง",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809183,
+   "lng": 98.996132,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-141.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ac4358-139",
+   "title": "The coffee stall's wall of drinks",
+   "description": "The coffee stall's wall of drinks",
+   "description_th": "ผนังเครื่องดื่มของร้านกาแฟ",
+   "subject": "aesthetic",
+   "quality": 2,
+   "lat": 18.809185,
+   "lng": 98.996145,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ac4358-139.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-155",
+   "title": "Trays and the Wednesday-market banner",
+   "description": "Trays and the Wednesday-market banner",
+   "description_th": "ถาดพระและป้ายตลาดนัดพระวันพุธ",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809183,
+   "lng": 98.996106,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-155.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-149",
+   "title": "Beads, carvings and framed amulets",
+   "description": "Beads, carvings and framed amulets",
+   "description_th": "ลูกประคำ ของแกะสลัก และพระใส่กรอบ",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809183,
+   "lng": 98.996119,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-149.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-163",
+   "title": "Brass footed bowls and an open book",
+   "description": "Brass footed bowls and an open book",
+   "description_th": "พานทองเหลืองและหนังสือภาพ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809184,
+   "lng": 98.996067,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-163.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ac4358-163",
+   "title": "Drinks stall 678 lit up in the hall",
+   "description": "Drinks stall 678 lit up in the hall",
+   "description_th": "ร้านเครื่องดื่ม 678 เปิดไฟในโถงตลาด",
+   "subject": "aesthetic",
+   "quality": 2,
+   "lat": 18.809184,
+   "lng": 98.996067,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ac4358-163.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-173",
+   "title": "Inside an amulet shop: lit cases and framed yantra",
+   "description": "Inside an amulet shop: lit cases and framed yantra",
+   "description_th": "ภายในร้านพระ ตู้กระจกเปิดไฟและยันต์ใส่กรอบ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809137,
+   "lng": 98.996052,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-173.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-169",
+   "title": "Heaps of amulets in gold and silver sleeves",
+   "description": "Heaps of amulets in gold and silver sleeves",
+   "description_th": "กองพระเครื่องในซองสีทองสีเงิน",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.80915,
+   "lng": 98.996072,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-169.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-169",
+   "title": "A khao soi shop inside the amulet market",
+   "description": "A khao soi shop inside the amulet market",
+   "description_th": "ร้านข้าวซอยในตลาดพระ",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.80915,
+   "lng": 98.996072,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-169.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-167",
+   "title": "Baskets of loose clay amulets",
+   "description": "Baskets of loose clay amulets",
+   "description_th": "ตะกร้าพระดินเผาเปล่า",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.80916,
+   "lng": 98.996076,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-167.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-181",
+   "title": "Trays of clay amulets and a framed display",
+   "description": "Trays of clay amulets and a framed display",
+   "description_th": "ถาดพระดินและกรอบแสดงพระ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809121,
+   "lng": 98.996029,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-181.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ac4358-179",
+   "title": "An optician's sign in the amulet market",
+   "description": "An optician's sign in the amulet market",
+   "description_th": "ป้ายร้านแว่นตาในตลาดพระ",
+   "subject": "aesthetic",
+   "quality": 2,
+   "lat": 18.809127,
+   "lng": 98.99604,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ac4358-179.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-179",
+   "title": "Monks and dealers in the amulet hall",
+   "description": "Monks and dealers in the amulet hall",
+   "description_th": "พระสงฆ์และเซียนพระในโถงตลาดพระ",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.809127,
+   "lng": 98.99604,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-179.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ac4358-185",
+   "title": "Mahaheng's red and gold stall",
+   "description": "Mahaheng's red and gold stall",
+   "description_th": "ร้านมหาเฮงสีแดงทอง",
+   "subject": "aesthetic",
+   "quality": 2,
+   "lat": 18.809103,
+   "lng": 98.995997,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ac4358-185.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-189",
+   "title": "Racks of stainless and silver chains",
+   "description": "Racks of stainless and silver chains",
+   "description_th": "ราวสร้อยสแตนเลสและสร้อยเงิน",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809083,
+   "lng": 98.995957,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-189.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-195",
+   "title": "Cords for hanging amulets",
+   "description": "Cords for hanging amulets",
+   "description_th": "เชือกห้อยพระ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809066,
+   "lng": 98.995919,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-195.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-191",
+   "title": "Two buyers raise their loupes",
+   "description": "Two buyers raise their loupes",
+   "description_th": "ผู้ซื้อสองคนยกกล้องส่องพระ",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809078,
+   "lng": 98.995943,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-191.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-197",
+   "title": "Old amulets, fangs and monk figures",
+   "description": "Old amulets, fangs and monk figures",
+   "description_th": "พระเก่า เขี้ยว และรูปหล่อพระเกจิ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809067,
+   "lng": 98.995905,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-197.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-201",
+   "title": "Casing stalls and a hanging monk's bag",
+   "description": "Casing stalls and a hanging monk's bag",
+   "description_th": "ร้านเลี่ยมพระและย่ามที่แขวนขาย",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809063,
+   "lng": 98.995858,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-201.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ac4358-197",
+   "title": "The unalom sign",
+   "description": "The unalom sign",
+   "description_th": "ป้ายอุณาโลม",
+   "subject": "aesthetic",
+   "quality": 2,
+   "lat": 18.809067,
+   "lng": 98.995905,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ac4358-197.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-213",
+   "title": "Bronze Buddha and deity images",
+   "description": "Bronze Buddha and deity images",
+   "description_th": "รูปหล่อพระพุทธและเทพสำริด",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809086,
+   "lng": 98.9958,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-213.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-215",
+   "title": "A cabinet of small bronze images",
+   "description": "A cabinet of small bronze images",
+   "description_th": "ตู้กระจกรูปหล่อสำริดองค์เล็ก",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809085,
+   "lng": 98.995781,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-215.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ac4358-215",
+   "title": "A sign in Chinese and Thai",
+   "description": "A sign in Chinese and Thai",
+   "description_th": "ป้ายภาษาจีนและไทย",
+   "subject": "aesthetic",
+   "quality": 2,
+   "lat": 18.809085,
+   "lng": 98.995781,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ac4358-215.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-223",
+   "title": "A stall of Buddha images and a Garuda",
+   "description": "A stall of Buddha images and a Garuda",
+   "description_th": "แผงพระบูชาและพญาครุฑ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809074,
+   "lng": 98.995728,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-223.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ac4358-225",
+   "title": "A shop name painted on its shutter",
+   "description": "A shop name painted on its shutter",
+   "description_th": "ชื่อร้านทาสีบนประตูม้วน",
+   "subject": "aesthetic",
+   "quality": 3,
+   "lat": 18.809068,
+   "lng": 98.9957,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ac4358-225.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-225",
+   "title": "Baskets of amulet cases",
+   "description": "Baskets of amulet cases",
+   "description_th": "ตะกร้าตลับพระ",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809068,
+   "lng": 98.9957,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-225.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-231",
+   "title": "Buddha images under a gilt umbrella",
+   "description": "Buddha images under a gilt umbrella",
+   "description_th": "พระบูชาใต้ฉัตรสีทอง",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809062,
+   "lng": 98.995659,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-231.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-231",
+   "title": "The open end of the amulet hall",
+   "description": "The open end of the amulet hall",
+   "description_th": "ปลายโถงตลาดพระที่เปิดโล่ง",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.809062,
+   "lng": 98.995659,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-231.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-249",
+   "title": "Boxed amulets under a 'buying' sign",
+   "description": "Boxed amulets under a 'buying' sign",
+   "description_th": "พระเครื่องในกล่องใต้ป้ายรับเช่าพระ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809098,
+   "lng": 98.995617,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-249.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-263",
+   "title": "Tables of gold-cased amulets in the outer aisle",
+   "description": "Tables of gold-cased amulets in the outer aisle",
+   "description_th": "โต๊ะพระเลี่ยมทองในทางเดินด้านนอก",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809236,
+   "lng": 98.995615,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-263.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-271",
+   "title": "Old amulets laid out in the outer aisle",
+   "description": "Old amulets laid out in the outer aisle",
+   "description_th": "พระเก่าวางเรียงในทางเดินด้านนอก",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809256,
+   "lng": 98.995623,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-271.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-285",
+   "title": "Basins of coin amulets and boxed amulets",
+   "description": "Basins of coin amulets and boxed amulets",
+   "description_th": "กะละมังเหรียญและพระในตลับ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809326,
+   "lng": 98.995559,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-285.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-279",
+   "title": "Trays of plastic amulet cases",
+   "description": "Trays of plastic amulet cases",
+   "description_th": "ถาดกรอบพระพลาสติก",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809297,
+   "lng": 98.995591,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-279.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-287",
+   "title": "Baskets of cased amulets and coin amulets",
+   "description": "Baskets of cased amulets and coin amulets",
+   "description_th": "ตะกร้าพระในตลับและเหรียญ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809325,
+   "lng": 98.995544,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-287.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-295",
+   "title": "Encasing supplies: stands, tins and buffing wheels",
+   "description": "Encasing supplies: stands, tins and buffing wheels",
+   "description_th": "อุปกรณ์เลี่ยมพระ ขาตั้ง กระป๋อง และล้อขัด",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809329,
+   "lng": 98.995494,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-295.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-299",
+   "title": "Encasing supplies: gas, torches, trays",
+   "description": "Encasing supplies: gas, torches, trays",
+   "description_th": "อุปกรณ์เลี่ยมพระ แก๊ส หัวพ่นไฟ ถาด",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.80933,
+   "lng": 98.995495,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-299.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-315",
+   "title": "Silver and gold cased amulets on a long table",
+   "description": "Silver and gold cased amulets on a long table",
+   "description_th": "พระเลี่ยมกรอบเงินและทองบนโต๊ะยาว",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809332,
+   "lng": 98.995533,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-315.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-313",
+   "title": "Dark amulets and rolled tube amulets on trays",
+   "description": "Dark amulets and rolled tube amulets on trays",
+   "description_th": "พระสีเข้มและพระรูปทรงม้วนบนถาด",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809345,
+   "lng": 98.995522,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-313.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-315",
+   "title": "The main aisle of the amulet market",
+   "description": "The main aisle of the amulet market",
+   "description_th": "ทางเดินหลักของตลาดพระ",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809332,
+   "lng": 98.995533,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-315.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-317",
+   "title": "Dealers at the long amulet table",
+   "description": "Dealers at the long amulet table",
+   "description_th": "คนขายที่โต๊ะพระยาว",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809324,
+   "lng": 98.995546,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-317.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-317",
+   "title": "Trays of dark and pale amulets",
+   "description": "Trays of dark and pale amulets",
+   "description_th": "ถาดพระสีเข้มและสีอ่อน",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809324,
+   "lng": 98.995546,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-317.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-335",
+   "title": "Gilded deity figures and Buddha images",
+   "description": "Gilded deity figures and Buddha images",
+   "description_th": "รูปหล่อเทพปิดทองและพระบูชา",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809255,
+   "lng": 98.995596,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-335.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-345",
+   "title": "Prayer beads hanging at a shop front",
+   "description": "Prayer beads hanging at a shop front",
+   "description_th": "ลูกประคำแขวนหน้าร้าน",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809131,
+   "lng": 98.995563,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-345.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-337",
+   "title": "Gilded Buddha images and deity figures",
+   "description": "Gilded Buddha images and deity figures",
+   "description_th": "พระพุทธรูปปิดทองและรูปหล่อเทพ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809234,
+   "lng": 98.995598,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-337.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-339",
+   "title": "Amulet shops along the market wall",
+   "description": "Amulet shops along the market wall",
+   "description_th": "ร้านพระเครื่องริมผนังตลาด",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809201,
+   "lng": 98.995593,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-339.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-355",
+   "title": "Buddha images, bronze figures and amulet trays",
+   "description": "Buddha images, bronze figures and amulet trays",
+   "description_th": "พระบูชา รูปหล่อสำริด และถาดพระ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809107,
+   "lng": 98.995518,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-355.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-351",
+   "title": "Framed old banknotes",
+   "description": "Framed old banknotes",
+   "description_th": "ธนบัตรเก่าใส่กรอบ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809113,
+   "lng": 98.99554,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-351.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-355",
+   "title": "The Wednesday amulet market banner over the stalls",
+   "description": "The Wednesday amulet market banner over the stalls",
+   "description_th": "ป้ายตลาดนัดพระเครื่องวันพุธเหนือแผง",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.809107,
+   "lng": 98.995518,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-355.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4358-359",
+   "title": "Trays of small amulets and figures",
+   "description": "Trays of small amulets and figures",
+   "description_th": "ถาดพระเล็กและรูปหล่อ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809108,
+   "lng": 98.995501,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4358-359.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4358-365",
+   "title": "Dealers under the teal awning",
+   "description": "Dealers under the teal awning",
+   "description_th": "คนขายใต้กันสาดสีเขียวอมฟ้า",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809094,
+   "lng": 98.995465,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4358-365.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-001",
+   "title": "Bronze deity figures and old jars",
+   "description": "Bronze deity figures and old jars",
+   "description_th": "รูปหล่อเทพสำริดและไหเก่า",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809061,
+   "lng": 98.995449,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-001.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-023",
+   "title": "The Wednesday amulet market, main aisle",
+   "description": "The Wednesday amulet market, main aisle",
+   "description_th": "ตลาดนัดพระเครื่องวันพุธ ทางเดินหลัก",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809093,
+   "lng": 98.995431,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-023.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-017",
+   "title": "Rings and amulets in an open case",
+   "description": "Rings and amulets in an open case",
+   "description_th": "แหวนและพระในตู้เปิดฝา",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809074,
+   "lng": 98.99543,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-017.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-031",
+   "title": "Old banknotes, coins and clay amulets",
+   "description": "Old banknotes, coins and clay amulets",
+   "description_th": "ธนบัตรเก่า เหรียญ และพระเนื้อดิน",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809097,
+   "lng": 98.995447,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-031.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-113",
+   "title": "Amulet shop fronts in the Kamthieng market",
+   "description": "Amulet shop fronts in the Kamthieng market",
+   "description_th": "หน้าร้านพระเครื่องในตลาดคำเที่ยง",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.80907,
+   "lng": 98.995475,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-113.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-125",
+   "title": "Buddha images tied with pink ribbons",
+   "description": "Buddha images tied with pink ribbons",
+   "description_th": "พระบูชาผูกริบบิ้นสีชมพู",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809064,
+   "lng": 98.995549,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-125.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-117",
+   "title": "Trays of small amulets with a 60 baht card",
+   "description": "Trays of small amulets with a 60 baht card",
+   "description_th": "ถาดพระเครื่ององค์เล็กกับป้ายราคา 60 บาท",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809072,
+   "lng": 98.995499,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-117.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-129",
+   "title": "A Garuda and Buddha images on a stall shelf",
+   "description": "A Garuda and Buddha images on a stall shelf",
+   "description_th": "ครุฑและพระบูชาบนชั้นของแผง",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809052,
+   "lng": 98.995572,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-129.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-127",
+   "title": "Buddha images at 50 baht each",
+   "description": "Buddha images at 50 baht each",
+   "description_th": "พระบูชาองค์ละ 50 บาท",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809057,
+   "lng": 98.995561,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-127.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-129",
+   "title": "A dealer counts amulets as the aisle fills",
+   "description": "A dealer counts amulets as the aisle fills",
+   "description_th": "พ่อค้านับพระเครื่องขณะที่ทางเดินเริ่มคึกคัก",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809052,
+   "lng": 98.995572,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-129.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-141",
+   "title": "Prayer beads over a case of amulets",
+   "description": "Prayer beads over a case of amulets",
+   "description_th": "ลูกประคำแขวนเหนือตู้พระเครื่อง",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809109,
+   "lng": 98.995627,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-141.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-137",
+   "title": "Dealers under the red casing-shop sign",
+   "description": "Dealers under the red casing-shop sign",
+   "description_th": "พ่อค้านั่งใต้ป้ายร้านกรอบพระกันน้ำ",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809085,
+   "lng": 98.99561,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-137.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-149",
+   "title": "Trays of amulets, rings and beads",
+   "description": "Trays of amulets, rings and beads",
+   "description_th": "ถาดพระเครื่อง แหวน และลูกปัด",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.80915,
+   "lng": 98.995674,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-149.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-159",
+   "title": "Bronze Buddhas, naga figures and a gilt urn",
+   "description": "Bronze Buddhas, naga figures and a gilt urn",
+   "description_th": "พระพุทธรูปสำริด รูปนาค และผอบปิดทอง",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809197,
+   "lng": 98.99571,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-159.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-161",
+   "title": "Buyers crowd the amulet tables",
+   "description": "Buyers crowd the amulet tables",
+   "description_th": "ผู้ซื้อรุมดูโต๊ะพระเครื่อง",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809211,
+   "lng": 98.995716,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-161.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-173",
+   "title": "The central aisle at its busiest",
+   "description": "The central aisle at its busiest",
+   "description_th": "ทางเดินกลางช่วงที่คนแน่นที่สุด",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.8092,
+   "lng": 98.995743,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-173.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-199",
+   "title": "Hundreds of coin amulets on a blue table",
+   "description": "Hundreds of coin amulets on a blue table",
+   "description_th": "เหรียญพระนับร้อยบนโต๊ะสีฟ้า",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809208,
+   "lng": 98.995751,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-199.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-211",
+   "title": "Monks browse a long amulet table",
+   "description": "Monks browse a long amulet table",
+   "description_th": "พระภิกษุเลือกดูพระเครื่องบนโต๊ะยาว",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809182,
+   "lng": 98.995772,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-211.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-207",
+   "title": "Bronze Buddha images crowded on a stall",
+   "description": "Bronze Buddha images crowded on a stall",
+   "description_th": "พระบูชาทองเหลืองวางเรียงแน่นบนแผง",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809188,
+   "lng": 98.995762,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-207.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-211",
+   "title": "Rows of amulets on blue cloth",
+   "description": "Rows of amulets on blue cloth",
+   "description_th": "พระเครื่องเรียงแถวบนผ้าสีฟ้า",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809182,
+   "lng": 98.995772,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-211.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-235",
+   "title": "Rows of powder amulets and coin amulets",
+   "description": "Rows of powder amulets and coin amulets",
+   "description_th": "พระผงและเหรียญเรียงแถวบนโต๊ะ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809174,
+   "lng": 98.995759,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-235.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-229",
+   "title": "Bronze Buddha images on a stall",
+   "description": "Bronze Buddha images on a stall",
+   "description_th": "พระบูชาสำริดบนแผง",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.80918,
+   "lng": 98.995766,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-229.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-243",
+   "title": "Silver chains and amulet cases",
+   "description": "Silver chains and amulet cases",
+   "description_th": "สร้อยเงินและตลับพระ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809101,
+   "lng": 98.995821,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-243.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ac4728-245",
+   "title": "Red and gold stall front, 'มหาเฮง'",
+   "description": "Red and gold stall front, 'มหาเฮง'",
+   "description_th": "หน้าร้านสีแดงทอง 'มหาเฮง'",
+   "subject": "aesthetic",
+   "quality": 2,
+   "lat": 18.809098,
+   "lng": 98.995842,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ac4728-245.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-241",
+   "title": "Buyers crowd the amulet tables",
+   "description": "Buyers crowd the amulet tables",
+   "description_th": "ผู้ซื้อรุมโต๊ะพระเครื่อง",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.809116,
+   "lng": 98.995807,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-241.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-255",
+   "title": "A small amulet shop, framed and lit",
+   "description": "A small amulet shop, framed and lit",
+   "description_th": "ร้านพระเครื่องเล็ก ๆ ที่จัดไฟสวยงาม",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809099,
+   "lng": 98.995919,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-255.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-255b",
+   "title": "Monk figure, old banknotes and boxed coins",
+   "description": "Monk figure, old banknotes and boxed coins",
+   "description_th": "รูปเหมือนพระ แบงก์เก่า และเหรียญในกล่อง",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809099,
+   "lng": 98.995919,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-255b.jpg"
+  },
+  {
+   "slug": "ride-20260924-tattoo-ac4728-255",
+   "title": "Framed circular yant diagram",
+   "description": "Framed circular yant diagram",
+   "description_th": "ผังยันต์วงกลมใส่กรอบ",
+   "subject": "tattoo",
+   "quality": 2,
+   "lat": 18.809099,
+   "lng": 98.995919,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-tattoo-ac4728-255.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-261",
+   "title": "Amulets by the heap, in gold and silver packets",
+   "description": "Amulets by the heap, in gold and silver packets",
+   "description_th": "พระเครื่องกองโตในซองสีทองสีเงิน",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809129,
+   "lng": 98.995984,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-261.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-261",
+   "title": "The long hall of the amulet market",
+   "description": "The long hall of the amulet market",
+   "description_th": "โถงยาวของตลาดพระเครื่อง",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809129,
+   "lng": 98.995984,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-261.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ac4728-257",
+   "title": "A prize wheel in an amulet shop",
+   "description": "A prize wheel in an amulet shop",
+   "description_th": "วงล้อหมุนในร้านพระเครื่อง",
+   "subject": "aesthetic",
+   "quality": 2,
+   "lat": 18.809104,
+   "lng": 98.995938,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ac4728-257.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-263",
+   "title": "Brass bowls and old silverware",
+   "description": "Brass bowls and old silverware",
+   "description_th": "ขันทองเหลืองและเครื่องเงินเก่า",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809147,
+   "lng": 98.995988,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-263.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-271",
+   "title": "Glass cases down the long hall",
+   "description": "Glass cases down the long hall",
+   "description_th": "ตู้กระจกพระเครื่องเรียงไปตามโถงยาว",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.809171,
+   "lng": 98.99598,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-271.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-279",
+   "title": "Coin amulets in rows",
+   "description": "Coin amulets in rows",
+   "description_th": "เหรียญพระเรียงแถว",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809182,
+   "lng": 98.995993,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-279.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-283",
+   "title": "Brass bowls over a case of curios",
+   "description": "Brass bowls over a case of curios",
+   "description_th": "ขันทองเหลืองบนตู้ของเก่า",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809187,
+   "lng": 98.996002,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-283.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-307",
+   "title": "A buyer at the curio case",
+   "description": "A buyer at the curio case",
+   "description_th": "ผู้ซื้อที่ตู้ของเก่า",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.809199,
+   "lng": 98.996043,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-307.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-333",
+   "title": "The coffee kiosk and a dealer's table",
+   "description": "The coffee kiosk and a dealer's table",
+   "description_th": "ซุ้มกาแฟและโต๊ะคนขาย",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.809205,
+   "lng": 98.996041,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-333.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-343b",
+   "title": "The open side of the amulet market",
+   "description": "The open side of the amulet market",
+   "description_th": "ด้านเปิดของตลาดนัดพระเครื่อง",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.809211,
+   "lng": 98.996044,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-343b.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-337",
+   "title": "Cased amulets on yellow cards",
+   "description": "Cased amulets on yellow cards",
+   "description_th": "พระใส่ตลับบนการ์ดสีเหลือง",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809211,
+   "lng": 98.996042,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-337.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-343",
+   "title": "Brass bowls on a curio case",
+   "description": "Brass bowls on a curio case",
+   "description_th": "ขันทองเหลืองบนตู้ของเก่า",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809211,
+   "lng": 98.996044,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-343.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-351",
+   "title": "Old coins and banknotes on black cloth",
+   "description": "Old coins and banknotes on black cloth",
+   "description_th": "เหรียญเก่าและธนบัตรเก่าบนผ้าดำ",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809209,
+   "lng": 98.996041,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-351.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-351b",
+   "title": "Bags, boxes and cases for amulets",
+   "description": "Bags, boxes and cases for amulets",
+   "description_th": "ถุง กล่อง และตลับใส่พระ",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809209,
+   "lng": 98.996041,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-351b.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-359",
+   "title": "Amulets on yellow cards",
+   "description": "Amulets on yellow cards",
+   "description_th": "พระเครื่องวางบนแผ่นการ์ดสีเหลือง",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809192,
+   "lng": 98.996041,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-359.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-367",
+   "title": "Old coins on a black cloth",
+   "description": "Old coins on a black cloth",
+   "description_th": "เหรียญเก่าบนผ้าดำ",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.80918,
+   "lng": 98.996037,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-367.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-405",
+   "title": "Carved tusks and bone pieces in an open case",
+   "description": "Carved tusks and bone pieces in an open case",
+   "description_th": "เขี้ยวและกระดูกแกะในตู้เปิดฝา",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809186,
+   "lng": 98.996022,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-405.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-403",
+   "title": "Plastic cases and bags for amulets",
+   "description": "Plastic cases and bags for amulets",
+   "description_th": "กรอบและถุงพลาสติกสำหรับใส่พระ",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809183,
+   "lng": 98.996023,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-403.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-407",
+   "title": "Carved tusks, bone-handled knives and old coins",
+   "description": "Carved tusks, bone-handled knives and old coins",
+   "description_th": "เขี้ยวแกะ มีดด้ามกระดูก และเหรียญเก่า",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809188,
+   "lng": 98.996021,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-407.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-411",
+   "title": "The long covered aisle of the amulet hall",
+   "description": "The long covered aisle of the amulet hall",
+   "description_th": "ทางเดินยาวใต้หลังคาในอาคารตลาดพระ",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.80919,
+   "lng": 98.996022,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-411.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-423",
+   "title": "A curio dealer at his table by the open side",
+   "description": "A curio dealer at his table by the open side",
+   "description_th": "พ่อค้าของเก่าที่โต๊ะริมด้านที่เปิดโล่ง",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.809199,
+   "lng": 98.996024,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-423.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ac4728-431",
+   "title": "A drinks stall covered in menu pictures",
+   "description": "A drinks stall covered in menu pictures",
+   "description_th": "ร้านเครื่องดื่มที่ติดรูปเมนูเต็มร้าน",
+   "subject": "aesthetic",
+   "quality": 2,
+   "lat": 18.809205,
+   "lng": 98.996015,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ac4728-431.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-453",
+   "title": "Cords and chains for hanging amulets",
+   "description": "Cords and chains for hanging amulets",
+   "description_th": "เชือกและสร้อยแขวนพระ",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809198,
+   "lng": 98.995992,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-453.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-481",
+   "title": "A table of coin amulets, tablets and small Buddha images",
+   "description": "A table of coin amulets, tablets and small Buddha images",
+   "description_th": "โต๊ะเหรียญพระ พระผง และพระบูชาองค์เล็ก",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.8092,
+   "lng": 98.995873,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-481.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-481",
+   "title": "Monks and buyers at the ten-baht pile table",
+   "description": "Monks and buyers at the ten-baht pile table",
+   "description_th": "พระสงฆ์และผู้ซื้อที่โต๊ะพระกององค์ละ 10 บาท",
+   "subject": "market",
+   "quality": 3,
+   "lat": 18.8092,
+   "lng": 98.995873,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-481.jpg"
+  },
+  {
+   "slug": "ride-20260924-tattoo-ac4728-491",
+   "title": "A printed yant shirt hanging at the amulet market",
+   "description": "A printed yant shirt hanging at the amulet market",
+   "description_th": "เสื้อยันต์พิมพ์ลายแขวนในตลาดพระ",
+   "subject": "tattoo",
+   "quality": 2,
+   "lat": 18.809208,
+   "lng": 98.995815,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-tattoo-ac4728-491.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-497",
+   "title": "Ranks of bronze Buddha images at วิไลพระเครื่อง",
+   "description": "Ranks of bronze Buddha images at วิไลพระเครื่อง",
+   "description_th": "พระบูชาสำริดเรียงแน่นที่แผงวิไลพระเครื่อง",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809212,
+   "lng": 98.995789,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-497.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-501",
+   "title": "Trays of amulets, rings and small figures",
+   "description": "Trays of amulets, rings and small figures",
+   "description_th": "ถาดพระเครื่อง แหวน และรูปหล่อเล็ก",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.809214,
+   "lng": 98.995773,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-501.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-513",
+   "title": "Prayer beads and old brass at a market stall",
+   "description": "Prayer beads and old brass at a market stall",
+   "description_th": "ประคำและของเก่าทองเหลืองที่แผงในตลาด",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.8092,
+   "lng": 98.995733,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-513.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ac4728-523",
+   "title": "Monks browse the amulet tables",
+   "description": "Monks browse the amulet tables",
+   "description_th": "พระสงฆ์เดินดูแผงพระเครื่อง",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.809191,
+   "lng": 98.995718,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ac4728-523.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-541",
+   "title": "Gold and silver amulet cases on cords",
+   "description": "Gold and silver amulet cases on cords",
+   "description_th": "ตลับพระทองและเงินพร้อมสร้อยแขวนเป็นแถว",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809213,
+   "lng": 98.995687,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-541.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-551",
+   "title": "A Buddha image stall in the amulet market",
+   "description": "A Buddha image stall in the amulet market",
+   "description_th": "แผงพระบูชาในตลาดพระ",
+   "subject": "merch",
+   "quality": 3,
+   "lat": 18.80922,
+   "lng": 98.995673,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-551.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-557",
+   "title": "Prayer beads and bronze images",
+   "description": "Prayer beads and bronze images",
+   "description_th": "สายประคำและพระบูชาสำริด",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809219,
+   "lng": 98.995664,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-557.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-573",
+   "title": "Bronze Buddha images with a hand-written price card",
+   "description": "Bronze Buddha images with a hand-written price card",
+   "description_th": "พระพุทธรูปสำริดกับป้ายราคาเขียนมือ",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809218,
+   "lng": 98.995642,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-573.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ac4728-583",
+   "title": "Gold garuda and bronze Buddha images",
+   "description": "Gold garuda and bronze Buddha images",
+   "description_th": "ครุฑทองและพระพุทธรูปสำริด",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.809221,
+   "lng": 98.995637,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ac4728-583.jpg"
+  },
+  {
+   "slug": "ride-20260924-merch-ad5319-040",
+   "title": "Statues of dancing figures at an outdoor stall",
+   "description": "Statues of dancing figures at an outdoor stall",
+   "description_th": "รูปปั้นนางรำที่แผงกลางแจ้ง",
+   "subject": "merch",
+   "quality": 2,
+   "lat": 18.80904,
+   "lng": 98.99537,
+   "placeId": null,
+   "topic": [
+    "market",
+    "faith"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-merch-ad5319-040.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ad5319-050",
+   "title": "Dealers around a table of amulets",
+   "description": "Dealers around a table of amulets",
+   "description_th": "พ่อค้ารวมตัวรอบโต๊ะพระเครื่อง",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.80909,
+   "lng": 98.995363,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ad5319-050.jpg"
+  },
+  {
+   "slug": "ride-20260924-aesthetic-ad5319-060",
+   "title": "Lanna-style wooden house across the road",
+   "description": "Lanna-style wooden house across the road",
+   "description_th": "บ้านไม้ทรงล้านนาฝั่งตรงข้ามถนน",
+   "subject": "aesthetic",
+   "quality": 2,
+   "lat": 18.808431,
+   "lng": 98.995272,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-aesthetic-ad5319-060.jpg"
+  },
+  {
+   "slug": "ride-20260924-market-ad5319-056",
+   "title": "ตลาดคำเที่ยง on the market's corner awning",
+   "description": "ตลาดคำเที่ยง on the market's corner awning",
+   "description_th": "ป้ายตลาดคำเที่ยงบนกันสาดมุมตลาด",
+   "subject": "market",
+   "quality": 2,
+   "lat": 18.808907,
+   "lng": 98.99528,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-market-ad5319-056.jpg"
+  },
+  {
+   "slug": "ride-20260924-ab4324-025-r",
+   "title": "Dealers at a green table laid with open tins of clay and metal amulets, beside the เอ๋ แม่แตง counter with its full sign and phone.",
+   "description": "Dealers at a green table laid with open tins of clay and metal amulets, beside the เอ๋ แม่แตง counter with its full sign and phone.",
+   "description_th": "เซียนพระที่โต๊ะสีเขียววางกล่องสังกะสีเปิดใส่พระดินเผาและพระโลหะ ข้างตู้ร้านเอ๋ แม่แตงที่มีป้ายและเบอร์โทรเต็ม",
+   "placeId": "cm-curated-e-mae-taeng",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ab4324-025-r.jpg",
+   "url": "cm/p/cmcuratedemaetaeng.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-011-l",
+   "title": "The shutters of ใหญ่ สันกำแพง with its name and phone painted large; open casing counters beside it.",
+   "description": "The shutters of ใหญ่ สันกำแพง with its name and phone painted large; open casing counters beside it.",
+   "description_th": "ประตูม้วนร้านใหญ่ สันกำแพง ทาชื่อและเบอร์โทรตัวใหญ่ ข้างๆ เป็นตู้ร้านเลี่ยมกรอบที่เปิดอยู่",
+   "placeId": "cm-curated-yai-san-kamphaeng",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-011-l.jpg",
+   "url": "cm/p/cmcuratedyaisankamphaeng.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-019-l",
+   "title": "A long stall of amulets in cases, gold and silver pendants on rails, bead strands and a red lantern; the orange มหามงคล sign behind.",
+   "description": "A long stall of amulets in cases, gold and silver pendants on rails, bead strands and a red lantern; the orange มหามงคล sign behind.",
+   "description_th": "แผงยาวใส่พระเครื่องในตลับ จี้ทองและเงินแขวนบนราว สร้อยลูกปัด และโคมแดง ด้านหลังเป็นป้ายส้มร้านมหามงคล",
+   "placeId": "cm-curated-place",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-019-l.jpg",
+   "url": ""
+  },
+  {
+   "slug": "ride-20260924-ac4358-019-r",
+   "title": "Under the big red หนุ่ม กรอบพระกันน้ำ sign, dealers examine trays of amulets; the hall busy beyond.",
+   "description": "Under the big red หนุ่ม กรอบพระกันน้ำ sign, dealers examine trays of amulets; the hall busy beyond.",
+   "description_th": "ใต้ป้ายแดงใหญ่หนุ่ม กรอบพระกันน้ำ เซียนพระส่องถาดพระเครื่อง โถงด้านหลังคึกคัก",
+   "placeId": "cm-curated-waterproof-amulet",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-019-r.jpg",
+   "url": "cm/p/cmcuratedwaterproofamulet.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-023-l",
+   "title": "The วิไลพระเครื่อง lock plate over a stall packed with bronze Buddha images; a man in blue sets them out.",
+   "description": "The วิไลพระเครื่อง lock plate over a stall packed with bronze Buddha images; a man in blue sets them out.",
+   "description_th": "ป้ายล็อควิไลพระเครื่องเหนือแผงพระบูชาสำริดแน่น ชายเสื้อน้ำเงินกำลังจัดวาง",
+   "placeId": "cm-curated-wilai-phra-khrueang",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-023-l.jpg",
+   "url": "cm/p/cmcuratedwilaiphrakhrueang.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-027-r",
+   "title": "The ป.นพเก้า Silver casing stall with its white sign and phone, red 'รับเลี่ยมพระ' banners and a Thai flag; trays of amulets on a red table in front.",
+   "description": "The ป.นพเก้า Silver casing stall with its white sign and phone, red 'รับเลี่ยมพระ' banners and a Thai flag; trays of amulets on a red table in front.",
+   "description_th": "ร้านเลี่ยมพระ ป.นพเก้า Silver กับป้ายขาวและเบอร์โทร ป้ายแดง 'รับเลี่ยมพระ' และธงชาติ มีถาดพระเครื่องบนโต๊ะแดงด้านหน้า",
+   "placeId": "cm-curated-pa-nopkao-silver",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-027-r.jpg",
+   "url": "cm/p/silver-cmcuratedpanopkaosilver.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-031-r",
+   "title": "The หมู casing stall with its purple sign and phone, a man working at the lamp; beyond, a red 'Amulet frame' sign with Chinese and a phone number.",
+   "description": "The หมู casing stall with its purple sign and phone, a man working at the lamp; beyond, a red 'Amulet frame' sign with Chinese and a phone number.",
+   "description_th": "ร้านเลี่ยมพระของหมูกับป้ายม่วงและเบอร์โทร ชายคนหนึ่งทำงานใต้โคมไฟ ด้านหลังเป็นป้ายแดง 'Amulet frame' มีภาษาจีนและเบอร์โทร",
+   "placeId": "cm-curated-rapliamphra-kan-nam-mu",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-031-r.jpg",
+   "url": "cm/p/cmcuratedrapliamphrakannammu.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-045-l",
+   "title": "The อิ่มอร่อย โภชนา stall with its menu board and a small shrine shelf; a woman carries a tray of food past the next stall, ร้านแกงเมือง.",
+   "description": "The อิ่มอร่อย โภชนา stall with its menu board and a small shrine shelf; a woman carries a tray of food past the next stall, ร้านแกงเมือง.",
+   "description_th": "ร้านอิ่มอร่อย โภชนากับป้ายเมนูและหิ้งพระเล็ก หญิงคนหนึ่งถือถาดอาหารเดินผ่านร้านแกงเมืองที่อยู่ติดกัน",
+   "placeId": "cm-curated-imaroi-photna",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-045-l.jpg",
+   "url": "cm/p/cmcuratedimaroiphotna.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-163-f",
+   "title": "The main hall of the market building: dealers at tables of amulets, a table of brass footed bowls and an open book of drawings, drinks stall 678 on the right.",
+   "description": "The main hall of the market building: dealers at tables of amulets, a table of brass footed bowls and an open book of drawings, drinks stall 678 on the right.",
+   "description_th": "โถงหลักของอาคารตลาด เซียนพระยืนที่โต๊ะพระ โต๊ะวางพานทองเหลืองและหนังสือภาพเปิดไว้ ร้านเครื่องดื่ม 678 อยู่ทางขวา",
+   "placeId": "cm-curated-678-kafae",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-163-f.jpg",
+   "url": "cm/p/678-678.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-169-l",
+   "title": "NaN's head in front of the khao soi shop: a woman works at the stove behind the red sign and a numbered photo menu.",
+   "description": "NaN's head in front of the khao soi shop: a woman works at the stove behind the red sign and a numbered photo menu.",
+   "description_th": "ศีรษะ NaN อยู่หน้าร้านข้าวซอย หญิงสาวทำอาหารอยู่หลังป้ายแดงและเมนูรูปภาพมีหมายเลข",
+   "placeId": "cm-curated-khao-soi-somwa",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-169-l.jpg",
+   "url": ""
+  },
+  {
+   "slug": "ride-20260924-ac4358-179-l",
+   "title": "The optician's shuttered front under its bright sign, the market office's 'space for rent' banner and a monk's New Year poster.",
+   "description": "The optician's shuttered front under its bright sign, the market office's 'space for rent' banner and a monk's New Year poster.",
+   "description_th": "หน้าร้านแว่นตาที่ปิดใต้ป้ายสีสด ป้ายสำนักงานตลาดพื้นที่ว่างให้เช่า และโปสเตอร์ปีใหม่ที่มีรูปพระสงฆ์",
+   "placeId": "cm-curated-tengnueng-waenta-faechan",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-179-l.jpg",
+   "url": "cm/p/cmcuratedtengnuengwaentafaechan.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-179-f",
+   "title": "Khwan Kamol's open, empty unit under its green sign; the aisle of trays runs on under the 'ตลับพระ' banner.",
+   "description": "Khwan Kamol's open, empty unit under its green sign; the aisle of trays runs on under the 'ตลับพระ' banner.",
+   "description_th": "ห้องร้านขวัญ กมล เปิดโล่งว่างใต้ป้ายเขียว ทางเดินถาดพระทอดต่อไปใต้ป้าย 'ตลับพระ'",
+   "placeId": "cm-curated-khwan-kamon",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-179-f.jpg",
+   "url": "cm/p/cmcuratedkhwankamon.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-189-l",
+   "title": "The PUK banner over racks of stainless and silver chains, with trays of gold-coloured amulet cases, pins and packets below.",
+   "description": "The PUK banner over racks of stainless and silver chains, with trays of gold-coloured amulet cases, pins and packets below.",
+   "description_th": "ป้าย PUK เหนือราวสร้อยสแตนเลสและสร้อยเงิน ด้านล่างเป็นถาดตลับพระสีทอง เข็มกลัด และซองอุปกรณ์",
+   "placeId": "cm-curated-puk",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-189-l.jpg",
+   "url": "cm/p/puk-cmcuratedpuk.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-191-l",
+   "title": "The PUK banner and the จตุคามฯ 30 sign above racks of chains and trays of cases, Mahaheng's red sign at the left.",
+   "description": "The PUK banner and the จตุคามฯ 30 sign above racks of chains and trays of cases, Mahaheng's red sign at the left.",
+   "description_th": "ป้าย PUK และป้ายจตุคามฯ 30 เหนือราวสร้อยและถาดตลับพระ ป้ายแดงร้านมหาเฮงอยู่ทางซ้าย",
+   "placeId": "cm-curated-chatu-kham-30",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-191-l.jpg",
+   "url": "cm/p/30-30.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-197-l",
+   "title": "A couple sit behind a red-clothed table of old amulets, fangs and small monk figures in front of the shuttered อุณาโลม อมูเลท shop.",
+   "description": "A couple sit behind a red-clothed table of old amulets, fangs and small monk figures in front of the shuttered อุณาโลม อมูเลท shop.",
+   "description_th": "คู่หนึ่งนั่งหลังโต๊ะผ้าแดงวางพระเก่า เขี้ยว และรูปหล่อพระเกจิองค์เล็ก หน้าร้านอุณาโลม อมูเลทที่ปิดประตูม้วน",
+   "placeId": "cm-curated-u-na-lom-amu-let",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-197-l.jpg",
+   "url": "cm/p/cmcuratedunalomamulet.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-213-l",
+   "title": "The shuttered front of ร้านพระเครื่องตลาดคำเที่ยง with its phone and website, beside the lit chain-and-case shops.",
+   "description": "The shuttered front of ร้านพระเครื่องตลาดคำเที่ยง with its phone and website, beside the lit chain-and-case shops.",
+   "description_th": "หน้าร้านพระเครื่องตลาดคำเที่ยงที่ปิด พร้อมเบอร์โทรและเว็บไซต์ ข้างร้านสร้อยและตลับพระที่เปิดไฟ",
+   "placeId": "cm-osm-node-13299514983",
+   "lat": 18.8061599,
+   "lng": 98.9971379,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-213-l.jpg",
+   "url": "cm/p/kham-thiang-flower-market-13299514983.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-215-l",
+   "title": "A passage opens between ร้านพระเครื่องตลาดคำเที่ยง and ร้านมหามงคล; glass cases of cases and racks of chains line the shop.",
+   "description": "A passage opens between ร้านพระเครื่องตลาดคำเที่ยง and ร้านมหามงคล; glass cases of cases and racks of chains line the shop.",
+   "description_th": "ช่องทางเดินเปิดระหว่างร้านพระเครื่องตลาดคำเที่ยงกับร้านมหามงคล ตู้กระจกตลับพระและราวสร้อยเรียงในร้าน",
+   "placeId": "cm-curated-ran-maha-mongkhon",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-215-l.jpg",
+   "url": "cm/p/cmcuratedranmahamongkhon.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-241-l",
+   "title": "ใหญ่ สันกำแพง's boards and painted shutter beside the black-fascia shop พระเครื่อง ปุ๊ก with its gold lettering; a folding table of old amulets in front, NaN at the lens.",
+   "description": "ใหญ่ สันกำแพง's boards and painted shutter beside the black-fascia shop พระเครื่อง ปุ๊ก with its gold lettering; a folding table of old amulets in front, NaN at the lens.",
+   "description_th": "ป้ายและประตูม้วนทาสีร้านใหญ่ สันกำแพง ข้างร้านพระเครื่อง ปุ๊กป้ายดำตัวอักษรทอง โต๊ะพับวางพระเก่าอยู่ด้านหน้า NaN อยู่ใกล้กล้อง",
+   "placeId": "cm-curated-phra-khrueang-puk",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-241-l.jpg",
+   "url": "cm/p/cmcuratedphrakhrueangpuk.html"
+  },
+  {
+   "slug": "ride-20260924-ac4358-255-r",
+   "title": "The white sign of ศูนย์รวมพระเครื่อง พระบูชา เครื่องราง (พี่เริญ เชียงราย) with its phone number hangs over two steel cabinets and glass counters; a dealer in purple holds a loupe.",
+   "description": "The white sign of ศูนย์รวมพระเครื่อง พระบูชา เครื่องราง (พี่เริญ เชียงราย) with its phone number hangs over two steel cabinets and glass counters; a dealer in purple holds a loupe.",
+   "description_th": "ป้ายขาวศูนย์รวมพระเครื่อง พระบูชา เครื่องราง (พี่เริญ เชียงราย) พร้อมเบอร์โทรแขวนเหนือตู้เหล็กสองใบและตู้กระจก เซียนพระเสื้อม่วงถือกล้องส่อง",
+   "placeId": "cm-curated-sun-ruam-phra-khrueang-phra-bucha-khrueangrang",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4358-255-r.jpg",
+   "url": "cm/p/cmcuratedsunruamphrakhrueangphrabuchakhrueangrang.html"
+  },
+  {
+   "slug": "ride-20260924-ac4728-137-r",
+   "title": "The หนุ่ม กรอบพระกันน้ำ stall under its red sign: dealers seated at a red table of glass trays of amulets, a white-cloth table and a blue lamp.",
+   "description": "The หนุ่ม กรอบพระกันน้ำ stall under its red sign: dealers seated at a red table of glass trays of amulets, a white-cloth table and a blue lamp.",
+   "description_th": "ร้านหนุ่ม กรอบพระกันน้ำ ใต้ป้ายสีแดง พ่อค้านั่งที่โต๊ะแดงวางถาดกระจกพระเครื่อง มีโต๊ะผ้าขาวและโคมสีฟ้า",
+   "placeId": "cm-curated-num",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4728-137-r.jpg",
+   "url": ""
+  },
+  {
+   "slug": "ride-20260924-ac4728-257-l",
+   "title": "Inside TK-AMULET 65: a painted prize wheel, framed pictures, glass counters and a board of lottery tickets under the yellow-green fascia.",
+   "description": "Inside TK-AMULET 65: a painted prize wheel, framed pictures, glass counters and a board of lottery tickets under the yellow-green fascia.",
+   "description_th": "ภายในร้าน TK-AMULET 65 มีวงล้อหมุน ภาพใส่กรอบ ตู้กระจก และแผงสลากกินแบ่งใต้ป้ายสีเหลืองเขียว",
+   "placeId": "cm-curated-tk-amulet-65",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4728-257-l.jpg",
+   "url": "cm/p/tk-amulet-65-65.html"
+  },
+  {
+   "slug": "ride-20260924-ac4728-337-l",
+   "title": "The open side of the hall under a green canopy: the amulet-market banner, rows of amulet tables in daylight, the khao soi stall at right and brass bowls on a curio case in front; a dealer in grey sits at his table of cased amulets.",
+   "description": "The open side of the hall under a green canopy: the amulet-market banner, rows of amulet tables in daylight, the khao soi stall at right and brass bowls on a curio case in front; a dealer in grey sits at his table of cased amulets.",
+   "description_th": "ด้านเปิดของตลาดใต้ผ้าใบสีเขียว ป้ายตลาดนัดพระเครื่อง โต๊ะพระเรียงเป็นแถวในแสงกลางวัน ร้านข้าวซอยทางขวา ขันทองเหลืองบนตู้กระจกด้านหน้า คนขายเสื้อเทานั่งที่โต๊ะพระใส่ตลับ",
+   "placeId": "cm-osm-node-6351675891",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4728-337-l.jpg",
+   "url": "cm/p/antique-market-6351675891.html"
+  },
+  {
+   "slug": "ride-20260924-ac4728-463-r",
+   "title": "A vendor in white sits behind brass deity figures and a long table of cased amulets; the 'ขวัญ กาแล' shop and a red amulet-case banner are behind.",
+   "description": "A vendor in white sits behind brass deity figures and a long table of cased amulets; the 'ขวัญ กาแล' shop and a red amulet-case banner are behind.",
+   "description_th": "แม่ค้าเสื้อขาวนั่งหลังรูปหล่อเทพทองเหลืองและโต๊ะยาววางพระเลี่ยมกรอบ ด้านหลังเป็นร้าน 'ขวัญ กาแล' และป้ายแดงร้านตลับพระ",
+   "placeId": "cm-curated-khwan-kalae",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4728-463-r.jpg",
+   "url": "cm/p/cmcuratedkhwankalae.html"
+  },
+  {
+   "slug": "ride-20260924-ac4728-471-l",
+   "title": "A dealer inspects an amulet with a loupe beside bronze statues; the 'Amulet frame' stall of ต้อม glows behind.",
+   "description": "A dealer inspects an amulet with a loupe beside bronze statues; the 'Amulet frame' stall of ต้อม glows behind.",
+   "description_th": "พ่อค้าส่องพระด้วยกล้องส่องพระข้างรูปหล่อสำริด ด้านหลังเป็นร้านรับทำกรอบพระของต้อมป้ายสว่าง",
+   "placeId": "cm-curated-amulet-frame",
+   "lat": 18.8093641,
+   "lng": 98.9958035,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ac4728-471-l.jpg",
+   "url": "cm/p/cmcuratedamuletframe.html"
+  },
+  {
+   "slug": "ride-20260924-ad5319-060-r",
+   "title": "Lanna-style buildings with tiled roofs and string lights house HALF Shabu Café, with cars parked in the gravel forecourt and a red arrow painted on a concrete pole.",
+   "description": "Lanna-style buildings with tiled roofs and string lights house HALF Shabu Café, with cars parked in the gravel forecourt and a red arrow painted on a concrete pole.",
+   "description_th": "อาคารทรงล้านนาหลังคากระเบื้องประดับไฟสาย เป็นร้าน HALF Shabu Café มีรถจอดที่ลานกรวดด้านหน้า และลูกศรสีแดงพ่นบนเสาคอนกรีต",
+   "placeId": "cm-curated-half",
+   "lat": 18.808398,
+   "lng": 98.995271,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "file": "photos/2026-09-24/ride-20260924-ad5319-060-r.jpg",
+   "url": "cm/p/half-cmcuratedhalf.html"
+  }
+ ],
+ "points": [],
+ "hero": "photos/2026-09-24/ride-20260924-market-ab4324-019.jpg"
+}

@@ -155,7 +155,10 @@ POINT_KINDS = {  # key: (Thai, English, plural Thai, plural English, colour)
     "ribbon-tree": ("ต้นไม้ผูกผ้า", "Cloth-wrapped tree", "ต้นไม้ผูกผ้า", "Cloth-wrapped trees", "var(--leaf)"),
     "shrine": ("ศาล", "Shrine", "ศาลอื่น ๆ", "Other shrines", "var(--sky)")}
 # markets and pictures kept for how they look
-SCENES = [p for p in PHOTOS if p.get("subject") in ("market", "aesthetic")]
+SCENE_KINDS = (("street-art", "ศิลปะริมถนน", "Street art"), ("market", "ตลาด", "Markets"),
+               ("merch", "ของในตลาดพระ", "At the amulet market"), ("aesthetic", "ภาพเมือง", "Scenes"),
+               ("tattoo", "สัก", "Tattoo"), ("muay-thai", "มวยไทย", "Muay thai"))
+SCENES = [p for p in PHOTOS if p.get("subject") in {k for k, _, _ in SCENE_KINDS}]
 
 # the directory's own totals per district: the denominator of coverage
 TOTAL = Counter(); TOTAL_TB = Counter()
@@ -364,7 +367,7 @@ def point_card(p) -> str:
 
 def scene_card(p) -> str:
     ll = f' data-lat="{p["lat"]:.6f}" data-lng="{p["lng"]:.6f}"' if p.get("lat") is not None else ""
-    k = {"market": ("ตลาด", "Market"), "aesthetic": ("ภาพเมือง", "Scene")}.get(p.get("subject"), ("", ""))
+    k = {k: (th, en) for k, th, en in SCENE_KINDS}.get(p.get("subject"), ("", ""))
     return (f'<figure class="card"{ll} data-rise><a class="shot" href="{BASE}{e(p["file"])}">'
             f'<span class="bg" style="background-image:url({BASE}{e(p["file"])})"></span><span class="scrim"></span>'
             f'<span class="sp"></span><span class="tx">{t(e(p.get("description_th") or p.get("title")), e(p.get("description") or p.get("title")))}'
@@ -438,11 +441,11 @@ def build_scenes() -> str:
     sc = sorted(SCENES, key=lambda p: (-(p.get("quality") or 0), p["slug"]))
     hero = sc[0]["file"] if sc else ""
     head = band(f"{BASE}{hero}", f"""<span class="kicker">{t("ภาคสนาม", "Field")}</span>
-<h1>{t("ตลาด และภาพเมือง", "Markets and scenes")}</h1>
-{pair("ภาพที่เก็บไว้เพราะความงาม ตลาด และชีวิตริมถนน ปักหมุดตรงที่ถ่าย", "Pictures kept for how they look: markets, light, streets, each pinned where it was taken")}""",
+<h1>{t("ตลาด ภาพเมือง ศิลปะริมถนน", "Markets, scenes, street art")}</h1>
+{pair("ภาพที่เก็บไว้เพราะความงาม ตลาด ภาพวาดบนกำแพง ตู้ไฟ และชีวิตริมถนน ปักหมุดตรงที่ถ่าย", "Pictures kept for how they look: markets, murals, painted boxes, light, streets, each pinned where it was taken")}""",
                 "hero") if hero else ""
     groups = ""
-    for k, th, en in (("market", "ตลาด", "Markets"), ("aesthetic", "ภาพเมือง", "Scenes")):
+    for k, th, en in SCENE_KINDS:
         rows = [p for p in sc if p.get("subject") == k]
         if rows:
             groups += (f'<h2 id="{k}">{t(th, en)} <span class="small">{n(len(rows))}</span></h2>'
@@ -451,8 +454,8 @@ def build_scenes() -> str:
 <section class="block"><div class="wrap">
 {groups}
 </div></section>"""
-    return page("scenes/index.html", "ตลาด ภาพเมือง", "Markets and scenes", body,
-                f"{len(sc)} photographs of markets and streets in Chiang Mai, CC BY 4.0, pinned where each was taken.", hero)
+    return page("scenes/index.html", "ตลาด ภาพเมือง ศิลปะริมถนน", "Markets, scenes, street art", body,
+                f"{len(sc)} photographs of markets, street art and streets in Chiang Mai, CC BY 4.0, pinned where each was taken.", hero)
 
 
 # ------------------------------------------------------------------ the coverage map
@@ -690,7 +693,7 @@ def session_extras(s) -> str:
         out += (f'<h2>{t("ศาล ต้นไม้ผูกผ้า", "Spirit houses, shrines, trees")} <span class="small">{n(len(pts))}</span></h2>'
                 f'<div class="cards">{"".join(point_card(p) for p in pts)}</div>')
     if sc:
-        out += (f'<h2>{t("ตลาด ภาพเมือง", "Markets and scenes")} <span class="small">{n(len(sc))}</span></h2>'
+        out += (f'<h2>{t("ตลาด ภาพเมือง ศิลปะริมถนน", "Markets, scenes, street art")} <span class="small">{n(len(sc))}</span></h2>'
                 f'<div class="cards">{"".join(scene_card(p) for p in sc)}</div>')
     return out
 
@@ -773,7 +776,7 @@ def build_about() -> str:
     unit = "".join(f'<tr><td>{t(th, en)}</td><td class="mono">{n(k)}</td><td class="mono">{per(cap, k)}</td></tr>' for th, en, k in (
         ("ร้านที่ป้ายยืนยันหรือเพิ่มจากป้าย", "places confirmed or added from a sign", seen),
         ("ร้านที่เพิ่มใหม่", "places added", T["added"]),
-        ("ภาพที่ใช้ได้", "photographs in use", T["photos"]),
+        ("ภาพที่ใช้ได้ (รวมศาลและต้นไม้)", "photographs in use (spirit houses and trees included)", T["photos"] + T["points"]),
         ("เฟรม 360°", "360° frames", T["frames"])))
     body = f"""<section class="block"><div class="wrap">
 <span class="kick">{t("แผน · วิธี · ต้นทุน", "Plan · method · cost")}</span>
@@ -795,7 +798,7 @@ def build_about() -> str:
 <table class="t"><tbody>
 <tr><th>{t("กล้อง", "Camera")}</th><td>{t("GoPro Max 2 ภาพ 360° ถ่ายต่อเนื่องทุก 2–3 วินาที ติดหน้ารถมอเตอร์ไซค์หรือถือเดิน", "GoPro Max 2, 360° bursts every 2–3 seconds, on the front of a motorbike or carried on foot")}</td></tr>
 <tr><th>{t("ต้นฉบับ", "Source")}</th><td>{t("ภาพ equirectangular 7680×3840 ต่อเฟรม ส่วนใหญ่มี GPS ใน EXIF วิดีโอมีแทร็ก GPX แยก", "7680×3840 equirectangular frames, most with a GPS fix in EXIF; videos carry a separate GPX track")}</td></tr>
-<tr><th>{t("ดึงไฟล์", "Fetch")}</th><td>{t("จากคลาวด์ของ GoPro ทีละเฟรม ตัด อ่าน แล้วลบต้นฉบับบนเครื่อง คลาวด์ยังเก็บต้นฉบับไว้", "From GoPro's cloud one frame at a time — cut, read, then the local original is deleted; the cloud keeps it")}</td></tr>
+<tr><th>{t("ดึงไฟล์", "Fetch")}</th><td>{t("จากคลาวด์ของ GoPro ทีละเฟรม ต้นฉบับเก็บไว้ในฮาร์ดดิสก์ภายนอก และคลาวด์ก็ยังเก็บไว้", "From GoPro's cloud one frame at a time; the originals are kept on an external drive, and the cloud keeps them too")}</td></tr>
 <tr><th>{t("ตัดภาพ", "Cut")}</th><td>{t("16 ช่องต่อเฟรม (8 ทิศ × 2 ระดับ) ช่องละ 50°×30° ที่ราว 21 พิกเซลต่อองศา และภาพกว้าง 4 ทิศ รวมทิศที่หันหาผู้ขี่ ทุกภาพกว้างถูกอ่าน และซูมเข้าป้ายเล็กทีละช่อง", "16 tiles a frame (8 bearings × 2 heights), 50°×30° each at about 21 px per degree, plus four wide views including the one facing the rider; every wide view is read, zooming into small signs tile by tile")}</td></tr>
 <tr><th>{t("อ่าน", "Read")}</th><td>{t("Apple Vision อ่านไทยและอังกฤษบนเครื่องเอง พร้อมหาใบหน้าและคน", "Apple Vision reads Thai and English on the Mac itself, and finds faces and people")}</td></tr>
 <tr><th>{t("จับคู่", "Match")}</th><td>{t("เทียบกับชื่อในมดแดงระยะ 120 ม. โดยไม่นับวรรณยุกต์และสระบนล่าง ยืนยันเมื่อตรงกันในระยะ 50 ม.", "Against Mot Dang names within 120 m, ignoring tone marks and vowels above and below; a match within 50 m confirms the place")}</td></tr>
@@ -860,7 +863,7 @@ def main():
            "properties": {"kind": p.get("kind") or p.get("subject"), "title": p.get("title") or p.get("description"),
                           "title_th": p.get("title_th") or p.get("description_th"), "date": p["date"],
                           "photo": f"{SITE_URL}/{p['file']}", "credit": "NaN Peacock", "licence": "CC BY 4.0"}}
-          for p in POINTS + [x for x in SCENES if x.get("subject") == "market"] if p.get("lat") is not None]
+          for p in POINTS + [x for x in SCENES if x.get("subject") in ("market", "street-art")] if p.get("lat") is not None]
     (OUT / "data/points.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": pf}, ensure_ascii=False))
 
     write("index.html", build_home())
