@@ -125,6 +125,10 @@ def _admin(r):
 for _f in json.loads((MD / "data/admin_boundaries.json").read_text())["levels"]["amphoe"]["features"]:
     _pr = _f.get("properties") or {}
     _amph_en[(_pr.get("province"), _pr.get("name"))] = _pr.get("nameEn") or ""
+_tamb_en = {}
+for _f in json.loads((MD / "data/admin_boundaries.json").read_text())["levels"]["tambon"]["features"]:
+    _pr = _f.get("properties") or {}
+    _tamb_en[(_pr.get("province"), _pr.get("amphoe"), _pr.get("name"))] = _pr.get("nameEn") or ""
 
 # every place the camera has seen, once
 PLACES = {}
@@ -159,6 +163,48 @@ SCENE_KINDS = (("street-art", "ศิลปะริมถนน", "Street art")
                ("merch", "ของในตลาดพระ", "At the amulet market"), ("aesthetic", "ภาพเมือง", "Scenes"),
                ("tattoo", "สัก", "Tattoo"), ("muay-thai", "มวยไทย", "Muay thai"))
 SCENES = [p for p in PHOTOS if p.get("subject") in {k for k, _, _ in SCENE_KINDS}]
+
+# one page for every picture that is not of a Mot Dang place: a point, a scene, a street.
+# A picture of a place goes to that place's own Mot Dang page instead.
+RECORDS = POINTS + [p for p in PHOTOS if not p.get("placeId")]
+_THIN = {"a", "an", "the", "of", "on", "in", "at", "by", "with", "and", "to", "for", "from", "behind", "under", "beside", "s"}
+PATHS_FILE = ROOT / "data/paths.json"      # slug -> path, kept so an address never moves once given
+
+
+def _assign_paths():
+    old = json.loads(PATHS_FILE.read_text()) if PATHS_FILE.exists() else {}
+    out, taken = {}, set()
+    for p in RECORDS:
+        if p["slug"] in old:
+            out[p["slug"]] = old[p["slug"]]; taken.add(old[p["slug"]])
+    for p in sorted(RECORDS, key=lambda p: (p["date"], p["slug"])):
+        if p["slug"] in out:
+            continue
+        sec = "san" if p.get("kind") else "scenes"
+        w = slugify(p.get("title") or p.get("description") or "").split("-")
+        while w and w[0] in _THIN:
+            w = w[1:]
+        while len("-".join(w)) > 56 or (w and w[-1] in _THIN):
+            w = w[:-1]
+        words = "-".join(w) or p["slug"]
+        path, k = f"{sec}/{words}/", 2
+        while path in taken:
+            path, k = f"{sec}/{words}-{k}/", k + 1
+        out[p["slug"]] = path; taken.add(path)
+    return dict(old, **out)
+
+
+REC_PATH = _assign_paths()
+
+
+def rec_href(p) -> str:
+    return f"{BASE}{REC_PATH[p['slug']]}"
+
+
+def metres(a, b) -> float:
+    r = math.pi / 180
+    x = (b["lng"] - a["lng"]) * r * math.cos((a["lat"] + b["lat"]) * r / 2)
+    return 6371000 * math.hypot(x, (b["lat"] - a["lat"]) * r)
 
 # the directory's own totals per district: the denominator of coverage
 TOTAL = Counter(); TOTAL_TB = Counter()
@@ -339,7 +385,7 @@ def chips(places) -> str:
 def wall(photos, rise=True) -> str:
     out = []
     for p in photos:
-        href = place_href(p["placeId"]) if p.get("placeId") else BASE + p["file"]
+        href = place_href(p["placeId"]) if p.get("placeId") else rec_href(p)
         out.append(f'<figure{" data-rise" if rise else ""}><a href="{e(href)}"><img src="{BASE}{e(p["file"])}" '
                    f'alt="{e(p.get("description") or p.get("title"))}" loading="lazy" '
                    f'width="{p.get("width") or 1200}" height="{p.get("height") or 800}"></a>'
@@ -357,7 +403,7 @@ def near_bar() -> str:
 def point_card(p) -> str:
     """A spirit house, shrine or tree: the picture is the link, its kind and distance lie on it."""
     th, en = POINT_KINDS.get(p["kind"], ("", "", "", "", ""))[:2]
-    href = f"{MOTDANG}/map.html#18/{p['lat']:.5f}/{p['lng']:.5f}" if p.get("lat") is not None else f"{BASE}{p['file']}"
+    href = rec_href(p)
     ll = f' data-lat="{p["lat"]:.6f}" data-lng="{p["lng"]:.6f}"' if p.get("lat") is not None else ""
     return (f'<figure class="card pt" id="{e(p["slug"])}"{ll} data-rise><a class="shot" href="{e(href)}">'
             f'<span class="bg" style="background-image:url({BASE}{e(p["file"])})"></span><span class="scrim"></span>'
@@ -368,7 +414,7 @@ def point_card(p) -> str:
 def scene_card(p) -> str:
     ll = f' data-lat="{p["lat"]:.6f}" data-lng="{p["lng"]:.6f}"' if p.get("lat") is not None else ""
     k = {k: (th, en) for k, th, en in SCENE_KINDS}.get(p.get("subject"), ("", ""))
-    return (f'<figure class="card"{ll} data-rise><a class="shot" href="{BASE}{e(p["file"])}">'
+    return (f'<figure class="card"{ll} data-rise><a class="shot" href="{e(rec_href(p))}">'
             f'<span class="bg" style="background-image:url({BASE}{e(p["file"])})"></span><span class="scrim"></span>'
             f'<span class="sp"></span><span class="tx">{t(e(p.get("description_th") or p.get("title")), e(p.get("description") or p.get("title")))}'
             f'<small>{t(*k)}<span class="dist"></span></small></span></a></figure>')
@@ -427,7 +473,7 @@ def build_san() -> str:
 {stat_cells(cells)}
 <section class="block"><div class="wrap">
 {points_svg(pts, tracks_for(SESSIONS, "cm"))}
-{pair("แตะหมุดเพื่อเลื่อนไปที่ภาพ แตะภาพเพื่อเปิดจุดนั้นบนแผนที่มดแดง", "Tap a dot to jump to its picture; tap a picture to open that spot on Mot Dang's map", cls="small")}
+{pair("แตะหมุดเพื่อเลื่อนไปที่ภาพ แตะภาพเพื่อเปิดหน้าของจุดนั้น พร้อมหมุดและสิ่งที่อยู่ใกล้", "Tap a dot to jump to its picture; tap a picture for its page, its pin and what stands near it", cls="small")}
 {groups}
 <p class="small"><a href="{BASE}data/points.geojson" download>{t("จุดทั้งหมดในไฟล์เดียว (GeoJSON)", "The points in one file (GeoJSON)")}</a> ·
 <a href="{MOTDANG}/san.html">{t("ศาลหลักของเมืองในมดแดง →", "The city's main shrines on Mot Dang →")}</a></p>
@@ -459,6 +505,136 @@ def build_scenes() -> str:
 
 
 # ------------------------------------------------------------------ the coverage map
+# ------------------------------------------------------------------ one record, one page
+_PM = None
+
+
+def pin_map(p, name_th, name_en, prov) -> str:
+    """Mot Dang's own place map: its streets, this pin, and the directory's neighbours as links."""
+    global _PM
+    here = os.getcwd()
+    try:
+        os.chdir(MD)
+        if _PM is None:
+            try:
+                sys.path.insert(0, str(MD))
+                import build as _mdb          # loads the directory once, ~10 s
+                _PM = _mdb.place_map
+            except Exception as ex:           # the drawing is optional; the link below it is not
+                print("pin map unavailable:", ex)
+                _PM = False
+        if not _PM:
+            return ""
+        r = {"id": "field-" + p["slug"], "lat": p["lat"], "lng": p["lng"], "name": name_th,
+             "nameEn": name_en, "geoPrecision": "exact", "province": prov}
+        svg = _PM(r, depth=0)
+    finally:
+        os.chdir(here)
+    return re.sub(r'href="(c[mr]/p/)', f'href="{MOTDANG}/\\1', svg)
+
+
+def _size(f):
+    try:
+        from PIL import Image
+        with Image.open(ROOT / f) as im:
+            return im.size
+    except Exception:
+        return (1200, 800)
+
+
+def _where(p):
+    for prov in ("cm", "cr"):
+        am, tb = _admin({"id": prov, "lat": p["lat"], "lng": p["lng"], "province": prov})
+        if am:
+            return prov, am, tb
+    return "cm", None, None
+
+
+def rec_kind(p):
+    if p.get("kind"):
+        return POINT_KINDS.get(p["kind"], ("", ""))[:2]
+    return {k: (th, en) for k, th, en in SCENE_KINDS}.get(p.get("subject"), ("ภาพ", "Photograph"))
+
+
+def rec_tile(p) -> str:
+    """A nearby picture: to its own page, or to the Mot Dang page of the place it shows."""
+    href = place_href(p["placeId"]) if p.get("placeId") else rec_href(p)
+    th = p.get("title_th") or p.get("description_th") or p.get("title") or ""
+    en = p.get("title") or p.get("description") or ""
+    if p.get("placeId") and p["placeId"] in PLACES:
+        th, en = PLACES[p["placeId"]]["name"], PLACES[p["placeId"]]["nameEn"] or PLACES[p["placeId"]]["name"]
+    ll = f' data-lat="{p["lat"]:.6f}" data-lng="{p["lng"]:.6f}"' if p.get("lat") is not None else ""
+    sub = t(*rec_kind(p)) if not p.get("placeId") else t("ในมดแดง", "on Mot Dang")
+    dist = f" · {n(round(p['_m']))} m" if p["_m"] >= 5 else ""
+    return (f'<figure class="card"{ll}><a class="shot" href="{e(href)}">'
+            f'<span class="bg" style="background-image:url({BASE}{e(p["file"])})"></span><span class="scrim"></span>'
+            f'<span class="sp"></span><span class="tx">{t(e(th), e(en))}<small>{sub}{dist}</small></span></a></figure>')
+
+
+def build_record(p) -> str:
+    kth, ken = rec_kind(p)
+    title_th = p.get("title_th") or p.get("description_th") or p.get("title") or kth
+    title_en = p.get("title") or p.get("description") or ken
+    w, h = (p["width"], p["height"]) if p.get("width") else _size(p["file"])
+    sess = next(x for x in SESSIONS if x["id"] == p["session"])
+    has_ll = p.get("lat") is not None
+    rows = [(("ชนิด", "Kind"), t(kth, ken))]
+    near_html = mapblock = ""
+    if has_ll:
+        prov, am, tb = _where(p)
+        if am:
+            ak = area_key(prov, am)
+            am_html = (f'<a href="{BASE}areas/{ak}/">{t(e(am), e(_amph_en.get((prov, am)) or am))}</a>'
+                       if (prov, am) in AREAS else t(e(am), e(_amph_en.get((prov, am)) or am)))
+            rows.append((("ที่", "Where"), (f"{t('ต.' + e(tb), e(_tamb_en.get((prov, am, tb)) or tb))} · " if tb else "") + am_html + f" · {t(*PROV[prov])}"))
+        beside = sorted(((metres(p, pl["rec"]), pl) for pl in PLACES.values() if pl["rec"].get("lat") is not None),
+                        key=lambda x: x[0])[:1]
+        if beside and beside[0][0] <= 40:
+            m, pl = beside[0]
+            rows.append((("ข้าง ๆ", "Beside"), f'<a href="{e(place_href(pl["id"]))}">{t(e(pl["name"]), e(pl["nameEn"] or pl["name"]))}</a>' + (f" · {n(round(m))} m" if m >= 5 else "")))
+        rows.append((("หมุด", "Pin"), f'<span class="mono">{p["lat"]:.6f}, {p["lng"]:.6f}</span> · '
+                     f'<a href="{MOTDANG}/map.html#18/{p["lat"]:.5f}/{p["lng"]:.5f}">{t("เปิดในแผนที่มดแดง", "Open on Mot Dang’s map")}</a>'))
+        mapblock = pin_map(p, title_th, title_en, prov)
+        pool = [dict(x, _m=metres(p, x)) for x in RECORDS + [y for y in PHOTOS if y.get("placeId")]
+                if x.get("lat") is not None and x["file"] != p["file"] and (x.get("quality") or 2) >= 2]
+        close = sorted((x for x in pool if x["_m"] <= 150), key=lambda x: x["_m"])[:8]
+        same = [x for x in sorted(pool, key=lambda x: x["_m"])
+                if (x.get("kind") or x.get("subject")) == (p.get("kind") or p.get("subject")) and x not in close][:4]
+        if close:
+            near_html += (f'<h2>{t("ถ่ายไว้ใกล้ ๆ", "Photographed a few steps away")}</h2>'
+                          f'<div class="cards">{"".join(rec_tile(x) for x in close)}</div>')
+        if same:
+            near_html += (f'<h2>{t(kth + " ที่ใกล้ที่สุด", "The nearest others of its kind")}</h2>'
+                          f'<div class="cards">{"".join(rec_tile(x) for x in same)}</div>')
+    else:
+        rel = [dict(x, _m=0) for x in RECORDS if x["session"] == p["session"] and x["file"] != p["file"]
+               and x.get("subject") == p.get("subject") and (x.get("quality") or 2) >= 2][:8]
+        if rel:
+            near_html = (f'<h2>{t("ภาพอื่นในชุดเดียวกัน", "More from the same set")}</h2>'
+                         f'<div class="cards">{"".join(rec_tile(x) for x in rel)}</div>')
+    if p.get("signText"):
+        rows.append((("ป้ายเขียนว่า", "The sign reads"), f'<span lang="th">{e(p["signText"])}</span>'))
+    rows.append((("ถ่ายเมื่อ", "Photographed"), f'{t(fmt_date(p["date"], "th"), fmt_date(p["date"], "en"))} · '
+                 f'<a href="{BASE}sessions/{e(p["session"])}/">{t(e(sess.get("title_th") or sess.get("where_th") or "รอบนี้"), e(sess.get("title") or sess.get("where") or "the session"))}</a>'))
+    rows.append((("ภาพ", "Photograph"), f'<a href="{BASE}{e(p["file"])}" download>{t("ดาวน์โหลด", "Download")}</a> · '
+                 f'{w}×{h} · {e(CREDIT)}'))
+    table = '<table class="t facts"><tbody>' + "".join(
+        f"<tr><th>{t(*k)}</th><td>{v}</td></tr>" for k, v in rows) + "</tbody></table>"
+    notes = (f'<p lang="en" class="lede">{e(p["notes"])}</p>' if p.get("notes") else "")
+    back = ("san/", ("ศาล · ต้นไม้", "Shrines · trees")) if p.get("kind") else ("scenes/", ("ตลาด · ภาพเมือง", "Markets · scenes"))
+    body = f"""<section class="block rec"><div class="wrap">
+<span class="kick"><a href="{BASE}{back[0]}">{t(*back[1])}</a> · {t(kth, ken)}</span>
+<h1>{t(e(title_th), e(title_en))}</h1>
+<figure class="recpic"><a href="{BASE}{e(p["file"])}"><img src="{BASE}{e(p["file"])}" alt="{e(title_en)}" width="{w}" height="{h}"></a>
+<figcaption class="small">{e(CREDIT)}</figcaption></figure>
+{notes}
+<div class="recgrid">{mapblock}{table}</div>
+{near_html}
+</div></section>"""
+    desc = f"{title_en}. {ken}" + (f", photographed {fmt_date(p['date'], 'en')}" if p.get("date") else "") + ". Photograph CC BY 4.0."
+    return page(f"{REC_PATH[p['slug']]}index.html", title_th, title_en, body, desc, p["file"])
+
+
 def coverage_svg(places, tracks, h_max=620) -> str:
     """Every route and every place seen, drawn to one scale."""
     pts = [(p["rec"]["lng"], p["rec"]["lat"]) for p in places if p["rec"].get("lat") is not None]
@@ -862,7 +1038,8 @@ def main():
     pf = [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [p["lng"], p["lat"]]},
            "properties": {"kind": p.get("kind") or p.get("subject"), "title": p.get("title") or p.get("description"),
                           "title_th": p.get("title_th") or p.get("description_th"), "date": p["date"],
-                          "photo": f"{SITE_URL}/{p['file']}", "credit": "NaN Peacock", "licence": "CC BY 4.0"}}
+                          "photo": f"{SITE_URL}/{p['file']}", "page": f"{CANON}/{REC_PATH[p['slug']]}",
+                          "credit": "NaN Peacock", "licence": "CC BY 4.0"}}
           for p in POINTS + [x for x in SCENES if x.get("subject") in ("market", "street-art")] if p.get("lat") is not None]
     (OUT / "data/points.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": pf}, ensure_ascii=False))
 
@@ -877,13 +1054,17 @@ def main():
     npages = build_photos()
     write("san/index.html", build_san())
     write("scenes/index.html", build_scenes())
+    for p in RECORDS:
+        write(f"{REC_PATH[p['slug']]}index.html", build_record(p))
+    PATHS_FILE.write_text(json.dumps(REC_PATH, ensure_ascii=False, indent=0, sort_keys=True) + "\n")
     write("how/index.html", build_how())
     write("data/index.html", build_data())
     write("about/index.html", build_about())
 
     urls = (["", "areas/", "sessions/", "photos/", "san/", "scenes/", "how/", "data/", "about/"]
             + [f"areas/{area_key(pv, am)}/" for pv, am in AREAS]
-            + [f"sessions/{s['id']}/" for s in SESSIONS] + [f"photos/{k}/" for k in range(2, npages + 1)])
+            + [f"sessions/{s['id']}/" for s in SESSIONS] + [f"photos/{k}/" for k in range(2, npages + 1)]
+            + [REC_PATH[p["slug"]] for p in RECORDS])
     today = date.today().isoformat()
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
           + "".join(f"<url><loc>{CANON}/{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n")
