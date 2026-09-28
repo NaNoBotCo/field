@@ -1,0 +1,6587 @@
+{
+ "id": "2026-09-27-chamcha",
+ "date": "2026-09-27",
+ "kind": "walk",
+ "camera": "GoPro Max 2",
+ "province": "cm",
+ "title": "Chamcha Market, San Kamphaeng",
+ "title_th": "กาดฉำฉา สันกำแพง",
+ "where": "The weekend craft market at San Kamphaeng, stall by stall",
+ "where_th": "ตลาดงานคราฟต์เสาร์อาทิตย์ที่สันกำแพง เดินทีละร้าน",
+ "counts": {
+  "frames": 973,
+  "frames_with_fix": 828,
+  "km": null,
+  "tiles_read": 3880,
+  "text_lines": 1571,
+  "confirmed": 7,
+  "new": 50,
+  "photos": 239,
+  "place_photos": 119,
+  "points": 0
+ },
+ "confirmed": [
+  {
+   "id": "cm-osm-node-10815775054",
+   "name": "Werg Cham Chaa market",
+   "cat": "",
+   "read": "Werg Cham Chaa market",
+   "photo": true,
+   "url": "cm/p/chamcha-market-10815775054.html"
+  },
+  {
+   "id": "cm-osm-node-4686351107",
+   "name": "มีนา",
+   "cat": "",
+   "read": "มีนา",
+   "photo": false,
+   "url": "cm/p/meena-rice-based-cuisine-4686351107.html"
+  },
+  {
+   "id": "cm-osm-node-5203436917",
+   "name": "เปิงใจ๋",
+   "cat": "",
+   "read": "เปิงใจ๋",
+   "photo": true,
+   "url": "cm/p/5203436917.html"
+  },
+  {
+   "id": "cm-ovt-05b32254-6837-434c-911a-ce7369728b4f",
+   "name": "Pung Pond",
+   "cat": "",
+   "read": "Pung Pond",
+   "photo": true,
+   "url": null
+  },
+  {
+   "id": "cm-ovt-495481d7-c0b9-4bad-83fd-48836e9d796c",
+   "name": "Bar.Barista",
+   "cat": "",
+   "read": "Bar.Barista",
+   "photo": true,
+   "url": null
+  },
+  {
+   "id": "cm-ovt-6bdccf9e-fdec-481a-a21c-96b1d37260a5",
+   "name": "เฮือน ณ ใจ๋",
+   "cat": "",
+   "read": "เฮือน ณ ใจ๋",
+   "photo": true,
+   "url": "cm/p/najai-studio-6948121961372605.html"
+  },
+  {
+   "id": "cm-ovt-eb944a11-312c-49cc-99b6-897c6177ff8d",
+   "name": "THONGDEE",
+   "cat": "",
+   "read": "THONGDEE",
+   "photo": true,
+   "url": null
+  }
+ ],
+ "new": [
+  {
+   "id": "cm-curated-ran-dekdoi",
+   "name": "ร้านเด็กดอย",
+   "nameTh": "ร้านเด็กดอย",
+   "nameEn": "",
+   "kind": "embroidered bags and hill-tribe style clothing",
+   "kindTh": "กระเป๋าปักและเสื้อผ้าแบบชาวเขา",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.785309,
+   "lng": 99.0479218,
+   "phone": "094-404-8925",
+   "photo": true,
+   "url": "cm/p/cmcuratedrandekdoi.html"
+  },
+  {
+   "id": "cm-curated-gabela-handmade",
+   "name": "Gabela Handmade",
+   "nameTh": "",
+   "nameEn": "Gabela Handmade",
+   "kind": "printed shirts, bags and jewellery",
+   "kindTh": "เสื้อพิมพ์ลาย กระเป๋า เครื่องประดับ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.785309,
+   "lng": 99.0479218,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/gabela-handmade-cmcuratedgabelahandmade.html"
+  },
+  {
+   "id": "cm-curated-ssym-handmade",
+   "name": "SSYM HANDMADE",
+   "nameTh": "",
+   "nameEn": "SSYM HANDMADE",
+   "kind": "handmade textiles, woven bags and clothing",
+   "kindTh": "ผ้าทำมือ กระเป๋าสาน เสื้อผ้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852307,
+   "lng": 99.0479218,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/ssym-handmade-cmcuratedssymhandmade.html"
+  },
+  {
+   "id": "cm-curated-kajao",
+   "name": "KAJAO",
+   "nameTh": "",
+   "nameEn": "KAJAO",
+   "kind": "shop with a workshop space",
+   "kindTh": "ร้านพร้อมพื้นที่เวิร์กช็อป",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852092,
+   "lng": 99.0478742,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/kajao-cmcuratedkajao.html"
+  },
+  {
+   "id": "cm-curated-bangkok-baskets",
+   "name": "Bangkok Baskets",
+   "nameTh": "",
+   "nameEn": "Bangkok Baskets",
+   "kind": "baskets",
+   "kindTh": "ตะกร้าและเครื่องจักสาน",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852034,
+   "lng": 99.0477734,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/bangkok-baskets-cmcuratedbangkokbaskets.html"
+  },
+  {
+   "id": "cm-curated-art-workshops",
+   "name": "Art & Workshops",
+   "nameTh": "",
+   "nameEn": "Art & Workshops",
+   "kind": "art studio and workshops: watercolour, illustration, ceramics",
+   "kindTh": "สตูดิโอศิลปะและเวิร์กช็อป สีน้ำ วาดภาพ เซรามิก",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852011,
+   "lng": 99.0476847,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/art-workshops-cmcuratedartworkshops.html"
+  },
+  {
+   "id": "cm-curated-booncraft-studio",
+   "name": "Booncraft studio",
+   "nameTh": "",
+   "nameEn": "Booncraft studio",
+   "kind": "handmade craft goods",
+   "kindTh": "งานคราฟต์ทำมือ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/booncraft-studio-cmcuratedbooncraftstudio.html"
+  },
+  {
+   "id": "cm-curated-wieng-papao-homemade",
+   "name": "Wieng Papao Homemade",
+   "nameTh": "",
+   "nameEn": "Wieng Papao Homemade",
+   "kind": "homemade jams, preserves and dried tea",
+   "kindTh": "แยม ผลไม้ดอง ชาอบแห้ง ทำเอง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7853232,
+   "lng": 99.0476404,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/wieng-papao-homemade-cmcuratedwiengpapaohomemade.html"
+  },
+  {
+   "id": "cm-curated-mae-kham-sai",
+   "name": "แม่คำใส",
+   "nameTh": "แม่คำใส",
+   "nameEn": "",
+   "kind": "fresh tofu, fried tofu and northern Thai dishes",
+   "kindTh": "เต้าหู้สด เต้าหู้ทอด อาหารเหนือ",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.785293,
+   "lng": 99.0474744,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/cmcuratedmaekhamsai.html"
+  },
+  {
+   "id": "cm-curated-morrakot",
+   "name": "Morrakot",
+   "nameTh": "",
+   "nameEn": "Morrakot",
+   "kind": "white cotton and lace blouses and dresses",
+   "kindTh": "เสื้อและชุดผ้าฝ้ายขาว ลูกไม้",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852472,
+   "lng": 99.0472537,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/morrakot-cmcuratedmorrakot.html"
+  },
+  {
+   "id": "cm-curated-lanna-pastel",
+   "name": "LANNA PASTEL",
+   "nameTh": "",
+   "nameEn": "LANNA PASTEL",
+   "kind": "natural-dye and leaf-printed clothing and scarves",
+   "kindTh": "เสื้อผ้าและผ้าพันคอย้อมสีธรรมชาติ พิมพ์ใบไม้",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852366,
+   "lng": 99.0472173,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/lanna-pastel-cmcuratedlannapastel.html"
+  },
+  {
+   "id": "cm-curated-chiang-mai-signature-chocolate",
+   "name": "Chiang Mai Signature Chocolate",
+   "nameTh": "ช็อกโกแลต เชียงใหม่",
+   "nameEn": "Chiang Mai Signature Chocolate",
+   "kind": "chocolate drinks, iced and hot",
+   "kindTh": "เครื่องดื่มช็อกโกแลต เย็นและร้อน",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7851199,
+   "lng": 99.0468025,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/chiang-mai-signature-chocolate-cmcuratedchiangmaisignaturechocolate.html"
+  },
+  {
+   "id": "cm-curated-coffee-craft-space",
+   "name": "COFFEE CRAFT SPACE",
+   "nameTh": "",
+   "nameEn": "COFFEE CRAFT SPACE",
+   "kind": "coffee and craft space in a covered yard with a vintage VW van",
+   "kindTh": "กาแฟและพื้นที่งานคราฟต์ มีรถตู้ VW เก่า",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7850819,
+   "lng": 99.0466541,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/coffee-craft-space-cmcuratedcoffeecraftspace.html"
+  },
+  {
+   "id": "cm-curated-soft-on-wheels",
+   "name": "Soft on wheels",
+   "nameTh": "",
+   "nameEn": "Soft on wheels",
+   "kind": "soft-serve ice cream and popcorn from a truck",
+   "kindTh": "ไอศกรีมซอฟต์เสิร์ฟและป๊อปคอร์นจากรถ",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7850672,
+   "lng": 99.0465631,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/soft-on-wheels-cmcuratedsoftonwheels.html"
+  },
+  {
+   "id": "cm-curated-coffee-phi-ba",
+   "name": "กาแฟผีบ้า",
+   "nameTh": "กาแฟผีบ้า",
+   "nameEn": "Coffee Phi Ba",
+   "kind": "coffee from a Royal Enfield motorbike stall; beans by the bag",
+   "kindTh": "กาแฟจากรถมอเตอร์ไซค์ Royal Enfield ขายเมล็ดกาแฟเป็นถุง",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7850682,
+   "lng": 99.0465936,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/coffee-phi-ba-cmcuratedcoffeephiba.html"
+  },
+  {
+   "id": "cm-curated-hearts-and-hands",
+   "name": "Hearts and Hands",
+   "nameTh": "",
+   "nameEn": "Hearts and Hands",
+   "kind": "teak kitchenware, ceramic figures and crafts",
+   "kindTh": "ของใช้ในครัวไม้สัก ตุ๊กตาเซรามิก งานคราฟต์",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7850445,
+   "lng": 99.046513,
+   "phone": "093-545-1594",
+   "photo": true,
+   "url": "cm/p/hearts-and-hands-cmcuratedheartsandhands.html"
+  },
+  {
+   "id": "cm-curated-spooncraft",
+   "name": "SPOONCRAFT",
+   "nameTh": "",
+   "nameEn": "SPOONCRAFT",
+   "kind": "rings made from old spoons",
+   "kindTh": "แหวนทำจากช้อนเก่า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.785027,
+   "lng": 99.0464322,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/spooncraft-cmcuratedspooncraft.html"
+  },
+  {
+   "id": "cm-curated-khunkawee",
+   "name": "เฮือนสบู่ คุณกวี",
+   "nameTh": "เฮือนสบู่ คุณกวี",
+   "nameEn": "khunkawee",
+   "kind": "natural handmade soap, bath bombs and bubble bars",
+   "kindTh": "สบู่ธรรมชาติทำมือ บาธบอมบ์",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7850134,
+   "lng": 99.0463685,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/khunkawee-cmcuratedkhunkawee.html"
+  },
+  {
+   "id": "cm-curated-wiang-usa",
+   "name": "เวียงอุษา",
+   "nameTh": "เวียงอุษา",
+   "nameEn": "",
+   "kind": "indigo and embroidered jackets, dresses and hats",
+   "kindTh": "เสื้อคลุมหม้อห้อมและปัก ชุด หมวก",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7850053,
+   "lng": 99.0463476,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/cmcuratedwiangusa.html"
+  },
+  {
+   "id": "cm-curated-baan-u-sa",
+   "name": "บ้านอุษา",
+   "nameTh": "บ้านอุษา",
+   "nameEn": "BAAN-U-SA",
+   "kind": "crochet bags, handmade clothing and hats",
+   "kindTh": "กระเป๋าถักโครเชต์ เสื้อผ้าทำมือ หมวก",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7849653,
+   "lng": 99.0461409,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/baan-u-sa-cmcuratedbaanusa.html"
+  },
+  {
+   "id": "cm-curated-miss-polly",
+   "name": "Miss Polly",
+   "nameTh": "",
+   "nameEn": "Miss Polly",
+   "kind": "handmade silver jewellery",
+   "kindTh": "เครื่องประดับเงินทำมือ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7849847,
+   "lng": 99.0462727,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/miss-polly-cmcuratedmisspolly.html"
+  },
+  {
+   "id": "cm-curated-handy-baggie",
+   "name": "Handy Baggie",
+   "nameTh": "",
+   "nameEn": "Handy Baggie",
+   "kind": "handmade fabric bags, printed T-shirts and cotton clothing",
+   "kindTh": "กระเป๋าผ้าทำมือ เสื้อยืดพิมพ์ลาย",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7849829,
+   "lng": 99.0462583,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/handy-baggie-cmcuratedhandybaggie.html"
+  },
+  {
+   "id": "cm-curated-mama-tasty",
+   "name": "Mama Tasty",
+   "nameTh": "",
+   "nameEn": "Mama Tasty",
+   "kind": "homemade bakery and drip coffee",
+   "kindTh": "เบเกอรี่โฮมเมดและกาแฟดริป",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7849668,
+   "lng": 99.046112,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/mama-tasty-cmcuratedmamatasty.html"
+  },
+  {
+   "id": "cm-curated-toh-toh",
+   "name": "Toh Toh",
+   "nameTh": "",
+   "nameEn": "Toh Toh",
+   "kind": "burgers, with seating upstairs",
+   "kindTh": "เบอร์เกอร์ มีที่นั่งชั้นบน",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7848472,
+   "lng": 99.0457731,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/toh-toh-cmcuratedtohtoh.html"
+  },
+  {
+   "id": "cm-curated-mugunghwa",
+   "name": "Mugunghwa",
+   "nameTh": "",
+   "nameEn": "Mugunghwa",
+   "kind": "white cotton dresses and blouses",
+   "kindTh": "ชุดและเสื้อผ้าฝ้ายขาว",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.784905,
+   "lng": 99.0458426,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/mugunghwa-cmcuratedmugunghwa.html"
+  },
+  {
+   "id": "cm-curated-stanichoc",
+   "name": "StaniChoc",
+   "nameTh": "",
+   "nameEn": "StaniChoc",
+   "kind": "craft chocolate from Mae Wang, Chiang Mai",
+   "kindTh": "คราฟต์ช็อกโกแลตจากแม่วาง เชียงใหม่",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7849403,
+   "lng": 99.0458359,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/stanichoc-cmcuratedstanichoc.html"
+  },
+  {
+   "id": "cm-curated-gaanth",
+   "name": "GAANTH",
+   "nameTh": "",
+   "nameEn": "GAANTH",
+   "kind": "ceramics: bells, bowls, figurines and pendants",
+   "kindTh": "เซรามิก กระดิ่ง ถ้วย ตุ๊กตา จี้",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.784974,
+   "lng": 99.0458303,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/gaanth-cmcuratedgaanth.html"
+  },
+  {
+   "id": "cm-curated-boon",
+   "name": "BOON",
+   "nameTh": "",
+   "nameEn": "BOON",
+   "kind": "cotton clothing",
+   "kindTh": "เสื้อผ้าฝ้าย",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.785019,
+   "lng": 99.0458173,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/boon-cmcuratedboon.html"
+  },
+  {
+   "id": "cm-curated-hong-tao-handicrafts",
+   "name": "HONG TAO HANDICRAFTS",
+   "nameTh": "",
+   "nameEn": "HONG TAO HANDICRAFTS",
+   "kind": "handmade clothing, bucket hats, bags and small wooden goods",
+   "kindTh": "เสื้อผ้าทำมือ หมวก กระเป๋า ของไม้",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7850436,
+   "lng": 99.0458116,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/hong-tao-handicrafts-cmcuratedhongtaohandicrafts.html"
+  },
+  {
+   "id": "cm-curated-awila-handicraft",
+   "name": "Awila Handicraft",
+   "nameTh": "",
+   "nameEn": "Awila Handicraft",
+   "kind": "painted wooden trays and figures; wood-painting workshop",
+   "kindTh": "ถาดและตุ๊กตาไม้ระบายสี เวิร์กช็อประบายสีไม้",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7849696,
+   "lng": 99.0461171,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/awila-handicraft-cmcuratedawilahandicraft.html"
+  },
+  {
+   "id": "cm-curated-lucky-henna",
+   "name": "Lucky Henna",
+   "nameTh": "",
+   "nameEn": "Lucky Henna",
+   "kind": "henna art",
+   "kindTh": "เพ้นท์เฮนน่า",
+   "cat": [
+    "beauty"
+   ],
+   "lat": 18.7850155,
+   "lng": 99.0463714,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/lucky-henna-cmcuratedluckyhenna.html"
+  },
+  {
+   "id": "cm-curated-mae-jo-phap-yon",
+   "name": "แม่โจ้ภาพยนตร์",
+   "nameTh": "แม่โจ้ภาพยนตร์",
+   "nameEn": "",
+   "kind": "vintage photo studio in an old VW van",
+   "kindTh": "สตูดิโอถ่ายรูปวินเทจในรถตู้ VW เก่า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7850785,
+   "lng": 99.0466271,
+   "phone": "089-555-9925",
+   "photo": true,
+   "url": "cm/p/cmcuratedmaejophapyon.html"
+  },
+  {
+   "id": "cm-curated-yong-le-tea-house",
+   "name": "Yong Le Tea House",
+   "nameTh": "",
+   "nameEn": "Yong Le Tea House",
+   "kind": "Chinese tea house: tea, Pu'er, matcha, mooncakes",
+   "kindTh": "โรงน้ำชาจีน ชา ผู่เอ๋อร์ มัทฉะ ขนมไหว้พระจันทร์",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7852175,
+   "lng": 99.0471291,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/yong-le-tea-house-cmcuratedyongleteahouse.html"
+  },
+  {
+   "id": "cm-curated-huen-wanida",
+   "name": "HUEN WANIDA",
+   "nameTh": "",
+   "nameEn": "HUEN WANIDA",
+   "kind": "handmade fabric mobiles, soft toys and clothing",
+   "kindTh": "โมบายผ้าทำมือ ตุ๊กตาผ้า เสื้อผ้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7854531,
+   "lng": 99.0477239,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/huen-wanida-cmcuratedhuenwanida.html"
+  },
+  {
+   "id": "cm-curated-koon",
+   "name": "คูน",
+   "nameTh": "คูน",
+   "nameEn": "KOON",
+   "kind": "hand-painted cat textile art and quilts",
+   "kindTh": "ผ้าเพ้นท์ลายแมว ผ้าห่มปะติด",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7854218,
+   "lng": 99.0477873,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/koon-cmcuratedkoon.html"
+  },
+  {
+   "id": "cm-curated-chatchanop",
+   "name": "CHATCHANOP",
+   "nameTh": "",
+   "nameEn": "CHATCHANOP",
+   "kind": "stones, crystals and silver jewellery",
+   "kindTh": "หิน คริสตัล เครื่องประดับเงิน",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.785631,
+   "lng": 99.0478932,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/chatchanop-cmcuratedchatchanop.html"
+  },
+  {
+   "id": "cm-curated-lantong",
+   "name": "LANTONG",
+   "nameTh": "",
+   "nameEn": "LANTONG",
+   "kind": "embroidered and handwoven cotton, crochet bags",
+   "kindTh": "ผ้าฝ้ายปักและทอมือ กระเป๋าถัก",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7857111,
+   "lng": 99.0478764,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/lantong-cmcuratedlantong.html"
+  },
+  {
+   "id": "cm-curated-embroidery-girl",
+   "name": "EMBROIDERY GIRL",
+   "nameTh": "",
+   "nameEn": "EMBROIDERY GIRL",
+   "kind": "embroidered cotton shirts, cat-print trousers, totes and felt cats",
+   "kindTh": "เสื้อผ้าฝ้ายปัก กางเกงลายแมว กระเป๋าผ้า ตุ๊กตาแมวสักหลาด",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7857123,
+   "lng": 99.0478459,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/embroidery-girl-cmcuratedembroiderygirl.html"
+  },
+  {
+   "id": "cm-curated-cotton-cotton-chiangmai",
+   "name": "Cotton Cotton Chiangmai",
+   "nameTh": "",
+   "nameEn": "Cotton Cotton Chiangmai",
+   "kind": "hand-painted cotton tops and shorts, embroidered denim jackets",
+   "kindTh": "เสื้อและกางเกงผ้าฝ้ายเพ้นท์มือ แจ็กเก็ตยีนส์ปัก",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7856921,
+   "lng": 99.0478535,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/cotton-cotton-chiangmai-cmcuratedcottoncottonchiangmai.html"
+  },
+  {
+   "id": "cm-curated-saiua-pa-kaeo",
+   "name": "ไส้อั่วป้าแก้ว!",
+   "nameTh": "ไส้อั่วป้าแก้ว",
+   "nameEn": "",
+   "kind": "northern Thai sausage and noodles",
+   "kindTh": "ไส้อั่วและก๋วยเตี๋ยว",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7855002,
+   "lng": 99.0480056,
+   "phone": "082-932-1163",
+   "photo": true,
+   "url": "cm/p/cmcuratedsaiuapakaeo.html"
+  },
+  {
+   "id": "cm-curated-malie",
+   "name": "malie",
+   "nameTh": "",
+   "nameEn": "malie",
+   "kind": "natural handmade perfume",
+   "kindTh": "น้ำหอมธรรมชาติทำมือ",
+   "cat": [
+    "beauty"
+   ],
+   "lat": 18.7855167,
+   "lng": 99.0480562,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/malie-cmcuratedmalie.html"
+  },
+  {
+   "id": "cm-curated-the-idea",
+   "name": "The IDEA",
+   "nameTh": "",
+   "nameEn": "The IDEA",
+   "kind": "printed-fabric tote bags, tumbler bags and small fabric goods",
+   "kindTh": "กระเป๋าผ้าพิมพ์ลาย ถุงใส่แก้ว ของใช้ผ้า",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852066,
+   "lng": 99.0478742,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/the-idea-cmcuratedtheidea.html"
+  },
+  {
+   "id": "cm-curated-destinies",
+   "name": "Destinies",
+   "nameTh": "",
+   "nameEn": "Destinies",
+   "kind": "pet accessories: cloth dog bandanas and collars",
+   "kindTh": "ของใช้สัตว์เลี้ยง ผ้าพันคอและปลอกคอสุนัข",
+   "cat": [
+    "pets"
+   ],
+   "lat": 18.7858698,
+   "lng": 99.0479147,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/destinies-cmcurateddestinies.html"
+  },
+  {
+   "id": "cm-curated-jira",
+   "name": "Jira ฮักผ้า",
+   "nameTh": "จิรา ฮักผ้า",
+   "nameEn": "Jira",
+   "kind": "handwoven cotton and hemp clothing, portrait prints, indigo jackets",
+   "kindTh": "เสื้อผ้าฝ้ายและกัญชงทอมือ พิมพ์ภาพบุคคล เสื้อหม้อห้อม",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/jira-cmcuratedjira.html"
+  },
+  {
+   "id": "cm-curated-pen-dee-hug",
+   "name": "PEN Dee HUG",
+   "nameTh": "เป็น·ดี·ฮัก",
+   "nameEn": "PEN Dee HUG",
+   "kind": "embroidered, woven and crochet bags and crocheted blankets",
+   "kindTh": "กระเป๋าปัก ทอ ถัก และผ้าห่มโครเชต์",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852911,
+   "lng": 99.0478994,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/pen-dee-hug-cmcuratedpendeehug.html"
+  },
+  {
+   "id": "cm-curated-holy-kids-studio",
+   "name": "HOLY KIDS STUDIO",
+   "nameTh": "",
+   "nameEn": "HOLY KIDS STUDIO",
+   "kind": "kids' art studio: customise your own character figure",
+   "kindTh": "สตูดิโอศิลปะเด็ก ระบายตุ๊กตาตัวละครเอง",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7853307,
+   "lng": 99.0478989,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/holy-kids-studio-cmcuratedholykidsstudio.html"
+  },
+  {
+   "id": "cm-curated-tungjaitum-craft",
+   "name": "Tungjaitum craft",
+   "nameTh": "ตั้งใจทำ คราฟท์",
+   "nameEn": "Tungjaitum craft",
+   "kind": "embroidered and appliqué coin purses and pouches",
+   "kindTh": "กระเป๋าเหรียญปักและปะติด",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/tungjaitum-craft-cmcuratedtungjaitumcraft.html"
+  },
+  {
+   "id": "cm-curated-dress-me-up",
+   "name": "Dress Me Up",
+   "nameTh": "",
+   "nameEn": "Dress Me Up",
+   "kind": "beaded necklaces and handmade jewellery; workshops",
+   "kindTh": "สร้อยลูกปัดและเครื่องประดับทำมือ เวิร์กช็อป",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7852014,
+   "lng": 99.0477554,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/dress-me-up-cmcurateddressmeup.html"
+  },
+  {
+   "id": "cm-curated-chong-buakwae",
+   "name": "ช่องบัวแก้ว",
+   "nameTh": "ช่องบัวแก้ว",
+   "nameEn": "",
+   "kind": "noodle and rice stall in the covered food court",
+   "kindTh": "ร้านก๋วยเตี๋ยวและข้าวในโรงอาหาร",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/cmcuratedchongbuakwae.html"
+  },
+  {
+   "id": "cm-curated-loang-him-kao",
+   "name": "โหล่งฮิมคาว",
+   "nameTh": "โหล่งฮิมคาว",
+   "nameEn": "Loang Him Kao",
+   "kind": "craft community: lanes of makers' shops, cafés and studios around Chamcha Market",
+   "kindTh": "ชุมชนงานคราฟต์ ร้านช่าง คาเฟ่ และสตูดิโอ รอบตลาดฉำฉา",
+   "cat": [
+    "sights"
+   ],
+   "lat": 18.7854238,
+   "lng": 99.0479145,
+   "phone": "",
+   "photo": true,
+   "url": "cm/p/loang-him-kao-cmcuratedloanghimkao.html"
+  }
+ ],
+ "photos": [
+  {
+   "slug": "chamcha-20260927-place-curated-art-workshops",
+   "title": "Art & Workshops",
+   "description": "Art & Workshops at Chamcha Market, San Kamphaeng: art studio and workshops: watercolour, illustration, ceramics",
+   "description_th": "Art & Workshops ตลาดฉำฉา สันกำแพง สตูดิโอศิลปะและเวิร์กช็อป สีน้ำ วาดภาพ เซรามิก",
+   "subject": "place",
+   "lat": 18.7852071,
+   "lng": 99.0476806,
+   "placeId": "cm-curated-art-workshops",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-art-workshops.jpg",
+   "url": "cm/p/art-workshops-cmcuratedartworkshops.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-awila-handicraft",
+   "title": "Awila Handicraft",
+   "description": "Awila Handicraft at Chamcha Market, San Kamphaeng: painted wooden trays and figures; wood-painting workshop",
+   "description_th": "Awila Handicraft ตลาดฉำฉา สันกำแพง ถาดและตุ๊กตาไม้ระบายสี เวิร์กช็อประบายสีไม้",
+   "subject": "place",
+   "lat": 18.7849734,
+   "lng": 99.046112,
+   "placeId": "cm-curated-awila-handicraft",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-awila-handicraft.jpg",
+   "url": "cm/p/awila-handicraft-cmcuratedawilahandicraft.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-baan-u-sa",
+   "title": "BAAN-U-SA",
+   "description": "BAAN-U-SA at Chamcha Market, San Kamphaeng: crochet bags, handmade clothing and hats",
+   "description_th": "บ้านอุษา ตลาดฉำฉา สันกำแพง กระเป๋าถักโครเชต์ เสื้อผ้าทำมือ หมวก",
+   "subject": "place",
+   "lat": 18.7849644,
+   "lng": 99.0461788,
+   "placeId": "cm-curated-baan-u-sa",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-baan-u-sa.jpg",
+   "url": "cm/p/baan-u-sa-cmcuratedbaanusa.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-booncraft-studio",
+   "title": "Booncraft studio",
+   "description": "Booncraft studio at Chamcha Market, San Kamphaeng: handmade craft goods",
+   "description_th": "Booncraft studio ตลาดฉำฉา สันกำแพง งานคราฟต์ทำมือ",
+   "subject": "place",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": "cm-curated-booncraft-studio",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-booncraft-studio.jpg",
+   "url": "cm/p/booncraft-studio-cmcuratedbooncraftstudio.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-chatchanop",
+   "title": "CHATCHANOP",
+   "description": "CHATCHANOP at Chamcha Market, San Kamphaeng: stones, crystals and silver jewellery",
+   "description_th": "CHATCHANOP ตลาดฉำฉา สันกำแพง หิน คริสตัล เครื่องประดับเงิน",
+   "subject": "place",
+   "lat": 18.7856227,
+   "lng": 99.0479406,
+   "placeId": "cm-curated-chatchanop",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-chatchanop.jpg",
+   "url": "cm/p/chatchanop-cmcuratedchatchanop.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-chiang-mai-signature-chocolate",
+   "title": "Chiang Mai Signature Chocolate",
+   "description": "Chiang Mai Signature Chocolate at Chamcha Market, San Kamphaeng: chocolate drinks, iced and hot",
+   "description_th": "ช็อกโกแลต เชียงใหม่ ตลาดฉำฉา สันกำแพง เครื่องดื่มช็อกโกแลต เย็นและร้อน",
+   "subject": "place",
+   "lat": 18.7851199,
+   "lng": 99.046819,
+   "placeId": "cm-curated-chiang-mai-signature-chocolate",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-chiang-mai-signature-chocolate.jpg",
+   "url": "cm/p/chiang-mai-signature-chocolate-cmcuratedchiangmaisignaturechocolate.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-chong-buakwae",
+   "title": "ช่องบัวแก้ว",
+   "description": "ช่องบัวแก้ว at Chamcha Market, San Kamphaeng: noodle and rice stall in the covered food court",
+   "description_th": "ช่องบัวแก้ว ตลาดฉำฉา สันกำแพง ร้านก๋วยเตี๋ยวและข้าวในโรงอาหาร",
+   "subject": "place",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": "cm-curated-chong-buakwae",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-chong-buakwae.jpg",
+   "url": "cm/p/cmcuratedchongbuakwae.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-coffee-craft-space",
+   "title": "COFFEE CRAFT SPACE",
+   "description": "COFFEE CRAFT SPACE at Chamcha Market, San Kamphaeng: coffee and craft space in a covered yard with a vintage VW van",
+   "description_th": "COFFEE CRAFT SPACE ตลาดฉำฉา สันกำแพง กาแฟและพื้นที่งานคราฟต์ มีรถตู้ VW เก่า",
+   "subject": "place",
+   "lat": 18.7850829,
+   "lng": 99.0466748,
+   "placeId": "cm-curated-coffee-craft-space",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1469,
+   "height": 979,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-coffee-craft-space.jpg",
+   "url": "cm/p/coffee-craft-space-cmcuratedcoffeecraftspace.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-coffee-phi-ba",
+   "title": "Coffee Phi Ba",
+   "description": "Coffee Phi Ba at Chamcha Market, San Kamphaeng: coffee from a Royal Enfield motorbike stall; beans by the bag",
+   "description_th": "กาแฟผีบ้า ตลาดฉำฉา สันกำแพง กาแฟจากรถมอเตอร์ไซค์ Royal Enfield ขายเมล็ดกาแฟเป็นถุง",
+   "subject": "place",
+   "lat": 18.7850672,
+   "lng": 99.0465579,
+   "placeId": "cm-curated-coffee-phi-ba",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-coffee-phi-ba.jpg",
+   "url": "cm/p/coffee-phi-ba-cmcuratedcoffeephiba.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-cotton-cotton-chiangmai",
+   "title": "Cotton Cotton Chiangmai",
+   "description": "Cotton Cotton Chiangmai at Chamcha Market, San Kamphaeng: hand-painted cotton tops and shorts, embroidered denim jackets",
+   "description_th": "Cotton Cotton Chiangmai ตลาดฉำฉา สันกำแพง เสื้อและกางเกงผ้าฝ้ายเพ้นท์มือ แจ็กเก็ตยีนส์ปัก",
+   "subject": "place",
+   "lat": 18.7857019,
+   "lng": 99.0478491,
+   "placeId": "cm-curated-cotton-cotton-chiangmai",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-cotton-cotton-chiangmai.jpg",
+   "url": "cm/p/cotton-cotton-chiangmai-cmcuratedcottoncottonchiangmai.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-destinies",
+   "title": "Destinies",
+   "description": "Destinies at Chamcha Market, San Kamphaeng: pet accessories: cloth dog bandanas and collars",
+   "description_th": "Destinies ตลาดฉำฉา สันกำแพง ของใช้สัตว์เลี้ยง ผ้าพันคอและปลอกคอสุนัข",
+   "subject": "place",
+   "lat": 18.7858698,
+   "lng": 99.0479147,
+   "placeId": "cm-curated-destinies",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-destinies.jpg",
+   "url": "cm/p/destinies-cmcurateddestinies.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-dress-me-up",
+   "title": "Dress Me Up",
+   "description": "Dress Me Up at Chamcha Market, San Kamphaeng: beaded necklaces and handmade jewellery; workshops",
+   "description_th": "Dress Me Up ตลาดฉำฉา สันกำแพง สร้อยลูกปัดและเครื่องประดับทำมือ เวิร์กช็อป",
+   "subject": "place",
+   "lat": 18.7852035,
+   "lng": 99.0477699,
+   "placeId": "cm-curated-dress-me-up",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-dress-me-up.jpg",
+   "url": "cm/p/dress-me-up-cmcurateddressmeup.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-embroidery-girl",
+   "title": "EMBROIDERY GIRL",
+   "description": "EMBROIDERY GIRL at Chamcha Market, San Kamphaeng: embroidered cotton shirts, cat-print trousers, totes and felt cats",
+   "description_th": "EMBROIDERY GIRL ตลาดฉำฉา สันกำแพง เสื้อผ้าฝ้ายปัก กางเกงลายแมว กระเป๋าผ้า ตุ๊กตาแมวสักหลาด",
+   "subject": "place",
+   "lat": 18.7857182,
+   "lng": 99.0478366,
+   "placeId": "cm-curated-embroidery-girl",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-embroidery-girl.jpg",
+   "url": "cm/p/embroidery-girl-cmcuratedembroiderygirl.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-gaanth",
+   "title": "GAANTH",
+   "description": "GAANTH at Chamcha Market, San Kamphaeng: ceramics: bells, bowls, figurines and pendants",
+   "description_th": "GAANTH ตลาดฉำฉา สันกำแพง เซรามิก กระดิ่ง ถ้วย ตุ๊กตา จี้",
+   "subject": "place",
+   "lat": 18.784974,
+   "lng": 99.0458303,
+   "placeId": "cm-curated-gaanth",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-gaanth.jpg",
+   "url": "cm/p/gaanth-cmcuratedgaanth.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-gabela-handmade",
+   "title": "Gabela Handmade",
+   "description": "Gabela Handmade at Chamcha Market, San Kamphaeng: printed shirts, bags and jewellery",
+   "description_th": "Gabela Handmade ตลาดฉำฉา สันกำแพง เสื้อพิมพ์ลาย กระเป๋า เครื่องประดับ",
+   "subject": "place",
+   "lat": 18.785309,
+   "lng": 99.0479218,
+   "placeId": "cm-curated-gabela-handmade",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-gabela-handmade.jpg",
+   "url": "cm/p/gabela-handmade-cmcuratedgabelahandmade.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-handy-baggie",
+   "title": "Handy Baggie",
+   "description": "Handy Baggie at Chamcha Market, San Kamphaeng: handmade fabric bags, printed T-shirts and cotton clothing",
+   "description_th": "Handy Baggie ตลาดฉำฉา สันกำแพง กระเป๋าผ้าทำมือ เสื้อยืดพิมพ์ลาย",
+   "subject": "place",
+   "lat": 18.7849865,
+   "lng": 99.0462872,
+   "placeId": "cm-curated-handy-baggie",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1347,
+   "height": 898,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-handy-baggie.jpg",
+   "url": "cm/p/handy-baggie-cmcuratedhandybaggie.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-hearts-and-hands",
+   "title": "Hearts and Hands",
+   "description": "Hearts and Hands at Chamcha Market, San Kamphaeng: teak kitchenware, ceramic figures and crafts",
+   "description_th": "Hearts and Hands ตลาดฉำฉา สันกำแพง ของใช้ในครัวไม้สัก ตุ๊กตาเซรามิก งานคราฟต์",
+   "subject": "place",
+   "lat": 18.7850445,
+   "lng": 99.0465254,
+   "placeId": "cm-curated-hearts-and-hands",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1347,
+   "height": 898,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-hearts-and-hands.jpg",
+   "url": "cm/p/hearts-and-hands-cmcuratedheartsandhands.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-hong-tao-handicrafts",
+   "title": "HONG TAO HANDICRAFTS",
+   "description": "HONG TAO HANDICRAFTS at Chamcha Market, San Kamphaeng: handmade clothing, bucket hats, bags and small wooden goods",
+   "description_th": "HONG TAO HANDICRAFTS ตลาดฉำฉา สันกำแพง เสื้อผ้าทำมือ หมวก กระเป๋า ของไม้",
+   "subject": "place",
+   "lat": 18.7850436,
+   "lng": 99.0458116,
+   "placeId": "cm-curated-hong-tao-handicrafts",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-hong-tao-handicrafts.jpg",
+   "url": "cm/p/hong-tao-handicrafts-cmcuratedhongtaohandicrafts.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-huen-wanida",
+   "title": "HUEN WANIDA",
+   "description": "HUEN WANIDA at Chamcha Market, San Kamphaeng: handmade fabric mobiles, soft toys and clothing",
+   "description_th": "HUEN WANIDA ตลาดฉำฉา สันกำแพง โมบายผ้าทำมือ ตุ๊กตาผ้า เสื้อผ้า",
+   "subject": "place",
+   "lat": 18.7854433,
+   "lng": 99.0477239,
+   "placeId": "cm-curated-huen-wanida",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1469,
+   "height": 979,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-huen-wanida.jpg",
+   "url": "cm/p/huen-wanida-cmcuratedhuenwanida.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-jira",
+   "title": "Jira",
+   "description": "Jira at Chamcha Market, San Kamphaeng: handwoven cotton and hemp clothing, portrait prints, indigo jackets",
+   "description_th": "จิรา ฮักผ้า ตลาดฉำฉา สันกำแพง เสื้อผ้าฝ้ายและกัญชงทอมือ พิมพ์ภาพบุคคล เสื้อหม้อห้อม",
+   "subject": "place",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": "cm-curated-jira",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-jira.jpg",
+   "url": "cm/p/jira-cmcuratedjira.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-kajao",
+   "title": "KAJAO",
+   "description": "KAJAO at Chamcha Market, San Kamphaeng: shop with a workshop space",
+   "description_th": "KAJAO ตลาดฉำฉา สันกำแพง ร้านพร้อมพื้นที่เวิร์กช็อป",
+   "subject": "place",
+   "lat": 18.7852234,
+   "lng": 99.0478532,
+   "placeId": "cm-curated-kajao",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1469,
+   "height": 979,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-kajao.jpg",
+   "url": "cm/p/kajao-cmcuratedkajao.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-khunkawee",
+   "title": "khunkawee",
+   "description": "khunkawee at Chamcha Market, San Kamphaeng: natural handmade soap, bath bombs and bubble bars",
+   "description_th": "เฮือนสบู่ คุณกวี ตลาดฉำฉา สันกำแพง สบู่ธรรมชาติทำมือ บาธบอมบ์",
+   "subject": "place",
+   "lat": 18.7850155,
+   "lng": 99.0463714,
+   "placeId": "cm-curated-khunkawee",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-khunkawee.jpg",
+   "url": "cm/p/khunkawee-cmcuratedkhunkawee.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-koon",
+   "title": "KOON",
+   "description": "KOON at Chamcha Market, San Kamphaeng: hand-painted cat textile art and quilts",
+   "description_th": "คูน ตลาดฉำฉา สันกำแพง ผ้าเพ้นท์ลายแมว ผ้าห่มปะติด",
+   "subject": "place",
+   "lat": 18.7854218,
+   "lng": 99.0477873,
+   "placeId": "cm-curated-koon",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1469,
+   "height": 979,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-koon.jpg",
+   "url": "cm/p/koon-cmcuratedkoon.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-lanna-pastel",
+   "title": "LANNA PASTEL",
+   "description": "LANNA PASTEL at Chamcha Market, San Kamphaeng: natural-dye and leaf-printed clothing and scarves",
+   "description_th": "LANNA PASTEL ตลาดฉำฉา สันกำแพง เสื้อผ้าและผ้าพันคอย้อมสีธรรมชาติ พิมพ์ใบไม้",
+   "subject": "place",
+   "lat": 18.7852261,
+   "lng": 99.0472173,
+   "placeId": "cm-curated-lanna-pastel",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-lanna-pastel.jpg",
+   "url": "cm/p/lanna-pastel-cmcuratedlannapastel.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-lantong",
+   "title": "LANTONG",
+   "description": "LANTONG at Chamcha Market, San Kamphaeng: embroidered and handwoven cotton, crochet bags",
+   "description_th": "LANTONG ตลาดฉำฉา สันกำแพง ผ้าฝ้ายปักและทอมือ กระเป๋าถัก",
+   "subject": "place",
+   "lat": 18.7857137,
+   "lng": 99.0478762,
+   "placeId": "cm-curated-lantong",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1469,
+   "height": 979,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-lantong.jpg",
+   "url": "cm/p/lantong-cmcuratedlantong.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-loang-him-kao",
+   "title": "Loang Him Kao",
+   "description": "Loang Him Kao at Chamcha Market, San Kamphaeng: craft community: lanes of makers' shops, cafés and studios around Chamcha Market",
+   "description_th": "โหล่งฮิมคาว ตลาดฉำฉา สันกำแพง ชุมชนงานคราฟต์ ร้านช่าง คาเฟ่ และสตูดิโอ รอบตลาดฉำฉา",
+   "subject": "place",
+   "lat": 18.7848856,
+   "lng": 99.045905,
+   "placeId": "cm-curated-loang-him-kao",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1469,
+   "height": 979,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-loang-him-kao.jpg",
+   "url": "cm/p/loang-him-kao-cmcuratedloanghimkao.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-lucky-henna",
+   "title": "Lucky Henna",
+   "description": "Lucky Henna at Chamcha Market, San Kamphaeng: henna art",
+   "description_th": "Lucky Henna ตลาดฉำฉา สันกำแพง เพ้นท์เฮนน่า",
+   "subject": "place",
+   "lat": 18.7850155,
+   "lng": 99.0463714,
+   "placeId": "cm-curated-lucky-henna",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-lucky-henna.jpg",
+   "url": "cm/p/lucky-henna-cmcuratedluckyhenna.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-mae-jo-phap-yon",
+   "title": "แม่โจ้ภาพยนตร์",
+   "description": "แม่โจ้ภาพยนตร์ at Chamcha Market, San Kamphaeng: vintage photo studio in an old VW van",
+   "description_th": "แม่โจ้ภาพยนตร์ ตลาดฉำฉา สันกำแพง สตูดิโอถ่ายรูปวินเทจในรถตู้ VW เก่า",
+   "subject": "place",
+   "lat": 18.785074,
+   "lng": 99.0465939,
+   "placeId": "cm-curated-mae-jo-phap-yon",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-mae-jo-phap-yon.jpg",
+   "url": "cm/p/cmcuratedmaejophapyon.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-mae-kham-sai",
+   "title": "แม่คำใส",
+   "description": "แม่คำใส at Chamcha Market, San Kamphaeng: fresh tofu, fried tofu and northern Thai dishes",
+   "description_th": "แม่คำใส ตลาดฉำฉา สันกำแพง เต้าหู้สด เต้าหู้ทอด อาหารเหนือ",
+   "subject": "place",
+   "lat": 18.7853059,
+   "lng": 99.047492,
+   "placeId": "cm-curated-mae-kham-sai",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-mae-kham-sai.jpg",
+   "url": "cm/p/cmcuratedmaekhamsai.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-malie",
+   "title": "malie",
+   "description": "malie at Chamcha Market, San Kamphaeng: natural handmade perfume",
+   "description_th": "malie ตลาดฉำฉา สันกำแพง น้ำหอมธรรมชาติทำมือ",
+   "subject": "place",
+   "lat": 18.7855219,
+   "lng": 99.0480511,
+   "placeId": "cm-curated-malie",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-malie.jpg",
+   "url": "cm/p/malie-cmcuratedmalie.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-mama-tasty",
+   "title": "Mama Tasty",
+   "description": "Mama Tasty at Chamcha Market, San Kamphaeng: homemade bakery and drip coffee",
+   "description_th": "Mama Tasty ตลาดฉำฉา สันกำแพง เบเกอรี่โฮมเมดและกาแฟดริป",
+   "subject": "place",
+   "lat": 18.7849489,
+   "lng": 99.0461186,
+   "placeId": "cm-curated-mama-tasty",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-mama-tasty.jpg",
+   "url": "cm/p/mama-tasty-cmcuratedmamatasty.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-miss-polly",
+   "title": "Miss Polly",
+   "description": "Miss Polly at Chamcha Market, San Kamphaeng: handmade silver jewellery",
+   "description_th": "Miss Polly ตลาดฉำฉา สันกำแพง เครื่องประดับเงินทำมือ",
+   "subject": "place",
+   "lat": 18.784973,
+   "lng": 99.0462196,
+   "placeId": "cm-curated-miss-polly",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-miss-polly.jpg",
+   "url": "cm/p/miss-polly-cmcuratedmisspolly.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-morrakot",
+   "title": "Morrakot",
+   "description": "Morrakot at Chamcha Market, San Kamphaeng: white cotton and lace blouses and dresses",
+   "description_th": "Morrakot ตลาดฉำฉา สันกำแพง เสื้อและชุดผ้าฝ้ายขาว ลูกไม้",
+   "subject": "place",
+   "lat": 18.7852366,
+   "lng": 99.0472537,
+   "placeId": "cm-curated-morrakot",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1224,
+   "height": 816,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-morrakot.jpg",
+   "url": "cm/p/morrakot-cmcuratedmorrakot.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-mugunghwa",
+   "title": "Mugunghwa",
+   "description": "Mugunghwa at Chamcha Market, San Kamphaeng: white cotton dresses and blouses",
+   "description_th": "Mugunghwa ตลาดฉำฉา สันกำแพง ชุดและเสื้อผ้าฝ้ายขาว",
+   "subject": "place",
+   "lat": 18.7849247,
+   "lng": 99.0458468,
+   "placeId": "cm-curated-mugunghwa",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1347,
+   "height": 898,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-mugunghwa.jpg",
+   "url": "cm/p/mugunghwa-cmcuratedmugunghwa.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-pen-dee-hug",
+   "title": "PEN Dee HUG",
+   "description": "PEN Dee HUG at Chamcha Market, San Kamphaeng: embroidered, woven and crochet bags and crocheted blankets",
+   "description_th": "เป็น·ดี·ฮัก ตลาดฉำฉา สันกำแพง กระเป๋าปัก ทอ ถัก และผ้าห่มโครเชต์",
+   "subject": "place",
+   "lat": 18.7853082,
+   "lng": 99.0479137,
+   "placeId": "cm-curated-pen-dee-hug",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-pen-dee-hug.jpg",
+   "url": "cm/p/pen-dee-hug-cmcuratedpendeehug.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-ran-dekdoi",
+   "title": "ร้านเด็กดอย",
+   "description": "ร้านเด็กดอย at Chamcha Market, San Kamphaeng: embroidered bags and hill-tribe style clothing",
+   "description_th": "ร้านเด็กดอย ตลาดฉำฉา สันกำแพง กระเป๋าปักและเสื้อผ้าแบบชาวเขา",
+   "subject": "place",
+   "lat": 18.785309,
+   "lng": 99.0479218,
+   "placeId": "cm-curated-ran-dekdoi",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-ran-dekdoi.jpg",
+   "url": "cm/p/cmcuratedrandekdoi.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-saiua-pa-kaeo",
+   "title": "ไส้อั่วป้าแก้ว!",
+   "description": "ไส้อั่วป้าแก้ว! at Chamcha Market, San Kamphaeng: northern Thai sausage and noodles",
+   "description_th": "ไส้อั่วป้าแก้ว ตลาดฉำฉา สันกำแพง ไส้อั่วและก๋วยเตี๋ยว",
+   "subject": "place",
+   "lat": 18.7855219,
+   "lng": 99.0480511,
+   "placeId": "cm-curated-saiua-pa-kaeo",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1224,
+   "height": 816,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-saiua-pa-kaeo.jpg",
+   "url": "cm/p/cmcuratedsaiuapakaeo.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-soft-on-wheels",
+   "title": "Soft on wheels",
+   "description": "Soft on wheels at Chamcha Market, San Kamphaeng: soft-serve ice cream and popcorn from a truck",
+   "description_th": "Soft on wheels ตลาดฉำฉา สันกำแพง ไอศกรีมซอฟต์เสิร์ฟและป๊อปคอร์นจากรถ",
+   "subject": "place",
+   "lat": 18.7850682,
+   "lng": 99.0465936,
+   "placeId": "cm-curated-soft-on-wheels",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-soft-on-wheels.jpg",
+   "url": "cm/p/soft-on-wheels-cmcuratedsoftonwheels.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-spooncraft",
+   "title": "SPOONCRAFT",
+   "description": "SPOONCRAFT at Chamcha Market, San Kamphaeng: rings made from old spoons",
+   "description_th": "SPOONCRAFT ตลาดฉำฉา สันกำแพง แหวนทำจากช้อนเก่า",
+   "subject": "place",
+   "lat": 18.785027,
+   "lng": 99.0464322,
+   "placeId": "cm-curated-spooncraft",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-spooncraft.jpg",
+   "url": "cm/p/spooncraft-cmcuratedspooncraft.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-stanichoc",
+   "title": "StaniChoc",
+   "description": "StaniChoc at Chamcha Market, San Kamphaeng: craft chocolate from Mae Wang, Chiang Mai",
+   "description_th": "StaniChoc ตลาดฉำฉา สันกำแพง คราฟต์ช็อกโกแลตจากแม่วาง เชียงใหม่",
+   "subject": "place",
+   "lat": 18.7849403,
+   "lng": 99.0458331,
+   "placeId": "cm-curated-stanichoc",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1224,
+   "height": 816,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-stanichoc.jpg",
+   "url": "cm/p/stanichoc-cmcuratedstanichoc.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-the-idea",
+   "title": "The IDEA",
+   "description": "The IDEA at Chamcha Market, San Kamphaeng: printed-fabric tote bags, tumbler bags and small fabric goods",
+   "description_th": "The IDEA ตลาดฉำฉา สันกำแพง กระเป๋าผ้าพิมพ์ลาย ถุงใส่แก้ว ของใช้ผ้า",
+   "subject": "place",
+   "lat": 18.7852078,
+   "lng": 99.0478952,
+   "placeId": "cm-curated-the-idea",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-the-idea.jpg",
+   "url": "cm/p/the-idea-cmcuratedtheidea.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-toh-toh",
+   "title": "Toh Toh",
+   "description": "Toh Toh at Chamcha Market, San Kamphaeng: burgers, with seating upstairs",
+   "description_th": "Toh Toh ตลาดฉำฉา สันกำแพง เบอร์เกอร์ มีที่นั่งชั้นบน",
+   "subject": "place",
+   "lat": 18.7848472,
+   "lng": 99.0457731,
+   "placeId": "cm-curated-toh-toh",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1224,
+   "height": 816,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-toh-toh.jpg",
+   "url": "cm/p/toh-toh-cmcuratedtohtoh.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-tungjaitum-craft",
+   "title": "Tungjaitum craft",
+   "description": "Tungjaitum craft at Chamcha Market, San Kamphaeng: embroidered and appliqué coin purses and pouches",
+   "description_th": "ตั้งใจทำ คราฟท์ ตลาดฉำฉา สันกำแพง กระเป๋าเหรียญปักและปะติด",
+   "subject": "place",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": "cm-curated-tungjaitum-craft",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-tungjaitum-craft.jpg",
+   "url": "cm/p/tungjaitum-craft-cmcuratedtungjaitumcraft.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-wiang-usa",
+   "title": "เวียงอุษา",
+   "description": "เวียงอุษา at Chamcha Market, San Kamphaeng: indigo and embroidered jackets, dresses and hats",
+   "description_th": "เวียงอุษา ตลาดฉำฉา สันกำแพง เสื้อคลุมหม้อห้อมและปัก ชุด หมวก",
+   "subject": "place",
+   "lat": 18.7849992,
+   "lng": 99.0463296,
+   "placeId": "cm-curated-wiang-usa",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1469,
+   "height": 979,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-wiang-usa.jpg",
+   "url": "cm/p/cmcuratedwiangusa.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-wieng-papao-homemade",
+   "title": "Wieng Papao Homemade",
+   "description": "Wieng Papao Homemade at Chamcha Market, San Kamphaeng: homemade jams, preserves and dried tea",
+   "description_th": "Wieng Papao Homemade ตลาดฉำฉา สันกำแพง แยม ผลไม้ดอง ชาอบแห้ง ทำเอง",
+   "subject": "place",
+   "lat": 18.7853232,
+   "lng": 99.0476404,
+   "placeId": "cm-curated-wieng-papao-homemade",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1224,
+   "height": 816,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-wieng-papao-homemade.jpg",
+   "url": "cm/p/wieng-papao-homemade-cmcuratedwiengpapaohomemade.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-curated-yong-le-tea-house",
+   "title": "Yong Le Tea House",
+   "description": "Yong Le Tea House at Chamcha Market, San Kamphaeng: Chinese tea house: tea, Pu'er, matcha, mooncakes",
+   "description_th": "Yong Le Tea House ตลาดฉำฉา สันกำแพง โรงน้ำชาจีน ชา ผู่เอ๋อร์ มัทฉะ ขนมไหว้พระจันทร์",
+   "subject": "place",
+   "lat": 18.7852175,
+   "lng": 99.0471291,
+   "placeId": "cm-curated-yong-le-tea-house",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-curated-yong-le-tea-house.jpg",
+   "url": "cm/p/yong-le-tea-house-cmcuratedyongleteahouse.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-osm-node-10815775054",
+   "title": "Chamcha Market",
+   "description": "Chamcha Market at Chamcha Market, San Kamphaeng",
+   "description_th": "Chamcha Market ตลาดฉำฉา สันกำแพง",
+   "subject": "place",
+   "lat": 18.7854465,
+   "lng": 99.0479568,
+   "placeId": "cm-osm-node-10815775054",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-osm-node-10815775054.jpg",
+   "url": "cm/p/chamcha-market-10815775054.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-osm-node-5203436917",
+   "title": "บ้าน เปิงใจ๋",
+   "description": "บ้าน เปิงใจ๋ at Chamcha Market, San Kamphaeng",
+   "description_th": "บ้าน เปิงใจ๋ ตลาดฉำฉา สันกำแพง",
+   "subject": "place",
+   "lat": 18.7853423,
+   "lng": 99.0475573,
+   "placeId": "cm-osm-node-5203436917",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-osm-node-5203436917.jpg",
+   "url": "cm/p/5203436917.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-ovt-05b32254-6837-434c-911a-ce7369728b4f",
+   "title": "Pungpond",
+   "description": "Pungpond at Chamcha Market, San Kamphaeng",
+   "description_th": "Pungpond ตลาดฉำฉา สันกำแพง",
+   "subject": "place",
+   "lat": 18.785432,
+   "lng": 99.0478715,
+   "placeId": "cm-ovt-05b32254-6837-434c-911a-ce7369728b4f",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1469,
+   "height": 979,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-ovt-05b32254-6837-434c-911a-ce7369728b4f.jpg",
+   "url": null
+  },
+  {
+   "slug": "chamcha-20260927-place-ovt-495481d7-c0b9-4bad-83fd-48836e9d796c",
+   "title": "Bar~Barista",
+   "description": "Bar~Barista at Chamcha Market, San Kamphaeng",
+   "description_th": "Bar~Barista ตลาดฉำฉา สันกำแพง",
+   "subject": "place",
+   "lat": 18.7854247,
+   "lng": 99.0478297,
+   "placeId": "cm-ovt-495481d7-c0b9-4bad-83fd-48836e9d796c",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1469,
+   "height": 979,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-ovt-495481d7-c0b9-4bad-83fd-48836e9d796c.jpg",
+   "url": null
+  },
+  {
+   "slug": "chamcha-20260927-place-ovt-6bdccf9e-fdec-481a-a21c-96b1d37260a5",
+   "title": "เฮือน ณ ใจ๋",
+   "description": "เฮือน ณ ใจ๋ at Chamcha Market, San Kamphaeng",
+   "description_th": "เฮือน ณ ใจ๋ ตลาดฉำฉา สันกำแพง",
+   "subject": "place",
+   "lat": 18.7853536,
+   "lng": 99.0475952,
+   "placeId": "cm-ovt-6bdccf9e-fdec-481a-a21c-96b1d37260a5",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-ovt-6bdccf9e-fdec-481a-a21c-96b1d37260a5.jpg",
+   "url": "cm/p/najai-studio-6948121961372605.html"
+  },
+  {
+   "slug": "chamcha-20260927-place-ovt-eb944a11-312c-49cc-99b6-897c6177ff8d",
+   "title": "THONGDEE",
+   "description": "THONGDEE at Chamcha Market, San Kamphaeng",
+   "description_th": "THONGDEE ตลาดฉำฉา สันกำแพง",
+   "subject": "place",
+   "lat": 18.7853536,
+   "lng": 99.0475952,
+   "placeId": "cm-ovt-eb944a11-312c-49cc-99b6-897c6177ff8d",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1200,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": null,
+   "file": "photos/2026-09-27/chamcha-20260927-place-ovt-eb944a11-312c-49cc-99b6-897c6177ff8d.jpg",
+   "url": null
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-085",
+   "title": "Old Chiang Mai - Tha Ton bus parked in the market",
+   "description": "Old Chiang Mai - Tha Ton bus parked in the market — Chamcha Market, San Kamphaeng",
+   "description_th": "รถบัสเก่าสายเชียงใหม่-ท่าตอนจอดในตลาด — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852655,
+   "lng": 99.047655,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-085.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-099",
+   "title": "NAJAI Studio entrance through a vine arch",
+   "description": "NAJAI Studio entrance through a vine arch — Chamcha Market, San Kamphaeng",
+   "description_th": "ทางเข้านาใจสตูดิโอผ่านซุ้มไม้เลื้อย — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7853536,
+   "lng": 99.0475952,
+   "placeId": "cm-ovt-6bdccf9e-fdec-481a-a21c-96b1d37260a5",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1491,
+   "height": 994,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-099.jpg",
+   "url": "cm/p/najai-studio-6948121961372605.html"
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-127",
+   "title": "Indigo tree batik, pom-pom bags and hill-tribe jackets",
+   "description": "Indigo tree batik, pom-pom bags and hill-tribe jackets — Chamcha Market, San Kamphaeng",
+   "description_th": "ผ้าบาติกครามลายต้นไม้ กระเป๋าพู่ และเสื้อชนเผ่า — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851719,
+   "lng": 99.0474244,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-127.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-181",
+   "title": "Paper umbrellas before a teak house",
+   "description": "Paper umbrellas before a teak house — Chamcha Market, San Kamphaeng",
+   "description_th": "ร่มกระดาษหน้าบ้านไม้สัก — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851955,
+   "lng": 99.0471017,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 900,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-181.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-203",
+   "title": "A rusty VW van at Coffee Craft Space",
+   "description": "A rusty VW van at Coffee Craft Space — Chamcha Market, San Kamphaeng",
+   "description_th": "รถตู้ VW สนิมที่ Coffee Craft Space — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850829,
+   "lng": 99.0466748,
+   "placeId": "cm-curated-coffee-craft-space",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 852,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-203.jpg",
+   "url": "cm/p/coffee-craft-space-cmcuratedcoffeecraftspace.html"
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-249",
+   "title": "Painted banners and flowers on the path",
+   "description": "Painted banners and flowers on the path — Chamcha Market, San Kamphaeng",
+   "description_th": "ธงผ้าทาสีและดอกไม้บนพื้น — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848622,
+   "lng": 99.0458398,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 900,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-249.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-269",
+   "title": "Painted cloth flags over the lane",
+   "description": "Painted cloth flags over the lane — Chamcha Market, San Kamphaeng",
+   "description_th": "ธงผ้าเพ้นต์มือเหนือทางเดิน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848238,
+   "lng": 99.0457058,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 780,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-269.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-273",
+   "title": "Café tables under umbrellas by the pink house",
+   "description": "Café tables under umbrellas by the pink house — Chamcha Market, San Kamphaeng",
+   "description_th": "โต๊ะคาเฟ่ใต้ร่มข้างบ้านสีชมพู — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848472,
+   "lng": 99.0457731,
+   "placeId": "cm-curated-toh-toh",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 900,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-273.jpg",
+   "url": "cm/p/toh-toh-cmcuratedtohtoh.html"
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-339",
+   "title": "A Japanese stop sign and torii at a clothes booth",
+   "description": "A Japanese stop sign and torii at a clothes booth — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายหยุดญี่ปุ่นกับโทริอิหน้าซุ้มเสื้อผ้า — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849939,
+   "lng": 99.0462946,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1491,
+   "height": 994,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-339.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-365",
+   "title": "A garden path of crochet flowers to a teak house",
+   "description": "A garden path of crochet flowers to a teak house — Chamcha Market, San Kamphaeng",
+   "description_th": "ทางเดินสวนดอกไม้ถักสู่เรือนไม้สัก — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851242,
+   "lng": 99.046786,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-365.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-437",
+   "title": "Purple vine and a sourdough chalkboard on bamboo lattice",
+   "description": "Purple vine and a sourdough chalkboard on bamboo lattice — Chamcha Market, San Kamphaeng",
+   "description_th": "ไม้เลื้อยดอกม่วงกับกระดานดำซาวร์โดว์บนระแนงไม้ไผ่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785432,
+   "lng": 99.0478715,
+   "placeId": "cm-ovt-05b32254-6837-434c-911a-ce7369728b4f",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-437.jpg",
+   "url": null
+  },
+  {
+   "slug": "chamcha-20260927-aesthetic-ab017",
+   "title": "Ginger cat asleep outside the dreamcatcher shop",
+   "description": "Ginger cat asleep outside the dreamcatcher shop — Chamcha Market, San Kamphaeng",
+   "description_th": "แมวส้มนอนหลับหน้าร้านเครื่องดักฝัน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1491,
+   "height": 994,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-aesthetic-ab017.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-101",
+   "title": "Peng Jai, a wooden house shop with carved figures at the steps",
+   "description": "Peng Jai, a wooden house shop with carved figures at the steps — Chamcha Market, San Kamphaeng",
+   "description_th": "ร้านเปิงใจ๋ บ้านไม้มีตุ๊กตาไม้แกะที่บันได — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7853423,
+   "lng": 99.0475573,
+   "placeId": "cm-osm-node-5203436917",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-101.jpg",
+   "url": "cm/p/5203436917.html"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-105",
+   "title": "Silver-trimmed Lanna tiered roof",
+   "description": "Silver-trimmed Lanna tiered roof — Chamcha Market, San Kamphaeng",
+   "description_th": "หลังคาล้านนาซ้อนชั้นประดับเงิน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7853059,
+   "lng": 99.047492,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-105.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-209",
+   "title": "The yellow house with the carved green door",
+   "description": "The yellow house with the carved green door — Chamcha Market, San Kamphaeng",
+   "description_th": "บ้านเหลืองประตูไม้แกะสลักสีเขียว — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850533,
+   "lng": 99.0465631,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1491,
+   "height": 994,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-209.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-223",
+   "title": "Wiang Usa gateway and the Japanese stop sign",
+   "description": "Wiang Usa gateway and the Japanese stop sign — Chamcha Market, San Kamphaeng",
+   "description_th": "ซุ้มเวียงอุษาและป้ายหยุดญี่ปุ่น — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849992,
+   "lng": 99.0463296,
+   "placeId": "cm-curated-wiang-usa",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 852,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-223.jpg",
+   "url": "cm/p/cmcuratedwiangusa.html"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-227",
+   "title": "Miss Polly's lamplit silver hut",
+   "description": "Miss Polly's lamplit silver hut — Chamcha Market, San Kamphaeng",
+   "description_th": "กระท่อมเงินของ Miss Polly — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849779,
+   "lng": 99.0462442,
+   "placeId": "cm-curated-miss-polly",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 1331,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-227.jpg",
+   "url": "cm/p/miss-polly-cmcuratedmisspolly.html"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-275",
+   "title": "A pink wall with an arch of red flowers",
+   "description": "A pink wall with an arch of red flowers — Chamcha Market, San Kamphaeng",
+   "description_th": "ผนังสีชมพูกับซุ้มดอกไม้สีแดง — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848603,
+   "lng": 99.0458081,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 1463,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-275.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-279",
+   "title": "Turquoise arched window on the pink house",
+   "description": "Turquoise arched window on the pink house — Chamcha Market, San Kamphaeng",
+   "description_th": "หน้าต่างโค้งสีเทอร์ควอยซ์บนบ้านสีชมพู — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.784905,
+   "lng": 99.0458385,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 1331,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-279.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-291",
+   "title": "Yellow house with blue windows",
+   "description": "Yellow house with blue windows — Chamcha Market, San Kamphaeng",
+   "description_th": "บ้านสีเหลืองหน้าต่างสีฟ้า — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850906,
+   "lng": 99.0457989,
+   "placeId": "cm-ovt-6bdccf9e-fdec-481a-a21c-96b1d37260a5",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1491,
+   "height": 994,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-291.jpg",
+   "url": "cm/p/najai-studio-6948121961372605.html"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-335",
+   "title": "Miss Polly's little wooden silver shop",
+   "description": "Miss Polly's little wooden silver shop — Chamcha Market, San Kamphaeng",
+   "description_th": "ร้านเครื่องเงินไม้หลังเล็กของ Miss Polly — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.784973,
+   "lng": 99.0462196,
+   "placeId": "cm-curated-miss-polly",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1491,
+   "height": 1863,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-335.jpg",
+   "url": "cm/p/miss-polly-cmcuratedmisspolly.html"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-337",
+   "title": "Miss Polly, a silver maker's wooden hut",
+   "description": "Miss Polly, a silver maker's wooden hut — Chamcha Market, San Kamphaeng",
+   "description_th": "กระท่อมไม้ของ Miss Polly ร้านเครื่องเงิน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849829,
+   "lng": 99.0462583,
+   "placeId": "cm-curated-miss-polly",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-337.jpg",
+   "url": "cm/p/miss-polly-cmcuratedmisspolly.html"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-355",
+   "title": "A vintage VW van turned photo studio",
+   "description": "A vintage VW van turned photo studio — Chamcha Market, San Kamphaeng",
+   "description_th": "รถตู้โฟล์กเก่ากลายเป็นร้านถ่ายภาพ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785074,
+   "lng": 99.0465939,
+   "placeId": "cm-curated-mae-jo-phap-yon",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1491,
+   "height": 994,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-355.jpg",
+   "url": "cm/p/cmcuratedmaejophapyon.html"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-379",
+   "title": "A courtyard of paper umbrellas",
+   "description": "A courtyard of paper umbrellas — Chamcha Market, San Kamphaeng",
+   "description_th": "ลานร่มกระดาษสา — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852084,
+   "lng": 99.0470852,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-379.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-401",
+   "title": "Baan Pengjai's bamboo gateway and painted drive",
+   "description": "Baan Pengjai's bamboo gateway and painted drive — Chamcha Market, San Kamphaeng",
+   "description_th": "ซุ้มไม้ไผ่และทางวาดลายของบ้านเปิงใจ๋ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785336,
+   "lng": 99.0475071,
+   "placeId": "cm-osm-node-5203436917",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-401.jpg",
+   "url": "cm/p/5203436917.html"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-415",
+   "title": "NAJAI STUDIO's garden gate",
+   "description": "NAJAI STUDIO's garden gate — Chamcha Market, San Kamphaeng",
+   "description_th": "ประตูสวนของ NAJAI STUDIO — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7853823,
+   "lng": 99.04763,
+   "placeId": "cm-ovt-6bdccf9e-fdec-481a-a21c-96b1d37260a5",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-415.jpg",
+   "url": "cm/p/najai-studio-6948121961372605.html"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-541",
+   "title": "Through the lattice arch to the bakery",
+   "description": "Through the lattice arch to the bakery — Chamcha Market, San Kamphaeng",
+   "description_th": "มองผ่านซุ้มไม้ระแนงไปยังร้านเบเกอรี่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785491,
+   "lng": 99.0479328,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-541.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-ab067",
+   "title": "The old bus with a house on top",
+   "description": "The old bus with a house on top — Chamcha Market, San Kamphaeng",
+   "description_th": "รถบัสเก่ามีบ้านอยู่ด้านบน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-ab067.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-architecture-ab173",
+   "title": "The white steel-frame Chamchaa building",
+   "description": "The white steel-frame Chamchaa building — Chamcha Market, San Kamphaeng",
+   "description_th": "อาคารโครงเหล็กสีขาวของฉำฉา — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852911,
+   "lng": 99.0478994,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-architecture-ab173.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-craft-353",
+   "title": "A motorbike coffee stall",
+   "description": "A motorbike coffee stall — Chamcha Market, San Kamphaeng",
+   "description_th": "แผงกาแฟบนรถมอเตอร์ไซค์ — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7850672,
+   "lng": 99.0465579,
+   "placeId": "cm-curated-coffee-phi-ba",
+   "topic": [
+    "arts",
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1491,
+   "height": 994,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-craft-353.jpg",
+   "url": "cm/p/coffee-phi-ba-cmcuratedcoffeephiba.html"
+  },
+  {
+   "slug": "chamcha-20260927-food-105",
+   "title": "Mae Kham Sai fresh tofu under red paper umbrellas",
+   "description": "Mae Kham Sai fresh tofu under red paper umbrellas — Chamcha Market, San Kamphaeng",
+   "description_th": "เต้าหู้สดแม่คำใสใต้ร่มกระดาษสีแดง — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7853059,
+   "lng": 99.047492,
+   "placeId": "cm-curated-mae-kham-sai",
+   "topic": [
+    "food",
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-food-105.jpg",
+   "url": "cm/p/cmcuratedmaekhamsai.html"
+  },
+  {
+   "slug": "chamcha-20260927-food-207",
+   "title": "Soft on wheels ice-cream truck",
+   "description": "Soft on wheels ice-cream truck — Chamcha Market, San Kamphaeng",
+   "description_th": "รถไอศกรีม Soft on wheels — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850682,
+   "lng": 99.0465936,
+   "placeId": "cm-curated-soft-on-wheels",
+   "topic": [
+    "food",
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 638,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-food-207.jpg",
+   "url": "cm/p/soft-on-wheels-cmcuratedsoftonwheels.html"
+  },
+  {
+   "slug": "chamcha-20260927-food-251",
+   "title": "Tok Tok café under string lights",
+   "description": "Tok Tok café under string lights — Chamcha Market, San Kamphaeng",
+   "description_th": "คาเฟ่ Tok Tok ใต้ไฟประดับ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848522,
+   "lng": 99.045802,
+   "placeId": null,
+   "topic": [
+    "food",
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1597,
+   "height": 1064,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-food-251.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-food-273",
+   "title": "Toh Toh's lantern sign and wooden burger hut",
+   "description": "Toh Toh's lantern sign and wooden burger hut — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายโคมและกระท่อมไม้ร้านเบอร์เกอร์ Toh Toh — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848472,
+   "lng": 99.0457731,
+   "placeId": "cm-curated-toh-toh",
+   "topic": [
+    "food",
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 1331,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-food-273.jpg",
+   "url": "cm/p/toh-toh-cmcuratedtohtoh.html"
+  },
+  {
+   "slug": "chamcha-20260927-food-315",
+   "title": "Mama Tasty's bakery and drip-coffee table",
+   "description": "Mama Tasty's bakery and drip-coffee table — Chamcha Market, San Kamphaeng",
+   "description_th": "โต๊ะเบเกอรี่และกาแฟดริปของ Mama Tasty — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849489,
+   "lng": 99.0461186,
+   "placeId": "cm-curated-mama-tasty",
+   "topic": [
+    "food",
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1384,
+   "height": 922,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-food-315.jpg",
+   "url": "cm/p/mama-tasty-cmcuratedmamatasty.html"
+  },
+  {
+   "slug": "chamcha-20260927-food-439",
+   "title": "Pungpond Homemade Bakery counter",
+   "description": "Pungpond Homemade Bakery counter — Chamcha Market, San Kamphaeng",
+   "description_th": "เคาน์เตอร์ปังปอนด์ Homemade Bakery — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854403,
+   "lng": 99.0479145,
+   "placeId": "cm-ovt-05b32254-6837-434c-911a-ce7369728b4f",
+   "topic": [
+    "food",
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1384,
+   "height": 922,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-food-439.jpg",
+   "url": null
+  },
+  {
+   "slug": "chamcha-20260927-food-ab177",
+   "title": "Red-and-white awning snack stall and bakery tables",
+   "description": "Red-and-white awning snack stall and bakery tables — Chamcha Market, San Kamphaeng",
+   "description_th": "ร้านขนมกันสาดแดงขาวและโต๊ะร้านเบเกอรี่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7853307,
+   "lng": 99.0478989,
+   "placeId": null,
+   "topic": [
+    "food",
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-food-ab177.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-goods-141",
+   "title": "Beaded and pom-pom hill-tribe hats",
+   "description": "Beaded and pom-pom hill-tribe hats — Chamcha Market, San Kamphaeng",
+   "description_th": "หมวกชนเผ่าประดับลูกปัดและพู่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7851502,
+   "lng": 99.047424,
+   "placeId": null,
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 852,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-141.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-goods-173",
+   "title": "White lace blouses at Morrakot",
+   "description": "White lace blouses at Morrakot — Chamcha Market, San Kamphaeng",
+   "description_th": "เสื้อลูกไม้ขาวที่ร้าน Morrakot — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7852366,
+   "lng": 99.0472537,
+   "placeId": "cm-curated-morrakot",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 1331,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-173.jpg",
+   "url": "cm/p/morrakot-cmcuratedmorrakot.html"
+  },
+  {
+   "slug": "chamcha-20260927-goods-175",
+   "title": "Leaf-printed scarves at Lanna Pastel",
+   "description": "Leaf-printed scarves at Lanna Pastel — Chamcha Market, San Kamphaeng",
+   "description_th": "ผ้าพันคอพิมพ์ใบไม้ที่ Lanna Pastel — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7852261,
+   "lng": 99.0472173,
+   "placeId": "cm-curated-lanna-pastel",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 1197,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-175.jpg",
+   "url": "cm/p/lanna-pastel-cmcuratedlannapastel.html"
+  },
+  {
+   "slug": "chamcha-20260927-goods-225",
+   "title": "Handy Baggie under a thatched roof",
+   "description": "Handy Baggie under a thatched roof — Chamcha Market, San Kamphaeng",
+   "description_th": "Handy Baggie ใต้หลังคามุงจาก — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7849865,
+   "lng": 99.0462872,
+   "placeId": "cm-curated-handy-baggie",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 780,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-225.jpg",
+   "url": "cm/p/handy-baggie-cmcuratedhandybaggie.html"
+  },
+  {
+   "slug": "chamcha-20260927-goods-245",
+   "title": "Loang Himkao jewellery and cotton",
+   "description": "Loang Himkao jewellery and cotton — Chamcha Market, San Kamphaeng",
+   "description_th": "เครื่องประดับและผ้าฝ้ายของ Loang Himkao — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7848856,
+   "lng": 99.045905,
+   "placeId": "cm-curated-loang-him-kao",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 852,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-245.jpg",
+   "url": "cm/p/loang-him-kao-cmcuratedloanghimkao.html"
+  },
+  {
+   "slug": "chamcha-20260927-goods-365",
+   "title": "Crocheted sunflowers in tin buckets",
+   "description": "Crocheted sunflowers in tin buckets — Chamcha Market, San Kamphaeng",
+   "description_th": "ดอกทานตะวันถักในถังสังกะสี — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7851242,
+   "lng": 99.046786,
+   "placeId": null,
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-365.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-goods-377",
+   "title": "Rattan fans and straw hats at a bamboo stall",
+   "description": "Rattan fans and straw hats at a bamboo stall — Chamcha Market, San Kamphaeng",
+   "description_th": "พัดหวายและหมวกสานที่ร้านไม้ไผ่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7851983,
+   "lng": 99.0470433,
+   "placeId": null,
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 780,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-377.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-goods-423",
+   "title": "Fabric mobiles in the arched windows of HUEN WANIDA",
+   "description": "Fabric mobiles in the arched windows of HUEN WANIDA — Chamcha Market, San Kamphaeng",
+   "description_th": "โมบายผ้าในหน้าต่างโค้งร้าน HUEN WANIDA — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7854433,
+   "lng": 99.0477239,
+   "placeId": "cm-curated-huen-wanida",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-423.jpg",
+   "url": "cm/p/huen-wanida-cmcuratedhuenwanida.html"
+  },
+  {
+   "slug": "chamcha-20260927-goods-433",
+   "title": "Hand-painted cat quilts at KOON",
+   "description": "Hand-painted cat quilts at KOON — Chamcha Market, San Kamphaeng",
+   "description_th": "ผ้าเขียนลายแมวที่ร้านคูน — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7854218,
+   "lng": 99.0477873,
+   "placeId": "cm-curated-koon",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-433.jpg",
+   "url": "cm/p/koon-cmcuratedkoon.html"
+  },
+  {
+   "slug": "chamcha-20260927-goods-503",
+   "title": "Embroidered cotton dresses at LANTONG",
+   "description": "Embroidered cotton dresses at LANTONG — Chamcha Market, San Kamphaeng",
+   "description_th": "ชุดผ้าฝ้ายปักลายที่ร้าน LANTONG — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7857137,
+   "lng": 99.0478762,
+   "placeId": "cm-curated-lantong",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-503.jpg",
+   "url": "cm/p/lantong-cmcuratedlantong.html"
+  },
+  {
+   "slug": "chamcha-20260927-goods-509",
+   "title": "Felt cats at Embroidery Girl",
+   "description": "Felt cats at Embroidery Girl — Chamcha Market, San Kamphaeng",
+   "description_th": "ตุ๊กตาแมวสักหลาดร้าน Embroidery Girl — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7857182,
+   "lng": 99.0478366,
+   "placeId": "cm-curated-embroidery-girl",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 900,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-509.jpg",
+   "url": "cm/p/embroidery-girl-cmcuratedembroiderygirl.html"
+  },
+  {
+   "slug": "chamcha-20260927-goods-ab039",
+   "title": "Jira: portrait prints and an Akha jacket",
+   "description": "Jira: portrait prints and an Akha jacket — Chamcha Market, San Kamphaeng",
+   "description_th": "Jira ภาพพิมพ์หญิงชนเผ่าและเสื้ออาข่า — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": "cm-curated-jira",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1597,
+   "height": 1064,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-ab039.jpg",
+   "url": "cm/p/jira-cmcuratedjira.html"
+  },
+  {
+   "slug": "chamcha-20260927-goods-ab137",
+   "title": "Two embroidered indigo jackets",
+   "description": "Two embroidered indigo jackets — Chamcha Market, San Kamphaeng",
+   "description_th": "เสื้อแจ็กเก็ตครามปักลายสองตัว — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7852203,
+   "lng": 99.0479626,
+   "placeId": null,
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 1331,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-ab137.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-goods-ab175",
+   "title": "PEN Dee HUG: bags, crochet blankets and a woven tunic",
+   "description": "PEN Dee HUG: bags, crochet blankets and a woven tunic — Chamcha Market, San Kamphaeng",
+   "description_th": "ร้าน PEN Dee HUG กระเป๋า ผ้าห่มถัก และเสื้อทอ — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7853082,
+   "lng": 99.0479137,
+   "placeId": "cm-curated-pen-dee-hug",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-ab175.jpg",
+   "url": "cm/p/pen-dee-hug-cmcuratedpendeehug.html"
+  },
+  {
+   "slug": "chamcha-20260927-goods-ab179",
+   "title": "Leather shop: animal key rings and dream catchers",
+   "description": "Leather shop: animal key rings and dream catchers — Chamcha Market, San Kamphaeng",
+   "description_th": "ร้านเครื่องหนัง พวงกุญแจรูปสัตว์และตาข่ายดักฝัน — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7853556,
+   "lng": 99.0479,
+   "placeId": null,
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-ab179.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-goods-ab301",
+   "title": "Crochet bags with sunglasses faces",
+   "description": "Crochet bags with sunglasses faces — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าโครเชต์ลายหน้าคนใส่แว่นกันแดด — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.785636,
+   "lng": 99.0478918,
+   "placeId": null,
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-ab301.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-goods-ab357",
+   "title": "Crocheted bags with faces",
+   "description": "Crocheted bags with faces — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าถักลายหน้าคน — ตลาดฉำฉา สันกำแพง",
+   "subject": "merch",
+   "lat": 18.7856415,
+   "lng": 99.0479003,
+   "placeId": null,
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-goods-ab357.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-096",
+   "title": "Copper pumpkin lanterns under a vine arch",
+   "description": "Copper pumpkin lanterns under a vine arch — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมทองแดงทรงฟักทองใต้ซุ้มไม้เลื้อย — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7853549,
+   "lng": 99.0476438,
+   "placeId": "cm-ovt-6bdccf9e-fdec-481a-a21c-96b1d37260a5",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-096.jpg",
+   "url": "cm/p/najai-studio-6948121961372605.html"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-102",
+   "title": "Wicker lantern trailing indigo cloth strips",
+   "description": "Wicker lantern trailing indigo cloth strips — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมสานห้อยริ้วผ้าคราม — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7853325,
+   "lng": 99.0475436,
+   "placeId": "cm-osm-node-5203436917",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-102.jpg",
+   "url": "cm/p/5203436917.html"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-112",
+   "title": "Painted cloth lanterns in the ribbon canopy",
+   "description": "Painted cloth lanterns in the ribbon canopy — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมผ้าวาดลายใต้หลังคาริ้วผ้า — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852678,
+   "lng": 99.0473943,
+   "placeId": "cm-curated-loang-him-kao",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 638,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-112.jpg",
+   "url": "cm/p/loang-him-kao-cmcuratedloanghimkao.html"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-116",
+   "title": "Blue yarn God's-eyes hung in a tree",
+   "description": "Blue yarn God's-eyes hung in a tree — Chamcha Market, San Kamphaeng",
+   "description_th": "ตาเทวดาไหมพรมสีฟ้าแขวนบนต้นไม้ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852277,
+   "lng": 99.0473997,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-116.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-122",
+   "title": "A cloud of red God's-eyes under the pergola",
+   "description": "A cloud of red God's-eyes under the pergola — Chamcha Market, San Kamphaeng",
+   "description_th": "ตาเทวดาสีแดงห้อยเป็นพวงใต้ระแนง — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852086,
+   "lng": 99.047415,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-122.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-171",
+   "title": "A ceiling of paper streamers over the lane",
+   "description": "A ceiling of paper streamers over the lane — Chamcha Market, San Kamphaeng",
+   "description_th": "ริ้วกระดาษห้อยเต็มเพดานทางเดิน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852472,
+   "lng": 99.0472891,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1597,
+   "height": 898,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-171.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-183",
+   "title": "Palm-leaf fans hung in a column",
+   "description": "Palm-leaf fans hung in a column — Chamcha Market, San Kamphaeng",
+   "description_th": "พัดใบลานห้อยเป็นสาย — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851817,
+   "lng": 99.047062,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-183.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-194",
+   "title": "Crochet wisteria under a SUNFLOWER garland",
+   "description": "Crochet wisteria under a SUNFLOWER garland — Chamcha Market, San Kamphaeng",
+   "description_th": "ดอกไม้ถักโครเชต์ห้อยใต้ป้ายถัก SUNFLOWER — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851274,
+   "lng": 99.0468381,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-194.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-202",
+   "title": "Hand-painted cloth lanterns: SLOW LIFE, GOOD CRAFT",
+   "description": "Hand-painted cloth lanterns: SLOW LIFE, GOOD CRAFT — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมผ้าเขียนมือ SLOW LIFE, GOOD CRAFT — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850841,
+   "lng": 99.0466873,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-202.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-249",
+   "title": "Hand-painted cloth flags: LOVE ME LOVE MY CAT",
+   "description": "Hand-painted cloth flags: LOVE ME LOVE MY CAT — Chamcha Market, San Kamphaeng",
+   "description_th": "ธงผ้าเขียนมือ LOVE ME LOVE MY CAT — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848622,
+   "lng": 99.0458398,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 780,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-249.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-259",
+   "title": "Cut-paper lanterns along the eave",
+   "description": "Cut-paper lanterns along the eave — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมกระดาษตัดห้อยเรียงตามชายคา — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848168,
+   "lng": 99.0456689,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 638,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-259.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-275",
+   "title": "Tin lanterns under a bougainvillea arch",
+   "description": "Tin lanterns under a bougainvillea arch — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมสังกะสีใต้ซุ้มดอกเฟื่องฟ้า — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848603,
+   "lng": 99.0458081,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-275.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-359",
+   "title": "Painted cloth lanterns over the lane",
+   "description": "Painted cloth lanterns over the lane — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมผ้าเขียนลายแขวนเหนือทางเดิน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850892,
+   "lng": 99.046668,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-359.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-364",
+   "title": "Crocheted hanging planters and bead strands",
+   "description": "Crocheted hanging planters and bead strands — Chamcha Market, San Kamphaeng",
+   "description_th": "กระถางแขวนถักโครเชต์กับสายลูกปัด — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851201,
+   "lng": 99.0467658,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 1197,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-364.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-367",
+   "title": "Crocheted SUNFLOWER garland on a bamboo fence",
+   "description": "Crocheted SUNFLOWER garland on a bamboo fence — Chamcha Market, San Kamphaeng",
+   "description_th": "พวงมาลัยถักตัวอักษร SUNFLOWER บนรั้วไม้ไผ่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851356,
+   "lng": 99.0468285,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1320,
+   "height": 742,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-367.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-375",
+   "title": "Canopy of white and blue cloth strips",
+   "description": "Canopy of white and blue cloth strips — Chamcha Market, San Kamphaeng",
+   "description_th": "หลังคาผ้าริ้วสีขาวฟ้าเหนือทางเดิน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851868,
+   "lng": 99.0470006,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 658,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-375.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-401",
+   "title": "Woven lanterns with cloth tails at Baan Pengjai",
+   "description": "Woven lanterns with cloth tails at Baan Pengjai — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมสานห้อยริ้วผ้าที่บ้านเปิงใจ๋ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785336,
+   "lng": 99.0475071,
+   "placeId": "cm-osm-node-5203436917",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 638,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-401.jpg",
+   "url": "cm/p/5203436917.html"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-431",
+   "title": "Painted cloth strips with a pig face",
+   "description": "Painted cloth strips with a pig face — Chamcha Market, San Kamphaeng",
+   "description_th": "ริ้วผ้าเขียนลายหน้าหมู — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854305,
+   "lng": 99.0477462,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 710,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-431.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-448",
+   "title": "Cloth pom-poms under the Loanghimkao arch",
+   "description": "Cloth pom-poms under the Loanghimkao arch — Chamcha Market, San Kamphaeng",
+   "description_th": "ลูกปอมผ้าใต้ซุ้มโหล่งฮิมคาว — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854547,
+   "lng": 99.047983,
+   "placeId": "cm-curated-loang-him-kao",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-448.jpg",
+   "url": "cm/p/loang-him-kao-cmcuratedloanghimkao.html"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-508",
+   "title": "Felt cat banner",
+   "description": "Felt cat banner — Chamcha Market, San Kamphaeng",
+   "description_th": "ธงแมวผ้าสักหลาด — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7857209,
+   "lng": 99.0478375,
+   "placeId": "cm-curated-embroidery-girl",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-508.jpg",
+   "url": "cm/p/embroidery-girl-cmcuratedembroiderygirl.html"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-543",
+   "title": "Rag pom-poms over the bamboo arch",
+   "description": "Rag pom-poms over the bamboo arch — Chamcha Market, San Kamphaeng",
+   "description_th": "ปอมปอมผ้าเศษห้อยใต้ซุ้มไม้ไผ่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854757,
+   "lng": 99.0479393,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 710,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-543.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-ab184",
+   "title": "Woven lanterns hanging at a shop window",
+   "description": "Woven lanterns hanging at a shop window — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมสานแขวนหน้าหน้าต่างร้าน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854106,
+   "lng": 99.047923,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 710,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-ab184.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-ab186",
+   "title": "Fabric-flower balls under the Loanghimkao arch",
+   "description": "Fabric-flower balls under the Loanghimkao arch — Chamcha Market, San Kamphaeng",
+   "description_th": "พวงดอกไม้ผ้าห้อยใต้ซุ้มโหล่งฮิมคาว — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785436,
+   "lng": 99.0479415,
+   "placeId": "cm-curated-loang-him-kao",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-ab186.jpg",
+   "url": "cm/p/loang-him-kao-cmcuratedloanghimkao.html"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-ab254",
+   "title": "A lantern of pale cloth strips over the lane",
+   "description": "A lantern of pale cloth strips over the lane — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมผ้าริ้วสีอ่อนแขวนเหนือทางเดิน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7856304,
+   "lng": 99.047893,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-ab254.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-hanging-ab306",
+   "title": "Strings of crochet octopuses and animals",
+   "description": "Strings of crochet octopuses and animals — Chamcha Market, San Kamphaeng",
+   "description_th": "พวงตุ๊กตาถักโครเชต์ห้อยเป็นสายยาว — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7856371,
+   "lng": 99.0478955,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-hanging-ab306.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-049",
+   "title": "White tents under rain trees",
+   "description": "White tents under rain trees — Chamcha Market, San Kamphaeng",
+   "description_th": "เต็นท์สีขาวใต้ต้นจามจุรี — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7852588,
+   "lng": 99.0479139,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 900,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-049.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-089",
+   "title": "Chamcha Market lane under the rain trees",
+   "description": "Chamcha Market lane under the rain trees — Chamcha Market, San Kamphaeng",
+   "description_th": "ทางเดินตลาดฉำฉาใต้ต้นจามจุรี — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7852844,
+   "lng": 99.0476394,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-089.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-171",
+   "title": "Paper streamers over the lane",
+   "description": "Paper streamers over the lane — Chamcha Market, San Kamphaeng",
+   "description_th": "ริ้วกระดาษเหนือทางเดิน — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7852472,
+   "lng": 99.0472891,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 899,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-171.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-247",
+   "title": "A row of white stalls under the trees",
+   "description": "A row of white stalls under the trees — Chamcha Market, San Kamphaeng",
+   "description_th": "ร้านเต็นท์ขาวเรียงใต้ต้นไม้ — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7848739,
+   "lng": 99.0458714,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 900,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-247.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-287",
+   "title": "The stall lane under rain trees and bunting",
+   "description": "The stall lane under rain trees and bunting — Chamcha Market, San Kamphaeng",
+   "description_th": "ทางเดินแผงร้านใต้ต้นจามจุรีและธงราว — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7850436,
+   "lng": 99.0458116,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 718,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-287.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-365",
+   "title": "The canopy of hanging cloth strips",
+   "description": "The canopy of hanging cloth strips — Chamcha Market, San Kamphaeng",
+   "description_th": "หลังคาริ้วผ้าแขวน — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7851242,
+   "lng": 99.046786,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-365.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-413",
+   "title": "Into the tent square",
+   "description": "Into the tent square — Chamcha Market, San Kamphaeng",
+   "description_th": "ทางเข้าลานเต็นท์ — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7853696,
+   "lng": 99.0475978,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-413.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-459",
+   "title": "Red paper umbrellas over the clothes lane",
+   "description": "Red paper umbrellas over the clothes lane — Chamcha Market, San Kamphaeng",
+   "description_th": "ร่มกระดาษสีแดงเหนือทางเดินแผงเสื้อผ้า — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7855181,
+   "lng": 99.0479123,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-459.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-ab055",
+   "title": "Craft tents under giant rain trees",
+   "description": "Craft tents under giant rain trees — Chamcha Market, San Kamphaeng",
+   "description_th": "เต็นท์งานฝีมือใต้ต้นฉำฉายักษ์ — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 899,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-ab055.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-ab157",
+   "title": "Under the big rain tree",
+   "description": "Under the big rain tree — Chamcha Market, San Kamphaeng",
+   "description_th": "ใต้ต้นฉำฉาใหญ่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7852213,
+   "lng": 99.0478289,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-ab157.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-ab203",
+   "title": "The netted clothing lane",
+   "description": "The netted clothing lane — Chamcha Market, San Kamphaeng",
+   "description_th": "ซอยเสื้อผ้าใต้ตาข่ายกรองแสง — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7855883,
+   "lng": 99.0479056,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-ab203.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-ab253",
+   "title": "The clothing lane under shade nets and a cloth-strip lantern",
+   "description": "The clothing lane under shade nets and a cloth-strip lantern — Chamcha Market, San Kamphaeng",
+   "description_th": "ทางเดินร้านเสื้อผ้าใต้ตาข่ายกรองแสงกับโคมผ้าริ้ว — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7856296,
+   "lng": 99.0478912,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 899,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-ab253.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-market-ab303",
+   "title": "Crochet dolls hanging under a thatched stall",
+   "description": "Crochet dolls hanging under a thatched stall — Chamcha Market, San Kamphaeng",
+   "description_th": "ตุ๊กตาโครเชต์แขวนใต้แผงหลังคามุงจาก — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7856362,
+   "lng": 99.0478932,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1066,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-market-ab303.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-009",
+   "title": "Pink kaftan embroidered with flowers",
+   "description": "Pink kaftan embroidered with flowers — Chamcha Market, San Kamphaeng",
+   "description_th": "เสื้อคลุมสีชมพูปักลายดอกไม้ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785309,
+   "lng": 99.0479218,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-009.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-127",
+   "title": "Indigo batik of a flowering tree",
+   "description": "Indigo batik of a flowering tree — Chamcha Market, San Kamphaeng",
+   "description_th": "ผ้าบาติกครามลายต้นไม้ออกดอก — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851719,
+   "lng": 99.0474244,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 1197,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-127.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-128",
+   "title": "Red embroidered bag with a key pattern",
+   "description": "Red embroidered bag with a key pattern — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าผ้าปักลายก้นหอยสีแดง — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851682,
+   "lng": 99.047427,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-128.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-139",
+   "title": "Bag hung with bright wool pom-poms",
+   "description": "Bag hung with bright wool pom-poms — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าห้อยพู่ไหมพรมหลากสี — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851611,
+   "lng": 99.0474205,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-139.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-156",
+   "title": "Crochet flower bag",
+   "description": "Crochet flower bag — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าถักโครเชต์ลายดอกไม้ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851758,
+   "lng": 99.047423,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-156.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-175",
+   "title": "Leaf-printed scarves on a wooden rack",
+   "description": "Leaf-printed scarves on a wooden rack — Chamcha Market, San Kamphaeng",
+   "description_th": "ผ้าพันคอพิมพ์ลายใบไม้บนราวไม้ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852261,
+   "lng": 99.0472173,
+   "placeId": "cm-curated-lanna-pastel",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-175.jpg",
+   "url": "cm/p/lanna-pastel-cmcuratedlannapastel.html"
+  },
+  {
+   "slug": "chamcha-20260927-merch-181",
+   "title": "Painted paper umbrellas in green, yellow and white",
+   "description": "Painted paper umbrellas in green, yellow and white — Chamcha Market, San Kamphaeng",
+   "description_th": "ร่มกระดาษเขียน ลายสีเขียว เหลือง ขาว — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851955,
+   "lng": 99.0471017,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 710,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-181.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-195",
+   "title": "Crochet sunflowers and lilies in pots",
+   "description": "Crochet sunflowers and lilies in pots — Chamcha Market, San Kamphaeng",
+   "description_th": "ดอกทานตะวันและลิลลี่ถักโครเชต์ในกระถาง — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851199,
+   "lng": 99.046819,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 900,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-195.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-210",
+   "title": "Painted wooden cat faces at Hearts and Hands",
+   "description": "Painted wooden cat faces at Hearts and Hands — Chamcha Market, San Kamphaeng",
+   "description_th": "หน้าแมวไม้เพ้นท์ร้าน Hearts and Hands — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850498,
+   "lng": 99.0465443,
+   "placeId": "cm-curated-hearts-and-hands",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-210.jpg",
+   "url": "cm/p/hearts-and-hands-cmcuratedheartsandhands.html"
+  },
+  {
+   "slug": "chamcha-20260927-merch-215",
+   "title": "Hand-painted Chiang Mai postcards",
+   "description": "Hand-painted Chiang Mai postcards — Chamcha Market, San Kamphaeng",
+   "description_th": "โปสการ์ดวาดมือลายเชียงใหม่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850332,
+   "lng": 99.0464513,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-215.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-237",
+   "title": "Woven bags with big wooden buttons",
+   "description": "Woven bags with big wooden buttons — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าผ้าทอติดกระดุมไม้ใหญ่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849315,
+   "lng": 99.0460505,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-237.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-257",
+   "title": "Wall of fabric elephant keyrings",
+   "description": "Wall of fabric elephant keyrings — Chamcha Market, San Kamphaeng",
+   "description_th": "ผนังพวงกุญแจช้างผ้า — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848265,
+   "lng": 99.0457027,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-257.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-283",
+   "title": "GAANTH ceramic bowls, vases and little figures",
+   "description": "GAANTH ceramic bowls, vases and little figures — Chamcha Market, San Kamphaeng",
+   "description_th": "ถ้วย แจกัน และตุ๊กตาเซรามิกร้าน GAANTH — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.784974,
+   "lng": 99.0458303,
+   "placeId": "cm-curated-gaanth",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-283.jpg",
+   "url": "cm/p/gaanth-cmcuratedgaanth.html"
+  },
+  {
+   "slug": "chamcha-20260927-merch-284",
+   "title": "Shirt and bucket hat printed with village figures",
+   "description": "Shirt and bucket hat printed with village figures — Chamcha Market, San Kamphaeng",
+   "description_th": "เสื้อและหมวกลายคนหมู่บ้าน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849906,
+   "lng": 99.0458241,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-284.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-315",
+   "title": "Crochet flowers and animal keyrings at Awila",
+   "description": "Crochet flowers and animal keyrings at Awila — Chamcha Market, San Kamphaeng",
+   "description_th": "ดอกไม้และพวงกุญแจสัตว์ถักโครเชต์ร้าน Awila — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849489,
+   "lng": 99.0461186,
+   "placeId": "cm-curated-awila-handicraft",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-315.jpg",
+   "url": "cm/p/awila-handicraft-cmcuratedawilahandicraft.html"
+  },
+  {
+   "slug": "chamcha-20260927-merch-333",
+   "title": "Lilac crochet bag outside Baan-U-Sa",
+   "description": "Lilac crochet bag outside Baan-U-Sa — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าถักโครเชต์สีม่วงหน้าบ้านอุษา — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849644,
+   "lng": 99.0461788,
+   "placeId": "cm-curated-baan-u-sa",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-333.jpg",
+   "url": "cm/p/baan-u-sa-cmcuratedbaanusa.html"
+  },
+  {
+   "slug": "chamcha-20260927-merch-346",
+   "title": "Hand-drawn Chiang Mai postcards",
+   "description": "Hand-drawn Chiang Mai postcards — Chamcha Market, San Kamphaeng",
+   "description_th": "โปสการ์ดเชียงใหม่วาดมือ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850307,
+   "lng": 99.0464252,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-346.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-353",
+   "title": "Coffee beans and a moka pot at Coffee Phi Ba",
+   "description": "Coffee beans and a moka pot at Coffee Phi Ba — Chamcha Market, San Kamphaeng",
+   "description_th": "เมล็ดกาแฟกับหม้อต้มโมก้าที่กาแฟผีบ้า — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850672,
+   "lng": 99.0465579,
+   "placeId": "cm-curated-coffee-phi-ba",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-353.jpg",
+   "url": "cm/p/coffee-phi-ba-cmcuratedcoffeephiba.html"
+  },
+  {
+   "slug": "chamcha-20260927-merch-365",
+   "title": "Crocheted sunflowers in tins",
+   "description": "Crocheted sunflowers in tins — Chamcha Market, San Kamphaeng",
+   "description_th": "ดอกทานตะวันถักโครเชต์ในกระป๋อง — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851242,
+   "lng": 99.046786,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-365.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-419",
+   "title": "Orange crocheted top at Lannaru",
+   "description": "Orange crocheted top at Lannaru — Chamcha Market, San Kamphaeng",
+   "description_th": "เสื้อถักโครเชต์สีส้มที่ร้าน Lannaru — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854026,
+   "lng": 99.047699,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-419.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-425",
+   "title": "Cloth cats, bears and dolls on a rack",
+   "description": "Cloth cats, bears and dolls on a rack — Chamcha Market, San Kamphaeng",
+   "description_th": "ตุ๊กตาผ้ารูปแมว หมี และตุ๊กตาเด็ก บนราว — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854674,
+   "lng": 99.0477212,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-425.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-433",
+   "title": "Hand-painted cat quilts at KOON",
+   "description": "Hand-painted cat quilts at KOON — Chamcha Market, San Kamphaeng",
+   "description_th": "ผ้าห่มเขียนลายแมวที่ร้าน KOON — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854218,
+   "lng": 99.0477873,
+   "placeId": "cm-curated-koon",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-433.jpg",
+   "url": "cm/p/koon-cmcuratedkoon.html"
+  },
+  {
+   "slug": "chamcha-20260927-merch-439",
+   "title": "Pastry case at Pungpond Homemade Bakery",
+   "description": "Pastry case at Pungpond Homemade Bakery — Chamcha Market, San Kamphaeng",
+   "description_th": "ตู้ขนมปังอบที่ร้านปังปอนด์ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854403,
+   "lng": 99.0479145,
+   "placeId": "cm-ovt-05b32254-6837-434c-911a-ce7369728b4f",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-439.jpg",
+   "url": null
+  },
+  {
+   "slug": "chamcha-20260927-merch-458",
+   "title": "Wooden toys, whistles and rainbow slinkies",
+   "description": "Wooden toys, whistles and rainbow slinkies — Chamcha Market, San Kamphaeng",
+   "description_th": "ของเล่นไม้ นกหวีด และสปริงสีรุ้ง — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7855096,
+   "lng": 99.0479144,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-458.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-471",
+   "title": "Crocheted tote bags with faces and flowers",
+   "description": "Crocheted tote bags with faces and flowers — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าถักโครเชต์ลายหน้าคนและดอกไม้ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785619,
+   "lng": 99.0479046,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-471.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-483",
+   "title": "Flip-flops with crocheted flowers",
+   "description": "Flip-flops with crocheted flowers — Chamcha Market, San Kamphaeng",
+   "description_th": "รองเท้าแตะแต่งดอกไม้ถักโครเชต์ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7856205,
+   "lng": 99.0479156,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-483.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-490",
+   "title": "Pink embroidered kaftan",
+   "description": "Pink embroidered kaftan — Chamcha Market, San Kamphaeng",
+   "description_th": "ชุดคลุมสีชมพูปักดอกไม้ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7856676,
+   "lng": 99.0479752,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-490.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-532",
+   "title": "Board of tassel earrings",
+   "description": "Board of tassel earrings — Chamcha Market, San Kamphaeng",
+   "description_th": "แผงต่างหูพู่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7856236,
+   "lng": 99.0478899,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-532.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab027",
+   "title": "Woven totes under a HANDMADE sign",
+   "description": "Woven totes under a HANDMADE sign — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าผ้าทอใต้ป้าย HANDMADE — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 937,
+   "height": 937,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab027.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab040",
+   "title": "Silver-beaded Akha-style headdress",
+   "description": "Silver-beaded Akha-style headdress — Chamcha Market, San Kamphaeng",
+   "description_th": "หมวกแบบอาข่าประดับลูกปัดเงิน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": "cm-curated-jira",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab040.jpg",
+   "url": "cm/p/jira-cmcuratedjira.html"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab043",
+   "title": "Tiger appliqué shirt",
+   "description": "Tiger appliqué shirt — Chamcha Market, San Kamphaeng",
+   "description_th": "เสื้อปะผ้ารูปเสือ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab043.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab045",
+   "title": "Pom-pom embroidered pouches on a ladder rack",
+   "description": "Pom-pom embroidered pouches on a ladder rack — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าปักประดับปอมปอมบนชั้นบันได — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 900,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab045.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab086",
+   "title": "Coloured leather wallets and card holders",
+   "description": "Coloured leather wallets and card holders — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าสตางค์และที่ใส่บัตรหนังหลากสี — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852039,
+   "lng": 99.0478016,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab086.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab138",
+   "title": "Two embroidered indigo jackets",
+   "description": "Two embroidered indigo jackets — Chamcha Market, San Kamphaeng",
+   "description_th": "เสื้อครามปักลายสองตัว — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852229,
+   "lng": 99.0479634,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1107,
+   "height": 622,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab138.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab165",
+   "title": "Embroidered bag straps and pom-poms",
+   "description": "Embroidered bag straps and pom-poms — Chamcha Market, San Kamphaeng",
+   "description_th": "สายกระเป๋าปักลายกับพู่ไหมพรมสีสด — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852664,
+   "lng": 99.0478358,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab165.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab166",
+   "title": "A denim tote with appliqué giraffes",
+   "description": "A denim tote with appliqué giraffes — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋ายีนส์ปะผ้ารูปยีราฟ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852693,
+   "lng": 99.0478474,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab166.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab168",
+   "title": "A tiger-and-flower appliqué top",
+   "description": "A tiger-and-flower appliqué top — Chamcha Market, San Kamphaeng",
+   "description_th": "เสื้อปะผ้ารูปเสือกับดอกไม้ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785275,
+   "lng": 99.047868,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab168.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab171",
+   "title": "Straw baskets on woven runners",
+   "description": "Straw baskets on woven runners — Chamcha Market, San Kamphaeng",
+   "description_th": "ตะกร้าสานแขวนบนผ้าทอ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852793,
+   "lng": 99.0478922,
+   "placeId": "cm-curated-pen-dee-hug",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 638,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab171.jpg",
+   "url": "cm/p/pen-dee-hug-cmcuratedpendeehug.html"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab173",
+   "title": "A big embroidered mandala hanging",
+   "description": "A big embroidered mandala hanging — Chamcha Market, San Kamphaeng",
+   "description_th": "ผ้าปักลายแมนดาลาผืนใหญ่ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852911,
+   "lng": 99.0478994,
+   "placeId": "cm-curated-pen-dee-hug",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab173.jpg",
+   "url": "cm/p/pen-dee-hug-cmcuratedpendeehug.html"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab221",
+   "title": "Tassel and pom-pom earrings on a pegboard",
+   "description": "Tassel and pom-pom earrings on a pegboard — Chamcha Market, San Kamphaeng",
+   "description_th": "ต่างหูพู่และปอมปอมบนแผงตะแกรง — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785623,
+   "lng": 99.0478799,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab221.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab312",
+   "title": "Crochet tote bags with sunglasses faces",
+   "description": "Crochet tote bags with sunglasses faces — Chamcha Market, San Kamphaeng",
+   "description_th": "กระเป๋าถักโครเชต์หน้าสาวใส่แว่นกันแดด — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7856354,
+   "lng": 99.0478935,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab312.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ab375",
+   "title": "Stitched cloth elephant keyrings with cotton tassels",
+   "description": "Stitched cloth elephant keyrings with cotton tassels — Chamcha Market, San Kamphaeng",
+   "description_th": "พวงกุญแจช้างผ้าเย็บมือ ห้อยพู่ฝ้าย — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7856478,
+   "lng": 99.0479131,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ab375.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-merch-ac004",
+   "title": "Dog bandanas and a pug in one",
+   "description": "Dog bandanas and a pug in one — Chamcha Market, San Kamphaeng",
+   "description_th": "ผ้าพันคอน้องหมากับตุ๊กตาปั๊กใส่ผ้าพันคอ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7858698,
+   "lng": 99.0479147,
+   "placeId": "cm-curated-destinies",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-merch-ac004.jpg",
+   "url": "cm/p/destinies-cmcurateddestinies.html"
+  },
+  {
+   "slug": "chamcha-20260927-nan-083",
+   "title": "NaN at the ART & WORKSHOPS treehouse",
+   "description": "NaN at the ART & WORKSHOPS treehouse — Chamcha Market, San Kamphaeng",
+   "description_th": "แนนที่อาคารบ้านต้นไม้ ART & WORKSHOPS — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852439,
+   "lng": 99.0476658,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-nan-083.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-nan-145",
+   "title": "NaN laughing under the trees",
+   "description": "NaN laughing under the trees — Chamcha Market, San Kamphaeng",
+   "description_th": "แนนหัวเราะใต้ต้นไม้ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785112,
+   "lng": 99.0474241,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-nan-145.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-nan-147",
+   "title": "NaN smiling in the courtyard",
+   "description": "NaN smiling in the courtyard — Chamcha Market, San Kamphaeng",
+   "description_th": "แนนยิ้มในลาน — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851273,
+   "lng": 99.0474344,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-nan-147.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-nan-451",
+   "title": "NaN in her singha cap at Pungpond",
+   "description": "NaN in her singha cap at Pungpond — Chamcha Market, San Kamphaeng",
+   "description_th": "แนนในหมวกลายสิงห์ที่ปังปอนด์ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854582,
+   "lng": 99.0479342,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 1463,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-nan-451.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-nan-ac002",
+   "title": "NaN at the tote-bag stall",
+   "description": "NaN at the tote-bag stall — Chamcha Market, San Kamphaeng",
+   "description_th": "แนนที่ร้านกระเป๋าผ้า — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7858698,
+   "lng": 99.0479147,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-nan-ac002.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-nan-ac005",
+   "title": "NaN in her singha cap",
+   "description": "NaN in her singha cap — Chamcha Market, San Kamphaeng",
+   "description_th": "แนนใส่หมวกลายสิงห์ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7858698,
+   "lng": 99.0479147,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/chamcha-20260927-nan-ac005.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-053",
+   "title": "Blue wall drawn with rope-line figures",
+   "description": "Blue wall drawn with rope-line figures — Chamcha Market, San Kamphaeng",
+   "description_th": "กำแพงสีฟ้าวาดรูปคนด้วยเส้นเชือก — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7851667,
+   "lng": 99.0479363,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 852,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-053.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-081",
+   "title": "Converted bus with a painted directory",
+   "description": "Converted bus with a painted directory — Chamcha Market, San Kamphaeng",
+   "description_th": "รถบัสดัดแปลงกับป้ายบอกทางวาดมือ — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7852236,
+   "lng": 99.0476731,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-081.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-097",
+   "title": "Bamboo post painted with butterflies",
+   "description": "Bamboo post painted with butterflies — Chamcha Market, San Kamphaeng",
+   "description_th": "เสาไม้ไผ่วาดรูปผีเสื้อ — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7853566,
+   "lng": 99.0476309,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 1597,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-097.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-103",
+   "title": "Painted mosaic forecourt at Peng Jai",
+   "description": "Painted mosaic forecourt at Peng Jai — Chamcha Market, San Kamphaeng",
+   "description_th": "ลานทาสีลายโมเสกหน้าร้านเปิงใจ๋ — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7853281,
+   "lng": 99.0475268,
+   "placeId": "cm-osm-node-5203436917",
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-103.jpg",
+   "url": "cm/p/5203436917.html"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-107",
+   "title": "Loang Him Kao lanterns and ribbon canopy",
+   "description": "Loang Him Kao lanterns and ribbon canopy — Chamcha Market, San Kamphaeng",
+   "description_th": "โคมโหล่งฮิมคาวและซุ้มริบบิ้น — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.785293,
+   "lng": 99.0474744,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1600,
+   "height": 1067,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-107.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-191",
+   "title": "A scrap-metal collage wall",
+   "description": "A scrap-metal collage wall — Chamcha Market, San Kamphaeng",
+   "description_th": "ผนังคอลลาจเศษเหล็ก — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.785147,
+   "lng": 99.0469066,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 1197,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-191.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-239",
+   "title": "'DO NOT HURRY' mirror",
+   "description": "'DO NOT HURRY' mirror — Chamcha Market, San Kamphaeng",
+   "description_th": "กระจก 'DO NOT HURRY' — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7849177,
+   "lng": 99.0460134,
+   "placeId": "cm-osm-node-4686351107",
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 900,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-239.jpg",
+   "url": "cm/p/meena-rice-based-cuisine-4686351107.html"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-347",
+   "title": "The yellow folk-art house and its rabbit bench",
+   "description": "The yellow folk-art house and its rabbit bench — Chamcha Market, San Kamphaeng",
+   "description_th": "บ้านสีเหลืองศิลปะพื้นบ้านกับม้านั่งกระต่าย — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7850364,
+   "lng": 99.0464408,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1491,
+   "height": 994,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-347.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-367",
+   "title": "A crocheted flower garland on a black fence",
+   "description": "A crocheted flower garland on a black fence — Chamcha Market, San Kamphaeng",
+   "description_th": "พวงดอกไม้ถักบนรั้วดำ — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7851356,
+   "lng": 99.0468285,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 718,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-367.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-401",
+   "title": "A patchwork mural painted on the ground",
+   "description": "A patchwork mural painted on the ground — Chamcha Market, San Kamphaeng",
+   "description_th": "ภาพวาดลายผ้าปะบนพื้น — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.785336,
+   "lng": 99.0475071,
+   "placeId": "cm-osm-node-5203436917",
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 852,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-401.jpg",
+   "url": "cm/p/5203436917.html"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-435",
+   "title": "Fabric pom-poms hanging over the lattice arch",
+   "description": "Fabric pom-poms hanging over the lattice arch — Chamcha Market, San Kamphaeng",
+   "description_th": "ลูกบอลผ้าห้อยเหนือซุ้มระแนงโค้ง — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7854247,
+   "lng": 99.0478297,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1278,
+   "height": 852,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-435.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-543",
+   "title": "Painted cat and 'Cham Chaa' on the kiosk",
+   "description": "Painted cat and 'Cham Chaa' on the kiosk — Chamcha Market, San Kamphaeng",
+   "description_th": "ภาพแมวและคำว่า 'Cham Chaa' บนซุ้ม — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7854757,
+   "lng": 99.0479393,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-543.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-public-art-ab107",
+   "title": "A corrugated wall drawn in rope",
+   "description": "A corrugated wall drawn in rope — Chamcha Market, San Kamphaeng",
+   "description_th": "ผนังสังกะสีวาดด้วยเชือก — ตลาดฉำฉา สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7851481,
+   "lng": 99.0479522,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1384,
+   "height": 922,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-public-art-ab107.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-shopkeeper-233",
+   "title": "Mama Tasty's bakery and drip coffee",
+   "description": "Mama Tasty's bakery and drip coffee — Chamcha Market, San Kamphaeng",
+   "description_th": "เบเกอรีและกาแฟดริปของ Mama Tasty — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7849537,
+   "lng": 99.0461286,
+   "placeId": "cm-curated-mama-tasty",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 710,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-shopkeeper-233.jpg",
+   "url": "cm/p/mama-tasty-cmcuratedmamatasty.html"
+  },
+  {
+   "slug": "chamcha-20260927-shopkeeper-317-r",
+   "title": "The Awila Handicraft shopkeeper",
+   "description": "The Awila Handicraft shopkeeper — Chamcha Market, San Kamphaeng",
+   "description_th": "แม่ค้าร้าน Awila Handicraft — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7849653,
+   "lng": 99.0461409,
+   "placeId": "cm-curated-awila-handicraft",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 1331,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/chamcha-20260927-shopkeeper-317-r.jpg",
+   "url": "cm/p/awila-handicraft-cmcuratedawilahandicraft.html"
+  },
+  {
+   "slug": "chamcha-20260927-shopkeeper-317",
+   "title": "Shopkeeper at Baan-U-Sa",
+   "description": "Shopkeeper at Baan-U-Sa — Chamcha Market, San Kamphaeng",
+   "description_th": "แม่ค้าหน้าบ้านอุษา — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7849653,
+   "lng": 99.0461409,
+   "placeId": "cm-curated-baan-u-sa",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 1463,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-shopkeeper-317.jpg",
+   "url": "cm/p/baan-u-sa-cmcuratedbaanusa.html"
+  },
+  {
+   "slug": "chamcha-20260927-shopkeeper-509",
+   "title": "Embroidery Girl's stallholder among his felt cats",
+   "description": "Embroidery Girl's stallholder among his felt cats — Chamcha Market, San Kamphaeng",
+   "description_th": "เจ้าของร้าน Embroidery Girl กับแมวสักหลาด — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7857182,
+   "lng": 99.0478366,
+   "placeId": "cm-curated-embroidery-girl",
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/chamcha-20260927-shopkeeper-509.jpg",
+   "url": "cm/p/embroidery-girl-cmcuratedembroiderygirl.html"
+  },
+  {
+   "slug": "chamcha-20260927-shopkeeper-ab042",
+   "title": "Stallholder in an embroidered blue top",
+   "description": "Stallholder in an embroidered blue top — Chamcha Market, San Kamphaeng",
+   "description_th": "แม่ค้าเสื้อฟ้าปักลาย — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": null,
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 1331,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/chamcha-20260927-shopkeeper-ab042.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-shopkeeper-ab139",
+   "title": "The shopkeeper shows her indigo jackets",
+   "description": "The shopkeeper shows her indigo jackets — Chamcha Market, San Kamphaeng",
+   "description_th": "แม่ค้าโชว์เสื้อแจ็กเก็ตคราม — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7852258,
+   "lng": 99.0479625,
+   "placeId": null,
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 1463,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-shopkeeper-ab139.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-shopkeeper-ab271",
+   "title": "In the doorway of the embroidered-clothing shop",
+   "description": "In the doorway of the embroidered-clothing shop — Chamcha Market, San Kamphaeng",
+   "description_th": "ที่หน้าร้านเสื้อผ้าปัก — ตลาดฉำฉา สันกำแพง",
+   "subject": "market",
+   "lat": 18.7856293,
+   "lng": 99.0478941,
+   "placeId": null,
+   "topic": [
+    "market",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/chamcha-20260927-shopkeeper-ab271.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-shrine-443",
+   "title": "Small white glass-sided shrine on a stand",
+   "description": "Small white glass-sided shrine on a stand — Chamcha Market, San Kamphaeng",
+   "description_th": "ศาลเล็กสีขาวผนังกระจกบนขาตั้ง — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854548,
+   "lng": 99.0480006,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/chamcha-20260927-shrine-443.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-007",
+   "title": "Welcome signpost at an embroidered-bag stall",
+   "description": "Welcome signpost at an embroidered-bag stall — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายต้อนรับหน้าแผงกระเป๋าปัก — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785309,
+   "lng": 99.0479218,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-007.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-073",
+   "title": "Hand-drawn 'ฉำฉา market' sign",
+   "description": "Hand-drawn 'ฉำฉา market' sign — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายวาดมือ 'ฉำฉา market' — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851939,
+   "lng": 99.0477343,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 900,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-073.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-083",
+   "title": "Painted shop directory on the bus stairs",
+   "description": "Painted shop directory on the bus stairs — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายบอกทางร้านวาดมือบนบันไดรถบัส — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852439,
+   "lng": 99.0476658,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-083.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-089",
+   "title": "Chamcha market banner: Sat-Sun 9am-3pm",
+   "description": "Chamcha market banner: Sat-Sun 9am-3pm — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายตลาดฉำฉา เปิดเสาร์-อาทิตย์ 9 โมงถึงบ่าย 3 — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852844,
+   "lng": 99.0476394,
+   "placeId": "cm-osm-node-10815775054",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-089.jpg",
+   "url": "cm/p/chamcha-market-10815775054.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-157",
+   "title": "Sale tags on Hmong jackets: 2,800 now 1,400",
+   "description": "Sale tags on Hmong jackets: 2,800 now 1,400 — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายลดราคาเสื้อม้ง 2,800 เหลือ 1,400 — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851794,
+   "lng": 99.0474217,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 710,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-157.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-209",
+   "title": "Wooden signpost to ten places",
+   "description": "Wooden signpost to ten places — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายบอกทางไม้สิบแห่ง — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850533,
+   "lng": 99.0465631,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-209.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-243",
+   "title": "Meena car park sign",
+   "description": "Meena car park sign — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายที่จอดรถมีนา — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7848972,
+   "lng": 99.0459378,
+   "placeId": "cm-osm-node-4686351107",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-243.jpg",
+   "url": "cm/p/meena-rice-based-cuisine-4686351107.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-309",
+   "title": "Meena's wooden gate sign",
+   "description": "Meena's wooden gate sign — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายประตูไม้ร้านมีนา — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849112,
+   "lng": 99.0459929,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 638,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-309.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-315",
+   "title": "ENJOY MY DAY / OUR HOME / HAVE A GOOD DAY",
+   "description": "ENJOY MY DAY / OUR HOME / HAVE A GOOD DAY — Chamcha Market, San Kamphaeng",
+   "description_th": "ENJOY MY DAY / OUR HOME / HAVE A GOOD DAY — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849489,
+   "lng": 99.0461186,
+   "placeId": "cm-curated-mama-tasty",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-315.jpg",
+   "url": "cm/p/mama-tasty-cmcuratedmamatasty.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-319",
+   "title": "Awila's wood-painting workshop board and signpost",
+   "description": "Awila's wood-painting workshop board and signpost — Chamcha Market, San Kamphaeng",
+   "description_th": "กระดานเวิร์กช็อประบายสีไม้และเสาป้ายของ Awila — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849734,
+   "lng": 99.046112,
+   "placeId": "cm-curated-awila-handicraft",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 638,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-319.jpg",
+   "url": "cm/p/awila-handicraft-cmcuratedawilahandicraft.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-343",
+   "title": "The soap house sign: เฮือนสบู่ คุณกวี",
+   "description": "The soap house sign: เฮือนสบู่ คุณกวี — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายเฮือนสบู่ คุณกวี — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850155,
+   "lng": 99.0463714,
+   "placeId": "cm-curated-khunkawee",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-343.jpg",
+   "url": "cm/p/khunkawee-cmcuratedkhunkawee.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-351",
+   "title": "The market's wooden signpost",
+   "description": "The market's wooden signpost — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายไม้บอกทางในตลาด — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7850526,
+   "lng": 99.046513,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-351.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-381",
+   "title": "'Tea' in many languages",
+   "description": "'Tea' in many languages — Chamcha Market, San Kamphaeng",
+   "description_th": "คำว่า 'ชา' หลายภาษา — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852175,
+   "lng": 99.0471291,
+   "placeId": "cm-curated-yong-le-tea-house",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 600,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-381.jpg",
+   "url": "cm/p/yong-le-tea-house-cmcuratedyongleteahouse.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-403-r",
+   "title": "A sticker photo booth, 150 baht",
+   "description": "A sticker photo booth, 150 baht — Chamcha Market, San Kamphaeng",
+   "description_th": "ตู้ถ่ายรูปสติกเกอร์ 150 บาท — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7853462,
+   "lng": 99.0475474,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 1463,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-403-r.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-403",
+   "title": "บ้าน เปิงใจ๋, sign and phone",
+   "description": "บ้าน เปิงใจ๋, sign and phone — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายบ้านเปิงใจ๋พร้อมเบอร์โทร — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7853462,
+   "lng": 99.0475474,
+   "placeId": "cm-osm-node-5203436917",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-403.jpg",
+   "url": "cm/p/5203436917.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-441",
+   "title": "The market's own sign: Werg Cham Chaa market",
+   "description": "The market's own sign: Werg Cham Chaa market — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายตลาดเขียนมือ Werg Cham Chaa market — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854465,
+   "lng": 99.0479568,
+   "placeId": "cm-osm-node-10815775054",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 1197,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-441.jpg",
+   "url": "cm/p/chamcha-market-10815775054.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-445",
+   "title": "The โหล่งฮิมคาว arch with LOANGHIMKAO banners",
+   "description": "The โหล่งฮิมคาว arch with LOANGHIMKAO banners — Chamcha Market, San Kamphaeng",
+   "description_th": "ซุ้มโหล่งฮิมคาวกับธง LOANGHIMKAO — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785444,
+   "lng": 99.0480263,
+   "placeId": "cm-curated-loang-him-kao",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 710,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-445.jpg",
+   "url": "cm/p/loang-him-kao-cmcuratedloanghimkao.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-511",
+   "title": "The Embroidery Girl poster",
+   "description": "The Embroidery Girl poster — Chamcha Market, San Kamphaeng",
+   "description_th": "โปสเตอร์ร้าน Embroidery Girl — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7857139,
+   "lng": 99.047833,
+   "placeId": "cm-curated-embroidery-girl",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-511.jpg",
+   "url": "cm/p/embroidery-girl-cmcuratedembroiderygirl.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-549",
+   "title": "โหล่งฮิมคาว arch and LOANGHIMKAO banner",
+   "description": "โหล่งฮิมคาว arch and LOANGHIMKAO banner — Chamcha Market, San Kamphaeng",
+   "description_th": "ซุ้มโหล่งฮิมคาวและธง LOANGHIMKAO — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7855059,
+   "lng": 99.0480131,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 958,
+   "height": 638,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-549.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-553",
+   "title": "ไส้อั่วป้าแก้ว! sign and noodle board",
+   "description": "ไส้อั่วป้าแก้ว! sign and noodle board — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายร้านไส้อั่วป้าแก้ว! และป้ายก๋วยเตี๋ยว — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7855219,
+   "lng": 99.0480511,
+   "placeId": "cm-curated-saiua-pa-kaeo",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1065,
+   "height": 1331,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-553.jpg",
+   "url": "cm/p/cmcuratedsaiuapakaeo.html"
+  },
+  {
+   "slug": "chamcha-20260927-sign-ab059",
+   "title": "Chamcha market, Sat-Sun 9am-3pm",
+   "description": "Chamcha market, Sat-Sun 9am-3pm — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายตลาดฉำฉา เสาร์-อาทิตย์ 9 โมงถึงบ่ายสาม — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7852307,
+   "lng": 99.0476596,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-ab059.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-ab071",
+   "title": "Hand-painted signpost of the market's shops",
+   "description": "Hand-painted signpost of the market's shops — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายบอกทางไม้ทาสีชื่อร้านในตลาด — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7851981,
+   "lng": 99.0476676,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-ab071.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-ab185",
+   "title": "Werng Cham Chaa market sign and giant chair",
+   "description": "Werng Cham Chaa market sign and giant chair — Chamcha Market, San Kamphaeng",
+   "description_th": "ป้ายตลาดเวิ้งฉำฉาและเก้าอี้ยักษ์ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854229,
+   "lng": 99.0479293,
+   "placeId": null,
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-ab185.jpg"
+  },
+  {
+   "slug": "chamcha-20260927-sign-ab189",
+   "title": "The Loanghimkao arch",
+   "description": "The Loanghimkao arch — Chamcha Market, San Kamphaeng",
+   "description_th": "ซุ้มโหล่งฮิมคาว — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7854732,
+   "lng": 99.0479806,
+   "placeId": "cm-curated-loang-him-kao",
+   "topic": [
+    "market"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1171,
+   "height": 780,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/chamcha-20260927-sign-ab189.jpg",
+   "url": "cm/p/loang-him-kao-cmcuratedloanghimkao.html"
+  },
+  {
+   "slug": "chamcha-20260927-spirit-house-ac017",
+   "title": "Spirit house by the white building at the car park",
+   "description": "Spirit house by the white building at the car park — Chamcha Market, San Kamphaeng",
+   "description_th": "ศาลพระภูมิข้างอาคารสีขาว ริมทางเข้าลานจอดรถ — ตลาดฉำฉา สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7858698,
+   "lng": 99.0479147,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 900,
+   "height": 1125,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/chamcha-20260927-spirit-house-ac017.jpg"
+  }
+ ],
+ "points": [],
+ "hero": "photos/2026-09-27/chamcha-20260927-aesthetic-085.jpg"
+}

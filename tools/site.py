@@ -162,7 +162,7 @@ POINT_KINDS = {  # key: (Thai, English, plural Thai, plural English, colour)
 SCENE_KINDS = (("street-art", "ศิลปะริมถนน", "Street art"), ("market", "ตลาด", "Markets"),
                ("merch", "ของในตลาดพระ", "At the amulet market"), ("aesthetic", "ภาพเมือง", "Scenes"),
                ("tattoo", "สัก", "Tattoo"), ("muay-thai", "มวยไทย", "Muay thai"))
-SCENES = [p for p in PHOTOS if p.get("subject") in {k for k, _, _ in SCENE_KINDS}]
+SCENES = [p for p in PHOTOS if p.get("subject") in {k for k, _, _ in SCENE_KINDS} and not p.get("placeId")]
 
 # one page for every picture that is not of a Mot Dang place: a point, a scene, a street.
 # A picture of a place goes to that place's own Mot Dang page instead.

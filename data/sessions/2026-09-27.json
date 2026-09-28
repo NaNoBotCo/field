@@ -1,0 +1,1170 @@
+{
+ "id": "2026-09-27",
+ "date": "2026-09-27",
+ "kind": "ride",
+ "camera": "GoPro Max 2",
+ "province": "cm",
+ "title": "Back lanes round San Kamphaeng",
+ "title_th": "ซอยเล็กรอบสันกำแพง",
+ "where": "A temple gate, cane fields, school-wall murals and quiet back lanes",
+ "where_th": "ประตูวัด ไร่อ้อย ภาพวาดบนกำแพงโรงเรียน และซอยเงียบ ๆ",
+ "counts": {
+  "frames": 2190,
+  "frames_with_fix": 2190,
+  "km": 10.8,
+  "tiles_read": 211,
+  "text_lines": 0,
+  "confirmed": 0,
+  "new": 13,
+  "photos": 37,
+  "place_photos": 2,
+  "points": 5
+ },
+ "confirmed": [],
+ "new": [
+  {
+   "id": "cm-curated-hua-xiang-home-cooking",
+   "name": "Hua Xiang Home Cooking",
+   "nameTh": "ฮวาเซียง",
+   "nameEn": "Hua Xiang Home Cooking",
+   "kind": "Chinese home cooking",
+   "kindTh": "อาหารจีนโฮมคุกกิ้ง",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7861526,
+   "lng": 99.0490014,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/hua-xiang-home-cooking-cmcuratedhuaxianghomecooking.html"
+  },
+  {
+   "id": "cm-curated-deep-red",
+   "name": "DEEP RED",
+   "nameTh": "",
+   "nameEn": "DEEP RED",
+   "kind": "leather, gemstones, handmade",
+   "kindTh": "เครื่องหนัง อัญมณี งานทำมือ",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7862324,
+   "lng": 99.0491763,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/deep-red-cmcurateddeepred.html"
+  },
+  {
+   "id": "cm-curated-ka-lamae-thip-seoya",
+   "name": "กาละแม ทิพย์เสวย",
+   "nameTh": "กาละแม ทิพย์เสวย",
+   "nameEn": "",
+   "kind": "kalamae, the sticky coconut-caramel sweet",
+   "kindTh": "กาละแม",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.7837401,
+   "lng": 99.0505159,
+   "phone": "053-338-694",
+   "photo": false,
+   "url": "cm/p/cmcuratedkalamaethipseoya.html"
+  },
+  {
+   "id": "cm-curated-dd-water",
+   "name": "DD Water",
+   "nameTh": "",
+   "nameEn": "DD Water",
+   "kind": "self-service drinking-water refill kiosk",
+   "kindTh": "ตู้น้ำดื่มหยอดเหรียญ",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.7829013,
+   "lng": 99.0508596,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/dd-water-cmcuratedddwater.html"
+  },
+  {
+   "id": "cm-curated-the-merlot",
+   "name": "THE MERLOT",
+   "nameTh": "",
+   "nameEn": "THE MERLOT",
+   "kind": "three-storey apartment building",
+   "kindTh": "อพาร์ตเมนต์สามชั้น",
+   "cat": [
+    "hotel"
+   ],
+   "lat": 18.7822931,
+   "lng": 99.0509861,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/the-merlot-cmcuratedthemerlot.html"
+  },
+  {
+   "id": "cm-curated-dd-pharma",
+   "name": "DD Pharma",
+   "nameTh": "ดีดี ฟาร์มา",
+   "nameEn": "DD Pharma",
+   "kind": "pharmacy with an eyewear repair counter",
+   "kindTh": "ร้านขายยา มีมุมซ่อมแว่น",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.7821488,
+   "lng": 99.0510231,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/dd-pharma-cmcuratedddpharma.html"
+  },
+  {
+   "id": "cm-curated-mangmi-phesat",
+   "name": "มั่งมีเภสัช",
+   "nameTh": "มั่งมีเภสัช",
+   "nameEn": "",
+   "kind": "pharmacy",
+   "kindTh": "ร้านขายยา",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.7814493,
+   "lng": 99.0511777,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/cmcuratedmangmiphesat.html"
+  },
+  {
+   "id": "cm-curated-nakhon-store",
+   "name": "นครสโตร์",
+   "nameTh": "นครสโตร์",
+   "nameEn": "",
+   "kind": "minimart",
+   "kindTh": "ร้านสะดวกซื้อ",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.7813505,
+   "lng": 99.0512008,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/cmcuratednakhonstore.html"
+  },
+  {
+   "id": "cm-curated-boi-karat-65",
+   "name": "บอย การาจ 65",
+   "nameTh": "บอย การาจ 65",
+   "nameEn": "",
+   "kind": "car repair; installs gas (LPG/NGV) conversions",
+   "kindTh": "อู่ซ่อมรถ ติดตั้งแก๊สรถยนต์",
+   "cat": [
+    "repair"
+   ],
+   "lat": 18.7808736,
+   "lng": 99.0513131,
+   "phone": "086-766-6566",
+   "photo": false,
+   "url": "cm/p/65-65.html"
+  },
+  {
+   "id": "cm-curated-phon-charoen-sap-kansura",
+   "name": "พรเจริญทรัพย์ การสุรา",
+   "nameTh": "พรเจริญทรัพย์ การสุรา",
+   "nameEn": "",
+   "kind": "beer, liquor and drinks wholesale",
+   "kindTh": "ขายส่งเบียร์ สุรา เครื่องดื่ม",
+   "cat": [
+    "shopping"
+   ],
+   "lat": 18.7835467,
+   "lng": 99.050588,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/cmcuratedphoncharoensapkansura.html"
+  },
+  {
+   "id": "cm-curated-72-home-cafe",
+   "name": "72 home Cafe",
+   "nameTh": "",
+   "nameEn": "72 home Cafe",
+   "kind": "coffee and drinks",
+   "kindTh": "กาแฟและเครื่องดื่ม",
+   "cat": [
+    "food"
+   ],
+   "lat": 18.784484,
+   "lng": 99.0502172,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/72-home-cafe-72.html"
+  },
+  {
+   "id": "cm-curated-ran-nitya",
+   "name": "ร้านนิตยา",
+   "nameTh": "ร้านนิตยา",
+   "nameEn": "",
+   "kind": "general store",
+   "kindTh": "ร้านขายของชำ",
+   "cat": [
+    "essentials"
+   ],
+   "lat": 18.7870553,
+   "lng": 99.0486552,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/cmcuratedrannitya.html"
+  },
+  {
+   "id": "cm-curated-c-p-a-pro-audit-firm",
+   "name": "C.P.A. Pro Audit Firm",
+   "nameTh": "",
+   "nameEn": "C.P.A. Pro Audit Firm",
+   "kind": "accounting and audit office",
+   "kindTh": "สำนักงานบัญชีและสอบบัญชี",
+   "cat": [
+    "business"
+   ],
+   "lat": 18.7871874,
+   "lng": 99.0421002,
+   "phone": "",
+   "photo": false,
+   "url": "cm/p/c-p-a-pro-audit-firm-cmcuratedcpaproauditfirm.html"
+  }
+ ],
+ "photos": [
+  {
+   "slug": "ride-20260927-aesthetic-0082000",
+   "title": "Golden Lion Gate",
+   "description": "Golden Lion Gate — San Kamphaeng",
+   "description_th": "ประตูสิงห์ทอง — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7859682,
+   "lng": 99.0485084,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-aesthetic-0082000.jpg"
+  },
+  {
+   "slug": "ride-20260927-aesthetic-0166000",
+   "title": "THE MERLOT apartments",
+   "description": "THE MERLOT apartments — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7824189,
+   "lng": 99.0509712,
+   "placeId": "cm-curated-the-merlot",
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-aesthetic-0166000.jpg",
+   "url": "cm/p/the-merlot-cmcuratedthemerlot.html"
+  },
+  {
+   "slug": "ride-20260927-aesthetic-0234000",
+   "title": "Baan Celadon entrance pavilion",
+   "description": "Baan Celadon entrance pavilion — San Kamphaeng",
+   "description_th": "ทางเข้าบ้าน Celadon — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7785298,
+   "lng": 99.051735,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-aesthetic-0234000.jpg"
+  },
+  {
+   "slug": "ride-20260927-bridge-0914000",
+   "title": "The bridge over the river: white balustrade, black lamp posts, orange pennants",
+   "description": "The bridge over the river: white balustrade, black lamp posts, orange pennants — San Kamphaeng",
+   "description_th": "สะพานข้ามแม่น้ำ ราวสะพานสีขาว เสาไฟสีดำ ธงสีส้ม — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7873578,
+   "lng": 99.0430047,
+   "placeId": null,
+   "topic": [
+    "city"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 1016,
+   "height": 677,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-bridge-0914000.jpg"
+  },
+  {
+   "slug": "ride-20260927-river-0667500",
+   "title": "First view of the canal",
+   "description": "First view of the canal — San Kamphaeng",
+   "description_th": "มุมแรกที่เห็นคลอง — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7867769,
+   "lng": 99.0428834,
+   "placeId": null,
+   "topic": [
+    "nature"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-river-0667500.jpg"
+  },
+  {
+   "slug": "ride-20260927-river-0679500",
+   "title": "Canal-side rest pavilion",
+   "description": "Canal-side rest pavilion — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7862022,
+   "lng": 99.0429756,
+   "placeId": null,
+   "topic": [
+    "nature"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-river-0679500.jpg"
+  },
+  {
+   "slug": "ride-20260927-river-0853750",
+   "title": "Two chairs by the canal",
+   "description": "Two chairs by the canal — San Kamphaeng",
+   "description_th": "เก้าอี้สองตัวริมคลอง — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7836416,
+   "lng": 99.0440907,
+   "placeId": null,
+   "topic": [
+    "nature"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 450,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-river-0853750.jpg"
+  },
+  {
+   "slug": "ride-20260927-river-0879000",
+   "title": "Canal thick with water hyacinth",
+   "description": "Canal thick with water hyacinth — San Kamphaeng",
+   "description_th": "คลองเต็มไปด้วยผักตบชวา — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7856178,
+   "lng": 99.0431943,
+   "placeId": null,
+   "topic": [
+    "nature"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 450,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-river-0879000.jpg"
+  },
+  {
+   "slug": "ride-20260927-river-0884000",
+   "title": "Canal-side sala on the way to the river",
+   "description": "Canal-side sala on the way to the river — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7859335,
+   "lng": 99.0430373,
+   "placeId": null,
+   "topic": [
+    "nature"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 450,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-river-0884000.jpg"
+  },
+  {
+   "slug": "ride-20260927-river-0891000",
+   "title": "Canal-side picnic tables under bamboo",
+   "description": "Canal-side picnic tables under bamboo — San Kamphaeng",
+   "description_th": "โต๊ะปิกนิกริมคลองใต้ร่มไผ่ — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7862974,
+   "lng": 99.0429633,
+   "placeId": null,
+   "topic": [
+    "nature"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-river-0891000.jpg"
+  },
+  {
+   "slug": "ride-20260927-shop-0073500",
+   "title": "Weekend Coffee",
+   "description": "Weekend Coffee — San Kamphaeng",
+   "description_th": "ร้านกาแฟ วีคเอนด์ — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7858244,
+   "lng": 99.048085,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 1000,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-shop-0073500.jpg"
+  },
+  {
+   "slug": "ride-20260927-shop-0132000",
+   "title": "ขายหมูสด fresh-pork sign",
+   "description": "ขายหมูสด fresh-pork sign — San Kamphaeng",
+   "description_th": "ป้ายขายหมูสด — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7849213,
+   "lng": 99.0501634,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 1000,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-shop-0132000.jpg"
+  },
+  {
+   "slug": "ride-20260927-shop-0168500",
+   "title": "DD Pharma storefront",
+   "description": "DD Pharma storefront — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "place",
+   "lat": 18.7822367,
+   "lng": 99.051021,
+   "placeId": "cm-curated-dd-pharma",
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-shop-0168500.jpg",
+   "url": "cm/p/dd-pharma-cmcuratedddpharma.html"
+  },
+  {
+   "slug": "ride-20260927-shop-0180500",
+   "title": "Larb Lung Tan restaurant sign",
+   "description": "Larb Lung Tan restaurant sign — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7815723,
+   "lng": 99.0511496,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-shop-0180500.jpg"
+  },
+  {
+   "slug": "ride-20260927-shop-0230500",
+   "title": "Celadon gate sign",
+   "description": "Celadon gate sign — San Kamphaeng",
+   "description_th": "ป้ายประตู Celadon — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7785581,
+   "lng": 99.0516883,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 800,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-shop-0230500.jpg"
+  },
+  {
+   "slug": "ride-20260927-shop-0483000",
+   "title": "grilled pork and chicken stall",
+   "description": "grilled pork and chicken stall — San Kamphaeng",
+   "description_th": "ร้านหมูย่างไก่ย่าง รสเด็ด — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7863358,
+   "lng": 99.049208,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 1000,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-shop-0483000.jpg"
+  },
+  {
+   "slug": "ride-20260927-shop-0498000",
+   "title": "Ran Nidya general store",
+   "description": "Ran Nidya general store — San Kamphaeng",
+   "description_th": "ร้านนิดยา — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7870954,
+   "lng": 99.0486267,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 1000,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-shop-0498000.jpg"
+  },
+  {
+   "slug": "ride-20260927-shop-0603000",
+   "title": "ZOWALL storefront",
+   "description": "ZOWALL storefront — San Kamphaeng",
+   "description_th": "หน้าร้าน ZOWALL — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7872429,
+   "lng": 99.0424594,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-shop-0603000.jpg"
+  },
+  {
+   "slug": "ride-20260927-shop-0630000",
+   "title": "SP House contractor poster",
+   "description": "SP House contractor poster — San Kamphaeng",
+   "description_th": "ป้าย SP House รับสร้างบ้าน — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7870117,
+   "lng": 99.0412856,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-shop-0630000.jpg"
+  },
+  {
+   "slug": "ride-20260927-shop-0834000",
+   "title": "Sub-district health centre sign",
+   "description": "Sub-district health centre sign — San Kamphaeng",
+   "description_th": "ป้ายโรงพยาบาลส่งเสริมสุขภาพตำบล — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7831718,
+   "lng": 99.0432596,
+   "placeId": null,
+   "topic": [
+    "city",
+    "shop"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-shop-0834000.jpg"
+  },
+  {
+   "slug": "ride-20260927-stall-0183000",
+   "title": "Fried-pork stall beside the pharmacy",
+   "description": "Fried-pork stall beside the pharmacy — San Kamphaeng",
+   "description_th": "หมูทอด ไส้กรอกทอด — สันกำแพง",
+   "subject": "market",
+   "lat": 18.7814493,
+   "lng": 99.0511777,
+   "placeId": null,
+   "topic": [
+    "market",
+    "food"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 1000,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-stall-0183000.jpg"
+  },
+  {
+   "slug": "ride-20260927-stall-0483000",
+   "title": "Grilled pork & chicken market stall",
+   "description": "Grilled pork & chicken market stall — San Kamphaeng",
+   "description_th": "ร้านหมูย่าง ไก่ย่าง รสเด็ด — สันกำแพง",
+   "subject": "market",
+   "lat": 18.7863358,
+   "lng": 99.049208,
+   "placeId": null,
+   "topic": [
+    "market",
+    "food"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-stall-0483000.jpg"
+  },
+  {
+   "slug": "ride-20260927-stall-0904750",
+   "title": "Roadside food banners",
+   "description": "Roadside food banners — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "market",
+   "lat": 18.7870981,
+   "lng": 99.0429006,
+   "placeId": null,
+   "topic": [
+    "market",
+    "food"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-stall-0904750.jpg"
+  },
+  {
+   "slug": "ride-20260927-street-art-0068500",
+   "title": "Driftwood sculpture on a blue plinth at a roundabout",
+   "description": "Driftwood sculpture on a blue plinth at a roundabout — San Kamphaeng",
+   "description_th": "ประติมากรรมไม้เก่าบนแท่นสีน้ำเงินกลางวงเวียน — สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7858536,
+   "lng": 99.0479468,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 1000,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-street-art-0068500.jpg"
+  },
+  {
+   "slug": "ride-20260927-street-art-0080500",
+   "title": "Butterfly Wall Mural",
+   "description": "Butterfly Wall Mural — San Kamphaeng",
+   "description_th": "กำแพงลายผีเสื้อ — สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7859435,
+   "lng": 99.0484399,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-street-art-0080500.jpg"
+  },
+  {
+   "slug": "ride-20260927-street-art-0084000",
+   "title": "Folk-art mural on temple wall",
+   "description": "Folk-art mural on temple wall — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7860044,
+   "lng": 99.0485879,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 450,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-street-art-0084000.jpg"
+  },
+  {
+   "slug": "ride-20260927-street-art-0089000",
+   "title": "Chinese mythological mural, rider on horse",
+   "description": "Chinese mythological mural, rider on horse — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7860603,
+   "lng": 99.0487831,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 450,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-street-art-0089000.jpg"
+  },
+  {
+   "slug": "ride-20260927-street-art-0242000",
+   "title": "Lanna cultural mural: drum, rider, fan and horse",
+   "description": "Lanna cultural mural: drum, rider, fan and horse — San Kamphaeng",
+   "description_th": "จิตรกรรมฝาผนังล้านนา — สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7785796,
+   "lng": 99.0517072,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 802,
+   "height": 451,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-street-art-0242000.jpg"
+  },
+  {
+   "slug": "ride-20260927-street-art-0277000",
+   "title": "Mural: lantern-festival night scene",
+   "description": "Mural: lantern-festival night scene — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.778595,
+   "lng": 99.0516398,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 450,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-street-art-0277000.jpg"
+  },
+  {
+   "slug": "ride-20260927-street-art-0279000",
+   "title": "Mural: child praying by a spirit house and sacred tree",
+   "description": "Mural: child praying by a spirit house and sacred tree — San Kamphaeng",
+   "description_th": "ภาพวาดเด็กไหว้ศาลพระภูมิใต้ต้นไม้ศักดิ์สิทธิ์ — สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7786807,
+   "lng": 99.0516071,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 1000,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-street-art-0279000.jpg"
+  },
+  {
+   "slug": "ride-20260927-street-art-0658000",
+   "title": "Glyph-pattern screen wall",
+   "description": "Glyph-pattern screen wall — San Kamphaeng",
+   "description_th": "กำแพงลายอักษรนามธรรม — สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7871931,
+   "lng": 99.0429013,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 450,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-street-art-0658000.jpg"
+  },
+  {
+   "slug": "ride-20260927-street-art-0899750",
+   "title": "Carved dancing-figure relief by the road",
+   "description": "Carved dancing-figure relief by the road — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7868662,
+   "lng": 99.0428973,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 1000,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-street-art-0899750.jpg"
+  },
+  {
+   "slug": "ride-20260927-street-art-0904000",
+   "title": "Calligraphic screen-block facade",
+   "description": "Calligraphic screen-block facade — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "street-art",
+   "lat": 18.7870688,
+   "lng": 99.0428977,
+   "placeId": null,
+   "topic": [
+    "arts"
+   ],
+   "mood": [
+    "streetlife"
+   ],
+   "width": 800,
+   "height": 450,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-street-art-0904000.jpg"
+  },
+  {
+   "slug": "ride-20260927-wat-0111000",
+   "title": "Temple gate with golden guardian statues",
+   "description": "Temple gate with golden guardian statues — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7862018,
+   "lng": 99.0493397,
+   "placeId": null,
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-wat-0111000.jpg"
+  },
+  {
+   "slug": "ride-20260927-wat-0113000",
+   "title": "Wat Simaram gate and roofline",
+   "description": "Wat Simaram gate and roofline — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7860948,
+   "lng": 99.0494375,
+   "placeId": null,
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-wat-0113000.jpg"
+  },
+  {
+   "slug": "ride-20260927-wat-0474000",
+   "title": "Wat Sima Ram gate",
+   "description": "Wat Sima Ram gate — San Kamphaeng",
+   "description_th": "ประตูวัดสีมาราม — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.785948,
+   "lng": 99.0495271,
+   "placeId": null,
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 3,
+   "file": "photos/2026-09-27/ride-20260927-wat-0474000.jpg"
+  },
+  {
+   "slug": "ride-20260927-wat-0727000",
+   "title": "Temple gate among the trees",
+   "description": "Temple gate among the trees — San Kamphaeng",
+   "description_th": " — สันกำแพง",
+   "subject": "aesthetic",
+   "lat": 18.7832801,
+   "lng": 99.044075,
+   "placeId": null,
+   "topic": [
+    "faith",
+    "wat"
+   ],
+   "mood": [
+    "sacred"
+   ],
+   "width": 800,
+   "height": 533,
+   "licence": "CC BY 4.0",
+   "artist": "NaN Peacock",
+   "signText": "",
+   "quality": 2,
+   "file": "photos/2026-09-27/ride-20260927-wat-0727000.jpg"
+  }
+ ],
+ "points": [
+  {
+   "slug": "ride-20260927-shrine-0510000",
+   "kind": "shrine",
+   "title": "Roadside corner shrine",
+   "title_th": "ศาลเล็กมุมทางแยก",
+   "notes": "Small yellow shrine clearly visible at the road corner, unobstructed.",
+   "quality": 2,
+   "lat": 18.7878868,
+   "lng": 99.0481847,
+   "frame": "GS017990_0510000",
+   "file": "photos/2026-09-27/ride-20260927-shrine-0510000.jpg"
+  },
+  {
+   "slug": "ride-20260927-spirit-house-0453000",
+   "kind": "spirit-house",
+   "title": "Spirit house at house 68",
+   "title_th": "ศาลพระภูมิ บ้านเลขที่ 68",
+   "notes": "Ornate cream/gold spirit house clearly visible through the gate, sharpest and most central framing of the three.",
+   "quality": 2,
+   "lat": 18.7847401,
+   "lng": 99.0501562,
+   "frame": "GS017990_0453000",
+   "file": "photos/2026-09-27/ride-20260927-spirit-house-0453000.jpg"
+  },
+  {
+   "slug": "ride-20260927-spirit-house-0674250",
+   "kind": "spirit-house",
+   "title": "Blue spirit house at the canal",
+   "title_th": "ศาลพระภูมิสีฟ้าริมคลอง",
+   "notes": "674250 has the shrine fully clear of the mirror and foliage, sharpest and most centred; 673750-674000 are also clear but slightly more cropped by the tree branch; 674500 starts to lose it behind the mirror.",
+   "quality": 3,
+   "lat": 18.7864603,
+   "lng": 99.0429091,
+   "frame": "GS017990_0674250",
+   "file": "photos/2026-09-27/ride-20260927-spirit-house-0674250.jpg"
+  },
+  {
+   "slug": "ride-20260927-spirit-house-0852500",
+   "kind": "spirit-house",
+   "title": "Gold spirit house in the yard",
+   "title_th": "ศาลพระภูมิสีทองในสวน",
+   "notes": "Spirit house is unobstructed, well lit and centred; neighbouring frames crop it at the edge or are shadowed.",
+   "quality": 2,
+   "lat": 18.7835633,
+   "lng": 99.0441024,
+   "frame": "GS017990_0852500",
+   "file": "photos/2026-09-27/ride-20260927-spirit-house-0852500.jpg"
+  },
+  {
+   "slug": "ride-20260927-spirit-house-0891500",
+   "kind": "spirit-house",
+   "title": "Blue spirit house by the canal",
+   "title_th": " — สันกำแพง",
+   "notes": "closest, most centered, sharpest view of the spirit house with the canal and stone picnic table behind it; later frames move past it and lose the angle",
+   "quality": 2,
+   "lat": 18.7863313,
+   "lng": 99.042955,
+   "frame": "GS017990_0891500",
+   "file": "photos/2026-09-27/ride-20260927-spirit-house-0891500.jpg"
+  }
+ ],
+ "track": "data/tracks/2026-09-27.geojson",
+ "hero": "photos/2026-09-27/ride-20260927-aesthetic-0082000.jpg"
+}
