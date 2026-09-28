@@ -4,15 +4,21 @@ Sitemap: https://motdang.net/field/sitemap.xml
 
 # — roster of sibling sites, generated from data/fleet.json —
 Sitemap: https://motdang.net/sitemap.xml
+Sitemap: https://motdang.net/chiang-rai/sitemap.xml
 Sitemap: https://nanobotco.github.io/mae-hong-son-loop/sitemap.xml
 Sitemap: https://motdang.net/muay-thai/sitemap.xml
 Sitemap: https://motdang.net/roads/sitemap.xml
+Sitemap: https://nanobotco.github.io/prostar-magic/sitemap.xml
 Sitemap: https://wichaa.net/sitemap.xml
 Sitemap: https://nanobotco.github.io/hand-poke/sitemap.xml
 Sitemap: https://nanobotco.github.io/black-holes/sitemap.xml
 Sitemap: https://nanobotco.github.io/quantum-computing/sitemap.xml
 Sitemap: https://nanobotco.github.io/goin-fast/sitemap.xml
 Sitemap: https://nanobotco.github.io/three-body/sitemap.xml
+Sitemap: https://nanobotco.github.io/chaos/sitemap.xml
+Sitemap: https://nanobotco.github.io/indras-net/sitemap.xml
+Sitemap: https://nanobotco.github.io/split-screen/sitemap.xml
+Sitemap: https://nanobotco.github.io/talking-board/sitemap.xml
 Sitemap: https://nanobotco.github.io/exceptional-magic/sitemap.xml
 Sitemap: https://nanobotco.github.io/factoring/sitemap.xml
 Sitemap: https://nanobotco.github.io/amulet-atlas/sitemap.xml
@@ -26,3 +32,4 @@ Sitemap: https://nanobotco.github.io/thairoots/sitemap.xml
 Sitemap: https://nanobotco.github.io/index/sitemap.xml
 Sitemap: https://nanobotco.github.io/uptake/sitemap.xml
 Sitemap: https://nanobotco.github.io/sitemap.xml
+Sitemap: https://poplucky.net/sitemap.xml
