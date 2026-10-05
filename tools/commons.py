@@ -232,7 +232,7 @@ def upload(test, if_ready):
                                           "at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "test": bool(test)}
             save(led); done += 1
         else:
-            print("NOT uploaded %s: %s" % (x["slug"], json.dumps(r.get("error") or res.get("warnings") or r)[:300]))
+            print("NOT uploaded %s: %s" % (x["slug"], json.dumps(r.get("error") or res.get("warnings") or r)[:300]))  # stylecheck: allow — Commons API field
         time.sleep(PACE_S)
     print("uploaded %d of %d" % (done, len(plan)))
 
