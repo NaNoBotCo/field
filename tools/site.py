@@ -287,7 +287,37 @@ near(q.coords.latitude,q.coords.longitude,'คุณ','you')},function(){b.disab
 })();</script>"""
 
 
+_MS = None
+
+
+def map_shell():
+    """Mot Dang's map module, or None when it cannot load or has no basemap configured."""
+    global _MS
+    if _MS is None:
+        try:
+            sys.path.insert(0, str(MD))
+            import map_shell as ms
+            _MS = ms if ms.enabled() else False
+        except Exception as ex:
+            print("map head unavailable:", ex)
+            _MS = False
+    return _MS or None
+
+
+def map_head(body: str) -> str:
+    """The tags map_shell.head() gives a Mot Dang page, served from motdang.net, for a page holding a pin map."""
+    ms = 'data-mdmap="1"' in body and map_shell()
+    if not ms:
+        return ""
+    return f'<link rel="stylesheet" href="{BASE}assets/css/mdmap.css">' + "".join(
+        f'<link rel="stylesheet" href="{MOTDANG}/{u}">' if u.endswith(".css") else f'<script src="{MOTDANG}/{u}" defer></script>'
+        for u in ms.head_urls(0))
+
+
 def page(path: str, title_th: str, title_en: str, body: str, desc: str, image: str = "") -> str:
+    mhead = map_head(body)
+    # map.js resolves the tile, glyph and doodle paths against data-root; they sit at motdang.net's root, not under /field/.
+    root = f' data-root="{MOTDANG}/"' if mhead else ""
     canon = f"{CANON}/{path}".replace("index.html", "")
     alt = f"{GH_URL}/{path}".replace("index.html", "")
     img = f"{SITE_URL}/{image}" if image else ""
@@ -298,7 +328,7 @@ def page(path: str, title_th: str, title_en: str, body: str, desc: str, image: s
     og = (f'<meta property="og:image" content="{e(img)}"><meta name="twitter:card" content="summary_large_image">'
           if img else "")
     return f"""<!doctype html>
-<html lang="th" translate="no" class="notranslate">
+<html lang="th" translate="no" class="notranslate"{root}>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -311,7 +341,7 @@ def page(path: str, title_th: str, title_en: str, body: str, desc: str, image: s
 {og}
 <meta name="theme-color" content="#d9381e">
 <link rel="icon" href="{BASE}assets/icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="{BASE}assets/css/field.css">
+<link rel="stylesheet" href="{BASE}assets/css/field.css">{mhead}
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {LANG_JS}
 <meta name="google" content="notranslate">
@@ -1018,6 +1048,8 @@ def main():
     OUT.mkdir(parents=True)
     shutil.copytree(ROOT / "assets", OUT / "assets")
     shutil.copy2(ROOT / "tools/bands.css", OUT / "assets/css/bands.css")
+    if map_shell():
+        (OUT / "assets/css/mdmap.css").write_text(map_shell().CSS, encoding="utf-8")
     shutil.copytree(ROOT / "photos", OUT / "photos")
     (OUT / "data").mkdir()
     shutil.copytree(ROOT / "data/sessions", OUT / "data/sessions")
