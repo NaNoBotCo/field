@@ -1,0 +1,138 @@
+/* The map box. The drawn SVG and the live tiles occupy the same square;
+   the live one is stacked over it and only becomes visible once it has
+   actually loaded, so there is never a moment of empty grey. */
+.mdmap{position:relative;margin:.9rem 0 .2rem}
+.mdmap-draw{position:relative;z-index:1}
+/* Descendant selector, deliberately: MapLibre's own stylesheet is loaded
+   after this one and sets .maplibregl-map{position:relative}. At equal
+   specificity that wins, the live layer stops being absolutely positioned,
+   inset:0 no longer applies, and the box collapses to zero height — tiles
+   fetch, the map "loads", and nothing is ever visible. Two classes beat one. */
+.mdmap .mdmap-live{position:absolute;inset:0;z-index:2;opacity:0;
+  transition:opacity .35s ease;border-radius:14px;overflow:hidden}
+.mdmap.mdmap-on .mdmap-live{opacity:1}
+/* Once there is real ground, the drawing goes back ON TOP of it — pins over
+   streets is the entire point, and a basemap that buries the pins has just
+   traded one broken map for another. The drawing stops eating pointer events
+   so the map can be panned, except on the pins themselves, which still do
+   what they always did. */
+.mdmap.mdmap-on .mdmap-draw{z-index:3;pointer-events:none}
+/* WHAT KEEPS ITS FINGER. The line above hands the whole box to the map so it
+   can be panned, and everything drawn on top of it goes deaf at the same
+   moment — including the things that were drawn precisely to be touched. That
+   is how the neighbour links on 12,309 place pages came to be unclickable in
+   the only state a reader ever sees them: they are real records with pages of
+   their own, they were drawn as links, and the basemap silently took the
+   pointer away from them the instant it arrived.
+   So the rule is stated by what a mark IS, not by which layer wrote it: a
+   link inside a drawing is a door and keeps its pointer, and `.loopin` keeps
+   the name it already had for the marks that answer without being links. Both
+   are narrow — the ground between them stays deaf, so a drag anywhere else
+   still pans the map. */
+.mdmap.mdmap-on .mdmap-draw a,
+.mdmap.mdmap-on .mdmap-draw .loopin{pointer-events:auto}
+/* A drawn dot is 3.6 units across and a fingertip is not. The anchor carries
+   an invisible disc sized in the drawing's own units (build.py works out what
+   44 CSS px is worth there), and it must stay touchable while staying unseen
+   — `fill:none` would make it deaf again, so it is painted and made
+   transparent instead. */
+.mdmap-draw a .hit{fill:#000;fill-opacity:0;stroke:none}
+.mdmap-draw a:focus-visible .hit{fill-opacity:.10;outline:none}
+.mdmap-draw a:focus-visible circle:not(.hit){stroke:#2A1E16;stroke-width:2.4}
+/* map.js slides the drawing with the ground, so it no longer sits neatly
+   inside its own box — clip it to the same rounded rectangle the tiles use,
+   or a panned picture spills over the corners and past the credit. Promoted
+   to its own layer only while there is a basemap to move it against; a soi
+   page carrying several maps should not hold a compositor layer for each of
+   them when none of them can move. */
+.mdmap.mdmap-on{overflow:hidden;border-radius:14px}
+.mdmap.mdmap-on .mdmap-draw{will-change:transform}
+/* An SVG clips to its viewBox, and that is exactly wrong for a drawing being
+   slid about over a basemap. Two things need to escape it. The corner
+   furniture, which has to move the OPPOSITE way to the pan to stay put, and
+   so goes straight out of the frame the moment anybody drags — a scale bar
+   already at the foot of the viewBox has nowhere to go but past the bottom
+   edge. And the drawn marks themselves, which stop at the frame they were
+   drawn for: letting them out means panning toward a pin reveals it instead
+   of showing bare ground where it should be. The box still clips, so nothing
+   escapes onto the page. Only while a basemap is live — with no tiles the
+   drawing is the whole picture and its frame is the picture's edge. */
+.mdmap.mdmap-on .mdmap-draw svg{overflow:visible}
+/* The drawn cream background and its border are the "no ground" state. With
+   tiles underneath they are exactly what must not be painted. */
+.mdmap.mdmap-on .mdmap-bg{display:none}
+/* A drawn scale bar is true at exactly one zoom: the one it was drawn at.
+   Held in the corner it keeps its length while the ground under it grows,
+   and a bar that says 200 m over 400 m of street is worse than no bar — so
+   away it goes until the reader is back at the scale it was measured for. A
+   redraw always retargets, which is what brings it back. This never fires
+   without a basemap, so the printed page and the no-tiles fallback — where
+   the drawing is the only map there is — keep their bar always. */
+.mdmap.mdmap-zoomed .mdmap-scale{display:none}
+/* And once there is a basemap, a LIVE bar is measuring the same ground at
+   every zoom, so the drawn one stands down entirely rather than waiting to
+   be caught out — two bars in one corner, one of them true only sometimes,
+   is a worse map than either alone. It comes back on paper and with no
+   tiles, where it is the only bar there is. */
+.mdmap.mdmap-on .mdmap-scale{display:none}
+/* Controls a fingertip can hit. MapLibre draws 29 px buttons; the guideline
+   is 44 and the audience is holding a phone in the street. Only the buttons
+   grow — the scale bar and the credit are read, not pressed. */
+.mdmap .maplibregl-ctrl-group button{width:44px;height:44px}
+.mdmap .maplibregl-ctrl-group button .maplibregl-ctrl-icon{transform:scale(1.18)}
+.mdmap .mdmap-home{font-size:19px;line-height:1;color:#2A1E16;
+  display:grid;place-items:center}
+/* The gesture note MapLibre shows over the map when one finger tries to pan.
+   Its default is a dark scrim with white text; on this paper it reads as an
+   error, so it is dressed as the site's own quiet card. */
+.mdmap .maplibregl-cooperative-gesture-screen{background:rgba(42,30,22,.62);
+  font-family:inherit;font-size:15px;line-height:1.5;padding:1rem}
+.mdmap .maplibregl-cooperative-gesture-screen .maplibregl-desktop-message,
+.mdmap .maplibregl-cooperative-gesture-screen .maplibregl-mobile-message{
+  background:#FFFDF8;color:#2A1E16;border-radius:12px;padding:.6rem 1rem;
+  box-shadow:0 6px 18px rgba(42,30,22,.22);max-width:22rem}
+@media (prefers-reduced-motion:reduce){
+  .mdmap .maplibregl-cooperative-gesture-screen{transition:none}}
+/* The live bar, lifted out of the map layer with the other controls so the
+   drawing cannot pan across it. */
+.mdmap>.maplibregl-ctrl-bottom-left{z-index:4}
+.mdmap:not(.mdmap-on)>.maplibregl-ctrl-bottom-left{display:none}
+.mdmap .maplibregl-ctrl-scale{background:rgba(255,253,248,.88);
+  border-color:#8A7761;color:#2A1E16;font-size:11px}
+/* Lifted out of the map layer by map.js so the drawing can never pan across
+   them. MapLibre's own rules still place them in their corners; all they need
+   here is to sit above the drawing rather than below it. */
+.mdmap>.maplibregl-ctrl-top-left,
+.mdmap>.maplibregl-ctrl-top-right,
+.mdmap>.maplibregl-ctrl-bottom-right{z-index:4}
+.mdmap:not(.mdmap-on)>.maplibregl-ctrl-top-right{display:none}
+.mdmap .mdmap-north{margin:8px 10px 0 0;pointer-events:none;
+  filter:drop-shadow(0 0 2px #FFFDF8) drop-shadow(0 0 2px #FFFDF8)}
+/* Out of the live layer, they no longer fade in with it — so they are held
+   back until there is a basemap for them to belong to. A zoom button over a
+   picture that cannot zoom, and a tile credit with no tiles under it, both
+   arrive before the thing they are for. */
+.mdmap:not(.mdmap-on)>.maplibregl-ctrl-top-left,
+.mdmap:not(.mdmap-on)>.maplibregl-ctrl-bottom-right{display:none}
+.mdmap .maplibregl-ctrl-attrib{font-size:11px;background:rgba(255,253,248,.88)}
+/* Never let the credit be folded away: ODbL asks for it to be visible, and a
+   collapsed ⓘ on a phone is not visible. */
+.mdmap .maplibregl-ctrl-attrib-button{display:none!important}
+.mdmap .maplibregl-ctrl-attrib.maplibregl-compact-show .maplibregl-ctrl-attrib-inner{
+  display:block!important}
+/* Full screen: the box becomes the window, and the rounded corners it wore
+   as a card in an article stop making sense against the screen edge. The
+   drawing is re-framed against the ground by map.js on the resize, so
+   nothing here has to reposition it — only the chrome changes. */
+.mdmap:fullscreen{width:100%;height:100%;border-radius:0;margin:0;
+  background:#FBF6EC}
+.mdmap:fullscreen .mdmap-live{border-radius:0}
+.mdmap:-webkit-full-screen{width:100%;height:100%;border-radius:0;margin:0}
+/* On paper the tiles are gone and the drawing is the map again, so it prints
+   from its own origin — never from wherever the reader happened to leave it. */
+@media print{.mdmap-live{display:none!important}
+  .mdmap-draw{position:static;transform:none!important}
+  /* And the frame goes back on. On paper there is no panning to escape, so
+     everything the viewBox was cropping would simply spill across the page. */
+  .mdmap-draw svg{overflow:hidden!important}}
+@media (prefers-reduced-motion:reduce){.mdmap-live{transition:none}}
