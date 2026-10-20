@@ -39,6 +39,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 import fleet  # noqa: E402
 import motdang_urls as mu  # noqa: E402
+import ogcards  # noqa: E402
 
 MD = Path(os.environ.get("MOTDANG", Path.home() / "Developer/claude code projects/mot-dang"))
 SITE_URL = os.environ.get("SITE_URL", "https://motdang.net/field").rstrip("/")
@@ -1039,6 +1040,8 @@ def build_about() -> str:
 def write(path: str, text: str):
     p = OUT / path
     p.parent.mkdir(parents=True, exist_ok=True)
+    if path.endswith(".html"):
+        text = ogcards.apply(text, path, SITE_URL)
     p.write_text(text, encoding="utf-8")
 
 
@@ -1047,6 +1050,7 @@ def main():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
     shutil.copytree(ROOT / "assets", OUT / "assets")
+    ogcards.copy(ROOT, OUT)
     shutil.copy2(ROOT / "tools/bands.css", OUT / "assets/css/bands.css")
     if map_shell():
         (OUT / "assets/css/mdmap.css").write_text(map_shell().CSS, encoding="utf-8")

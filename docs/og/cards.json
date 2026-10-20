@@ -1,0 +1,106 @@
+{
+ "./": {
+  "alt": "Card: Field, Field · ภาคสนาม",
+  "image": "og/index.jpg"
+ },
+ "about/": {
+  "alt": "Card: Plan, method, cost, Field · ภาคสนาม",
+  "image": "og/about.jpg"
+ },
+ "areas/": {
+  "alt": "Card: Areas, Field · ภาคสนาม",
+  "image": "og/areas.jpg"
+ },
+ "areas/cm-mueang-chiang-mai/": {
+  "alt": "Card: Mueang Chiang Mai, Field · ภาคสนาม",
+  "image": "og/areas--cm-mueang-chiang-mai.jpg"
+ },
+ "areas/cm-san-kamphaeng/": {
+  "alt": "Card: San Kamphaeng, Field · ภาคสนาม",
+  "image": "og/areas--cm-san-kamphaeng.jpg"
+ },
+ "areas/cr-mae-lao/": {
+  "alt": "Card: Mae Lao, Field · ภาคสนาม",
+  "image": "og/areas--cr-mae-lao.jpg"
+ },
+ "areas/cr-mae-suai/": {
+  "alt": "Card: Mae Suai, Field · ภาคสนาม",
+  "image": "og/areas--cr-mae-suai.jpg"
+ },
+ "areas/cr-mueang-chiang-rai/": {
+  "alt": "Card: Mueang Chiang Rai, Field · ภาคสนาม",
+  "image": "og/areas--cr-mueang-chiang-rai.jpg"
+ },
+ "areas/cr-wiang-pa-pao/": {
+  "alt": "Card: Wiang Pa Pao, Field · ภาคสนาม",
+  "image": "og/areas--cr-wiang-pa-pao.jpg"
+ },
+ "how/": {
+  "alt": "Card: How, Field · ภาคสนาม",
+  "image": "og/how.jpg"
+ },
+ "photos/": {
+  "alt": "Card: Photographs, Field · ภาคสนาม",
+  "image": "og/photos.jpg"
+ },
+ "san/": {
+  "alt": "Card: Spirit houses, shrines, trees, Field · ภาคสนาม",
+  "image": "og/san.jpg"
+ },
+ "san/blue-spirit-house-at-the-canal/": {
+  "alt": "Card: Blue spirit house at the canal, Blue spirit house at the canal",
+  "image": "og/san--blue-spirit-house-at-the-canal.jpg"
+ },
+ "san/garlanded-spirit-houses-at-a-hotel-entrance/": {
+  "alt": "Card: Garlanded spirit houses at a hotel entrance, Garlanded spirit houses at a hotel entrance",
+  "image": "og/san--garlanded-spirit-houses-at-a-hotel-entrance.jpg"
+ },
+ "san/ornate-gold-spirit-house-at-a-car-garage/": {
+  "alt": "Card: Ornate gold spirit house at a car garage, Ornate gold spirit house at a car garage",
+  "image": "og/san--ornate-gold-spirit-house-at-a-car-garage.jpg"
+ },
+ "san/ornate-spirit-house-among-purple-flowers/": {
+  "alt": "Card: Ornate spirit house among purple flowers, Ornate spirit house among purple flowers",
+  "image": "og/san--ornate-spirit-house-among-purple-flowers.jpg"
+ },
+ "san/spirit-house-tied-with-a-tricolour-ribbon/": {
+  "alt": "Card: Spirit house tied with a tricolour ribbon, Spirit house tied with a tricolour ribbon",
+  "image": "og/san--spirit-house-tied-with-a-tricolour-ribbon.jpg"
+ },
+ "san/twin-gold-spirit-houses-at-the-eurasia-hotel-corner/": {
+  "alt": "Card: Twin gold spirit houses at the Eurasia Hotel corner, Twin gold spirit houses at the Eurasia Hotel corner",
+  "image": "og/san--twin-gold-spirit-houses-at-the-eurasia-hotel-corner.jpg"
+ },
+ "san/wat-pansao-s-red-roofed-viharn-with-hanging-lanterns/": {
+  "alt": "Card: Wat Pansao's red-roofed viharn with hanging lanterns, Wat Pansao's red-roofed viharn with hanging lanterns",
+  "image": "og/san--wat-pansao-s-red-roofed-viharn-with-hanging-lanterns.jpg"
+ },
+ "san/white-and-gold-spirit-house-at-a-gate/": {
+  "alt": "Card: White-and-gold spirit house at a gate, White-and-gold spirit house at a gate",
+  "image": "og/san--white-and-gold-spirit-house-at-a-gate.jpg"
+ },
+ "scenes/": {
+  "alt": "Card: Markets, scenes, street art, Field · ภาคสนาม",
+  "image": "og/scenes.jpg"
+ },
+ "scenes/indigo-tree-batik-pom-pom-bags-and-hill-tribe-jackets/": {
+  "alt": "Card: Indigo tree batik, pom-pom bags and hill-tribe jackets, Indigo tree batik, pom-pom bags and hill-tribe jackets",
+  "image": "og/scenes--indigo-tree-batik-pom-pom-bags-and-hill-tribe-jackets.jpg"
+ },
+ "scenes/old-chiang-mai-tha-ton-bus-parked-in-the-market/": {
+  "alt": "Card: Old Chiang Mai - Tha Ton bus parked in the market, Old Chiang Mai - Tha Ton bus parked in the market",
+  "image": "og/scenes--old-chiang-mai-tha-ton-bus-parked-in-the-market.jpg"
+ },
+ "scenes/painted-banners-and-flowers-on-the-path/": {
+  "alt": "Card: Painted banners and flowers on the path, Painted banners and flowers on the path",
+  "image": "og/scenes--painted-banners-and-flowers-on-the-path.jpg"
+ },
+ "scenes/paper-umbrellas-before-a-teak-house/": {
+  "alt": "Card: Paper umbrellas before a teak house, Paper umbrellas before a teak house",
+  "image": "og/scenes--paper-umbrellas-before-a-teak-house.jpg"
+ },
+ "sessions/": {
+  "alt": "Card: Sessions, Field · ภาคสนาม",
+  "image": "og/sessions.jpg"
+ }
+}
